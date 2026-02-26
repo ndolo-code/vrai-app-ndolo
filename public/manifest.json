@@ -1,0 +1,33 @@
+{
+  "name": "Ndolomath",
+  "short_name": "Ndolomath",
+  "description": "L'application qui te rend excellent en mathématique",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#245f16",
+  "theme_color": "#245f16",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "categories": ["education", "utilities"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512-nbc.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "monochrome"
+    }
+  ]
+}
