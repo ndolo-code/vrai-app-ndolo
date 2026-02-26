@@ -28,6 +28,7 @@ type LocalExamDoc = {
 }
 
 // Keep all locally available BEPC years synchronized with index.json
+const LOCAL_BEPC_SUBJECTS = {
 const LOCAL_BEPC_SUBJECTS: Record<number, LocalExamDoc> = {
   1999: bepc1999Subject,
   2021: bepc2021Subject,
