@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Moon, Sun, User, GraduationCap, Users, BookHeart, Gamepad2, Library, Menu, Clock, CalendarDays, X } from "lucide-react"
+import { Moon, Sun, User, GraduationCap, Users, BookHeart, Gamepad2, Menu, Clock, CalendarDays, X } from "lucide-react"
 import { useAppStore } from "@/lib/store"
 import { CLASSES, getExamCountdown, getExamLabel, isExamClass } from "@/lib/data"
 import type { TopbarTab } from "@/lib/data"
@@ -59,7 +59,7 @@ export function Zone1Topbar() {
   const countdown = getExamCountdown(selectedClassId, examDate)
   const examLabel = getExamLabel(selectedClassId)
   const showExamClass = isExamClass(selectedClassId)
-  const registeredClass = user?.registeredClass || "6e"
+  const registeredClass = "3e"
   const classLabel = CLASSES.find(c => c.id === registeredClass)?.label || registeredClass
 
   const NAV_ITEMS: { id: TopbarTab; label: string; shortLabel: string; icon: React.ElementType }[] = [
@@ -67,11 +67,10 @@ export function Zone1Topbar() {
     { id: "mathematiciens", label: t("nav.mathematiciens", lang), shortLabel: t("nav.shortMaths", lang), icon: Users },
     { id: "conseils", label: t("nav.conseils", lang), shortLabel: t("nav.shortConseils", lang), icon: BookHeart },
     { id: "quiz", label: t("nav.quiz", lang), shortLabel: "Quiz", icon: Gamepad2 },
-    { id: "tous", label: t("nav.tous", lang), shortLabel: t("nav.shortCours", lang), icon: Library },
   ]
 
   const goToClass = () => {
-    setSelectedClassId(registeredClass)
+    setSelectedClassId("3e")
     setActiveTab("classe")
   }
 

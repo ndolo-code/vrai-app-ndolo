@@ -1,12 +1,12 @@
 "use client"
 
 import { useState, useMemo } from "react"
-import { Lock, BookOpen, HelpCircle, PenTool, CheckCircle, FileText, Trophy, RotateCcw, UserRound } from "lucide-react"
+import { BookOpen, Lightbulb, HelpCircle, PenTool, CheckCircle, FileText, Trophy, RotateCcw, UserRound } from "lucide-react"
 import { useAppStore } from "@/lib/store"
-import { CLASSES, QUIZ_CATEGORIES, STUDY_METHODS, INSPIRATIONAL_QUOTES, PRACTICAL_TIPS, generateChapterQuiz, MATHEMATICIANS_DATA, getEvaluations } from "@/lib/data"
+import { CLASSES, QUIZ_CATEGORIES, STUDY_METHODS, INSPIRATIONAL_QUOTES, PRACTICAL_TIPS, generateChapterQuiz, MATHEMATICIANS_DATA, getEvaluations, getChapterTips } from "@/lib/data"
   import { BAC_D_EXAMS } from "@/lib/bac-d-data"
-  import { BEPC_EXAMS } from "@/lib/bepc-data"
   import { PROBATOIRE_A_EXAMS } from "@/lib/probatoire-a-data"
+  import { getLocalBepcSubject, getLocalBepcCorrection } from "@/lib/bepc-local-data"
   import { getExamVideos, getMathematicianVideos } from "@/lib/exam-videos"
   import { VideoDrawerTrigger } from "./video-drawer"
   import { getEvaluationSections, getEvaluationSubjectCount } from "@/lib/evaluation-data"
@@ -21,29 +21,6 @@ import { autoTranslate, translateBio } from "@/lib/auto-translate"
 function useAt() {
   const lang = useAppStore(s => s.language)
   return { at: (s: string) => lang === "en" ? autoTranslate(s) : s, lang, isEn: lang === "en" }
-}
-
-function UnlockGate({ classId }: { classId: string }) {
-  const { unlocks, unlockClass, language } = useAppStore()
-  const lang = language
-  const [code, setCode] = useState("")
-  const [error, setError] = useState("")
-  if (unlocks[classId]) return null
-  const handleSubmit = () => {
-    if (code.toUpperCase() === `NDOLO${classId.toUpperCase()}` || code === "123456") { unlockClass(classId); setError("") }
-    else setError(t("z3.incorrectCode", lang))
-  }
-  return (
-    <div className="flex flex-col items-center justify-center py-12 gap-4 text-center px-4">
-      <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center"><Lock className="w-8 h-8 text-muted-foreground" /></div>
-      <p className="text-[19px] text-muted-foreground font-medium">{t("z3.enterCode", lang)}</p>
-      <div className="flex items-center gap-2 max-w-xs w-full">
-        <Input value={code} onChange={(e) => setCode(e.target.value)} placeholder={t("z3.accessCode", lang)} className="text-[19px] h-11" onKeyDown={(e) => e.key === "Enter" && handleSubmit()} />
-        <button onClick={handleSubmit} className="px-4 py-2.5 rounded-lg bg-[var(--ndolo-green)] text-white text-[19px] font-medium hover:bg-[#e98c00] transition-colors flex-shrink-0">{t("z3.validate", lang)}</button>
-      </div>
-      {error && <p className="text-destructive text-[19px]">{error}</p>}
-    </div>
-  )
 }
 
 function ContentPlaceholder({ title, icon: Icon }: { title: string; icon: React.ElementType }) {
@@ -155,19 +132,20 @@ function AllAtOnceQuiz({ questions, title }: { questions: QuizQuestion[]; title:
 function ChapterContent({ classId, chapterIndex }: { classId: string; chapterIndex: number }) {
   const { at, lang } = useAt()
   const classInfo = CLASSES.find(c => c.id === classId)
-  const [tab, setTab] = useState<"lecons"|"quiz"|"exercices"|"corrections">("lecons")
+  const [tab, setTab] = useState<"lecons"|"astuces"|"quiz"|"exercices"|"corrections">("lecons")
   const [lessonTab, setLessonTab] = useState(0)
   if (!classInfo) return null
   const chapter = classInfo.chapters[chapterIndex]
   const chapterDisplay = at(chapter)
   const chapterQuiz = useMemo(() => generateChapterQuiz(chapter, classId), [chapter, classId])
+  const chapterTips = useMemo(() => getChapterTips(classId, chapter), [classId, chapter])
 
   return (
     <div className="flex flex-col h-full min-h-0">
       <div className="border-b border-border px-4 pt-3 flex-shrink-0">
         <h2 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px] mb-2 break-words">{chapterDisplay}</h2>
         <div className="flex gap-0 overflow-x-auto">
-          {([["lecons",t("z3.lessons", lang),BookOpen],["quiz",t("z3.quiz", lang),HelpCircle],["exercices",t("z3.exercises", lang),PenTool],["corrections",t("z3.corrections", lang),CheckCircle]] as [string, string, React.ElementType][]).map(([id,label,Icon]) => (
+          {([["lecons",t("z3.lessons", lang),BookOpen],["astuces",t("mobile.tips", lang),Lightbulb],["quiz",t("z3.quiz", lang),HelpCircle],["exercices",t("z3.exercises", lang),PenTool],["corrections",t("z3.corrections", lang),CheckCircle]] as [string, string, React.ElementType][]).map(([id,label,Icon]) => (
             <TabButton key={id} active={tab===id as typeof tab} onClick={() => setTab(id as typeof tab)}>
               <span className="flex items-center gap-1.5"><Icon className="w-4 h-4" />{label}</span>
             </TabButton>
@@ -187,9 +165,33 @@ function ChapterContent({ classId, chapterIndex }: { classId: string; chapterInd
             <ContentPlaceholder title={`${t("z3.lesson", lang)} ${lessonTab+1} - ${chapterDisplay}`} icon={BookOpen} />
           </div>
         )}
+        {tab === "astuces" && (
+          chapterTips.length > 0 ? (
+            <div className="p-4 md:p-6 overflow-y-auto">
+              <div className="bg-muted rounded-xl p-6">
+                <h3 className="text-[20px] md:text-[21px] text-black dark:text-white font-semibold mb-3">{t("mobile.tips", lang)} - {chapterDisplay}</h3>
+                <ul className="list-disc pl-6 flex flex-col gap-2">
+                  {chapterTips.map((tip, i) => (
+                    <li key={i} className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed">
+                      <LatexText text={tip} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ) : (
+            <div className="p-4 md:p-6">
+              <div className="flex items-center gap-2 mb-4"><Lightbulb className="w-5 h-5 text-[var(--ndolo-green)]" /><h3 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px]">{t("mobile.tips", lang)} - {chapterDisplay}</h3></div>
+              <div className="bg-muted rounded-xl p-6">
+                <p className="text-[20px] md:text-[21px] text-neutral-600 dark:text-neutral-300 leading-relaxed">Les astuces de ce chapitre seront ajoutees prochainement.</p>
+                <div className="mt-4 flex flex-col gap-2">{[1,2,3].map(i => (<div key={i} className="h-3 bg-muted-foreground/10 rounded animate-pulse" style={{ width: `${90-i*15}%` }} />))}</div>
+              </div>
+            </div>
+          )
+        )}
         {tab === "quiz" && <AllAtOnceQuiz questions={chapterQuiz} title={`${t("z3.quiz", lang)} - ${chapterDisplay}`} />}
         {tab === "exercices" && <ContentPlaceholder title={`${t("z3.exercises", lang)} - ${chapterDisplay}`} icon={PenTool} />}
-        {tab === "corrections" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}</>)}
+        {tab === "corrections" && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}
       </div>
     </div>
   )
@@ -270,8 +272,8 @@ function ExamContent({ classId, year }: { classId: string; year: number }) {
   const classInfo = CLASSES.find(c => c.id === classId)
   const [tab, setTab] = useState<"sujet"|"correction">("sujet")
   if (!classInfo) return null
-  const isBEPC = classId === "3e" && BEPC_EXAMS[year]
-  const bepcSections = isBEPC ? BEPC_EXAMS[year] : null
+  const bepcSections = classId === "3e" ? getLocalBepcSubject(year) : null
+  const bepcCorrectionSections = classId === "3e" ? getLocalBepcCorrection(year) : null
   const isBacD = classId === "TleD" && BAC_D_EXAMS[year]
   const bacDSections = isBacD ? BAC_D_EXAMS[year] : null
   const isProbaA = classId === "1ereA" && PROBATOIRE_A_EXAMS[year]
@@ -303,7 +305,11 @@ function ExamContent({ classId, year }: { classId: string; year: number }) {
             <div className="p-4 md:p-6"><ExamSectionsRenderer sections={probaASections} /></div>
           ) : <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.subject", lang)}`} icon={FileText} />
         )}
-        {tab === "correction" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.correction", lang)}`} icon={CheckCircle} />}</>)}
+        {tab === "correction" && (
+          bepcCorrectionSections ? (
+            <div className="p-4 md:p-6"><ExamSectionsRenderer sections={bepcCorrectionSections} /></div>
+          ) : <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
+        )}
       </div>
     </div>
   )
@@ -327,7 +333,7 @@ function RevisionContent({ classId, chapterIndex }: { classId: string; chapterIn
       </div>
       <div className="flex-1 overflow-y-auto min-h-0">
         {tab === "exercices" && <ContentPlaceholder title={`${t("z3.revisionExercises", lang)} - ${chapterDisplay}`} icon={PenTool} />}
-        {tab === "corrections" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}</>)}
+        {tab === "corrections" && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}
       </div>
     </div>
   )
@@ -371,6 +377,129 @@ function MathematicianContent({ name }: { name: string }) {
 
 function AdviceContent({ itemId }: { itemId: string }) {
   const { at, lang } = useAt()
+  if (itemId === "prepare-bepc") {
+    const sectionTitle = "font-bold text-[20px] md:text-[21px] bg-[#FEF9E1] text-foreground rounded-lg px-3 py-2"
+    const blockTitle = "font-bold text-[19px] md:text-[20px] bg-[#deeaf6] text-foreground rounded-lg px-3 py-2"
+    const listItem = "text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed"
+    const hr = "h-px bg-border/70 my-4"
+
+    const section1 = [
+      lang === "fr" ? "Pour bien retenir une lecon, relis-la plusieurs fois. Ton cerveau fonctionne comme un muscle : plus tu l'utilises, plus il devient fort." : "To retain a lesson well, read it several times. Your brain works like a muscle: the more you use it, the stronger it gets.",
+      lang === "fr" ? "Teste differentes methodes pour memoriser : lis a voix haute, ecris les points importants, explique la lecon a un ami ou a un parent." : "Try different memorization methods: read aloud, write down key points, explain the lesson to a friend or parent.",
+      lang === "fr" ? "Chaque soir, relis ce que tu as appris dans la journee. Avant d'ouvrir ton cahier, essaie d'abord de te rappeler ce que le professeur a explique." : "Every evening, review what you learned during the day. Before opening your notebook, first try to recall what the teacher explained.",
+      lang === "fr" ? "Fais un petit resume avec les idees importantes. Cela t'aide a mieux comprendre et a mieux retenir." : "Make a short summary with the key ideas. It helps you understand and remember better.",
+      lang === "fr" ? "Si quelque chose n'est pas clair, pose des questions a ton professeur ou relis ton manuel. Comprendre est plus important que memoriser sans reflechir." : "If something is unclear, ask your teacher or review your textbook. Understanding is more important than memorizing without thinking.",
+    ]
+
+    const section2 = [
+      lang === "fr" ? "Fais des QCM pour verifier si tu as compris." : "Do multiple-choice quizzes to check whether you understood.",
+      lang === "fr" ? "Resous des exercices simples pour t'entrainer, puis des exercices un peu plus difficiles pour progresser." : "Solve simple exercises to practice, then slightly harder ones to improve.",
+      lang === "fr" ? "Refais les anciens sujets du BEPC pour te mettre dans les conditions de l'examen." : "Redo past BEPC papers to put yourself in exam conditions.",
+      lang === "fr" ? "Apprends bien les methodes et les resultats importants. Ils reviennent souvent dans les controles." : "Learn methods and important results well. They often come back in tests.",
+    ]
+
+    const section3 = [
+      lang === "fr" ? "Revise chaque lecon apres le cours en utilisant les methodes a retenir et les exercices d'application." : "Review each lesson after class using key methods and application exercises.",
+      lang === "fr" ? "Travaille avec les exemples corriges pour comprendre comment resoudre les exercices." : "Work with corrected examples to understand how to solve exercises.",
+      lang === "fr" ? "Construis des fiches de synthese simples avec les formules, definitions et methodes importantes." : "Build simple summary sheets with important formulas, definitions, and methods.",
+      lang === "fr" ? "Entraine-toi avec des anciens sujets corriges pour te preparer aux controles et au BEPC." : "Practice with corrected past papers to prepare for tests and the BEPC.",
+      lang === "fr" ? "Maitrise bien le vocabulaire mathematique : comprendre les mots aide a mieux comprendre les questions." : "Master mathematical vocabulary: understanding words helps you better understand questions.",
+    ]
+
+    const dayBefore = [
+      lang === "fr" ? "Relis une derniere fois tes fiches de revision." : "Review your revision sheets one last time.",
+      lang === "fr" ? "Prepare ton materiel : regle, stylo, crayons, calculatrice, compas, gomme." : "Prepare your materials: ruler, pen, pencils, calculator, compass, eraser.",
+      lang === "fr" ? "N'oublie pas ta carte d'identite et ton recepisse." : "Do not forget your ID card and receipt.",
+    ]
+
+    const duringExam = [
+      lang === "fr" ? "Lis bien tout le sujet : l'en-tete, les graphiques, les tableaux, les consignes et le nombre de points." : "Read the whole paper carefully: heading, graphs, tables, instructions, and points.",
+      lang === "fr" ? "Organise ton temps sur les deux heures : lecture rapide, lecture detaillee, puis environ 10 minutes de relecture finale." : "Manage your two hours: quick read, detailed read, then around 10 minutes for final review.",
+      lang === "fr" ? "Comprends l'ordre des questions : souvent, une reponse aide a resoudre la suivante." : "Understand the order of questions: often, one answer helps solve the next.",
+      lang === "fr" ? "Reste calme, avance progressivement et commence par les exercices que tu comprends le mieux." : "Stay calm, move forward step by step, and start with exercises you understand best.",
+    ]
+
+    return (
+      <div className="p-4 md:p-6 overflow-y-auto">
+        <h2 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px] mb-4">{t("z3.prepareBepcTitle", lang)}</h2>
+        <div id="ndolo-cours" className="max-w-[980px] mx-auto space-y-4">
+          <div className="bg-muted rounded-xl p-4 md:p-5">
+            <h3 className={sectionTitle}>{t("z3.prepareBepcGeneral", lang)}</h3>
+
+            <h4 className={`${blockTitle} mt-4`}>{t("z3.prepareBepcSection1", lang)}</h4>
+            <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed mt-2">{lang === "fr" ? "Le BEPC ne se prepare pas seulement quelques semaines avant l'examen. Tu dois travailler un peu chaque jour pour progresser tranquillement et surement." : "The BEPC is not prepared only a few weeks before the exam. You should work a little every day to progress steadily and confidently."}</p>
+            <ul className="list-disc pl-6 mt-2 space-y-2">{section1.map((item, i) => <li key={i} className={listItem}>{item}</li>)}</ul>
+
+            <div className={hr} />
+            <h4 className={blockTitle}>{t("z3.prepareBepcSection2", lang)}</h4>
+            <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed mt-2">{lang === "fr" ? "Pour reussir en mathematiques, il faut pratiquer souvent. Les exercices t'aident a devenir plus rapide et plus sur de toi." : "To succeed in mathematics, you need regular practice. Exercises help you become faster and more confident."}</p>
+            <ul className="list-disc pl-6 mt-2 space-y-2">{section2.map((item, i) => <li key={i} className={listItem}>{item}</li>)}</ul>
+
+            <div className={hr} />
+            <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed"><strong>{lang === "fr" ? "Rappel important :" : "Important reminder:"}</strong> {lang === "fr" ? "La reussite vient avec la regularite. Un petit effort chaque jour vaut mieux qu'un grand effort une seule fois." : "Success comes with consistency. A small effort every day is better than one big effort once."}</p>
+          </div>
+
+          <div className="bg-muted rounded-xl p-4 md:p-5">
+            <h3 className={sectionTitle}>{t("z3.prepareBepcSection3", lang)}</h3>
+            <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed mt-2">{lang === "fr" ? "Ce manuel t'aide a reviser efficacement pendant toute l'annee. L'objectif est de progresser etape par etape pour etre pret le jour du BEPC." : "This manual helps you revise effectively throughout the year. The goal is to progress step by step and be ready on BEPC day."}</p>
+            <ul className="list-disc pl-6 mt-2 space-y-2">{section3.map((item, i) => <li key={i} className={listItem}>{item}</li>)}</ul>
+
+            <div className={hr} />
+            <h3 className={sectionTitle}>{t("z3.prepareBepcSection4", lang)}</h3>
+            <h4 className={`${blockTitle} mt-3`}>{t("z3.prepareBepcDayBefore", lang)}</h4>
+            <ul className="list-disc pl-6 mt-2 space-y-2">{dayBefore.map((item, i) => <li key={i} className={listItem}>{item}</li>)}</ul>
+
+            <h4 className={`${blockTitle} mt-4`}>{t("z3.prepareBepcDuring", lang)}</h4>
+            <ul className="list-disc pl-6 mt-2 space-y-2">{duringExam.map((item, i) => <li key={i} className={listItem}>{item}</li>)}</ul>
+
+            <div className={hr} />
+            <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed"><strong>{lang === "fr" ? "Astuce importante :" : "Important tip:"}</strong> {lang === "fr" ? "La reussite ne depend pas seulement de l'intelligence, mais surtout de la methode et de la regularite." : "Success does not depend only on intelligence, but mostly on method and consistency."}</p>
+          </div>
+
+          <div className="bg-muted rounded-xl p-4 md:p-5">
+            <h3 className={sectionTitle}>{t("z3.prepareBepcMath", lang)}</h3>
+
+            <h4 className={`${blockTitle} mt-3`}>{t("z3.prepareBepcCalculations", lang)}</h4>
+            <ul className="list-disc pl-6 mt-2 space-y-2">
+              <li className={listItem}>{lang === "fr" ? "Justifie toujours tes reponses. Evite d'ecrire seulement : \"d'apres la calculatrice\"." : "Always justify your answers. Avoid writing only: \"according to the calculator\"."}</li>
+              <li className={listItem}>{lang === "fr" ? "Verifie que tes resultats sont logiques : un pourcentage est entre $0$ et $100$, une aire est toujours positive." : "Check that your results are logical: a percentage is between $0$ and $100$, and an area is always positive."}</li>
+              <li className={listItem}>{lang === "fr" ? "Tu peux faire des essais au brouillon, mais redige clairement tes reponses sur ta copie pour ne pas perdre du temps." : "You can test ideas on scratch paper, but write your final answers clearly on your script to avoid losing time."}</li>
+            </ul>
+
+            <div className={hr} />
+            <h4 className={blockTitle}>{t("z3.prepareBepcMethods", lang)}</h4>
+            <ul className="list-disc pl-6 mt-2 space-y-2">
+              <li className={listItem}>{lang === "fr" ? "Si tu bloques sur une question, laisse un espace et continue. Tu pourras y revenir plus tard." : "If you are stuck on a question, leave space and continue. You can come back later."}</li>
+              <li className={listItem}>{lang === "fr" ? "Respecte la methode demandee dans l'enonce, meme si tu connais une autre methode plus rapide." : "Follow the method asked in the statement, even if you know a faster one."}</li>
+              <li className={listItem}>{lang === "fr" ? "Avant d'utiliser une formule ou un theoreme, verifie que toutes les conditions sont reunies." : "Before using a formula or theorem, check that all conditions are met."}</li>
+              <li className={listItem}>{lang === "fr" ? "Souvent, une question aide a resoudre la suivante. Lis bien l'ordre des exercices." : "Often, one question helps solve the next. Pay attention to exercise order."}</li>
+            </ul>
+
+            <div className={hr} />
+            <h4 className={blockTitle}>{t("z3.prepareBepcWriting", lang)}</h4>
+            <ul className="list-disc pl-6 mt-2 space-y-2">
+              <li className={listItem}>{lang === "fr" ? "Explique clairement ton raisonnement." : "Explain your reasoning clearly."}</li>
+              <li className={listItem}>{lang === "fr" ? "Justifie tes constructions en geometrie." : "Justify your constructions in geometry."}</li>
+              <li className={listItem}>{lang === "fr" ? "Si tu fais un tableau de valeurs, presente-le proprement et lisiblement." : "If you make a value table, present it neatly and clearly."}</li>
+            </ul>
+
+            <div className={hr} />
+            <h4 className={blockTitle}>{t("z3.prepareBepcCleanCopy", lang)}</h4>
+            <ul className="list-disc pl-6 mt-2 space-y-2">
+              <li className={listItem}>{lang === "fr" ? "Ecris lisiblement pour que le correcteur comprenne facilement ton travail." : "Write legibly so the examiner can easily understand your work."}</li>
+              <li className={listItem}>{lang === "fr" ? "Separe les questions en sautant des lignes." : "Separate questions by leaving blank lines."}</li>
+              <li className={listItem}>{lang === "fr" ? "Encadre tes resultats importants." : "Box your important results."}</li>
+              <li className={listItem}>{lang === "fr" ? "Evite d'utiliser trop de symboles sans explication en francais." : "Avoid using too many symbols without explanation in plain language."}</li>
+            </ul>
+
+            <div className={hr} />
+            <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed"><strong>{lang === "fr" ? "Rappel :" : "Reminder:"}</strong> {lang === "fr" ? "Une bonne copie doit convaincre le correcteur que tu as compris, mais aussi montrer clairement comment tu as reflechi." : "A good script should convince the examiner that you understood and clearly show how you reasoned."}</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   if (itemId === "methods") {
     return (
       <div className="p-4 md:p-6 overflow-y-auto">
@@ -496,12 +625,7 @@ function EvaluationContent({ classId, evaluationId }: { classId: string; evaluat
           )
         )}
         {subTab === "correction" && (
-          <>
-            <UnlockGate classId={classId} />
-            {useAppStore.getState().unlocks[classId] ? (
-              <ContentPlaceholder title={`${evalItem.label} - ${subjects[activeSujet]} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
-            ) : null}
-          </>
+          <ContentPlaceholder title={`${evalItem.label} - ${subjects[activeSujet]} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
         )}
       </div>
     </div>

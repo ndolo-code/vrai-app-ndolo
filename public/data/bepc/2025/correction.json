@@ -1,0 +1,21 @@
+{
+  "title": "BEPC 2025 - Correction (demo)",
+  "sections": [
+    {
+      "type": "section",
+      "title": "Correction - Activites numeriques"
+    },
+    {
+      "type": "text",
+      "text": "Prix initial = $12\\,000 / 0,8 = 15\\,000$ FCFA."
+    },
+    {
+      "type": "section",
+      "title": "Correction - Activites geometriques"
+    },
+    {
+      "type": "text",
+      "text": "Longueur du cercle : $L = 2\\pi r = 2 \\times 22/7 \\times 7 = 44$ cm."
+    }
+  ]
+}
