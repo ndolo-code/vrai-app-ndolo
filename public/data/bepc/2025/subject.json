@@ -1,5 +1,5 @@
 {
-  "title": "BEPC 2025 - Sujet de mathematiques",
+  "title": "BEPC 2025 - Sujet de mathématiques",
   "sections": [
     { "type": "text", "text": "L'epreuve comporte les parties A et B." },
 
@@ -61,25 +61,5 @@
     { "type": "text", "text": "A partir de quelle duree en heures, l'option 2 est-elle plus avantageuse pour le transport des achats ? 3 pts" },
 
     { "type": "text", "text": "Presentation : 1 pt" }
-  "title": "BEPC 2025 - Sujet de mathematiques (demo)",
-  "sections": [
-    {
-      "type": "section",
-      "title": "A - Activites numeriques",
-      "pts": "6,5 points"
-    },
-    {
-      "type": "text",
-      "text": "Un article coute 12 000 FCFA apres une reduction de 20%. Calculer son prix initial."
-    },
-    {
-      "type": "section",
-      "title": "B - Activites geometriques",
-      "pts": "6,5 points"
-    },
-    {
-      "type": "text",
-      "text": "Dans un cercle de rayon 7 cm, calculer la longueur du cercle avec $\\pi = 22/7$."
-    }
   ]
 }
