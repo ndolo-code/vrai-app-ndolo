@@ -42,8 +42,6 @@
     "clsx": "^2.1.1",
     "cmdk": "1.1.1",
     "date-fns": "4.1.0",
-    "@supabase/ssr": "^0.5.2",
-    "@supabase/supabase-js": "^2.49.1",
     "katex": "^0.16.11",
     "react-katex": "^2.0.2",
     "embla-carousel-react": "8.5.1",
