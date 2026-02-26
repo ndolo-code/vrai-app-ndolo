@@ -3,6 +3,10 @@ import type { ExamSection } from "./bac-d-data"
 import bepcIndex from "@/public/data/bepc/index.json"
 import bepc1999Subject from "@/public/data/bepc/1999/subject.json"
 import bepc1999Correction from "@/public/data/bepc/1999/correction.json"
+import bepc2023Subject from "@/public/data/bepc/2023/subject.json"
+import bepc2023Correction from "@/public/data/bepc/2023/correction.json"
+import bepc2024Subject from "@/public/data/bepc/2024/subject.json"
+import bepc2024Correction from "@/public/data/bepc/2024/correction.json"
 import bepc2025Subject from "@/public/data/bepc/2025/subject.json"
 import bepc2025Correction from "@/public/data/bepc/2025/correction.json"
 
@@ -19,6 +23,11 @@ type LocalExamDoc = {
   sections: LocalSection[]
 }
 
+// Keep all locally available BEPC years synchronized with index.json
+const LOCAL_BEPC_SUBJECTS: Record<number, LocalExamDoc> = {
+  1999: bepc1999Subject,
+  2023: bepc2023Subject,
+  2024: bepc2024Subject,
 const LOCAL_BEPC_SUBJECTS: Record<number, LocalExamDoc> = {
   1999: bepc1999Subject,
   2025: bepc2025Subject,
@@ -26,6 +35,8 @@ const LOCAL_BEPC_SUBJECTS: Record<number, LocalExamDoc> = {
 
 const LOCAL_BEPC_CORRECTIONS: Record<number, LocalExamDoc> = {
   1999: bepc1999Correction,
+  2023: bepc2023Correction,
+  2024: bepc2024Correction,
   2025: bepc2025Correction,
 }
 
