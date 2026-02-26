@@ -35,7 +35,7 @@ const LOCAL_BEPC_SUBJECTS = {
   2023: bepc2023Subject,
   2024: bepc2024Subject,
   2025: bepc2025Subject,
-}
+};
 
 const LOCAL_BEPC_CORRECTIONS = {
   1999: bepc1999Correction,
@@ -44,7 +44,7 @@ const LOCAL_BEPC_CORRECTIONS = {
   2023: bepc2023Correction,
   2024: bepc2024Correction,
   2025: bepc2025Correction,
-} satisfies Record<number, LocalExamDoc>
+};
 
 function normalizeDoc(doc: LocalExamDoc): ExamSection[] {
   return [
