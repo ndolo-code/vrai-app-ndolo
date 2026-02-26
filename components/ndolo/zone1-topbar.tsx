@@ -59,7 +59,7 @@ export function Zone1Topbar() {
   const countdown = getExamCountdown(selectedClassId, examDate)
   const examLabel = getExamLabel(selectedClassId)
   const showExamClass = isExamClass(selectedClassId)
-  const registeredClass = user?.registeredClass || "6e"
+  const registeredClass = "3e"
   const classLabel = CLASSES.find(c => c.id === registeredClass)?.label || registeredClass
 
   const NAV_ITEMS: { id: TopbarTab; label: string; shortLabel: string; icon: React.ElementType }[] = [
@@ -71,7 +71,7 @@ export function Zone1Topbar() {
   ]
 
   const goToClass = () => {
-    setSelectedClassId(registeredClass)
+    setSelectedClassId("3e")
     setActiveTab("classe")
   }
 

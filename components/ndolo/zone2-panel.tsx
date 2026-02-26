@@ -254,7 +254,7 @@ export function Zone2Panel() {
   }
 
   if (activeTab === "tous") {
-    const allChapters = CLASSES.flatMap(c => c.chapters.map((ch, i) => ({ classId: c.id, classLabel: c.label, name: ch, index: i })))
+    const allChapters = CLASSES.filter(c => c.id === "3e").flatMap(c => c.chapters.map((ch, i) => ({ classId: c.id, classLabel: c.label, name: ch, index: i })))
       .filter(ch => ch.name.toLowerCase().includes(search.toLowerCase()))
     return (
       <div className="flex flex-col h-full bg-[var(--ndolo-green)] text-white">
