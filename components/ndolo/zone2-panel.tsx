@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useMemo, useEffect } from "react"
-import { Search, Star, ChevronDown, ChevronRight } from "lucide-react"
+import { Search, Star, ChevronDown, ChevronRight, GraduationCap } from "lucide-react"
 import { useAppStore } from "@/lib/store"
 import { CLASSES, getExamYears, MATHEMATICIANS, STUDY_ADVICE_ITEMS, QUIZ_CATEGORIES, getEvaluations, isExamClass } from "@/lib/data"
 import type { FavoriteItem } from "@/lib/store"
@@ -219,7 +219,10 @@ export function Zone2Panel() {
                 className={`w-full flex items-center justify-between text-left px-3 py-3 rounded-lg text-[15px] font-medium transition-all ${
                   selectedAdviceItem === item.id ? "bg-[#f8cf41] text-[var(--ndolo-green)] font-semibold" : "text-white/90 hover:bg-[#e98c00] hover:text-white"
                 }`}>
-                <span>{at(item.label)}</span>
+                <span className="flex items-center gap-2">
+                  {item.id === "prepare-bepc" && <GraduationCap className="w-4 h-4" />}
+                  {item.id === "prepare-bepc" ? t("z2.prepareBepc", lang) : at(item.label)}
+                </span>
                 <FavStar item={{ type: "advice", label: item.id }} />
               </button>
             ))}

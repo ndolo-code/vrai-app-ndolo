@@ -129,6 +129,7 @@ export const MATHEMATICIANS = MATHEMATICIANS_DATA.map(m => m.name)
 export type TopbarTab = "classe" | "mathematiciens" | "conseils" | "quiz" | "tous"
 
 export const STUDY_ADVICE_ITEMS = [
+  { id: "prepare-bepc", label: "Prepare for the BEPC" },
   { id: "methods", label: "Methodes d'etude" },
   { id: "quotes", label: "Citations inspirantes" },
   { id: "tips", label: "Conseils pratiques" },
