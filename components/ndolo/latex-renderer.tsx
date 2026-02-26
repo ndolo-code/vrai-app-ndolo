@@ -21,8 +21,55 @@ function normalizeMath(math: string): string {
     .trim()
 }
 
+function renderInlineCell(cell: string): string {
+  const value = normalizeMath(cell)
+  try {
+    return katex.renderToString(value, {
+      displayMode: false,
+      throwOnError: false,
+      strict: "ignore",
+      trust: false,
+    })
+  } catch {
+    return escapeHtml(value)
+  }
+}
+
+function renderArrayAsHtml(math: string): string | null {
+  const source = normalizeMath(math)
+  const match = source.match(/\\begin\{array\}\{[^}]*\}([\s\S]*?)\\end\{array\}/)
+  if (!match) return null
+
+  const body = match[1]
+  const rows = body
+    .split(/\\\\/)
+    .map((row) => row.replace(/\\hline/g, "").trim())
+    .filter(Boolean)
+
+  if (!rows.length) return null
+
+  const htmlRows = rows
+    .map((row, rowIndex) => {
+      const cells = row.split("&").map((c) => c.trim())
+      const tag = rowIndex === 0 ? "th" : "td"
+      const renderedCells = cells
+        .map((cell) => `<${tag} class=\"border border-slate-300 dark:border-slate-600 px-3 py-1.5 text-center align-middle\">${renderInlineCell(cell)}</${tag}>`)
+        .join("")
+      return `<tr>${renderedCells}</tr>`
+    })
+    .join("")
+
+  return `<table class=\"border-collapse w-full max-w-full text-[0.95em] bg-white/60 dark:bg-slate-900/40\"><tbody>${htmlRows}</tbody></table>`
+}
+
 function renderKatex(math: string, displayMode: boolean): string {
   const source = normalizeMath(math)
+
+  if (source.includes("\\begin{array}")) {
+    const tableHtml = renderArrayAsHtml(source)
+    if (tableHtml) return tableHtml
+  }
+
   try {
     return katex.renderToString(source, {
       displayMode,
