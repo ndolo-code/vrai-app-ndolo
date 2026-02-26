@@ -35,6 +35,10 @@ const LOCAL_BEPC_SUBJECTS: Record<number, LocalExamDoc> = {
   2022: bepc2022Subject,
   2023: bepc2023Subject,
   2024: bepc2024Subject,
+  2025: bepc2025Subject,
+}
+
+const LOCAL_BEPC_CORRECTIONS = {
   2022: bepc2022Subject,
   2023: bepc2023Subject,
   2024: bepc2024Subject,
