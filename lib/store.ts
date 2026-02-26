@@ -116,14 +116,21 @@ const save = (key: string, value: unknown) => {
 }
 
 export const useAppStore = create<AppState>((set, get) => ({
-  isAuthenticated: load("ndolo_auth", false),
-  user: load("ndolo_user", null),
+  isAuthenticated: true,
+  user: load("ndolo_user", {
+    name: "Eleve 3e",
+    email: "",
+    role: "eleve",
+    country: "Cameroun",
+    phone: "",
+    registeredClass: "3e",
+  }),
   login: (user) => { save("ndolo_auth", true); save("ndolo_user", user); set({ isAuthenticated: true, user, selectedClassId: user.registeredClass || "6e" }) },
   logout: () => {
     save("ndolo_auth", false); save("ndolo_user", null); set({ isAuthenticated: false, user: null })
     // Sign out from Supabase (async, fire-and-forget)
     if (typeof window !== "undefined") {
-      import("@/lib/supabase/client").then(({ createClient }) => {
+      import("@/lib/local-client").then(({ createClient }) => {
         createClient().auth.signOut().catch(() => {})
       })
     }
@@ -146,8 +153,8 @@ export const useAppStore = create<AppState>((set, get) => ({
   activeTab: "classe",
   setActiveTab: (tab) => set({ activeTab: tab, selectedChapterId: null, selectedExamYear: null, selectedRevisionChapterId: null, zone2Section: null, selectedMathematician: null, selectedAdviceItem: null, selectedQuizId: null, selectedEvaluationId: null }),
 
-  selectedClassId: load("ndolo_user", null)?.registeredClass || "6e",
-  setSelectedClassId: (id) => set({ selectedClassId: id, selectedChapterId: null, selectedExamYear: null, selectedRevisionChapterId: null, zone2Section: null, selectedEvaluationId: null }),
+  selectedClassId: "3e",
+  setSelectedClassId: (_id) => set({ selectedClassId: "3e", selectedChapterId: null, selectedExamYear: null, selectedRevisionChapterId: null, zone2Section: null, selectedEvaluationId: null }),
 
   selectedChapterId: null,
   setSelectedChapterId: (id) => set({ selectedChapterId: id, selectedExamYear: null, selectedRevisionChapterId: null, selectedEvaluationId: null, zone2Section: "programme" }),

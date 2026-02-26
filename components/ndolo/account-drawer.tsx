@@ -1,13 +1,13 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Target, Star, FileText, MessageSquare, Mail, User, Settings, LogOut, ChevronLeft, Send, Pencil, Save, Plus, Trash2, Clock, Info, Volume2, VolumeX, Check, Eye, EyeOff, KeyRound, Loader2 } from "lucide-react"
+import { Target, Star, FileText, MessageSquare, Mail, User, Settings, LogOut, ChevronLeft, Pencil, Save, Plus, Trash2, Clock, Info, Volume2, VolumeX, Check, Eye, EyeOff, KeyRound, Loader2 } from "lucide-react"
 import { useAppStore, type GradeEntry, type UserData } from "@/lib/store"
 import { CLASSES, COUNTRY_PHONE_CODES, COUNTRIES } from "@/lib/data"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Input } from "@/components/ui/input"
-import { createClient } from "@/lib/supabase/client"
+import { createClient } from "@/lib/local-client"
 import { t, type Language } from "@/lib/i18n"
 import { autoTranslate } from "@/lib/auto-translate"
 
@@ -42,8 +42,8 @@ function ProfileView({ user, classLabel, updateUser, editingProfile, setEditingP
 
     setPwLoading(true)
     try {
-      const supabase = createClient()
-      const { error: signInError } = await supabase.auth.signInWithPassword({
+      const localClient = createClient()
+      const { error: signInError } = await localClient.auth.signInWithPassword({
         email: user?.email || "",
         password: currentPw,
       })
@@ -52,7 +52,7 @@ function ProfileView({ user, classLabel, updateUser, editingProfile, setEditingP
         setPwLoading(false)
         return
       }
-      const { error: updateError } = await supabase.auth.updateUser({ password: newPw })
+      const { error: updateError } = await localClient.auth.updateUser({ password: newPw })
       if (updateError) {
         setPwError(updateError.message)
         setPwLoading(false)
@@ -198,9 +198,8 @@ function ProfileView({ user, classLabel, updateUser, editingProfile, setEditingP
 
 function SubViewContent({ viewId }: { viewId: string }) {
   const store = useAppStore()
-  const { user, updateUser, favorites, navigateToFavorite, lastVisited, navigateToLastVisited, setOpenModal, setAccountDrawerOpen, forumMessages, addForumMessage, objective, setObjective, grades, setGrades, schoolGoals, addSchoolGoal, toggleSchoolGoal, removeSchoolGoal, gradeObjectives, addGradeObjective, removeGradeObjective, updateGradeObjective, language } = store
+  const { user, updateUser, favorites, navigateToFavorite, lastVisited, navigateToLastVisited, setOpenModal, setAccountDrawerOpen, objective, setObjective, grades, setGrades, schoolGoals, addSchoolGoal, toggleSchoolGoal, removeSchoolGoal, gradeObjectives, addGradeObjective, removeGradeObjective, updateGradeObjective, language } = store
   const lang = language
-  const [forumText, setForumText] = useState("")
   const [editingObjective, setEditingObjective] = useState(false)
   const [objDraft, setObjDraft] = useState(objective)
   const [editingProfile, setEditingProfile] = useState(false)
@@ -441,31 +440,19 @@ function SubViewContent({ viewId }: { viewId: string }) {
     }
 
     case "forum": {
-      const classMessages = forumMessages.filter(m => m.classId === registeredClass)
-      const handleSend = () => {
-        if (!forumText.trim() || !user) return
-        addForumMessage({ classId: registeredClass, author: user.name, text: forumText.trim() })
-        setForumText("")
-      }
       return (
         <div className="p-4 flex flex-col gap-3 h-full">
-          <h3 className="font-display font-bold text-[16px] text-foreground">{t("account.forumClass", lang)} {classLabel}</h3>
-          <p className="text-[13px] text-muted-foreground">{t("account.forumAccess", lang)} ({classLabel}).</p>
-          <div className="flex-1 bg-muted rounded-xl p-3 min-h-[200px] max-h-[300px] overflow-y-auto flex flex-col gap-2">
-            {classMessages.length === 0 && <p className="text-[15px] text-muted-foreground text-center py-8">{t("account.noMessages", lang)}</p>}
-            {classMessages.map((msg) => (
-              <div key={msg.id} className="bg-background rounded-lg px-3 py-2">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="text-[13px] font-bold text-[var(--ndolo-green)]">{msg.author}</span>
-                  <span className="text-[11px] text-muted-foreground">{new Date(msg.timestamp).toLocaleString(lang === "fr" ? "fr" : "en", { hour: "2-digit", minute: "2-digit", day: "numeric", month: "short" })}</span>
-                </div>
-                <p className="text-[15px] text-foreground">{msg.text}</p>
-              </div>
-            ))}
-          </div>
-          <div className="flex gap-2">
-            <Input value={forumText} onChange={(e) => setForumText(e.target.value)} placeholder={t("account.writeMessage", lang)} className="text-[15px] h-10 flex-1" onKeyDown={(e) => e.key === "Enter" && handleSend()} />
-            <button onClick={handleSend} className="w-10 h-10 rounded-lg bg-[var(--ndolo-green)] text-white flex items-center justify-center hover:bg-[#e98c00] transition-colors flex-shrink-0"><Send className="w-4 h-4" /></button>
+          <div className="bg-muted rounded-xl p-4 flex flex-col gap-3">
+            <h3 className="font-display font-bold text-[16px] text-foreground">{t("forum.communityTitle", lang)}</h3>
+            <p className="text-[15px] text-muted-foreground leading-relaxed">{t("forum.communityDesc", lang)}</p>
+            <a
+              href="https://chat.whatsapp.com/Ly3vtXUU4FbLBQc2o6DWSD?mode=hq2tcla"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full h-10 rounded-lg bg-[var(--ndolo-green)] text-white text-[15px] font-semibold hover:bg-[#e98c00] transition-colors flex items-center justify-center"
+            >
+              {t("forum.communityBtn", lang)}
+            </a>
           </div>
         </div>
       )
