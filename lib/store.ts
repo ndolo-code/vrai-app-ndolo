@@ -130,7 +130,7 @@ export const useAppStore = create<AppState>((set, get) => ({
     save("ndolo_auth", false); save("ndolo_user", null); set({ isAuthenticated: false, user: null })
     // Sign out from Supabase (async, fire-and-forget)
     if (typeof window !== "undefined") {
-      import("@/lib/supabase/client").then(({ createClient }) => {
+      import("@/lib/local-client").then(({ createClient }) => {
         createClient().auth.signOut().catch(() => {})
       })
     }

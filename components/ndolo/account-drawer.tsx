@@ -7,7 +7,7 @@ import { CLASSES, COUNTRY_PHONE_CODES, COUNTRIES } from "@/lib/data"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Input } from "@/components/ui/input"
-import { createClient } from "@/lib/supabase/client"
+import { createClient } from "@/lib/local-client"
 import { t, type Language } from "@/lib/i18n"
 import { autoTranslate } from "@/lib/auto-translate"
 
@@ -42,8 +42,8 @@ function ProfileView({ user, classLabel, updateUser, editingProfile, setEditingP
 
     setPwLoading(true)
     try {
-      const supabase = createClient()
-      const { error: signInError } = await supabase.auth.signInWithPassword({
+      const localClient = createClient()
+      const { error: signInError } = await localClient.auth.signInWithPassword({
         email: user?.email || "",
         password: currentPw,
       })
@@ -52,7 +52,7 @@ function ProfileView({ user, classLabel, updateUser, editingProfile, setEditingP
         setPwLoading(false)
         return
       }
-      const { error: updateError } = await supabase.auth.updateUser({ password: newPw })
+      const { error: updateError } = await localClient.auth.updateUser({ password: newPw })
       if (updateError) {
         setPwError(updateError.message)
         setPwLoading(false)
