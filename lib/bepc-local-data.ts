@@ -1,4 +1,5 @@
 import type { ExamSection } from "./bac-d-data"
+import { autoTranslate } from "./auto-translate"
 
 import bepcIndex from "@/public/data/bepc/index.json"
 import bepc1999Subject from "@/public/data/bepc/1999/subject.json"
@@ -46,15 +47,51 @@ const LOCAL_BEPC_CORRECTIONS = {
   2025: bepc2025Correction,
 };
 
+const EXAM_FALLBACK_REPLACEMENTS: Array<[RegExp, string]> = [
+  [/Sujet de math(?:e|é)matiques/gi, "Mathematics exam"],
+  [/\bSujet\b/gi, "Subject"],
+  [/\bCorrection\b/gi, "Correction"],
+  [/\bPARTIE\b/g, "PART"],
+  [/\bEVALUATION DES RESSOURCES\b/g, "RESOURCES ASSESSMENT"],
+  [/\bEVALUATION DES COMPETENCES\b/g, "SKILLS ASSESSMENT"],
+  [/\bACTIVITES NUMERIQUES\b/g, "NUMERICAL ACTIVITIES"],
+  [/\bACTIVITES GEOMETRIQUES\b/g, "GEOMETRIC ACTIVITIES"],
+  [/\bExercice\b/g, "Exercise"],
+  [/\bTache\b/g, "Task"],
+  [/\bpoints?\b/gi, "points"],
+  [/\bpoint\b/gi, "point"],
+  [/\bRepondre par vrai ou faux\b/gi, "Answer true or false"],
+  [/\bMontrer que\b/gi, "Show that"],
+  [/\bCalculer\b/gi, "Calculate"],
+  [/\bDonner\b/gi, "Give"],
+  [/\bDeterminer\b/gi, "Determine"],
+  [/\bJustifier\b/gi, "Justify"],
+  [/\bSoit\b/gi, "Let"],
+]
+
+function translateExamText(value?: string): string | undefined {
+  if (!value) return value
+
+  const fromDictionary = autoTranslate(value)
+  let translated = fromDictionary === value ? value : fromDictionary
+
+  for (const [pattern, replacement] of EXAM_FALLBACK_REPLACEMENTS) {
+    translated = translated.replace(pattern, replacement)
+  }
+
+  return translated
+}
+
 function normalizeDoc(doc: LocalExamDoc): ExamSection[] {
   return [
-    { type: "main", title: doc.title },
+    { type: "main", title: doc.title, en: translateExamText(doc.title) },
     ...doc.sections.map((s) => ({
       type: s.type,
       title: s.title,
       text: s.text,
       pts: s.pts,
       src: s.src,
+      en: translateExamText(s.text ?? s.title),
     })) as ExamSection[],
   ]
 }

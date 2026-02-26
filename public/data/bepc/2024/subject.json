@@ -23,7 +23,7 @@
 
     { "type": "exercise", "title": "Exercice 3", "pts": "2 points" },
     { "type": "text", "text": "Le tableau suivant recapitule les notes sur 20 en mathematiques de 50 eleves d'une classe de troisieme avec une donnee manquante." },
-    { "type": "table", "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [0;4[ & [4;8[ & [8;12[ & [12;16[ & [16;20[ \\\\ \\hline\\text{Effectifs} & 13 & 15 & 10 & 5 & \\ \\hline\\end{array}$$" },
+    { "type": "table", "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [0;4[ & [4;8[ & [8;12[ & [12;16[ & [16;20[ \\\\ \\hline\\text{Effectifs} & 13 & 15 & 10 & 5 & \\text{?} \\\\ \\hline\\end{array}$$" },
     { "type": "text", "text": "1. Quel est le caractere etudie et quelle est sa nature ? 0,5 pt" },
     { "type": "text", "text": "2. Justifier que l'effectif de la classe $[16;20[$ est 7. 0,25 pt" },
     { "type": "text", "text": "3. Quelle est la classe modale de cette serie statistique ? 0,25 pt" },

@@ -378,8 +378,8 @@ function MathematicianContent({ name }: { name: string }) {
 function AdviceContent({ itemId }: { itemId: string }) {
   const { at, lang } = useAt()
   if (itemId === "prepare-bepc") {
-    const sectionTitle = "font-bold text-[20px] md:text-[21px] bg-[#FEF9E1] text-foreground rounded-lg px-3 py-2"
-    const blockTitle = "font-bold text-[19px] md:text-[20px] bg-[#deeaf6] text-foreground rounded-lg px-3 py-2"
+    const sectionTitle = "font-bold text-[20px] md:text-[21px] bg-[#fffbe8] dark:bg-yellow-900/20 text-foreground rounded-lg px-3 py-2"
+    const blockTitle = "font-bold text-[19px] md:text-[20px] bg-[#edf5ff] dark:bg-blue-900/20 text-foreground rounded-lg px-3 py-2"
     const listItem = "text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed"
     const hr = "h-px bg-border/70 my-4"
 
@@ -423,7 +423,7 @@ function AdviceContent({ itemId }: { itemId: string }) {
       <div className="p-4 md:p-6 overflow-y-auto">
         <h2 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px] mb-4">{t("z3.prepareBepcTitle", lang)}</h2>
         <div id="ndolo-cours" className="max-w-[980px] mx-auto space-y-4">
-          <div className="bg-muted rounded-xl p-4 md:p-5">
+          <div className="bg-[#f8fbff] dark:bg-slate-900/40 border border-slate-200/70 dark:border-slate-700 rounded-xl p-4 md:p-5">
             <h3 className={sectionTitle}>{t("z3.prepareBepcGeneral", lang)}</h3>
 
             <h4 className={`${blockTitle} mt-4`}>{t("z3.prepareBepcSection1", lang)}</h4>
@@ -439,7 +439,7 @@ function AdviceContent({ itemId }: { itemId: string }) {
             <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed"><strong>{lang === "fr" ? "Rappel important :" : "Important reminder:"}</strong> {lang === "fr" ? "La reussite vient avec la regularite. Un petit effort chaque jour vaut mieux qu'un grand effort une seule fois." : "Success comes with consistency. A small effort every day is better than one big effort once."}</p>
           </div>
 
-          <div className="bg-muted rounded-xl p-4 md:p-5">
+          <div className="bg-[#f8fbff] dark:bg-slate-900/40 border border-slate-200/70 dark:border-slate-700 rounded-xl p-4 md:p-5">
             <h3 className={sectionTitle}>{t("z3.prepareBepcSection3", lang)}</h3>
             <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed mt-2">{lang === "fr" ? "Ce manuel t'aide a reviser efficacement pendant toute l'annee. L'objectif est de progresser etape par etape pour etre pret le jour du BEPC." : "This manual helps you revise effectively throughout the year. The goal is to progress step by step and be ready on BEPC day."}</p>
             <ul className="list-disc pl-6 mt-2 space-y-2">{section3.map((item, i) => <li key={i} className={listItem}>{item}</li>)}</ul>
@@ -456,7 +456,7 @@ function AdviceContent({ itemId }: { itemId: string }) {
             <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed"><strong>{lang === "fr" ? "Astuce importante :" : "Important tip:"}</strong> {lang === "fr" ? "La reussite ne depend pas seulement de l'intelligence, mais surtout de la methode et de la regularite." : "Success does not depend only on intelligence, but mostly on method and consistency."}</p>
           </div>
 
-          <div className="bg-muted rounded-xl p-4 md:p-5">
+          <div className="bg-[#f8fbff] dark:bg-slate-900/40 border border-slate-200/70 dark:border-slate-700 rounded-xl p-4 md:p-5">
             <h3 className={sectionTitle}>{t("z3.prepareBepcMath", lang)}</h3>
 
             <h4 className={`${blockTitle} mt-3`}>{t("z3.prepareBepcCalculations", lang)}</h4>
@@ -506,7 +506,7 @@ function AdviceContent({ itemId }: { itemId: string }) {
         <h2 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px] mb-4">{t("z3.studyMethods", lang)}</h2>
         <div className="flex flex-col gap-3">
           {STUDY_METHODS.map((m,i) => (
-            <div key={i} className="bg-muted rounded-xl p-4"><div className="flex items-start gap-3">
+            <div key={i} className="bg-[#f8fbff] dark:bg-slate-900/40 border border-slate-200/70 dark:border-slate-700 rounded-xl p-4"><div className="flex items-start gap-3">
               <span className="w-7 h-7 rounded-full bg-[var(--ndolo-green)] text-white flex items-center justify-center text-[18px] font-bold flex-shrink-0 mt-0.5">{i+1}</span>
               <p className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed">{at(m)}</p>
             </div></div>
