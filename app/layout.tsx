@@ -1,14 +1,10 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Space_Grotesk } from 'next/font/google'
 
 import './globals.css'
 
-const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const _spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
-
 export const metadata: Metadata = {
-  title: 'Ndolomath - L\'application qui te rend excellent en mathématique',
-  description: 'Ndolomath: cours, exercices, corrections et quiz en mathématiques pour toutes les classes du secondaire.',
+  title: 'Ndolomath - Classe de 3e BEPC',
+  description: 'Ndolomath MVP 3e BEPC: sujets, exercices et corrections en accès libre.',
   manifest: '/manifest.json',
   icons: {
     icon: '/icon-192.png',
@@ -35,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${_inter.variable} ${_spaceGrotesk.variable} font-sans antialiased`}>{children}</body>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   )
 }
