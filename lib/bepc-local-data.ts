@@ -29,22 +29,34 @@ type LocalExamDoc = {
 
 // Keep all locally available BEPC years synchronized with index.json
 const LOCAL_BEPC_SUBJECTS = {
+const LOCAL_BEPC_SUBJECTS: Record<number, LocalExamDoc> = {
   1999: bepc1999Subject,
   2021: bepc2021Subject,
   2022: bepc2022Subject,
   2023: bepc2023Subject,
   2024: bepc2024Subject,
   2025: bepc2025Subject,
-} satisfies Record<number, LocalExamDoc>
+}
 
 const LOCAL_BEPC_CORRECTIONS = {
+  2022: bepc2022Subject,
+  2023: bepc2023Subject,
+  2024: bepc2024Subject,
+  2023: bepc2023Subject,
+  2024: bepc2024Subject,
+const LOCAL_BEPC_SUBJECTS: Record<number, LocalExamDoc> = {
+  1999: bepc1999Subject,
+  2025: bepc2025Subject,
+}
+
+const LOCAL_BEPC_CORRECTIONS: Record<number, LocalExamDoc> = {
   1999: bepc1999Correction,
   2021: bepc2021Correction,
   2022: bepc2022Correction,
   2023: bepc2023Correction,
   2024: bepc2024Correction,
   2025: bepc2025Correction,
-} satisfies Record<number, LocalExamDoc>
+}
 
 function normalizeDoc(doc: LocalExamDoc): ExamSection[] {
   return [
