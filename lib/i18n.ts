@@ -259,6 +259,9 @@ const translations = {
   "forum.writePlaceholder": { fr: "Ecrire un message...", en: "Write a message..." },
   "forum.send": { fr: "Envoyer", en: "Send" },
   "forum.report": { fr: "Signaler", en: "Report" },
+  "forum.communityTitle": { fr: "Communaute des eleves de 3eme", en: "3rd Grade Student Community" },
+  "forum.communityDesc": { fr: "Rejoins notre groupe WhatsApp pour echanger, poser tes questions et recevoir des conseils pour reussir le BEPC.", en: "Join our WhatsApp group to ask questions, exchange with other students and get tips to succeed in the BEPC exam." },
+  "forum.communityBtn": { fr: "Rejoindre la communaute", en: "Join the community" },
 
   // ===== CALENDAR MODAL =====
   "cal.title": { fr: "Calendrier", en: "Calendar" },
