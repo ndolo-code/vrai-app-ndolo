@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'ndolomath-v5'
+const CACHE_VERSION = 'ndolomath-v6'
 const STATIC_ASSETS = [
   '/',
   '/offline/',

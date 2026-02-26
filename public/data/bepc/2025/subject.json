@@ -1,7 +1,7 @@
 {
   "title": "BEPC 2025 - Sujet de mathematiques",
   "sections": [
-    { "type": "text", "text": "L'epreuve comporte trois parties independantes A et B." },
+    { "type": "text", "text": "L'epreuve comporte les parties A et B." },
 
     { "type": "section", "title": "PARTIE A - EVALUATION DES RESSOURCES", "pts": "12,5 points" },
     { "type": "text", "text": "Cette partie comporte deux activites : une activite numerique et geometrique." },
