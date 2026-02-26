@@ -36,6 +36,14 @@ export function getExamYears(c: ClassInfo): number[] {
   return y
 }
 
+export const CHAPTER_TIPS: Record<string, Record<string, string[]>> = {
+  "3e": {},
+}
+
+export function getChapterTips(classId: string, chapter: string): string[] {
+  return CHAPTER_TIPS[classId]?.[chapter] || []
+}
+
 // ===================== COUNTRY PHONE CODES =====================
 export const COUNTRY_PHONE_CODES: Record<string, string> = {
   "Cameroun": "+237", "France": "+33", "Belgique": "+32", "Canada": "+1",

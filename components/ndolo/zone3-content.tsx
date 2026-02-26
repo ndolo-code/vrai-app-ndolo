@@ -1,9 +1,9 @@
 "use client"
 
 import { useState, useMemo } from "react"
-import { BookOpen, HelpCircle, PenTool, CheckCircle, FileText, Trophy, RotateCcw, UserRound } from "lucide-react"
+import { BookOpen, Lightbulb, HelpCircle, PenTool, CheckCircle, FileText, Trophy, RotateCcw, UserRound } from "lucide-react"
 import { useAppStore } from "@/lib/store"
-import { CLASSES, QUIZ_CATEGORIES, STUDY_METHODS, INSPIRATIONAL_QUOTES, PRACTICAL_TIPS, generateChapterQuiz, MATHEMATICIANS_DATA, getEvaluations } from "@/lib/data"
+import { CLASSES, QUIZ_CATEGORIES, STUDY_METHODS, INSPIRATIONAL_QUOTES, PRACTICAL_TIPS, generateChapterQuiz, MATHEMATICIANS_DATA, getEvaluations, getChapterTips } from "@/lib/data"
   import { BAC_D_EXAMS } from "@/lib/bac-d-data"
   import { PROBATOIRE_A_EXAMS } from "@/lib/probatoire-a-data"
   import { getLocalBepcSubject, getLocalBepcCorrection } from "@/lib/bepc-local-data"
@@ -132,19 +132,20 @@ function AllAtOnceQuiz({ questions, title }: { questions: QuizQuestion[]; title:
 function ChapterContent({ classId, chapterIndex }: { classId: string; chapterIndex: number }) {
   const { at, lang } = useAt()
   const classInfo = CLASSES.find(c => c.id === classId)
-  const [tab, setTab] = useState<"lecons"|"quiz"|"exercices"|"corrections">("lecons")
+  const [tab, setTab] = useState<"lecons"|"astuces"|"quiz"|"exercices"|"corrections">("lecons")
   const [lessonTab, setLessonTab] = useState(0)
   if (!classInfo) return null
   const chapter = classInfo.chapters[chapterIndex]
   const chapterDisplay = at(chapter)
   const chapterQuiz = useMemo(() => generateChapterQuiz(chapter, classId), [chapter, classId])
+  const chapterTips = useMemo(() => getChapterTips(classId, chapter), [classId, chapter])
 
   return (
     <div className="flex flex-col h-full min-h-0">
       <div className="border-b border-border px-4 pt-3 flex-shrink-0">
         <h2 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px] mb-2 break-words">{chapterDisplay}</h2>
         <div className="flex gap-0 overflow-x-auto">
-          {([["lecons",t("z3.lessons", lang),BookOpen],["quiz",t("z3.quiz", lang),HelpCircle],["exercices",t("z3.exercises", lang),PenTool],["corrections",t("z3.corrections", lang),CheckCircle]] as [string, string, React.ElementType][]).map(([id,label,Icon]) => (
+          {([["lecons",t("z3.lessons", lang),BookOpen],["astuces",t("mobile.tips", lang),Lightbulb],["quiz",t("z3.quiz", lang),HelpCircle],["exercices",t("z3.exercises", lang),PenTool],["corrections",t("z3.corrections", lang),CheckCircle]] as [string, string, React.ElementType][]).map(([id,label,Icon]) => (
             <TabButton key={id} active={tab===id as typeof tab} onClick={() => setTab(id as typeof tab)}>
               <span className="flex items-center gap-1.5"><Icon className="w-4 h-4" />{label}</span>
             </TabButton>
@@ -163,6 +164,30 @@ function ChapterContent({ classId, chapterIndex }: { classId: string; chapterInd
             </div>
             <ContentPlaceholder title={`${t("z3.lesson", lang)} ${lessonTab+1} - ${chapterDisplay}`} icon={BookOpen} />
           </div>
+        )}
+        {tab === "astuces" && (
+          chapterTips.length > 0 ? (
+            <div className="p-4 md:p-6 overflow-y-auto">
+              <div className="bg-muted rounded-xl p-6">
+                <h3 className="text-[20px] md:text-[21px] text-black dark:text-white font-semibold mb-3">{t("mobile.tips", lang)} - {chapterDisplay}</h3>
+                <ul className="list-disc pl-6 flex flex-col gap-2">
+                  {chapterTips.map((tip, i) => (
+                    <li key={i} className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed">
+                      <LatexText text={tip} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ) : (
+            <div className="p-4 md:p-6">
+              <div className="flex items-center gap-2 mb-4"><Lightbulb className="w-5 h-5 text-[var(--ndolo-green)]" /><h3 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px]">{t("mobile.tips", lang)} - {chapterDisplay}</h3></div>
+              <div className="bg-muted rounded-xl p-6">
+                <p className="text-[20px] md:text-[21px] text-neutral-600 dark:text-neutral-300 leading-relaxed">Les astuces de ce chapitre seront ajoutees prochainement.</p>
+                <div className="mt-4 flex flex-col gap-2">{[1,2,3].map(i => (<div key={i} className="h-3 bg-muted-foreground/10 rounded animate-pulse" style={{ width: `${90-i*15}%` }} />))}</div>
+              </div>
+            </div>
+          )
         )}
         {tab === "quiz" && <AllAtOnceQuiz questions={chapterQuiz} title={`${t("z3.quiz", lang)} - ${chapterDisplay}`} />}
         {tab === "exercices" && <ContentPlaceholder title={`${t("z3.exercises", lang)} - ${chapterDisplay}`} icon={PenTool} />}
