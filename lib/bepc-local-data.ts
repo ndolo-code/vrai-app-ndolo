@@ -49,41 +49,78 @@ const LOCAL_BEPC_CORRECTIONS = {
 
 const EXAM_SENTENCE_REPLACEMENTS: Array<[RegExp, string]> = [
   [/^L'epreuve comporte les parties A et B\.?$/i, "The exam has two parts: A and B."],
+  [/^L'epreuve comporte trois parties independantes A et B\.?$/i, "The exam is organized into independent parts A and B."],
   [/^L'epreuve comporte trois exercices et un probleme\.?$/i, "The exam includes three exercises and one problem."],
-  [/^Cette partie comporte deux activites : une activite numerique et geometrique\.?$/i, "This part contains two activities: one numerical and one geometric."],
+  [/^Cette partie comporte deux activites : une activite numerique et geometrique\.?$/i, "This part includes two activities: one numerical and one geometric."],
   [/^Cette partie comporte deux exercices independants 1 et 2\.?$/i, "This part contains two independent exercises: 1 and 2."],
   [/^Cette partie comporte trois exercices independants 1, 2 et 3\.?$/i, "This part contains three independent exercises: 1, 2 and 3."],
   [/^Repondre par vrai ou faux\.?$/i, "Answer true or false."],
   [/^Reproduire et completer le tableau ci-dessus\.?\s*(\d+[,.]?\d*\s*pt)?$/i, "Reproduce and complete the table above. $1"],
   [/^Combien a coute un sac de riz et un carton d'huile \?$/i, "How much did one bag of rice and one carton of oil cost?"],
-  [/^Quel est le montant du budget presente par l'orphelinat \?$/i, "What is the amount of the budget presented by the orphanage?"],
-  [/^A partir de quelle duree en heures, l'option 2 est-elle plus avantageuse pour le transport des achats \?\s*(\d+\s*pts?)?$/i, "From how many hours onward is option 2 more cost-effective for transporting the purchases? $1"],
+  [/^Quel est le montant du budget presente par l'orphelinat \?$/i, "What is the total budget presented by the orphanage?"],
+  [/^A partir de quelle duree en heures, l'option 2 est-elle plus avantageuse pour le transport des achats \?\s*(\d+\s*pts?)?$/i, "From what duration (in hours) does option 2 become more economical for transporting the purchases? $1"],
 ]
 
 const EXAM_PHRASE_REPLACEMENTS: Array<[RegExp, string]> = [
-  [/Sujet de math(?:e|é)matiques/gi, "Mathematics exam"],
-  [/\bPARTIE\s+A\s*-\s*EVALUATION DES RESSOURCES\b/g, "PART A - RESOURCES ASSESSMENT"],
-  [/\bPARTIE\s+B\s*-\s*EVALUATION DES COMPETENCES\b/g, "PART B - SKILLS ASSESSMENT"],
-  [/\bACTIVITES NUMERIQUES\b/g, "NUMERICAL ACTIVITIES"],
-  [/\bACTIVITES GEOMETRIQUES\b/g, "GEOMETRIC ACTIVITIES"],
-  [/\bExercice\b/g, "Exercise"],
-  [/\bTache\b/g, "Task"],
-  [/\bQuestions\b/g, "Questions"],
-  [/\bReponse juste\b/g, "Correct answer"],
-  [/\bN\^\\circ de l'affirmation\b/g, "Statement No."],
-  [/\bN\^\\circ\b/g, "No."],
-  [/\bEffectifs\b/g, "Frequencies"],
-  [/\bNotes\b/g, "Scores"],
-  [/\bCentres des classes\b/g, "Class midpoints"],
-  [/\bTotal\b/g, "Total"],
+  [/Sujet de math(?:e|é)matiques/gi, "Mathematics exam paper"],
+  [/-\s*EVALUATION DES RESSOURCES/gi, "- RESOURCES ASSESSMENT"],
+  [/-\s*EVALUATION DES COMPETENCES/gi, "- SKILLS ASSESSMENT"],
+  [/\bPARTIE\s+A\b/gi, "PART A"],
+  [/\bPARTIE\s+B\b/gi, "PART B"],
+  [/\bACTIVITES NUMERIQUES\b/gi, "NUMERICAL ACTIVITIES"],
+  [/\bACTIVITES GEOMETRIQUES\b/gi, "GEOMETRIC ACTIVITIES"],
+  [/\bExercice\b/gi, "Exercise"],
+  [/\bTache\b/gi, "Task"],
+  [/\bChoisir\b/gi, "Choose"],
+  [/\bEcrire\b/gi, "Write"],
+  [/\bMettre\b/gi, "Rewrite"],
   [/\bMontrer que\b/gi, "Show that"],
   [/\bCalculer\b/gi, "Calculate"],
   [/\bDeterminer\b/gi, "Determine"],
   [/\bJustifier\b/gi, "Justify"],
   [/\bDonner\b/gi, "Give"],
-  [/\bSoit\b/gi, "Let"],
-  [/\bpoints\b/gi, "points"],
-  [/\bpoint\b/gi, "point"],
+  [/\bSimplifier\b/gi, "Simplify"],
+  [/\bSachant que\b/gi, "Given that"],
+  [/\bOn considere\b/gi, "Consider"],
+  [/\bsous la forme\b/gi, "in the form"],
+  [/\bparmi celles qui sont proposees ci-dessous\b/gi, "from the options below"],
+  [/\bparmi les quatre qui sont proposees\b/gi, "among the four proposed options"],
+  [/\bbonne reponse\b/gi, "correct answer"],
+  [/\bforme developpee\b/gi, "expanded form"],
+  [/\bforme factorisee\b/gi, "factorized form"],
+  [/\bfraction irreductible\b/gi, "irreducible fraction"],
+  [/\bdu premier degre\b/gi, "of first degree"],
+  [/\bcondition d'existence d'une valeur numerique\b/gi, "condition for numerical validity"],
+  [/\bencadrement\b/gi, "bound"],
+  [/\bnombres decimaux\b/gi, "decimal numbers"],
+  [/\bentier naturel\b/gi, "natural integer"],
+  [/\bsans radical au denominateur\b/gi, "with no radical in the denominator"],
+  [/\bQuestions\b/gi, "Questions"],
+  [/\bReponse juste\b/gi, "Correct answer"],
+  [/\bN\^\\circ de l'affirmation\b/g, "Statement No."],
+  [/\bN\^\\circ\b/g, "No."],
+  [/\bEffectifs\b/gi, "Frequencies"],
+  [/\bNotes\b/gi, "Scores"],
+  [/\bCentres des classes\b/gi, "Class midpoints"],
+  [/\bTotal\b/gi, "Total"],
+  [/\bpt\b/gi, "pt"],
+  [/\bpts\b/gi, "pts"],
+]
+
+const ENGLISH_POLISH_REPLACEMENTS: Array<[RegExp, string]> = [
+  [/\bAssessment DES RESOURCES\b/gi, "Resources Assessment"],
+  [/\bAssessment des ressources\b/gi, "Resources Assessment"],
+  [/\bAssessment DES COMPETENCES\b/gi, "Skills Assessment"],
+  [/\bConsider l'expression\b/gi, "Consider the expression"],
+  [/\bChoose et recopier\b/gi, "Choose and copy"],
+  [/\bGive le resultat\b/gi, "Give the result"],
+  [/\bdeux Decimal numbers\b/gi, "two decimal numbers"],
+  [/\bdeux independent exercises\b/gi, "two independent exercises"],
+  [/\btrois independent exercises\b/gi, "three independent exercises"],
+  [/\bThe exam has two parts: A and B\b(?!\.)/g, "The exam has two parts: A and B."],
+  [/\s+\./g, "."],
+  [/\s+,/g, ","],
+  [/\s+:/g, ":"],
 ]
 
 type Segment = { kind: "text" | "math"; value: string }
@@ -105,6 +142,12 @@ function splitMathSegments(input: string): Segment[] {
   return segments.length ? segments : [{ kind: "text", value: input }]
 }
 
+function applyReplacements(value: string, rules: Array<[RegExp, string]>): string {
+  let out = value
+  for (const [pattern, replacement] of rules) out = out.replace(pattern, replacement)
+  return out
+}
+
 function translateExamText(value?: string, type?: LocalSection["type"]): string | undefined {
   if (!value) return value
   if (type === "table") return value
@@ -119,11 +162,10 @@ function translateExamText(value?: string, type?: LocalSection["type"]): string 
     .map((seg) => {
       if (seg.kind === "math") return seg.value
 
-      let text = autoTranslate(seg.value)
-      for (const [pattern, replacement] of EXAM_PHRASE_REPLACEMENTS) {
-        text = text.replace(pattern, replacement)
-      }
-      return text
+      const fromDictionary = autoTranslate(seg.value)
+      const preferredBase = fromDictionary === seg.value ? seg.value : fromDictionary
+      const withExamTerms = applyReplacements(preferredBase, EXAM_PHRASE_REPLACEMENTS)
+      return applyReplacements(withExamTerms, ENGLISH_POLISH_REPLACEMENTS)
     })
     .join("")
 
