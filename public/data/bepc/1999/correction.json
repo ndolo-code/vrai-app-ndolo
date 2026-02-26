@@ -1,0 +1,25 @@
+{
+  "title": "BEPC 1999 - Correction (demo)",
+  "sections": [
+    {
+      "type": "section",
+      "title": "Correction - Activites numeriques"
+    },
+    {
+      "type": "text",
+      "text": "1) $A = 3x - 2x + 5 = x + 5$."
+    },
+    {
+      "type": "text",
+      "text": "2) $2x + 5 = 13 \\Rightarrow 2x = 8 \\Rightarrow x = 4$."
+    },
+    {
+      "type": "section",
+      "title": "Correction - Activites geometriques"
+    },
+    {
+      "type": "text",
+      "text": "Par Pythagore : $c^2 = 3^2 + 4^2 = 25$, donc $c = 5$ cm."
+    }
+  ]
+}

@@ -1,10 +1,9 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Moon, Sun, User, GraduationCap, Users, BookHeart, Gamepad2, Library, Menu, Clock, CalendarDays, X } from "lucide-react"
+import { Moon, Sun, User, GraduationCap, Menu, Clock, CalendarDays, X } from "lucide-react"
 import { useAppStore } from "@/lib/store"
 import { CLASSES, getExamCountdown, getExamLabel, isExamClass } from "@/lib/data"
-import type { TopbarTab } from "@/lib/data"
 import { t } from "@/lib/i18n"
 import {
   Tooltip, TooltipContent, TooltipProvider, TooltipTrigger,
@@ -52,29 +51,23 @@ function ExamDatePicker({ classId, onClose }: { classId: string; onClose: () => 
 }
 
 export function Zone1Topbar() {
-  const { activeTab, setActiveTab, selectedClassId, setSelectedClassId, darkMode, toggleDarkMode, user, setAccountDrawerOpen, setZone2Open, examDate, language, toggleLanguage } = useAppStore()
+  const { activeTab, setActiveTab, selectedClassId, darkMode, toggleDarkMode, user, setAccountDrawerOpen, setZone2Open, examDate, language, toggleLanguage } = useAppStore()
   const [showDatePicker, setShowDatePicker] = useState(false)
   const lang = language
 
   const countdown = getExamCountdown(selectedClassId, examDate)
   const examLabel = getExamLabel(selectedClassId)
   const showExamClass = isExamClass(selectedClassId)
-  const registeredClass = user?.registeredClass || "6e"
+  const registeredClass = "3e"
   const classLabel = CLASSES.find(c => c.id === registeredClass)?.label || registeredClass
 
-  const NAV_ITEMS: { id: TopbarTab; label: string; shortLabel: string; icon: React.ElementType }[] = [
-    { id: "classe", label: t("nav.classe", lang), shortLabel: t("nav.classe", lang), icon: GraduationCap },
-    { id: "mathematiciens", label: t("nav.mathematiciens", lang), shortLabel: t("nav.shortMaths", lang), icon: Users },
-    { id: "conseils", label: t("nav.conseils", lang), shortLabel: t("nav.shortConseils", lang), icon: BookHeart },
-    { id: "quiz", label: t("nav.quiz", lang), shortLabel: "Quiz", icon: Gamepad2 },
-    { id: "tous", label: t("nav.tous", lang), shortLabel: t("nav.shortCours", lang), icon: Library },
+  const NAV_ITEMS = [
+    { id: "classe", label: classLabel, shortLabel: classLabel, icon: GraduationCap },
   ]
 
   const goToClass = () => {
-    setSelectedClassId(registeredClass)
     setActiveTab("classe")
   }
-
   return (
     <TooltipProvider delayDuration={200}>
       <header className="bg-[var(--ndolo-green)] border-b border-white/10 flex-shrink-0 z-30" role="banner">
@@ -91,18 +84,8 @@ export function Zone1Topbar() {
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-1 ml-4 flex-1" aria-label={lang === "fr" ? "Navigation principale" : "Main navigation"}>
             {NAV_ITEMS.map((item) => {
-              if (item.id === "classe") {
-                return (
-                  <button key={item.id} onClick={goToClass} title={`${lang === "fr" ? "Revenir a ma classe" : "Back to my class"} : ${classLabel}`}
-                    className={`px-3 py-1.5 rounded-lg text-[15px] font-medium transition-all duration-200 flex items-center gap-1.5 ${
-                      activeTab === "classe" ? "bg-[#f8cf41] text-[var(--ndolo-green)] font-semibold" : "text-white/80 hover:bg-[#e98c00] hover:text-white"
-                    }`}>
-                    <item.icon className="w-4 h-4" />{classLabel}
-                  </button>
-                )
-              }
               return (
-                <button key={item.id} onClick={() => setActiveTab(item.id)}
+                <button key={item.id} onClick={goToClass}
                   className={`px-3 py-1.5 rounded-lg text-[15px] font-medium transition-all duration-200 flex items-center gap-1.5 ${
                     activeTab === item.id ? "bg-[#f8cf41] text-[var(--ndolo-green)] font-semibold" : "text-white/80 hover:bg-[#e98c00] hover:text-white"
                   }`}>
@@ -167,19 +150,8 @@ export function Zone1Topbar() {
         <nav className="lg:hidden flex items-center justify-around px-2 pb-1.5 pt-0.5" aria-label={lang === "fr" ? "Navigation mobile" : "Mobile navigation"}>
           {NAV_ITEMS.map((item) => {
             const isActive = activeTab === item.id
-            if (item.id === "classe") {
-              return (
-                <button key={item.id} onClick={goToClass} title={`${lang === "fr" ? "Revenir a ma classe" : "Back to my class"} : ${classLabel}`}
-                  className={`flex flex-col items-center gap-0.5 px-2 py-1 rounded-lg transition-all ${
-                    isActive ? "bg-[#f8cf41] text-[var(--ndolo-green)]" : "text-white/70 hover:text-white"
-                  }`}>
-                  <item.icon className="w-5 h-5" />
-                  <span className={`text-[11px] leading-tight font-medium ${isActive ? "font-semibold" : ""}`}>{classLabel}</span>
-                </button>
-              )
-            }
             return (
-              <button key={item.id} onClick={() => setActiveTab(item.id)}
+              <button key={item.id} onClick={goToClass}
                 className={`flex flex-col items-center gap-0.5 px-2 py-1 rounded-lg transition-all ${
                   isActive ? "bg-[#f8cf41] text-[var(--ndolo-green)]" : "text-white/70 hover:text-white"
                 }`}>

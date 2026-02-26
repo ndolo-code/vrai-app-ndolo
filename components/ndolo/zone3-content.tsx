@@ -1,12 +1,12 @@
 "use client"
 
 import { useState, useMemo } from "react"
-import { Lock, BookOpen, HelpCircle, PenTool, CheckCircle, FileText, Trophy, RotateCcw, UserRound } from "lucide-react"
+import { BookOpen, HelpCircle, PenTool, CheckCircle, FileText, Trophy, RotateCcw, UserRound } from "lucide-react"
 import { useAppStore } from "@/lib/store"
 import { CLASSES, QUIZ_CATEGORIES, STUDY_METHODS, INSPIRATIONAL_QUOTES, PRACTICAL_TIPS, generateChapterQuiz, MATHEMATICIANS_DATA, getEvaluations } from "@/lib/data"
   import { BAC_D_EXAMS } from "@/lib/bac-d-data"
-  import { BEPC_EXAMS } from "@/lib/bepc-data"
   import { PROBATOIRE_A_EXAMS } from "@/lib/probatoire-a-data"
+  import { getLocalBepcSubject, getLocalBepcCorrection } from "@/lib/bepc-local-data"
   import { getExamVideos, getMathematicianVideos } from "@/lib/exam-videos"
   import { VideoDrawerTrigger } from "./video-drawer"
   import { getEvaluationSections, getEvaluationSubjectCount } from "@/lib/evaluation-data"
@@ -21,29 +21,6 @@ import { autoTranslate, translateBio } from "@/lib/auto-translate"
 function useAt() {
   const lang = useAppStore(s => s.language)
   return { at: (s: string) => lang === "en" ? autoTranslate(s) : s, lang, isEn: lang === "en" }
-}
-
-function UnlockGate({ classId }: { classId: string }) {
-  const { unlocks, unlockClass, language } = useAppStore()
-  const lang = language
-  const [code, setCode] = useState("")
-  const [error, setError] = useState("")
-  if (unlocks[classId]) return null
-  const handleSubmit = () => {
-    if (code.toUpperCase() === `NDOLO${classId.toUpperCase()}` || code === "123456") { unlockClass(classId); setError("") }
-    else setError(t("z3.incorrectCode", lang))
-  }
-  return (
-    <div className="flex flex-col items-center justify-center py-12 gap-4 text-center px-4">
-      <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center"><Lock className="w-8 h-8 text-muted-foreground" /></div>
-      <p className="text-[19px] text-muted-foreground font-medium">{t("z3.enterCode", lang)}</p>
-      <div className="flex items-center gap-2 max-w-xs w-full">
-        <Input value={code} onChange={(e) => setCode(e.target.value)} placeholder={t("z3.accessCode", lang)} className="text-[19px] h-11" onKeyDown={(e) => e.key === "Enter" && handleSubmit()} />
-        <button onClick={handleSubmit} className="px-4 py-2.5 rounded-lg bg-[var(--ndolo-green)] text-white text-[19px] font-medium hover:bg-[#e98c00] transition-colors flex-shrink-0">{t("z3.validate", lang)}</button>
-      </div>
-      {error && <p className="text-destructive text-[19px]">{error}</p>}
-    </div>
-  )
 }
 
 function ContentPlaceholder({ title, icon: Icon }: { title: string; icon: React.ElementType }) {
@@ -189,7 +166,7 @@ function ChapterContent({ classId, chapterIndex }: { classId: string; chapterInd
         )}
         {tab === "quiz" && <AllAtOnceQuiz questions={chapterQuiz} title={`${t("z3.quiz", lang)} - ${chapterDisplay}`} />}
         {tab === "exercices" && <ContentPlaceholder title={`${t("z3.exercises", lang)} - ${chapterDisplay}`} icon={PenTool} />}
-        {tab === "corrections" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}</>)}
+        {tab === "corrections" && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}
       </div>
     </div>
   )
@@ -270,8 +247,8 @@ function ExamContent({ classId, year }: { classId: string; year: number }) {
   const classInfo = CLASSES.find(c => c.id === classId)
   const [tab, setTab] = useState<"sujet"|"correction">("sujet")
   if (!classInfo) return null
-  const isBEPC = classId === "3e" && BEPC_EXAMS[year]
-  const bepcSections = isBEPC ? BEPC_EXAMS[year] : null
+  const bepcSections = classId === "3e" ? getLocalBepcSubject(year) : null
+  const bepcCorrectionSections = classId === "3e" ? getLocalBepcCorrection(year) : null
   const isBacD = classId === "TleD" && BAC_D_EXAMS[year]
   const bacDSections = isBacD ? BAC_D_EXAMS[year] : null
   const isProbaA = classId === "1ereA" && PROBATOIRE_A_EXAMS[year]
@@ -303,7 +280,11 @@ function ExamContent({ classId, year }: { classId: string; year: number }) {
             <div className="p-4 md:p-6"><ExamSectionsRenderer sections={probaASections} /></div>
           ) : <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.subject", lang)}`} icon={FileText} />
         )}
-        {tab === "correction" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.correction", lang)}`} icon={CheckCircle} />}</>)}
+        {tab === "correction" && (
+          bepcCorrectionSections ? (
+            <div className="p-4 md:p-6"><ExamSectionsRenderer sections={bepcCorrectionSections} /></div>
+          ) : <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
+        )}
       </div>
     </div>
   )
@@ -327,7 +308,7 @@ function RevisionContent({ classId, chapterIndex }: { classId: string; chapterIn
       </div>
       <div className="flex-1 overflow-y-auto min-h-0">
         {tab === "exercices" && <ContentPlaceholder title={`${t("z3.revisionExercises", lang)} - ${chapterDisplay}`} icon={PenTool} />}
-        {tab === "corrections" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}</>)}
+        {tab === "corrections" && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}
       </div>
     </div>
   )
@@ -496,12 +477,7 @@ function EvaluationContent({ classId, evaluationId }: { classId: string; evaluat
           )
         )}
         {subTab === "correction" && (
-          <>
-            <UnlockGate classId={classId} />
-            {useAppStore.getState().unlocks[classId] ? (
-              <ContentPlaceholder title={`${evalItem.label} - ${subjects[activeSujet]} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
-            ) : null}
-          </>
+          <ContentPlaceholder title={`${evalItem.label} - ${subjects[activeSujet]} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
         )}
       </div>
     </div>

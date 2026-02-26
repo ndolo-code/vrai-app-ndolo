@@ -1,3 +1,4 @@
+import { LOCAL_BEPC_YEARS } from "@/lib/bepc-local-data"
 // ========================================
 // NDOLOMATH — All static data
 // ========================================
@@ -27,6 +28,7 @@ export const CLASSES: ClassInfo[] = [
 ]
 
 export function getExamYears(c: ClassInfo): number[] {
+  if (c.id === "3e") return [...LOCAL_BEPC_YEARS].sort((a, b) => b - a)
   if (!c.examYearRange) return []
   const [s, e] = c.examYearRange
   const y: number[] = []
