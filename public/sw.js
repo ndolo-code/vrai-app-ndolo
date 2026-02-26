@@ -1,3 +1,4 @@
+const CACHE_VERSION = 'ndolomath-v8'
 const CACHE_VERSION = 'ndolomath-v7'
 const CACHE_VERSION = 'ndolomath-v4'
 const STATIC_ASSETS = [
@@ -10,6 +11,10 @@ const STATIC_ASSETS = [
   '/data/bepc/index.json',
   '/data/bepc/1999/subject.json',
   '/data/bepc/1999/correction.json',
+  '/data/bepc/2022/subject.json',
+  '/data/bepc/2022/correction.json',
+  '/images/bepc2022-geo-ex2.jpg',
+  '/images/bepc2022-geo-ex1.webp',
   '/data/bepc/2023/subject.json',
   '/data/bepc/2023/correction.json',
   '/images/bepc2023-num-ex3.jpg',
