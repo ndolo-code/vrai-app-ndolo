@@ -1,12 +1,12 @@
 "use client"
 
 import { useState, useMemo } from "react"
-import { Lock, BookOpen, HelpCircle, PenTool, CheckCircle, FileText, Trophy, RotateCcw, UserRound } from "lucide-react"
+import { BookOpen, Lightbulb, HelpCircle, PenTool, CheckCircle, FileText, Trophy, RotateCcw, UserRound } from "lucide-react"
 import { useAppStore } from "@/lib/store"
-import { CLASSES, QUIZ_CATEGORIES, STUDY_METHODS, INSPIRATIONAL_QUOTES, PRACTICAL_TIPS, generateChapterQuiz, MATHEMATICIANS_DATA, getEvaluations } from "@/lib/data"
+import { CLASSES, QUIZ_CATEGORIES, STUDY_METHODS, INSPIRATIONAL_QUOTES, PRACTICAL_TIPS, generateChapterQuiz, MATHEMATICIANS_DATA, getEvaluations, getChapterTips } from "@/lib/data"
   import { BAC_D_EXAMS } from "@/lib/bac-d-data"
-  import { BEPC_EXAMS } from "@/lib/bepc-data"
   import { PROBATOIRE_A_EXAMS } from "@/lib/probatoire-a-data"
+  import { getLocalBepcSubject, getLocalBepcCorrection } from "@/lib/bepc-local-data"
   import { getExamVideos, getMathematicianVideos } from "@/lib/exam-videos"
   import { VideoDrawerTrigger } from "./video-drawer"
   import { getEvaluationSections, getEvaluationSubjectCount } from "@/lib/evaluation-data"
@@ -21,29 +21,6 @@ import { autoTranslate, translateBio } from "@/lib/auto-translate"
 function useAt() {
   const lang = useAppStore(s => s.language)
   return { at: (s: string) => lang === "en" ? autoTranslate(s) : s, lang, isEn: lang === "en" }
-}
-
-function UnlockGate({ classId }: { classId: string }) {
-  const { unlocks, unlockClass, language } = useAppStore()
-  const lang = language
-  const [code, setCode] = useState("")
-  const [error, setError] = useState("")
-  if (unlocks[classId]) return null
-  const handleSubmit = () => {
-    if (code.toUpperCase() === `NDOLO${classId.toUpperCase()}` || code === "123456") { unlockClass(classId); setError("") }
-    else setError(t("z3.incorrectCode", lang))
-  }
-  return (
-    <div className="flex flex-col items-center justify-center py-12 gap-4 text-center px-4">
-      <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center"><Lock className="w-8 h-8 text-muted-foreground" /></div>
-      <p className="text-[19px] text-muted-foreground font-medium">{t("z3.enterCode", lang)}</p>
-      <div className="flex items-center gap-2 max-w-xs w-full">
-        <Input value={code} onChange={(e) => setCode(e.target.value)} placeholder={t("z3.accessCode", lang)} className="text-[19px] h-11" onKeyDown={(e) => e.key === "Enter" && handleSubmit()} />
-        <button onClick={handleSubmit} className="px-4 py-2.5 rounded-lg bg-[var(--ndolo-green)] text-white text-[19px] font-medium hover:bg-[#e98c00] transition-colors flex-shrink-0">{t("z3.validate", lang)}</button>
-      </div>
-      {error && <p className="text-destructive text-[19px]">{error}</p>}
-    </div>
-  )
 }
 
 function ContentPlaceholder({ title, icon: Icon }: { title: string; icon: React.ElementType }) {
@@ -155,19 +132,20 @@ function AllAtOnceQuiz({ questions, title }: { questions: QuizQuestion[]; title:
 function ChapterContent({ classId, chapterIndex }: { classId: string; chapterIndex: number }) {
   const { at, lang } = useAt()
   const classInfo = CLASSES.find(c => c.id === classId)
-  const [tab, setTab] = useState<"lecons"|"quiz"|"exercices"|"corrections">("lecons")
+  const [tab, setTab] = useState<"lecons"|"astuces"|"quiz"|"exercices"|"corrections">("lecons")
   const [lessonTab, setLessonTab] = useState(0)
   if (!classInfo) return null
   const chapter = classInfo.chapters[chapterIndex]
   const chapterDisplay = at(chapter)
   const chapterQuiz = useMemo(() => generateChapterQuiz(chapter, classId), [chapter, classId])
+  const chapterTips = useMemo(() => getChapterTips(classId, chapter), [classId, chapter])
 
   return (
     <div className="flex flex-col h-full min-h-0">
       <div className="border-b border-border px-4 pt-3 flex-shrink-0">
         <h2 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px] mb-2 break-words">{chapterDisplay}</h2>
         <div className="flex gap-0 overflow-x-auto">
-          {([["lecons",t("z3.lessons", lang),BookOpen],["quiz",t("z3.quiz", lang),HelpCircle],["exercices",t("z3.exercises", lang),PenTool],["corrections",t("z3.corrections", lang),CheckCircle]] as [string, string, React.ElementType][]).map(([id,label,Icon]) => (
+          {([["lecons",t("z3.lessons", lang),BookOpen],["astuces",t("mobile.tips", lang),Lightbulb],["quiz",t("z3.quiz", lang),HelpCircle],["exercices",t("z3.exercises", lang),PenTool],["corrections",t("z3.corrections", lang),CheckCircle]] as [string, string, React.ElementType][]).map(([id,label,Icon]) => (
             <TabButton key={id} active={tab===id as typeof tab} onClick={() => setTab(id as typeof tab)}>
               <span className="flex items-center gap-1.5"><Icon className="w-4 h-4" />{label}</span>
             </TabButton>
@@ -187,9 +165,33 @@ function ChapterContent({ classId, chapterIndex }: { classId: string; chapterInd
             <ContentPlaceholder title={`${t("z3.lesson", lang)} ${lessonTab+1} - ${chapterDisplay}`} icon={BookOpen} />
           </div>
         )}
+        {tab === "astuces" && (
+          chapterTips.length > 0 ? (
+            <div className="p-4 md:p-6 overflow-y-auto">
+              <div className="bg-muted rounded-xl p-6">
+                <h3 className="text-[20px] md:text-[21px] text-black dark:text-white font-semibold mb-3">{t("mobile.tips", lang)} - {chapterDisplay}</h3>
+                <ul className="list-disc pl-6 flex flex-col gap-2">
+                  {chapterTips.map((tip, i) => (
+                    <li key={i} className="text-[20px] md:text-[21px] text-neutral-800 dark:text-neutral-200 leading-relaxed">
+                      <LatexText text={tip} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ) : (
+            <div className="p-4 md:p-6">
+              <div className="flex items-center gap-2 mb-4"><Lightbulb className="w-5 h-5 text-[var(--ndolo-green)]" /><h3 className="font-display font-bold text-black dark:text-white text-[22px] md:text-[24px]">{t("mobile.tips", lang)} - {chapterDisplay}</h3></div>
+              <div className="bg-muted rounded-xl p-6">
+                <p className="text-[20px] md:text-[21px] text-neutral-600 dark:text-neutral-300 leading-relaxed">Les astuces de ce chapitre seront ajoutees prochainement.</p>
+                <div className="mt-4 flex flex-col gap-2">{[1,2,3].map(i => (<div key={i} className="h-3 bg-muted-foreground/10 rounded animate-pulse" style={{ width: `${90-i*15}%` }} />))}</div>
+              </div>
+            </div>
+          )
+        )}
         {tab === "quiz" && <AllAtOnceQuiz questions={chapterQuiz} title={`${t("z3.quiz", lang)} - ${chapterDisplay}`} />}
         {tab === "exercices" && <ContentPlaceholder title={`${t("z3.exercises", lang)} - ${chapterDisplay}`} icon={PenTool} />}
-        {tab === "corrections" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}</>)}
+        {tab === "corrections" && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}
       </div>
     </div>
   )
@@ -270,8 +272,8 @@ function ExamContent({ classId, year }: { classId: string; year: number }) {
   const classInfo = CLASSES.find(c => c.id === classId)
   const [tab, setTab] = useState<"sujet"|"correction">("sujet")
   if (!classInfo) return null
-  const isBEPC = classId === "3e" && BEPC_EXAMS[year]
-  const bepcSections = isBEPC ? BEPC_EXAMS[year] : null
+  const bepcSections = classId === "3e" ? getLocalBepcSubject(year) : null
+  const bepcCorrectionSections = classId === "3e" ? getLocalBepcCorrection(year) : null
   const isBacD = classId === "TleD" && BAC_D_EXAMS[year]
   const bacDSections = isBacD ? BAC_D_EXAMS[year] : null
   const isProbaA = classId === "1ereA" && PROBATOIRE_A_EXAMS[year]
@@ -303,7 +305,11 @@ function ExamContent({ classId, year }: { classId: string; year: number }) {
             <div className="p-4 md:p-6"><ExamSectionsRenderer sections={probaASections} /></div>
           ) : <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.subject", lang)}`} icon={FileText} />
         )}
-        {tab === "correction" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.correction", lang)}`} icon={CheckCircle} />}</>)}
+        {tab === "correction" && (
+          bepcCorrectionSections ? (
+            <div className="p-4 md:p-6"><ExamSectionsRenderer sections={bepcCorrectionSections} /></div>
+          ) : <ContentPlaceholder title={`${classInfo.examLabel} ${year} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
+        )}
       </div>
     </div>
   )
@@ -327,7 +333,7 @@ function RevisionContent({ classId, chapterIndex }: { classId: string; chapterIn
       </div>
       <div className="flex-1 overflow-y-auto min-h-0">
         {tab === "exercices" && <ContentPlaceholder title={`${t("z3.revisionExercises", lang)} - ${chapterDisplay}`} icon={PenTool} />}
-        {tab === "corrections" && (<><UnlockGate classId={classId} />{useAppStore.getState().unlocks[classId] && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}</>)}
+        {tab === "corrections" && <ContentPlaceholder title={`${t("z3.corrections", lang)} - ${chapterDisplay}`} icon={CheckCircle} />}
       </div>
     </div>
   )
@@ -496,12 +502,7 @@ function EvaluationContent({ classId, evaluationId }: { classId: string; evaluat
           )
         )}
         {subTab === "correction" && (
-          <>
-            <UnlockGate classId={classId} />
-            {useAppStore.getState().unlocks[classId] ? (
-              <ContentPlaceholder title={`${evalItem.label} - ${subjects[activeSujet]} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
-            ) : null}
-          </>
+          <ContentPlaceholder title={`${evalItem.label} - ${subjects[activeSujet]} - ${t("z3.correction", lang)}`} icon={CheckCircle} />
         )}
       </div>
     </div>
