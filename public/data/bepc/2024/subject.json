@@ -1,0 +1,68 @@
+{
+  "title": "BEPC 2024 - Sujet de mathematiques",
+  "sections": [
+    { "type": "text", "text": "L'epreuve comporte les parties A et B." },
+
+    { "type": "section", "title": "PARTIE A - EVALUATION DES RESSOURCES", "pts": "10 points" },
+    { "type": "text", "text": "Cette partie comporte deux activites : une activite numerique et geometrique." },
+
+    { "type": "subsection", "title": "ACTIVITES NUMERIQUES", "pts": "5 points" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "1,5 point" },
+    { "type": "text", "text": "On considere le nombre $A=\\frac{2+\\sqrt{3}}{2-\\sqrt{3}}$." },
+    { "type": "text", "text": "1. Calculer $(2+\\sqrt{3})^2$. 0,5 pt" },
+    { "type": "text", "text": "2. Montrer que $A=7+4\\sqrt{3}$. 0,5 pt" },
+    { "type": "text", "text": "3. Sachant que $1,732<\\sqrt{3}<1,733$, determiner un encadrement de $A$ par deux nombres decimaux d'ordre 2. 0,5 pt" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "1,5 point" },
+    { "type": "text", "text": "1. On considere l'expression $B=(x-2)^2+(x-2)(x+4)$." },
+    { "type": "text", "text": "Ecrire $B$ sous la forme d'un produit de facteurs du premier degre. 0,75 pt" },
+    { "type": "text", "text": "2. On considere la fraction rationnelle $C=\\frac{(x-2)(2x+1)}{(x-2)(x+3)}$." },
+    { "type": "text", "text": "Donner la condition d'existence d'une valeur numerique de $C$ puis simplifier $C$. 0,75 pt" },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "2 points" },
+    { "type": "text", "text": "Le tableau suivant recapitule les notes sur 20 en mathematiques de 50 eleves d'une classe de troisieme avec une donnee manquante." },
+    { "type": "table", "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [0;4[ & [4;8[ & [8;12[ & [12;16[ & [16;20[ \\\\ \\hline\\text{Effectifs} & 13 & 15 & 10 & 5 & \\ \\hline\\end{array}$$" },
+    { "type": "text", "text": "1. Quel est le caractere etudie et quelle est sa nature ? 0,5 pt" },
+    { "type": "text", "text": "2. Justifier que l'effectif de la classe $[16;20[$ est 7. 0,25 pt" },
+    { "type": "text", "text": "3. Quelle est la classe modale de cette serie statistique ? 0,25 pt" },
+    { "type": "text", "text": "4. Calculer la moyenne des notes sur 20 en mathematiques de cette classe. 1 pt" },
+
+    { "type": "subsection", "title": "ACTIVITES GEOMETRIQUES", "pts": "5 points" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "1,5 point" },
+    { "type": "text", "text": "Le plan est muni d'un repere orthonorme $(O,I,J)$. On considere les points $A$, $B$ et $C$ de coordonnees respectives $(2;2)$ ; $(-3;1)$ et $(4;-2)$." },
+    { "type": "text", "text": "Repondre par Vrai ou Faux :" },
+    { "type": "text", "text": "1. Le couple de coordonnees du vecteur $\\overrightarrow{AB}$ est $(-5;-1)$. 0,5 pt" },
+    { "type": "text", "text": "2. La distance $AC$ est egale a $3\\sqrt{3}$. 0,5 pt" },
+    { "type": "text", "text": "3. Une equation cartesienne de la droite $(AB)$ est $x-5y+8=0$. 0,5 pt" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "2 points" },
+    { "type": "text", "text": "Sur la figure ci-contre, $ABC$ est un triangle rectangle en $C$ tel que $AB=5cm$, $BC=3cm$ et $AC=4cm$. $E$ est un point de $[AB]$ tel que $AE=4cm$. La droite passant par $E$ et parallele a $(BC)$ coupe $[AC]$ en $F$. $(C)$ est le cercle de centre $O$, circonscrit au triangle $ABC$. $M$ est un point du cercle $(C)$." },
+    { "type": "image", "src": "/images/bepc2024-geo-ex2.jpg", "text": "Figure geometrique BEPC 2024 - exercice 2" },
+    { "type": "text", "text": "1. Calculer $\\cos\\widehat{BAC}$ et en deduire l'arrondi a $10^{-1}$ pres de la mesure de l'angle $\\widehat{BAC}$. 0,75 pt" },
+    { "type": "text", "text": "2. Justifier que les angles $\\widehat{BAC}$ et $\\widehat{BMC}$ ont la meme mesure. 0,5 pt" },
+    { "type": "text", "text": "3. Calculer la distance $EF$. 0,75 pt" },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "1,5 point" },
+    { "type": "text", "text": "La figure ci-contre represente une pyramide reguliere $SABCD$ de hauteur $SM=6cm$ et dont la base est carree de cote $AB=4cm$." },
+    { "type": "text", "text": "On coupe cette pyramide suivant un plan parallele a la base et passant par le point $N$ tel que $SN=\\frac{1}{2}SM$." },
+    { "type": "image", "src": "/images/bepc2024-geo-ex3.jpg", "text": "Figure geometrique BEPC 2024 - exercice 3" },
+    { "type": "text", "text": "1. Calculer le volume $V$ de la pyramide $SABCD$. 0,75 pt" },
+    { "type": "text", "text": "2. En deduire le volume $v$ de la pyramide reduite $SEFGH$. 0,75 pt" },
+
+    { "type": "section", "title": "PARTIE B - EVALUATION DES COMPETENCES", "pts": "10 points" },
+    { "type": "exercise", "title": "Situation" },
+    { "type": "text", "text": "Le proprietaire d'un hotel voudrait effectuer des travaux de refection. Son comptable a envisage de faire financer les $\\frac{2}{5}$ du montant total du budget des travaux par une banque, le $\\frac{1}{4}$ du montant total de ce budget par une partie des recettes et le reste, soit la somme de $12\\ 225\\ 000\\ \\text{FCFA}$ par ses economies personnelles." },
+    { "type": "text", "text": "Avant de commencer les travaux, il voudrait connaitre le montant exact du budget total des travaux, mais son comptable est absent." },
+    { "type": "text", "text": "Une partie des travaux concerne le renouvellement du carrelage d'une cuisine de forme rectangulaire de longueur $4,80$ metres et largeur $3$ metres. Il envisage utiliser des carreaux carres ayant la plus grande dimension possible, poses sans espaces." },
+    { "type": "text", "text": "Une autre partie des travaux concerne la peinture des murs. Il a achete un total de $10$ seaux de peinture comprenant des seaux de peinture a huile et a eau. Un seau de peinture a eau coute $40\\ 000\\ \\text{FCFA}$ et un seau de peinture a huile $60\\ 000\\ \\text{FCFA}$ pour un montant total de $440\\ 000\\ \\text{FCFA}$." },
+
+    { "type": "exercise", "title": "Taches" },
+    { "type": "text", "text": "1. Calculer le montant total du budget des travaux de refection. 3 pts" },
+    { "type": "text", "text": "2. Calculer le nombre minimal de carreaux a acheter pour le renouvellement du carrelage. 3 pts" },
+    { "type": "text", "text": "3. Calculer le nombre de seaux de peinture de chaque type qui ont ete achetes. 3 pts" }
+  ]
+}
