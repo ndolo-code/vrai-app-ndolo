@@ -4,6 +4,8 @@ import { autoTranslate } from "./auto-translate"
 import bepcIndex from "@/public/data/bepc/index.json"
 import bepc1999Subject from "@/public/data/bepc/1999/subject.json"
 import bepc1999Correction from "@/public/data/bepc/1999/correction.json"
+import bepc2020Subject from "@/public/data/bepc/2020/subject.json"
+import bepc2020Correction from "@/public/data/bepc/2020/correction.json"
 import bepc2021Subject from "@/public/data/bepc/2021/subject.json"
 import bepc2021Correction from "@/public/data/bepc/2021/correction.json"
 import bepc2022Subject from "@/public/data/bepc/2022/subject.json"
@@ -21,16 +23,19 @@ type LocalSection = {
   text?: string
   pts?: string
   src?: string
+  en?: string
 }
 
 type LocalExamDoc = {
   title: string
+  titleEn?: string
   sections: LocalSection[]
 }
 
 // Keep all locally available BEPC years synchronized with index.json
 const LOCAL_BEPC_SUBJECTS = {
   1999: bepc1999Subject,
+  2020: bepc2020Subject,
   2021: bepc2021Subject,
   2022: bepc2022Subject,
   2023: bepc2023Subject,
@@ -40,6 +45,7 @@ const LOCAL_BEPC_SUBJECTS = {
 
 const LOCAL_BEPC_CORRECTIONS = {
   1999: bepc1999Correction,
+  2020: bepc2020Correction,
   2021: bepc2021Correction,
   2022: bepc2022Correction,
   2023: bepc2023Correction,
@@ -203,14 +209,14 @@ function translateExamText(value?: string, type?: LocalSection["type"]): string 
 
 function normalizeDoc(doc: LocalExamDoc): ExamSection[] {
   return [
-    { type: "main", title: doc.title, en: translateExamText(doc.title, "main") },
+    { type: "main", title: doc.title, en: doc.titleEn ?? translateExamText(doc.title, "main") },
     ...doc.sections.map((s) => ({
       type: s.type,
       title: s.title,
       text: s.text,
       pts: s.pts,
       src: s.src,
-      en: translateExamText(s.text ?? s.title, s.type),
+      en: s.en ?? translateExamText(s.text ?? s.title, s.type),
     })) as ExamSection[],
   ]
 }
