@@ -1,0 +1,297 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2020",
+  "titleEn": "The Mathematics Examination - BEPC 2020",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte les parties A et B. Cette epreuve est notee sur 80 points.",
+      "en": "The examination consists of Parts A and B. It is marked out of 80 points."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A - EVALUATION DES RESSOURCES",
+      "pts": "40 points",
+      "en": "PART A - ASSESSMENT OF KNOWLEDGE"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux activites : une activite numerique et geometrique.",
+      "en": "This part consists of two activities: one numerical and one geometrical."
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES NUMERIQUES",
+      "pts": "20 points",
+      "en": "NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This section consists of three independent exercises: 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "1. Determine le couple $(x,y)$ des reels tel que $75\\ 125\\ 3900\\ 42\\ x\\ y\\ x\\ y\\ +\\ =\\ +\\ =$.",
+      "en": "1. Determine the pair $(x,y)$ of real numbers such that $75\\ 125\\ 3900\\ 42\\ x\\ y\\ x\\ y\\ +\\ =\\ +\\ =$."
+    },
+    {
+      "type": "text",
+      "text": "2. Les notes obtenues par les 60 eleves d'une classe de troisieme au BEPC en mathematiques se presentent comme suit :",
+      "en": "2. The marks obtained by the 60 students of a Form Three class in Mathematics at the BEPC examination are distributed as follows:"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Notes sur 20} & [0;5[ & [5;10[ & [10;15[ & [15;20[ \\\\ \\hline\\text{Effectifs} & 08 & a & b & 10 \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Marks out of 20} & [0;5[ & [5;10[ & [10;15[ & [15;20[ \\\\ \\hline\\text{Frequencies} & 08 & a & b & 10 \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "2.1 Calcule $a+b$.",
+      "pts": "1 pt",
+      "en": "2.1 Calculate $a+b$."
+    },
+    {
+      "type": "text",
+      "text": "2.2 Exprime en fonction des nombres $a$ et $b$, la moyenne de cette serie.",
+      "pts": "1 pt",
+      "en": "2.2 Express, in terms of $a$ and $b$, the mean of this distribution."
+    },
+    {
+      "type": "text",
+      "text": "2.3 Determine les nombres $a$ et $b$ sachant que la note moyenne $M$ obtenue en mathematiques par ces eleves a cet examen est de $09,75/20$.",
+      "pts": "1 pt",
+      "en": "2.3 Determine the values of $a$ and $b$ given that the mean mark $M$ obtained by these students is $09.75/20$."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "1. Developpe, puis donne le resultat sous forme reduite et ordonnee suivant les puissances decroissantes de $x$, l'expression $(2\\ 3\\ 2\\ 3\\ 1\\ 3\\ 4\\ x\\ x\\ x\\ x\\ −\\ +\\ +\\ −\\ +)(\\ )(\\ )( \\ )$.",
+      "pts": "4 pts",
+      "en": "1. Expand, then give the result in simplified form arranged in descending powers of $x$, the expression $(2\\ 3\\ 2\\ 3\\ 1\\ 3\\ 4\\ x\\ x\\ x\\ x\\ −\\ +\\ +\\ −\\ +)(\\ )(\\ )( \\ )$."
+    },
+    {
+      "type": "text",
+      "text": "2. Ecris chacune des expressions suivantes comme produit de deux polynomes du premier degre :",
+      "en": "2. Write each of the following expressions as the product of two first-degree polynomials:"
+    },
+    {
+      "type": "text",
+      "text": "2.1 $2\\ 4\\ 12\\ 9\\ x\\ x\\ −\\ +$;",
+      "pts": "2 pts",
+      "en": "2.1. $2\\ 4\\ 12\\ 9\\ x\\ x\\ −\\ +$;"
+    },
+    {
+      "type": "text",
+      "text": "2.2 $(2\\ 1\\ 4\\ 7\\ 2\\ 8\\ 2\\ x\\ x\\ x\\ x\\ +\\ −\\ +\\ +\\ −)(\\ )(\\ )( \\ )$.",
+      "pts": "4 pts",
+      "en": "2.2. $(2\\ 1\\ 4\\ 7\\ 2\\ 8\\ 2\\ x\\ x\\ x\\ x\\ +\\ −\\ +\\ +\\ −)(\\ )(\\ )( \\ )$."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "Calcule sous forme de fraction irreductible, la valeur numerique de $2\\ 2\\ 3\\ 1\\ x\\ x\\ x\\ −\\ +\\ −$.",
+      "pts": "4 pts",
+      "en": "Calculate, in irreducible fraction form, the numerical value of $2\\ 2\\ 3\\ 1\\ x\\ x\\ x\\ −\\ +\\ −$."
+    },
+    {
+      "type": "text",
+      "text": "Pour $x=2$, puis pour $x=2\\ 3$.",
+      "en": "For $x=2$, then for $x=2\\ 3$."
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES GEOMETRIQUES",
+      "pts": "20 points",
+      "en": "GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This section consists of three independent exercises: 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Le plan est rapporte a un repere orthonorme $(O,I,J)$, $K$ et $L$ sont les points de coordonnees respectives $(2;1)$ et $(5;3)$.",
+      "en": "The plane is equipped with an orthonormal coordinate system $(O,I,J)$; $K$ and $L$ are the points with respective coordinates $(2;1)$ and $(5;3)$."
+    },
+    {
+      "type": "text",
+      "text": "1. Ecris une equation cartesienne de la droite $(KL)$.",
+      "pts": "4 pts",
+      "en": "1. Write a Cartesian equation of the line $(KL)$."
+    },
+    {
+      "type": "text",
+      "text": "2. Ecris la bonne reponse : une droite parallele a $(KL)$ a pour coefficient directeur : a) $\\frac{3}{2}$ ; b) $\\frac{2}{3}-\\ $ ; c) $\\frac{3}{2}-\\ $ ; d) $\\frac{2}{3}$.",
+      "pts": "3 pts",
+      "en": "2. Write the correct answer: a line parallel to $(KL)$ has slope: a) $\\frac{3}{2}$; b) $\\frac{2}{3}-\\ $; c) $\\frac{3}{2}-\\ $; d) $\\frac{2}{3}$."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "$EFGH$ est un parallelogramme de centre $M$.",
+      "en": "$EFGH$ is a parallelogram with center $M$."
+    },
+    {
+      "type": "text",
+      "text": "Repondre sans justification, par Vrai ou Faux pour chacune des affirmations suivantes :",
+      "en": "Answer without justification, by True or False, for each of the following statements:"
+    },
+    {
+      "type": "text",
+      "text": "1. $G$ est l'image de $E$ par la translation de vecteur $EF$.",
+      "pts": "1 pt",
+      "en": "1. $G$ is the image of $E$ under the translation with vector $EF$."
+    },
+    {
+      "type": "text",
+      "text": "2. $F$ est l'image de $H$ par l'homothetie de centre $M$, et de rapport $2,5$.",
+      "pts": "1 pt",
+      "en": "2. $F$ is the image of $H$ under the homothety with center $M$ and ratio $2.5$."
+    },
+    {
+      "type": "text",
+      "text": "3. $HF\\ HG\\ HE=\\ +$.",
+      "pts": "1 pt",
+      "en": "3. $HF\\ HG\\ HE=\\ +$."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "$ABCD$ est un quadrilatere. $I$ est le point du segment $[AC]$ tel que, en centimetres, $AI=2$ et $BI=4$. Les droites $(AB)$ et $(CD)$ sont perpendiculaires a la droite $(AC)$ et le point $O$ designe le milieu du segment $[BI]$.",
+      "en": "$ABCD$ is a quadrilateral. $I$ is a point on segment $[AC]$ such that, in centimeters, $AI=2$ and $BI=4$. The lines $(AB)$ and $(CD)$ are perpendicular to line $(AC)$, and point $O$ is the midpoint of segment $[BI]$."
+    },
+    {
+      "type": "text",
+      "text": "1. Justifie que les droites $(AB)$ et $(CD)$ sont paralleles.",
+      "pts": "1 pt",
+      "en": "1. Justify that lines $(AB)$ and $(CD)$ are parallel."
+    },
+    {
+      "type": "text",
+      "text": "2. Calcule $AB$.",
+      "pts": "3 pts",
+      "en": "2. Calculate $AB$."
+    },
+    {
+      "type": "text",
+      "text": "3. Calcule $\\cos(ABI)$, puis donne une mesure en degres de l'angle $ABI$.",
+      "pts": "3 pts",
+      "en": "3. Calculate $\\cos(ABI)$, then give a measure in degrees of angle $ABI$."
+    },
+    {
+      "type": "text",
+      "text": "4. Nomme le centre du cercle circonscrit au triangle $AIB$ et determine une mesure en degres de l'angle $AOI$.",
+      "pts": "3 pts",
+      "en": "4. Name the center of the circumscribed circle of triangle $AIB$ and determine a measure in degrees of angle $AOI$."
+    },
+    {
+      "type": "image",
+      "src": "https://www.ndolomath.com/wp-content/uploads/2025/12/s.a.geo-13.jpg",
+      "text": "Solution activite geometrique 13",
+      "en": "Geometric activity solution 13"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B - EVALUATION DES COMPETENCES",
+      "pts": "40 points",
+      "en": "PART B - ASSESSMENT OF COMPETENCIES"
+    },
+    {
+      "type": "text",
+      "text": "Pour tous les calculs, on prendra $\\pi=3,14$.",
+      "en": "For all calculations, use $\\pi=3.14$."
+    },
+    {
+      "type": "exercise",
+      "title": "Situation",
+      "en": "Situation"
+    },
+    {
+      "type": "text",
+      "text": "Ngono habite en ville et se rend au village pour rendre visite a sa grand-mere pendant trois jours. Ngono vient de souffrir d'infections intestinales et son medecin a conseille de ne boire que de l'eau minerale, au minimum 3 litres par jour. Au depart de la ville, Ngono a oublie d'acheter de l'eau minerale et n'a aucune possibilite d'en avoir au village.",
+      "en": "Ngono lives in the city and travels to the village to visit her grandmother for three days. Ngono has recently suffered from intestinal infections, and her doctor advised her to drink only mineral water and at least 3 liters per day. Upon leaving the city, Ngono forgot to buy mineral water and has no possibility of obtaining any in the village."
+    },
+    {
+      "type": "text",
+      "text": "Un jardinier a 8 pasteques de forme spherique, chacune de diametre 14 cm. Il propose de les vendre toutes a 300 francs l'unite. Ces pasteques contiennent $85\\%$ d'eau.",
+      "en": "A local gardener has 8 spherical watermelons, each with a diameter of 14 cm. He offers to sell all of them at 300 francs each. These watermelons contain $85\\%$ water."
+    },
+    {
+      "type": "text",
+      "text": "Ngono a aussi une boite academique indiquant, pour une sphere de rayon $R$ : aire totale $=\\ 2\\ 4\\pi\\ R$ ; volume $=\\ 4\\ 2\\ 3\\ \\pi\\ R$.",
+      "en": "Ngono also has an academic box indicating, for a sphere of radius $R$: total surface area $=\\ 2\\ 4\\pi\\ R$; volume $=\\ 4\\ 2\\ 3\\ \\pi\\ R$."
+    },
+    {
+      "type": "text",
+      "text": "Ngono dispose d'un paquet contenant huit emballages biodegradables rectangulaires de largeur 24,6 cm et de longueur 25 cm.",
+      "en": "Ngono has a pack containing eight biodegradable rectangular wrappings, 24.6 cm wide and 25 cm long."
+    },
+    {
+      "type": "text",
+      "text": "Un conducteur de moto propose d'aller en ville acheter de l'eau minerale, mais exige l'equivalent en carburant de 2 bidons cylindriques (diametre 8 cm, hauteur 20 cm). Le litre de carburant coute 545 francs et la palette de 6 bouteilles d'eau minerale de 1,5 litre coute 1500 francs.",
+      "en": "A motorcycle rider offers to go to town to buy mineral water, but asks for fuel equivalent to the content of 2 cylindrical cans (diameter 8 cm, height 20 cm). One liter of fuel costs 545 francs, and a pack of 6 bottles of mineral water (1.5 liters each) costs 1500 francs."
+    },
+    {
+      "type": "image",
+      "src": "https://www.ndolomath.com/wp-content/uploads/2025/12/s.a.geo-14.jpg",
+      "text": "Solution activite geometrique 14",
+      "en": "Geometric activity solution 14"
+    },
+    {
+      "type": "exercise",
+      "title": "Taches",
+      "en": "Tasks"
+    },
+    {
+      "type": "text",
+      "text": "1. Les huit pasteques sont-elles necessaires pour apporter a Ngono le besoin en eau pendant son sejour au village ?",
+      "pts": "12 pts",
+      "en": "1. Are the eight watermelons sufficient to meet Ngono's water needs during her stay in the village?"
+    },
+    {
+      "type": "text",
+      "text": "2. Une piece d'emballage est-elle suffisante pour couvrir totalement une pasteque ?",
+      "pts": "12 pts",
+      "en": "2. Is one wrapping sheet enough to cover a watermelon completely?"
+    },
+    {
+      "type": "text",
+      "text": "3. Quelle est l'option la plus avantageuse pour Ngono en termes de depenses ?",
+      "pts": "12 pts",
+      "en": "3. Which option is more economical for Ngono?"
+    },
+    {
+      "type": "text",
+      "text": "Presentation :",
+      "pts": "4 pts",
+      "en": "Presentation:"
+    }
+  ]
+}

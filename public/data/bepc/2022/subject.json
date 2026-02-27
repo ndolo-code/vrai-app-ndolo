@@ -1,0 +1,66 @@
+{
+  "title": "BEPC 2022 - Sujet de mathematiques",
+  "sections": [
+    { "type": "text", "text": "L'epreuve comporte les parties A et B." },
+
+    { "type": "section", "title": "PARTIE A - EVALUATION DES RESSOURCES", "pts": "10 points" },
+    { "type": "text", "text": "Cette partie comporte deux activites : une activite numerique et geometrique." },
+
+    { "type": "subsection", "title": "ACTIVITES NUMERIQUES", "pts": "5 points" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "2 points" },
+    { "type": "text", "text": "1. Calculer le nombre $A=\\frac{2}{3}\\times\\frac{6}{5}+\\left(\\frac{2}{3}+\\frac{6}{5}\\right)$ et donner le resultat sous la forme d'une fraction irreductible. 0,75 pt" },
+    { "type": "text", "text": "2. On donne le nombre $B=\\frac{2}{2-\\sqrt{3}}$." },
+    { "type": "text", "text": "a) Ecrire le nombre $B$ sans radical au denominateur. 0,5 pt" },
+    { "type": "text", "text": "b) Sachant que $1,732<\\sqrt{3}<1,733$, donner un encadrement d'ordre 2 de $4+2\\sqrt{3}$. 0,75 pt" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "1,25 point" },
+    { "type": "text", "text": "On considere l'expression $C=4x^2-9-(2x-3)(3x-4)+(2x+1)(2x-3)$." },
+    { "type": "text", "text": "1. Ecrire $C$ sous la forme d'un produit de facteurs du premier degre. 0,75 pt" },
+    { "type": "text", "text": "2. Determiner les solutions de l'equation $(x+8)(2x-3)=0$. 0,5 pt" },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "1,75 point" },
+    { "type": "text", "text": "Le tableau statistique ci-dessous est celui des notes en mathematiques de 50 eleves d'une classe de troisieme. Ces notes sont regroupees en classes d'amplitude 5." },
+    { "type": "table", "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [0;5[ & [5;10[ & [10;15[ & [15;20[ & \\text{Total} \\\\ \\hline\\text{Effectifs} & 17 &  & 12 & 10 & 50 \\\\ \\hline\\text{Centres des classes} & 2,5 &  & 12,5 &  & / \\\\ \\hline\\end{array}$$" },
+    { "type": "text", "text": "1. Reproduire et completer le tableau ci-dessus. 1 pt" },
+    { "type": "text", "text": "2. Donner la classe modale de cette serie statistique. 0,25 pt" },
+    { "type": "text", "text": "3. Choisir et recopier la bonne reponse parmi celles qui sont proposees. La moyenne des notes en mathematiques de cette classe de troisieme est : a) 8 ; b) 8,5 ; c) 9 ; d) 9,5. 0,5 pt" },
+
+    { "type": "subsection", "title": "ACTIVITES GEOMETRIQUES", "pts": "5 points" },
+    { "type": "text", "text": "Cette partie comporte deux exercices independants 1 et 2." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "2,25 points" },
+    { "type": "text", "text": "La figure ci-contre represente un terrain ayant la forme d'un trapeze $ABCD$ rectangle en $A$ et $D$. On suppose que $AB=50m$, $AD=40m$ et que l'aire du terrain est egale a $2600m^2$." },
+    { "type": "image", "src": "/images/bepc2022-geo-ex2.jpg", "text": "Figure geometrique BEPC 2022 - exercice 1" },
+    { "type": "text", "text": "1. a) Montrer que $DC=80m$. 0,5 pt" },
+    { "type": "text", "text": "b) En deduire que $HC=30m$. 0,25 pt" },
+    { "type": "text", "text": "2. Calculer $BC$. 0,25 pt" },
+    { "type": "text", "text": "3. Calculer $\\tan DCB$ et en deduire l'arrondi de la mesure de l'angle $DCB$ a $1^\\circ$ pres. 0,75 pt" },
+    { "type": "text", "text": "4. Donner l'image de $A$ par la translation de vecteur $BH$. 0,25 pt" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "2,75 points" },
+    { "type": "text", "text": "Dans la figure ci-dessous, le plan est muni d'un repere orthonorme $(O,I,J)$ dans lequel sont representes les points $A(-1;1)$, $B(-3;3)$ et $C(1;3)$ ainsi que les droites $(D_1)$, $(D_2)$ et $(D_3)$. Les droites $(D_1)$ et $(D_2)$ se coupent en $A$. $(D_3)$ coupe $(D_2)$ en $B$ et $(D_1)$ en $C$." },
+    { "type": "image", "src": "/images/bepc2022-geo-ex1.webp", "text": "Figure repere BEPC 2022 - exercice 2" },
+    { "type": "text", "text": "1. a) Determiner par lecture graphique les coordonnees des vecteurs $AB$ et $AC$ puis montrer que ces vecteurs sont orthogonaux. 0,75 pt" },
+    { "type": "text", "text": "b) Determiner les distances $AB$ et $AC$. 0,5 pt" },
+    { "type": "text", "text": "c) En deduire la nature exacte du triangle $ABC$. 0,25 pt" },
+    { "type": "text", "text": "2. Associer chaque droite a son equation cartesienne en inscrivant son nom dans la case correspondante. 0,75 pt" },
+    { "type": "table", "text": "$$\\begin{array}{|c|c|c|}\\hline\\text{Equation cartesienne} & y=3 & y=x+2 \\\\ \\hline\\text{Droite} &  &  \\\\ \\hline\\end{array}$$" },
+    { "type": "table", "text": "$$\\begin{array}{|c|c|}\\hline\\text{Equation cartesienne} & y=-x \\\\ \\hline\\text{Droite} &  \\\\ \\hline\\end{array}$$" },
+    { "type": "text", "text": "3. Reproduire la figure et y representer en hachurant l'ensemble solution du systeme $\\left\\{\\begin{array}{l} x-y+2>0 \\\\ x+y<0 \\end{array}\\right.$. 0,5 pt" },
+
+    { "type": "section", "title": "PARTIE B - EVALUATION DES COMPETENCES", "pts": "10 points" },
+    { "type": "exercise", "title": "Situation" },
+    { "type": "text", "text": "Une societe de travaux publics est chargee de realiser des travaux de construction d'une route. Pour le ravitaillement en carburant, elle utilise un camion dont la citerne a la forme d'un cylindre de hauteur $AB=8cm$ ayant une demi-sphere de rayon $EF=1cm$ sur chacune de ses bases." },
+    { "type": "text", "text": "Le contenu de cette citerne pleine est deverse a chaque voyage dans des cuves de 1000 litres chacune." },
+    { "type": "text", "text": "L'eau destinee aux travaux de maconnerie est contenue dans un reservoir ayant la forme d'un cylindre de hauteur $H=2,5m$ et de rayon de base $OA=1m$, ayant un cone de revolution de hauteur $h=1,5m$ sur une de ses bases ; cette eau est mesuree dans des seaux de 10 litres." },
+    { "type": "text", "text": "Certains macons sont charges de fabriquer des bornes kilometriques ayant la forme d'un pave droit de dimensions $20cm\\times40cm\\times50cm$, surmonte d'un demi-cylindre de hauteur $20cm$ et de rayon $20cm$ en utilisant une quantite journaliere de $\\frac{1}{3}m^3$ de beton." },
+
+    { "type": "exercise", "title": "Taches" },
+    { "type": "text", "text": "1. Calculer le nombre maximum de cuves de carburant pleines que l'on peut remplir en un voyage du camion-citerne. 3 pts" },
+    { "type": "text", "text": "2. Calculer le nombre maximum de seaux d'eau pleins que l'on peut remplir avec le contenu d'un reservoir plein. 3 pts" },
+    { "type": "text", "text": "3. Calculer le nombre maximum de bornes kilometriques que l'on peut fabriquer avec la quantite journaliere de beton. 3 pts" },
+    { "type": "text", "text": "Prendre $\\pi=3,14$. Presentation : 1 pt" }
+  ]
+}
