@@ -1,3 +1,4 @@
+import { LOCAL_BEPC_YEARS } from "@/lib/bepc-local-data"
 // ========================================
 // NDOLOMATH — All static data
 // ========================================
@@ -27,11 +28,20 @@ export const CLASSES: ClassInfo[] = [
 ]
 
 export function getExamYears(c: ClassInfo): number[] {
+  if (c.id === "3e") return [...LOCAL_BEPC_YEARS].sort((a, b) => b - a)
   if (!c.examYearRange) return []
   const [s, e] = c.examYearRange
   const y: number[] = []
   for (let i = e; i >= s; i--) y.push(i)
   return y
+}
+
+export const CHAPTER_TIPS: Record<string, Record<string, string[]>> = {
+  "3e": {},
+}
+
+export function getChapterTips(classId: string, chapter: string): string[] {
+  return CHAPTER_TIPS[classId]?.[chapter] || []
 }
 
 // ===================== COUNTRY PHONE CODES =====================
@@ -119,6 +129,7 @@ export const MATHEMATICIANS = MATHEMATICIANS_DATA.map(m => m.name)
 export type TopbarTab = "classe" | "mathematiciens" | "conseils" | "quiz" | "tous"
 
 export const STUDY_ADVICE_ITEMS = [
+  { id: "prepare-bepc", label: "Prepare for the BEPC" },
   { id: "methods", label: "Methodes d'etude" },
   { id: "quotes", label: "Citations inspirantes" },
   { id: "tips", label: "Conseils pratiques" },
