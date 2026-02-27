@@ -1,0 +1,232 @@
+{
+  "title": "BEPC 2017 - Sujet de mathematiques",
+  "titleEn": "BEPC 2017 - Mathematics exam paper",
+  "sections": [
+    {
+      "type": "section",
+      "title": "PARTIE A- ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "PART A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A , B et C.",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux exercices independants 1 et 2.",
+      "en": "This part consists of two independent exercises 1 and 2."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "3 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Soit la fraction rationnelle $A=\\dfrac{1-x}{x+3}$.",
+      "en": "Let the rational fraction be $A=\\dfrac{1-x}{x+3}$."
+    },
+    {
+      "type": "text",
+      "text": "1- Donner la condition d'existence d'une valeur numerique de $A$. 0,5 pt",
+      "en": "1- State the condition for the existence of a numerical value of $A$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2- Calculer la valeur numerique de $A$ pour $x=2$ et montrer qu'elle est egale a $ \\dfrac{5-4\\sqrt{2}}{7}$. 1 pt",
+      "en": "2- Calculate the numerical value of $A$ for $x=2$ and show that it is equal to $ \\dfrac{5-4\\sqrt{2}}{7}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3- Sachant que $1,414<\\sqrt{2}<1,415$, determiner un encadrement de $ \\dfrac{5-4\\sqrt{2}}{7}$ d'amplitude $2\\times 10^{-3}$. 1,5 pt",
+      "en": "3- Given that $1.414<\\sqrt{2}<1.415$, determine a bound for $ \\dfrac{5-4\\sqrt{2}}{7}$ with amplitude $2\\times 10^{-3}$. 1.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "3,5 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "Le tableau statistique ci-dessous donne la repartition des notes de Mathematiques de 50 eleves d'une classe de 3eme a un devoir.",
+      "en": "The statistical table below gives the distribution of Mathematics marks of 50 Form Three students in a test."
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Intervalle de notes} & [0;5[ & [5;10[ & [10;15[ & [15;20[ \\\\ \\hline\\text{Effectif }(n_1) & 15 &  & 20 &  \\\\ \\hline\\text{Frequence (en \\%)} & 30\\% &  & 10\\% &  \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "1- Recopier et completer le tableau ci-dessus. 1 pt",
+      "en": "1- Copy and complete the table above. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2- Donner la nature du caractere etudie et la classe modale de la serie. 1 pt",
+      "en": "2- State the type of variable studied and the modal class of the distribution. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3- Dessiner le diagramme a bande de cette serie. 1,5 pt",
+      "en": "3- Draw the bar chart of this distribution. 1.5 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B- ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "PART B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux exercices independants 1 et 2.",
+      "en": "This part consists of two independent exercises 1 and 2."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "3,5 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "On donne un triangle $ABC$ rectangle en $A$ tel que $AB=8\\ \\text{cm}$ et $AC=6\\ \\text{cm}$.",
+      "en": "Consider a right-angled triangle $ABC$ at $A$ such that $AB=8\\ \\text{cm}$ and $AC=6\\ \\text{cm}$."
+    },
+    {
+      "type": "text",
+      "text": "1- Faire la figure. 0,5 pt",
+      "en": "1- Draw the diagram. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2- Montrer que $BC=10\\ \\text{cm}$. 0,5 pt",
+      "en": "2- Show that $BC=10\\ \\text{cm}$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3- a) Calculer le cosinus de l'angle $ABC$. 0,5 pt",
+      "en": "3- a) Calculate the cosine of angle $ABC$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) En deduire a un degre pres la mesure de l'angle $ABC$. 0,5 pt",
+      "en": "b) Deduce, to the nearest degree, the measure of angle $ABC$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "4- Soit $M$ un point de $[AB]$ et $N$ un point de $[AC]$ tels que $(MN)$ soit parallele a $(BC)$ et $AM=3\\ \\text{cm}$. Calculer $AN$ et $MN$. 1,5 pt",
+      "en": "4- Let $M$ be a point on $[AB]$ and $N$ a point on $[AC]$ such that $(MN)$ is parallel to $(BC)$ and $AM=3\\ \\text{cm}$. Calculate $AN$ and $MN$. 1.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "3 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "$SABCD$ est une pyramide reguliere de base carree telle que $AB=6\\ \\text{cm}$ et de volume $V=72\\ \\text{cm}^3$.",
+      "en": "$SABCD$ is a regular pyramid with a square base such that $AB=6\\ \\text{cm}$ and volume $V=72\\ \\text{cm}^3$."
+    },
+    {
+      "type": "image",
+      "src": "https://www.ndolomath.com/wp-content/uploads/2025/12/s.a.geo-8.jpg",
+      "text": "Figure activite geometrique",
+      "en": "Geometrical activity figure"
+    },
+    {
+      "type": "text",
+      "text": "1) Calculer la hauteur de cette pyramide. 1 pt",
+      "en": "1) Calculate the height of this pyramid. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2) On coupe cette pyramide par un plan parallele a la base.",
+      "en": "2) The pyramid is cut by a plane parallel to the base."
+    },
+    {
+      "type": "text",
+      "text": "a) Determiner le volume $V_1$ de la pyramide reduite sachant que le rapport de la reduction est $k=\\dfrac{1}{3}$. 1 pt",
+      "en": "a) Determine the volume $V_1$ of the reduced pyramid given that the reduction ratio is $k=\\dfrac{1}{3}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) En deduire le volume $V_2$ du tronc de pyramide. 1 pt",
+      "en": "b) Deduce the volume $V_2$ of the frustum. 1 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE C- PROBLEME",
+      "pts": "7 points",
+      "en": "PART C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "Arthur desire aller nager dans un club multisports qui lui propose les deux possibilites suivantes:",
+      "en": "Arthur wants to go swimming at a multisport club which offers him the following two options:"
+    },
+    {
+      "type": "text",
+      "text": "Option A: $1000F$ par seance.",
+      "en": "Option A: $1000F$ per session."
+    },
+    {
+      "type": "text",
+      "text": "Option B : un forfait annuel de $10000F$ auquel s'ajoute une participation de $500F$ par seance.",
+      "en": "Option B: an annual subscription of $10000F$ plus a fee of $500F$ per session."
+    },
+    {
+      "type": "text",
+      "text": "1) Reproduire et completer le tableau suivant: 1,5 pt",
+      "en": "1) Copy and complete the following table: 1.5 pt"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|}\\hline\\text{Nombre de seances annuelles} & 12 & 25 \\\\ \\hline\\text{Somme payee suivant l'option A} &  &  \\\\ \\hline\\text{Somme payee suivant l'option B} &  &  \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "2) On appelle $x$ le nombre de seances de natation annuel d'Arthur.",
+      "en": "2) Let $x$ be the number of swimming sessions Arthur attends per year."
+    },
+    {
+      "type": "text",
+      "text": "a) Exprimer en fonction de $x$ la somme $A(x)$ payee avec l'option $A$. 0,5 pt",
+      "en": "a) Express, in terms of $x$, the amount $A(x)$ paid under option $A$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Exprimer en fonction de $x$ la somme $B(x)$ payee avec l'option $B$. 1 pt",
+      "en": "b) Express, in terms of $x$, the amount $B(x)$ paid under option $B$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3) On considere les fonctions $f$ et $g$ definies par: $f(x)=1000x$ et $g(x)=500x+10000$.",
+      "en": "3) Consider the functions $f$ and $g$ defined by: $f(x)=1000x$ and $g(x)=500x+10000$."
+    },
+    {
+      "type": "text",
+      "text": "Dans la suite du probleme, on admettra que la fonction $f$ est associee a l'option $A$ et que la fonction $g$ est associee a l'option $B$.",
+      "en": "In the rest of the problem, it is admitted that function $f$ corresponds to option $A$ and function $g$ corresponds to option $B$."
+    },
+    {
+      "type": "text",
+      "text": "a) Construire les representations graphiques des fonctions $f$ et $g$. (Unite sur les axes : $1\\ \\text{cm}$ represente $2$ seances en abscisse et $1\\ \\text{cm}$ represente $4000\\ F$ en ordonnee) 2 pts",
+      "en": "a) Draw the graphs of functions $f$ and $g$. (Scale on the axes: $1\\ \\text{cm}$ represents $2$ sessions on the x-axis and $1\\ \\text{cm}$ represents $4000\\ F$ on the y-axis) 2 pts"
+    },
+    {
+      "type": "text",
+      "text": "b) Arthur dispose de $26000\\ F$. Lire sur le graphique le nombre de seances annuel de natation qu'il peut effectuer avec chacune des deux options. (Justifier par des traces en pointille.) 1 pt",
+      "en": "b) Arthur has $26000\\ F$. Read from the graph the number of swimming sessions per year he can attend with each of the two options. (Justify using dotted guide lines.) 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "c) Determiner par le calcul a partir de combien de seances en un an, l'option $B$ est plus avantageuse que l'option $A$. 1 pt",
+      "en": "c) Determine by calculation from how many sessions in one year option $B$ becomes more advantageous than option $A$. 1 pt"
+    }
+  ]
+}
