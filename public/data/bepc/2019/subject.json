@@ -1,0 +1,175 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2019",
+  "titleEn": "The Mathematics Examination - BEPC 2019",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte deux parties independantes A et B.",
+      "en": "The examination consists of two independent parts A and B."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A - EVALUATION DES RESSOURCES",
+      "pts": "10 points",
+      "en": "PART A - ASSESSMENT OF KNOWLEDGE"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux activites : une activite numerique et une activite geometrique.",
+      "en": "This part consists of two activities: a numerical activity and a geometrical activity."
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES NUMERIQUES",
+      "pts": "5 points",
+      "en": "NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux exercices independants 1 et 2.",
+      "en": "This section consists of two independent exercises: 1 and 2."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "1. Montrer que le nombre $M=\\left(\\frac{3}{2}\\right)^2-\\frac{5}{4}\\times\\frac{5}{2}-\\frac{9}{8}$ est un entier relatif.",
+      "pts": "1 pt",
+      "en": "1. Show that the number $M=\\left(\\frac{3}{2}\\right)^2-\\frac{5}{4}\\times\\frac{5}{2}-\\frac{9}{8}$ is an integer."
+    },
+    {
+      "type": "text",
+      "text": "2. Ecrire le nombre $N=\\frac{2}{2\\sqrt{5}-4}+\\sqrt{5}-4$ sous la forme $a\\sqrt{5}+b$ ou $a$ est un entier naturel.",
+      "pts": "1 pt",
+      "en": "2. Write the number $N=\\frac{2}{2\\sqrt{5}-4}+\\sqrt{5}-4$ in the form $a\\sqrt{5}+b$ where $a$ is a natural number."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "3 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "1. On considere les expressions $P=64-(5-2x)^2$ et $Q=\\frac{(2x+3)(13-2x)}{2x+3}$.",
+      "en": "1. Consider the expressions $P=64-(5-2x)^2$ and $Q=\\frac{(2x+3)(13-2x)}{2x+3}$."
+    },
+    {
+      "type": "text",
+      "text": "a) Factoriser $P$.",
+      "pts": "0,5 pt",
+      "en": "a) Factorize $P$."
+    },
+    {
+      "type": "text",
+      "text": "b) Determiner la condition d'existence d'une valeur numerique de $Q$ puis simplifier.",
+      "pts": "0,5 pt",
+      "en": "b) Determine the condition for the existence of a numerical value of $Q$, then simplify."
+    },
+    {
+      "type": "text",
+      "text": "c) Calculer la valeur numerique de $Q$ pour $x=\\frac{13}{2}$.",
+      "pts": "0,5 pt",
+      "en": "c) Calculate the numerical value of $Q$ for $x=\\frac{13}{2}$."
+    },
+    {
+      "type": "text",
+      "text": "2. Le tableau statistique ci-dessous est celui des notes en mathematiques des candidats a un concours :",
+      "en": "2. The statistical table below represents the Mathematics marks of candidates in a competitive examination:"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|c|c|c|c|}\\hline\\text{Notes sur 20} & 6 & 7 & 8 & 9 & 11 & 14 \\\\ \\hline\\text{Effectifs} & 8 & x & 15 & 7 & 3 & y \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|c|c|c|c|c|c|c|}\\hline\\text{Marks out of 20} & 6 & 7 & 8 & 9 & 11 & 14 \\\\ \\hline\\text{Frequencies} & 8 & x & 15 & 7 & 3 & y \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "Sachant que l'effectif total est $40$ et la moyenne $8$ sur $20$, determiner $x$ et $y$.",
+      "pts": "1,5 pt",
+      "en": "Given that the total number of candidates is $40$ and the mean mark is $8$ out of $20$, determine $x$ and $y$."
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES GEOMETRIQUES",
+      "pts": "5 points",
+      "en": "GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "3 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Le plan est muni du repere orthonorme $(O,I,J)$. On donne $A(-2;1)$, $B(1;-2)$ et $C(4;1)$.",
+      "en": "The plane is equipped with an orthonormal coordinate system $(O,I,J)$. The points are given as $A(-2;1)$, $B(1;-2)$ and $C(4;1)$."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "Un cone de revolution de hauteur $H=12\\ \\text{cm}$ et de rayon $R=3\\ \\text{cm}$ est sectionne a mi-hauteur.",
+      "en": "A right circular cone with height $H=12\\ \\text{cm}$ and radius $R=3\\ \\text{cm}$ is cut at mid-height."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B - EVALUATION DES COMPETENCES",
+      "pts": "10 points",
+      "en": "PART B - ASSESSMENT OF COMPETENCIES"
+    },
+    {
+      "type": "exercise",
+      "title": "Situation",
+      "en": "Situation"
+    },
+    {
+      "type": "text",
+      "text": "Le proprietaire d'un parc de loisir voudrait realiser des travaux d'amenagement sur un terrain represente sur le plan d'architecte ci-contre par le quadrilatere $EBLK$. Il decide pour cela d'amenager un premier espace couvert d'un gazon vendu a $2000\\ \\text{XAF}$ le $m^2$ et ayant la forme du triangle rectangle $ABE$, un deuxieme espace couvert de paves vendus a $3000\\ \\text{XAF}$ le $m^2$ et ayant la forme du trapeze $HTCB$ et un troisieme espace couvert d'un beton coutant $3500\\ \\text{XAF}$ le $m^2$ et ayant la forme du demi-disque de rayon $[DG]$. On precise que sur ce plan, on a : $AH=53\\ \\text{m}$, $AB=80\\ \\text{m}$, $MN=22\\ \\text{m}$ et $DA=DG$. Avant de commencer les travaux, il voudrait connaitre le cout du materiel necessaire pour couvrir chacun des trois espaces.",
+      "en": "The owner of a leisure park wishes to carry out development work on a piece of land represented on the architectural plan by quadrilateral $EBLK$. He plans to arrange a first area covered with grass costing $2000\\ \\text{XAF}$ per $m^2$ in the shape of right triangle $ABE$, a second area covered with paving stones costing $3000\\ \\text{XAF}$ per $m^2$ in the shape of trapezoid $HTCB$, and a third area covered with concrete costing $3500\\ \\text{XAF}$ per $m^2$ in the shape of a semicircle with radius $[DG]$. It is given that on the plan: $AH=53\\ \\text{m}$, $AB=80\\ \\text{m}$, $MN=22\\ \\text{m}$ and $DA=DG$. Before starting the work, he wants to determine the cost of materials needed to cover each of the three areas."
+    },
+    {
+      "type": "image",
+      "src": "https://www.ndolomath.com/wp-content/uploads/2025/12/s.a.geo-12.jpg",
+      "text": "Solution activite geometrique 12",
+      "en": "Geometrical activity solution 12"
+    },
+    {
+      "type": "exercise",
+      "title": "Taches",
+      "en": "Tasks"
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer le cout du gazon necessaire pour couvrir l'espace ayant la forme d'un triangle rectangle.",
+      "pts": "3 pts",
+      "en": "1. Calculate the cost of grass required to cover the area in the shape of a right triangle."
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer le cout des paves necessaires pour couvrir l'espace ayant la forme d'un trapeze.",
+      "pts": "3 pts",
+      "en": "2. Calculate the cost of paving stones required to cover the area in the shape of a trapezoid."
+    },
+    {
+      "type": "text",
+      "text": "3. Calculer le cout du beton necessaire pour couvrir l'espace ayant la forme d'un demi-disque. Prendre $\\pi=3,14$.",
+      "pts": "3 pts",
+      "en": "3. Calculate the cost of concrete required to cover the area in the shape of a semicircle. Take $\\pi=3.14$."
+    },
+    {
+      "type": "text",
+      "text": "Presentation :",
+      "pts": "1 pt",
+      "en": "Presentation:"
+    }
+  ]
+}
