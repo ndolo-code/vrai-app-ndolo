@@ -70,46 +70,43 @@
     {
       "type": "exercise",
       "title": "Exercice 2",
+      "pts": "10 points",
       "en": "Exercise 2"
     },
     {
       "type": "text",
-      "text": "1. Developpe, puis donne le resultat sous forme reduite et ordonnee suivant les puissances decroissantes de $x$, l'expression $(2\\ 3\\ 2\\ 3\\ 1\\ 3\\ 4\\ x\\ x\\ x\\ x\\ −\\ +\\ +\\ −\\ +)(\\ )(\\ )( \\ )$.",
+      "text": "1. Developpe, puis donne le resultat sous forme reduite et ordonnee suivant les puissances decroissantes de $x$, l'expression $$ (2x-3)(2x+3) + (1-x)(3x+4). $$",
       "pts": "4 pts",
-      "en": "1. Expand, then give the result in simplified form arranged in descending powers of $x$, the expression $(2\\ 3\\ 2\\ 3\\ 1\\ 3\\ 4\\ x\\ x\\ x\\ x\\ −\\ +\\ +\\ −\\ +)(\\ )(\\ )( \\ )$."
+      "en": "1. Expand, then give the result in simplified form arranged in descending powers of $x$, the expression $$ (2x-3)(2x+3) + (1-x)(3x+4). $$"
     },
     {
       "type": "text",
       "text": "2. Ecris chacune des expressions suivantes comme produit de deux polynomes du premier degre :",
-      "en": "2. Write each of the following expressions as the product of two first-degree polynomials:"
+      "en": "2. Write each of the following expressions as a product of two first-degree polynomials:"
     },
     {
       "type": "text",
-      "text": "2.1 $2\\ 4\\ 12\\ 9\\ x\\ x\\ −\\ +$;",
+      "text": "2.1 $4x^2 - 12x + 9$.",
       "pts": "2 pts",
-      "en": "2.1. $2\\ 4\\ 12\\ 9\\ x\\ x\\ −\\ +$;"
+      "en": "2.1 $4x^2 - 12x + 9$."
     },
     {
       "type": "text",
-      "text": "2.2 $(2\\ 1\\ 4\\ 7\\ 2\\ 8\\ 2\\ x\\ x\\ x\\ x\\ +\\ −\\ +\\ +\\ −)(\\ )(\\ )( \\ )$.",
+      "text": "2.2 $$ (2x+1)(x-4) + (7x+2)(8-2x). $$",
       "pts": "4 pts",
-      "en": "2.2. $(2\\ 1\\ 4\\ 7\\ 2\\ 8\\ 2\\ x\\ x\\ x\\ x\\ +\\ −\\ +\\ +\\ −)(\\ )(\\ )( \\ )$."
+      "en": "2.2 $$ (2x+1)(x-4) + (7x+2)(8-2x). $$"
     },
     {
       "type": "exercise",
       "title": "Exercice 3",
+      "pts": "04 points",
       "en": "Exercise 3"
     },
     {
       "type": "text",
-      "text": "Calcule sous forme de fraction irreductible, la valeur numerique de $2\\ 2\\ 3\\ 1\\ x\\ x\\ x\\ −\\ +\\ −$.",
+      "text": "Calcule sous forme de fraction irreductible, la valeur numerique de $$ \\frac{x^2 - x + 2}{3x - 1} $$ pour $x=2$, puis pour $x=\\frac{2}{3}$.",
       "pts": "4 pts",
-      "en": "Calculate, in irreducible fraction form, the numerical value of $2\\ 2\\ 3\\ 1\\ x\\ x\\ x\\ −\\ +\\ −$."
-    },
-    {
-      "type": "text",
-      "text": "Pour $x=2$, puis pour $x=2\\ 3$.",
-      "en": "For $x=2$, then for $x=2\\ 3$."
+      "en": "Calculate, in irreducible fraction form, the numerical value of $$ \\frac{x^2 - x + 2}{3x - 1} $$ for $x=2$, then for $x=\\frac{2}{3}$."
     },
     {
       "type": "subsection",
@@ -140,9 +137,9 @@
     },
     {
       "type": "text",
-      "text": "2. Ecris la bonne reponse : une droite parallele a $(KL)$ a pour coefficient directeur : a) $\\frac{3}{2}$ ; b) $\\frac{2}{3}-\\ $ ; c) $\\frac{3}{2}-\\ $ ; d) $\\frac{2}{3}$.",
+      "text": "2. Ecris la bonne reponse : une droite parallele a $(KL)$ a pour coefficient directeur : a) $\\frac{3}{2}$ ; b) $-\\frac{2}{3}$ ; c) $-\\frac{3}{2}$ ; d) $\\frac{2}{3}$.",
       "pts": "3 pts",
-      "en": "2. Write the correct answer: a line parallel to $(KL)$ has slope: a) $\\frac{3}{2}$; b) $\\frac{2}{3}-\\ $; c) $\\frac{3}{2}-\\ $; d) $\\frac{2}{3}$."
+      "en": "2. Write the correct answer: a line parallel to $(KL)$ has slope: a) $\\frac{3}{2}$; b) $-\\frac{2}{3}$; c) $-\\frac{3}{2}$; d) $\\frac{2}{3}$."
     },
     {
       "type": "exercise",
@@ -173,9 +170,9 @@
     },
     {
       "type": "text",
-      "text": "3. $HF\\ HG\\ HE=\\ +$.",
+      "text": "3. $\\overrightarrow{HF}=\\overrightarrow{HG}+\\overrightarrow{HE}$.",
       "pts": "1 pt",
-      "en": "3. $HF\\ HG\\ HE=\\ +$."
+      "en": "3. $\\overrightarrow{HF}=\\overrightarrow{HG}+\\overrightarrow{HE}$."
     },
     {
       "type": "exercise",
@@ -213,7 +210,7 @@
     },
     {
       "type": "image",
-      "src": "https://www.ndolomath.com/wp-content/uploads/2025/12/s.a.geo-13.jpg",
+      "src": "/images/bepc2020-geo-ex3.jpg",
       "text": "Solution activite geometrique 13",
       "en": "Geometric activity solution 13"
     },
@@ -260,7 +257,7 @@
     },
     {
       "type": "image",
-      "src": "https://www.ndolomath.com/wp-content/uploads/2025/12/s.a.geo-14.jpg",
+      "src": "/images/bepc2020-partb.jpg",
       "text": "Solution activite geometrique 14",
       "en": "Geometric activity solution 14"
     },
