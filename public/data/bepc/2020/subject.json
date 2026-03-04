@@ -36,8 +36,9 @@
     },
     {
       "type": "text",
-      "text": "1. Determine le couple $(x,y)$ des reels tel que $75\\ 125\\ 3900\\ 42\\ x\\ y\\ x\\ y\\ +\\ =\\ +\\ =$.",
-      "en": "1. Determine the pair $(x,y)$ of real numbers such that $75\\ 125\\ 3900\\ 42\\ x\\ y\\ x\\ y\\ +\\ =\\ +\\ =$."
+      "text": "1. Determine le couple $(x,y)$ des reels tels que $\\begin{cases}75x + 125y = 3900 \\\\ x + y = 42\\end{cases}$ 3 pts",
+      "en": "1. Determine the pair $(x,y)$ of real numbers such that $\\begin{cases}75x + 125y = 3900 \\\\ x + y = 42\\end{cases}$ 3 pts",
+      "pts": "3 pts"
     },
     {
       "type": "text",
