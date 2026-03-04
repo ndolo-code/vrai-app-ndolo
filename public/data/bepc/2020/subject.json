@@ -243,8 +243,8 @@
     },
     {
       "type": "text",
-      "text": "Ngono a aussi une boite academique indiquant, pour une sphere de rayon $R$ : aire totale $=\\ 2\\ 4\\pi\\ R$ ; volume $=\\ 4\\ 2\\ 3\\ \\pi\\ R$.",
-      "en": "Ngono also has an academic box indicating, for a sphere of radius $R$: total surface area $=\\ 2\\ 4\\pi\\ R$; volume $=\\ 4\\ 2\\ 3\\ \\pi\\ R$."
+      "text": "Ngono a aussi une boite academique indiquant, pour une sphere de rayon $R$, les informations suivantes : aire totale $= 4\\pi R^2$ ; volume $= \\dfrac{4}{3}\\pi R^3$.",
+      "en": "Ngono also has an academic box indicating, for a sphere of radius $R$: total surface area $= 4\\pi R^2$; volume $= \\dfrac{4}{3}\\pi R^3$."
     },
     {
       "type": "text",
