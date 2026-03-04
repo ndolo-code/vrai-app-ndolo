@@ -1007,7 +1007,7 @@ export const BEPC_EXAMS: Record<number, ExamSection[]> = {
 
   // ===================== BEPC 2011 =====================
   2011: [
-    main("L'epreuve de mathematiques du BEPC 2011", "BEPC 2011 Mathematics Exam"),
+    main("L'epreuve de mathematiques du BEPC 2011", "The Mathematics Examination - BEPC 2011"),
     t("L'epreuve comporte trois parties independantes A, B et C.",
       "The exam consists of three independent parts A, B and C."),
 
@@ -1017,7 +1017,9 @@ export const BEPC_EXAMS: Record<number, ExamSection[]> = {
 
     ex("Exercice 1 :", "2,5 points", "Exercise 1:"),
     t("Dans cet exercice pour chacune des questions posees il vous est proposee quatre reponses parmi lesquelles une seule est juste ; sans faire de calculs sur votre feuille de composition, reproduisez le numero de la question et la denomination de la reponse juste correspondante.",
-      "In this exercise, for each question four answers are proposed, only one of which is correct; without showing calculations, write the question number and the correct answer."),
+      "In this exercise, for each question you are given four answers labeled Answer a), Answer b), Answer c), and Answer d). Only one is correct. Without doing any calculations on your answer sheet, copy the question number and the letter of the correct answer."),
+    t("$1^{\\circ}) : 0,75pt \\ ; \\ 2^{\\circ}) : 0,75pt \\ ; \\ 3^{\\circ}) : 0,5pt \\ ; \\ 4^{\\circ}) : 0,5pt.$",
+      "$1^{\\circ}) : 0.75pt \\ ; \\ 2^{\\circ}) : 0.75pt \\ ; \\ 3^{\\circ}) : 0.5pt \\ ; \\ 4^{\\circ}) : 0.5pt.$"),
     t("$1^\\circ)$ $a=\\dfrac{\\dfrac{4}{3}+\\dfrac{7}{2}}{\\dfrac{1}{6}-\\dfrac{5}{3}}$, $a$ est egal a : a) $\\dfrac{29}{9}$ ; b) $-\\dfrac{29}{9}$ ; c) $\\dfrac{9}{29}$ ; d) $-\\dfrac{9}{29}$. 0,75 pt",
       "$1^\\circ)$ $a=\\dfrac{\\dfrac{4}{3}+\\dfrac{7}{2}}{\\dfrac{1}{6}-\\dfrac{5}{3}}$, $a$ equals: a) $\\dfrac{29}{9}$; b) $-\\dfrac{29}{9}$; c) $\\dfrac{9}{29}$; d) $-\\dfrac{9}{29}$. 0.75 pt"),
     t("$2^\\circ)$ $b=\\dfrac{\\sqrt{7}-\\sqrt{5}}{\\sqrt{7}+\\sqrt{5}}$, $b$ est egal a : a) $\\dfrac{\\sqrt{7}}{\\sqrt{7}}-\\dfrac{\\sqrt{5}}{\\sqrt{5}}$ ; b) $\\dfrac{\\sqrt{2}}{\\sqrt{12}}$ ; c) $\\sqrt{35}-6$ ; d) $6-\\sqrt{35}$. 0,75 pt",
@@ -1029,14 +1031,14 @@ export const BEPC_EXAMS: Record<number, ExamSection[]> = {
 
     ex("Exercice 2 :", "2,5 points", "Exercise 2:"),
     t("Le diagramme circulaire ci-contre represente la repartition de la population de six villages $A$, $B$, $C$, $D$, $E$, $F$. La population totale de l'ensemble des villages est $72000$ habitants.",
-      "The pie chart represents the distribution of the population of six villages $A$, $B$, $C$, $D$, $E$, $F$. The total population is $72,000$ inhabitants."),
+      "The pie chart shown alongside represents the distribution of the population of six villages $A$, $B$, $C$, $D$, $E$, and $F$. The total population of all the villages is $72000$ inhabitants."),
     img("/images/bepc2011-num-ex2.jpg", "Diagramme circulaire des populations des 6 villages"),
     t("1. Reproduire et completer le tableau ci-dessous en utilisant le diagramme ci-dessus : 1,5 pt",
       "1. Copy and complete the table below using the diagram above: 1.5 pt"),
-    tbl("$\\begin{array}{|c|c|c|c|c|c|c|c|}\\hline \\text{Villages} & A & B & C & D & E & F & \\text{Total} \\\\ \\hline \\text{Angles au centre} & & & & 20\\% & & 30\\% & 360^\\circ \\\\ \\hline \\text{Effectifs} & 12000 & & 6000 & 4000 & & 6000 & 72000 \\\\ \\hline \\end{array}$",
-      "$\\begin{array}{|c|c|c|c|c|c|c|c|}\\hline \\text{Villages} & A & B & C & D & E & F & \\text{Total} \\\\ \\hline \\text{Central angles} & & & & 20\\% & & 30\\% & 360^\\circ \\\\ \\hline \\text{Population} & 12000 & & 6000 & 4000 & & 6000 & 72000 \\\\ \\hline \\end{array}$"),
+    tbl("$\\begin{array}{|c|c|c|c|c|c|c|c|}\\hline \\text{Villages} & A & B & C & D & E & F & \\text{Total} \\\\ \\hline \\text{Mesure des angles au centre associes} & & & & 20\\% & & 30\\% & 360\\% \\\\ \\hline \\text{Effectifs de la population} & 12000 & & 6000 & 4000 & & 6000 & 72000 \\\\ \\hline \\end{array}$",
+      "$\\begin{array}{|c|c|c|c|c|c|c|c|}\\hline \\text{Villages} & A & B & C & D & E & F & \\text{Total} \\\\ \\hline \\text{Measures of the corresponding central angles} & & & & 20\\% & & 30\\% & 360\\% \\\\ \\hline \\text{Population counts} & 12000 & & 6000 & 4000 & & 6000 & 72000 \\\\ \\hline \\end{array}$"),
     t("2. Quelle est la nature du caractere de cette serie statistique ? 0,5 pt",
-      "2. What is the nature of the characteristic of this statistical series? 0.5 pt"),
+      "2. What is the nature of the variable in this statistical series? 0.5 pt"),
     t("3. Determiner le mode de cette serie. 0,5 pt",
       "3. Determine the mode of this series. 0.5 pt"),
 
@@ -1046,13 +1048,13 @@ export const BEPC_EXAMS: Record<number, ExamSection[]> = {
     t("2. M. Kafinda est menuisier. Pour realiser ses travaux, un atelier lui propose un contrat dont les termes sont les suivants : $2000$ Frs de caution non remboursable, puis $1500$ Frs par heure passee sur la machine a bois. Aujourd'hui, M. Kafinda a paye $11000$ Frs. Combien d'heures a-t-il passe sur la machine ? 1 pt",
       "2. Mr. Kafinda is a carpenter. A workshop offers him a contract: $2,000$ Frs non-refundable deposit, then $1,500$ Frs per hour on the woodworking machine. Today, Mr. Kafinda paid $11,000$ Frs. How many hours did he spend on the machine? 1 pt"),
 
-    sec("B- ACTIVITES GEOMETRIQUES :", "6,5 points", "B- GEOMETRY ACTIVITIES:"),
+    sec("B- ACTIVITES GEOMETRIQUES :", "6,5 points", "B - GEOMETRICAL ACTIVITIES:"),
     t("Cette partie comporte deux exercices independants 1 et 2.",
       "This part contains two independent exercises 1 and 2."),
 
     ex("Exercice 1 :", "3,5 points", "Exercise 1:"),
     t("Dans le plan rapporte a un repere orthonorme on considere les points $A(-2;1)$, $B(1;2)$ et $C(-3;0)$.",
-      "In the plane with an orthonormal coordinate system, consider points $A(-2;1)$, $B(1;2)$ and $C(-3;0)$."),
+      "In the plane with an orthonormal coordinate system, consider the points $A(-2;1)$, $B(1;2)$ and $C(-3;0)$."),
     t("1. Calculer les coordonnees des vecteurs $\\overrightarrow{AB}$ et $\\overrightarrow{AC}$. 1 pt",
       "1. Calculate the coordinates of vectors $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$. 1 pt"),
     t("2. Les points $A$, $B$ et $C$ sont-ils alignes ? Justifier. 1 pt",
@@ -1064,7 +1066,7 @@ export const BEPC_EXAMS: Record<number, ExamSection[]> = {
 
     ex("Exercice 2 :", "3 points", "Exercise 2:"),
     t("Sur la figure ci-contre $ABCD$ et $MNAL$ sont des carres, les droites $(LI)$ et $(BK)$ sont paralleles, $AI=2$, $AK=4$.",
-      "In the figure, $ABCD$ and $MNAL$ are squares, lines $(LI)$ and $(BK)$ are parallel, $AI=2$, $AK=4$."),
+      "In the figure shown, $ABCD$ and $MNAL$ are squares; the lines $(LI)$ and $(BK)$ are parallel; $AI=2$, $AK=4$."),
     img("/images/bepc2011-geo-ex2.jpg", "Carres ABCD et MNAL avec droites LI et BK paralleles"),
     t("1. Justifier que $\\dfrac{1}{2}=\\dfrac{AL}{AK}$. 1 pt",
       "1. Justify that $\\dfrac{1}{2}=\\dfrac{AL}{AK}$. 1 pt"),
@@ -1073,19 +1075,19 @@ export const BEPC_EXAMS: Record<number, ExamSection[]> = {
     t("3. $s$ et $s'$ designent respectivement les aires des carres $ABCD$ et $MNAL$. Determiner le rapport $\\dfrac{s'}{s}$. 1 pt",
       "3. $s$ and $s'$ denote respectively the areas of squares $ABCD$ and $MNAL$. Determine the ratio $\\dfrac{s'}{s}$. 1 pt"),
 
-    sec("C- PROBLEME :", "7 points", "C- PROBLEM:"),
+    sec("C- PROBLEME :", "7 points", "C - PROBLEM:"),
     t("La figure ci-contre represente un chateau d'eau compose d'un polynome cylindrique en beton, dont la base est un disque de $1$ m de rayon, au-dessus duquel se trouve un reservoir compose d'un tronc de cone surmonte d'une cuve cylindrique.",
-      "The figure represents a water tower composed of a concrete cylindrical column with a base disk of radius $1$ m, topped by a reservoir made of a truncated cone and a cylindrical tank."),
+      "The figure shown represents a water tower made of a cylindrical concrete column whose base is a disk of radius $1$ m, above which there is a tank consisting of a frustum of a cone topped by a cylindrical container."),
     t("1. Montrer que le rayon de la base de la cuve cylindrique du reservoir est egal a $2$ m. 1,5 pt",
       "1. Show that the radius of the base of the cylindrical tank is $2$ m. 1.5 pt"),
     t("Sachant que la hauteur du reservoir est $7{,}1$ m, calculer :",
-      "Given that the height of the reservoir is $7.1$ m, calculate:"),
+      "Knowing that the height of the tank is $7.1$ m, calculate:"),
     t("(a) le volume de sa partie cylindrique. 1,5 pt",
       "(a) the volume of its cylindrical part. 1.5 pt"),
     t("(b) le volume de sa partie tronconique. 2 pts",
       "(b) the volume of its truncated cone part. 2 pts"),
     t("3. Montrer que la capacite du reservoir est de $78186$ litres. (On prendra $\\pi=3{,}14$). 2 pts",
-      "3. Show that the capacity of the reservoir is $78,186$ liters. (Take $\\pi=3.14$). 2 pts"),
+      "3. Show that the capacity of the tank is $78186$ liters. (Take $\\pi=3.14$). 2 pts"),
   ],
 
   // ===================== BEPC 2012 =====================
