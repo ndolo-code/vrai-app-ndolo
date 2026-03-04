@@ -63,7 +63,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif'],
         display: ['var(--font-space-grotesk)', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
