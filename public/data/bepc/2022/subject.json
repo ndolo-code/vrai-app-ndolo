@@ -1,66 +1,272 @@
 {
   "title": "BEPC 2022 - Sujet de mathematiques",
   "sections": [
-    { "type": "text", "text": "L'epreuve comporte les parties A et B." },
-
-    { "type": "section", "title": "PARTIE A - EVALUATION DES RESSOURCES", "pts": "10 points" },
-    { "type": "text", "text": "Cette partie comporte deux activites : une activite numerique et geometrique." },
-
-    { "type": "subsection", "title": "ACTIVITES NUMERIQUES", "pts": "5 points" },
-    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3." },
-
-    { "type": "exercise", "title": "Exercice 1", "pts": "2 points" },
-    { "type": "text", "text": "1. Calculer le nombre $A=\\frac{2}{3}\\times\\frac{6}{5}+\\left(\\frac{2}{3}+\\frac{6}{5}\\right)$ et donner le resultat sous la forme d'une fraction irreductible. 0,75 pt" },
-    { "type": "text", "text": "2. On donne le nombre $B=\\frac{2}{2-\\sqrt{3}}$." },
-    { "type": "text", "text": "a) Ecrire le nombre $B$ sans radical au denominateur. 0,5 pt" },
-    { "type": "text", "text": "b) Sachant que $1,732<\\sqrt{3}<1,733$, donner un encadrement d'ordre 2 de $4+2\\sqrt{3}$. 0,75 pt" },
-
-    { "type": "exercise", "title": "Exercice 2", "pts": "1,25 point" },
-    { "type": "text", "text": "On considere l'expression $C=4x^2-9-(2x-3)(3x-4)+(2x+1)(2x-3)$." },
-    { "type": "text", "text": "1. Ecrire $C$ sous la forme d'un produit de facteurs du premier degre. 0,75 pt" },
-    { "type": "text", "text": "2. Determiner les solutions de l'equation $(x+8)(2x-3)=0$. 0,5 pt" },
-
-    { "type": "exercise", "title": "Exercice 3", "pts": "1,75 point" },
-    { "type": "text", "text": "Le tableau statistique ci-dessous est celui des notes en mathematiques de 50 eleves d'une classe de troisieme. Ces notes sont regroupees en classes d'amplitude 5." },
-    { "type": "table", "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [0;5[ & [5;10[ & [10;15[ & [15;20[ & \\text{Total} \\\\ \\hline\\text{Effectifs} & 17 &  & 12 & 10 & 50 \\\\ \\hline\\text{Centres des classes} & 2,5 &  & 12,5 &  & / \\\\ \\hline\\end{array}$$" },
-    { "type": "text", "text": "1. Reproduire et completer le tableau ci-dessus. 1 pt" },
-    { "type": "text", "text": "2. Donner la classe modale de cette serie statistique. 0,25 pt" },
-    { "type": "text", "text": "3. Choisir et recopier la bonne reponse parmi celles qui sont proposees. La moyenne des notes en mathematiques de cette classe de troisieme est : a) 8 ; b) 8,5 ; c) 9 ; d) 9,5. 0,5 pt" },
-
-    { "type": "subsection", "title": "ACTIVITES GEOMETRIQUES", "pts": "5 points" },
-    { "type": "text", "text": "Cette partie comporte deux exercices independants 1 et 2." },
-
-    { "type": "exercise", "title": "Exercice 1", "pts": "2,25 points" },
-    { "type": "text", "text": "La figure ci-contre represente un terrain ayant la forme d'un trapeze $ABCD$ rectangle en $A$ et $D$. On suppose que $AB=50m$, $AD=40m$ et que l'aire du terrain est egale a $2600m^2$." },
-    { "type": "image", "src": "/images/bepc2022-geo-ex2.jpg", "text": "Figure geometrique BEPC 2022 - exercice 1" },
-    { "type": "text", "text": "1. a) Montrer que $DC=80m$. 0,5 pt" },
-    { "type": "text", "text": "b) En deduire que $HC=30m$. 0,25 pt" },
-    { "type": "text", "text": "2. Calculer $BC$. 0,25 pt" },
-    { "type": "text", "text": "3. Calculer $\\tan DCB$ et en deduire l'arrondi de la mesure de l'angle $DCB$ a $1^\\circ$ pres. 0,75 pt" },
-    { "type": "text", "text": "4. Donner l'image de $A$ par la translation de vecteur $BH$. 0,25 pt" },
-
-    { "type": "exercise", "title": "Exercice 2", "pts": "2,75 points" },
-    { "type": "text", "text": "Dans la figure ci-dessous, le plan est muni d'un repere orthonorme $(O,I,J)$ dans lequel sont representes les points $A(-1;1)$, $B(-3;3)$ et $C(1;3)$ ainsi que les droites $(D_1)$, $(D_2)$ et $(D_3)$. Les droites $(D_1)$ et $(D_2)$ se coupent en $A$. $(D_3)$ coupe $(D_2)$ en $B$ et $(D_1)$ en $C$." },
-    { "type": "image", "src": "/images/bepc2022-geo-ex1.webp", "text": "Figure repere BEPC 2022 - exercice 2" },
-    { "type": "text", "text": "1. a) Determiner par lecture graphique les coordonnees des vecteurs $AB$ et $AC$ puis montrer que ces vecteurs sont orthogonaux. 0,75 pt" },
-    { "type": "text", "text": "b) Determiner les distances $AB$ et $AC$. 0,5 pt" },
-    { "type": "text", "text": "c) En deduire la nature exacte du triangle $ABC$. 0,25 pt" },
-    { "type": "text", "text": "2. Associer chaque droite a son equation cartesienne en inscrivant son nom dans la case correspondante. 0,75 pt" },
-    { "type": "table", "text": "$$\\begin{array}{|c|c|c|}\\hline\\text{Equation cartesienne} & y=3 & y=x+2 \\\\ \\hline\\text{Droite} &  &  \\\\ \\hline\\end{array}$$" },
-    { "type": "table", "text": "$$\\begin{array}{|c|c|}\\hline\\text{Equation cartesienne} & y=-x \\\\ \\hline\\text{Droite} &  \\\\ \\hline\\end{array}$$" },
-    { "type": "text", "text": "3. Reproduire la figure et y representer en hachurant l'ensemble solution du systeme $\\left\\{\\begin{array}{l} x-y+2>0 \\\\ x+y<0 \\end{array}\\right.$. 0,5 pt" },
-
-    { "type": "section", "title": "PARTIE B - EVALUATION DES COMPETENCES", "pts": "10 points" },
-    { "type": "exercise", "title": "Situation" },
-    { "type": "text", "text": "Une societe de travaux publics est chargee de realiser des travaux de construction d'une route. Pour le ravitaillement en carburant, elle utilise un camion dont la citerne a la forme d'un cylindre de hauteur $AB=8cm$ ayant une demi-sphere de rayon $EF=1cm$ sur chacune de ses bases." },
-    { "type": "text", "text": "Le contenu de cette citerne pleine est deverse a chaque voyage dans des cuves de 1000 litres chacune." },
-    { "type": "text", "text": "L'eau destinee aux travaux de maconnerie est contenue dans un reservoir ayant la forme d'un cylindre de hauteur $H=2,5m$ et de rayon de base $OA=1m$, ayant un cone de revolution de hauteur $h=1,5m$ sur une de ses bases ; cette eau est mesuree dans des seaux de 10 litres." },
-    { "type": "text", "text": "Certains macons sont charges de fabriquer des bornes kilometriques ayant la forme d'un pave droit de dimensions $20cm\\times40cm\\times50cm$, surmonte d'un demi-cylindre de hauteur $20cm$ et de rayon $20cm$ en utilisant une quantite journaliere de $\\frac{1}{3}m^3$ de beton." },
-
-    { "type": "exercise", "title": "Taches" },
-    { "type": "text", "text": "1. Calculer le nombre maximum de cuves de carburant pleines que l'on peut remplir en un voyage du camion-citerne. 3 pts" },
-    { "type": "text", "text": "2. Calculer le nombre maximum de seaux d'eau pleins que l'on peut remplir avec le contenu d'un reservoir plein. 3 pts" },
-    { "type": "text", "text": "3. Calculer le nombre maximum de bornes kilometriques que l'on peut fabriquer avec la quantite journaliere de beton. 3 pts" },
-    { "type": "text", "text": "Prendre $\\pi=3,14$. Presentation : 1 pt" }
-  ]
+    {
+      "type": "text",
+      "text": "L'epreuve comporte les parties A et B.",
+      "en": "The exam consists of two independent parts A and B."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A - EVALUATION DES RESSOURCES",
+      "pts": "10 points",
+      "en": "PART A – RESOURCE ASSESSMENT:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux activites : une activite numerique et geometrique.",
+      "en": "This part includes two activities: a numerical activity and a geometrical activity."
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES NUMERIQUES",
+      "pts": "5 points",
+      "en": "NUMERICAL ACTIVITIES:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This part includes three independent exercises 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2 points",
+      "en": "Exercise 1:"
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer le nombre $A=\\frac{2}{3}\\times\\frac{6}{5}+\\left(\\frac{2}{3}+\\frac{6}{5}\\right)$ et donner le resultat sous la forme d'une fraction irreductible. 0,75 pt",
+      "en": "1. Calculate the number $A=\\frac{2}{3}\\times\\frac{6}{5}+\\left(\\frac{2}{3}+\\frac{6}{5}\\right)$ and give the result as an irreducible fraction. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. On donne le nombre $B=\\frac{2}{2-\\sqrt{3}}$.",
+      "en": "2. We are given the number $B=\\frac{2}{2-\\sqrt{3}}$."
+    },
+    {
+      "type": "text",
+      "text": "a) Ecrire le nombre $B$ sans radical au denominateur. 0,5 pt",
+      "en": "a) Write the number $B$ without a radical in the denominator. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Sachant que $1,732<\\sqrt{3}<1,733$, donner un encadrement d'ordre 2 de $4+2\\sqrt{3}$. 0,75 pt",
+      "en": "b) Given that $1.732<\\sqrt{3}<1.733$; give order-2 bounds for $4+2\\sqrt{3}$. 0.75 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "1,25 point",
+      "en": "Exercise 2:"
+    },
+    {
+      "type": "text",
+      "text": "On considere l'expression $C=4x^2-9-(2x-3)(3x-4)+(2x+1)(2x-3)$.",
+      "en": "Consider the expression $C=4x^2-9-(2x-3)(3x-4)+(2x+1)(2x-3)$."
+    },
+    {
+      "type": "text",
+      "text": "1. Ecrire $C$ sous la forme d'un produit de facteurs du premier degre. 0,75 pt",
+      "en": "1. Write $C$ as a product of first-degree factors. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Determiner les solutions de l'equation $(x+8)(2x-3)=0$. 0,5 pt",
+      "en": "2. Determine the solutions of the equation $(x+8)(2x-3)=0$. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "1,75 point",
+      "en": "Exercise 3:"
+    },
+    {
+      "type": "text",
+      "text": "Le tableau statistique ci-dessous est celui des notes en mathematiques de 50 eleves d'une classe de troisieme. Ces notes sont regroupees en classes d'amplitude 5.",
+      "en": "The statistical table below shows the mathematics scores of 50 students in a third-year class. These scores are grouped into classes of width 5."
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [0;5[ & [5;10[ & [10;15[ & [15;20[ & \\text{Total} \\\\ \\hline\\text{Effectifs} & 17 &  & 12 & 10 & 50 \\\\ \\hline\\text{Centres des classes} & 2,5 &  & 12,5 &  & / \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Scores} & [0;5[ & [5;10[ & [10;15[ & [15;20[ & \\text{Total} \\\\ \\hline\\text{Frequencies} & 17 &  & 12 & 10 & 50 \\\\ \\hline\\text{Class centers} & 2.5 &  & 12.5 &  & / \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "1. Reproduire et completer le tableau ci-dessus. 1 pt",
+      "en": "1. Reproduce and complete the table above. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Donner la classe modale de cette serie statistique. 0,25 pt",
+      "en": "2. Give the modal class of this statistical distribution. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Choisir et recopier la bonne reponse parmi celles qui sont proposees. La moyenne des notes en mathematiques de cette classe de troisieme est : a) 8 ; b) 8,5 ; c) 9 ; d) 9,5. 0,5 pt",
+      "en": "3. Choose and copy the correct answer from those proposed. The mean mathematics score of this third-year class is: a) 8 ; b) 8.5 ; c) 9 ; d) 9.5 . 0.5 pt"
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES GEOMETRIQUES",
+      "pts": "5 points",
+      "en": "GEOMETRICAL ACTIVITIES:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux exercices independants 1 et 2.",
+      "en": "This part includes two independent exercises 1 and 2."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2,25 points",
+      "en": "Exercise 1:"
+    },
+    {
+      "type": "text",
+      "text": "La figure ci-contre represente un terrain ayant la forme d'un trapeze $ABCD$ rectangle en $A$ et $D$. On suppose que $AB=50m$, $AD=40m$ et que l'aire du terrain est egale a $2600m^2$.",
+      "en": "The adjacent figure represents a plot of land shaped like a trapezoid $ABCD$ right-angled at $A$ and $D$. Assume that $AB=50m$, $AD=40m$ and the area of the plot is $2600m^2$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2022-geo-ex2.jpg",
+      "text": "Figure geometrique BEPC 2022 - exercice 1",
+      "en": "BEPC 2022 geometrical figure - exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "1. a) Montrer que $DC=80m$. 0,5 pt",
+      "en": "1. a) Show that $DC=80m$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) En deduire que $HC=30m$. 0,25 pt",
+      "en": "b) Deduce that $HC=30m$. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer $BC$. 0,25 pt",
+      "en": "2. Calculate $BC$. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Calculer $\\tan DCB$ et en deduire l'arrondi de la mesure de l'angle $DCB$ a $1^\\circ$ pres. 0,75 pt",
+      "en": "3. Calculate $\\tan DCB$ and deduce the measure of angle $DCB$ rounded to the nearest $1^\\circ$. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Donner l'image de $A$ par la translation de vecteur $BH$. 0,25 pt",
+      "en": "4. Give the image of $A$ under the translation with vector $BH$. 0.25 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2,75 points",
+      "en": "Exercise 2:"
+    },
+    {
+      "type": "text",
+      "text": "Dans la figure ci-dessous, le plan est muni d'un repere orthonorme $(O,I,J)$ dans lequel sont representes les points $A(-1;1)$, $B(-3;3)$ et $C(1;3)$ ainsi que les droites $(D_1)$, $(D_2)$ et $(D_3)$. Les droites $(D_1)$ et $(D_2)$ se coupent en $A$. $(D_3)$ coupe $(D_2)$ en $B$ et $(D_1)$ en $C$.",
+      "en": "In the figure below, the plane is equipped with an orthonormal coordinate system $(O,I,J)$ in which the points $A(-1;1)$, $B(-3;3)$ and $C(1;3)$ are shown, as well as the lines $(D_1)$, $(D_2)$ and $(D_3)$. The lines $(D_1)$ and $(D_2)$ intersect at $A$. $(D_3)$ intersects $(D_2)$ at $B$ and $(D_1)$ at $C$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2022-geo-ex1.webp",
+      "text": "Figure repere BEPC 2022 - exercice 2",
+      "en": "BEPC 2022 image 1"
+    },
+    {
+      "type": "text",
+      "text": "1. a) Determiner par lecture graphique les coordonnees des vecteurs $AB$ et $AC$ puis montrer que ces vecteurs sont orthogonaux. 0,75 pt",
+      "en": "1. a) Determine, by reading the graph, the coordinates of vectors $AB$ and $AC$, then show that these vectors are orthogonal. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Determiner les distances $AB$ et $AC$. 0,5 pt",
+      "en": "b) Determine the distances $AB$ and $AC$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "c) En deduire la nature exacte du triangle $ABC$. 0,25 pt",
+      "en": "c) Deduce the exact nature of triangle $ABC$. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Associer chaque droite a son equation cartesienne en inscrivant son nom dans la case correspondante. 0,75 pt",
+      "en": "2. Match each line with its Cartesian equation by writing its name in the corresponding box. 0.75 pt"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|}\\hline\\text{Equation cartesienne} & y=3 & y=x+2 \\\\ \\hline\\text{Droite} &  &  \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|c|c|c|}\\hline\\text{Cartesian equation} & y=3 & y=x+2 \\\\ \\hline\\text{Line} &  &  \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|}\\hline\\text{Equation cartesienne} & y=-x \\\\ \\hline\\text{Droite} &  \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|c|c|}\\hline\\text{Cartesian equation} & y=-x \\\\ \\hline\\text{Line} &  \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "3. Reproduire la figure et y representer en hachurant l'ensemble solution du systeme $\\left\\{\\begin{array}{l} x-y+2>0 \\\\ x+y<0 \\end{array}\\right.$. 0,5 pt",
+      "en": "3. Reproduce the figure above and represent on it, by hatching, the solution set of the system $\\left\\{\\begin{array}{l} x-y+2>0 \\\\ x+y<0 \\end{array}\\right.$. 0.5 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B - EVALUATION DES COMPETENCES",
+      "pts": "10 points",
+      "en": "PART B – SKILLS ASSESSMENT:"
+    },
+    {
+      "type": "exercise",
+      "title": "Situation",
+      "en": "Situation"
+    },
+    {
+      "type": "text",
+      "text": "Une societe de travaux publics est chargee de realiser des travaux de construction d'une route. Pour le ravitaillement en carburant, elle utilise un camion dont la citerne a la forme d'un cylindre de hauteur $AB=8cm$ ayant une demi-sphere de rayon $EF=1cm$ sur chacune de ses bases.",
+      "en": "A public works company is responsible for carrying out the construction of a road. For fuel supply, it uses a tanker truck whose tank has the shape of a cylinder of height $AB=8cm$ with a hemisphere of radius $EF=1cm$ on each base (see figure 1)."
+    },
+    {
+      "type": "text",
+      "text": "Le contenu de cette citerne pleine est deverse a chaque voyage dans des cuves de 1000 litres chacune.",
+      "en": "The contents of this full tank are poured on each trip into 1000-liter tanks."
+    },
+    {
+      "type": "text",
+      "text": "L'eau destinee aux travaux de maconnerie est contenue dans un reservoir ayant la forme d'un cylindre de hauteur $H=2,5m$ et de rayon de base $OA=1m$, ayant un cone de revolution de hauteur $h=1,5m$ sur une de ses bases ; cette eau est mesuree dans des seaux de 10 litres.",
+      "en": "The water intended for masonry work is stored in a reservoir shaped like a cylinder of height $H=2.5m$ and base radius $OA=1m$, with a cone of revolution of height $h=1.5m$ on one of its bases (see figure 2); this water is measured using 10-liter buckets."
+    },
+    {
+      "type": "text",
+      "text": "Certains macons sont charges de fabriquer des bornes kilometriques ayant la forme d'un pave droit de dimensions $20cm\\times40cm\\times50cm$, surmonte d'un demi-cylindre de hauteur $20cm$ et de rayon $20cm$ en utilisant une quantite journaliere de $\\frac{1}{3}m^3$ de beton.",
+      "en": "Some masons are tasked with making kilometer markers shaped like a rectangular block with dimensions $20cm\\times40cm\\times50cm$, topped with a half-cylinder of height $20cm$ and radius $20cm$ (see figure 3), using a daily quantity of $ \\frac{1}{3}m^3 $ of concrete."
+    },
+    {
+      "type": "exercise",
+      "title": "Taches",
+      "en": "Tasks"
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer le nombre maximum de cuves de carburant pleines que l'on peut remplir en un voyage du camion-citerne. 3 pts",
+      "en": "1. Calculate the maximum number of full fuel tanks that can be filled in one trip of the tanker truck. 3 pts"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer le nombre maximum de seaux d'eau pleins que l'on peut remplir avec le contenu d'un reservoir plein. 3 pts",
+      "en": "2. Calculate the maximum number of full buckets of water that can be filled with the contents of a full reservoir. 3 pts"
+    },
+    {
+      "type": "text",
+      "text": "3. Calculer le nombre maximum de bornes kilometriques que l'on peut fabriquer avec la quantite journaliere de beton. 3 pts",
+      "en": "3. Calculate the maximum number of kilometer markers that can be made with the daily quantity of concrete. 3 pts"
+    },
+    {
+      "type": "text",
+      "text": "Prendre $\\pi=3,14$. Presentation : 1 pt",
+      "en": "Use $\\pi=3.14$. Presentation: 1 pt"
+    }
+  ],
+  "titleEn": "The BEPC 2022 Mathematics Exam"
 }
