@@ -1,0 +1,302 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2016",
+  "titleEn": "The Mathematics Examination – BEPC 2016",
+  "sections": [
+    {
+      "type": "section",
+      "title": "A- ACTIVITES NUMERIQUES :",
+      "pts": "6,5 points",
+      "en": "A- NUMERICAL ACTIVITIES:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III.",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1 :",
+      "pts": "2,5 points",
+      "en": "Exercise 1:"
+    },
+    {
+      "type": "text",
+      "text": "1. Effectuer le calcul suivant et donner le resultat sous la forme d'une fraction irreductible : $1-\\left(\\frac{1}{5}+\\frac{3}{4}\\times\\frac{4}{5}\\right)$. 0,5 pt",
+      "en": "1. Carry out the following calculation and give the result as an irreducible fraction: $1-\\left(\\frac{1}{5}+\\frac{3}{4}\\times\\frac{4}{5}\\right)$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Abomo a vendu le cinquieme de sa propriete en 2012 et les trois quarts du reste en 2013.",
+      "en": "2. Abomo sold one fifth of his property in 2012 and three quarters of the remainder in 2013."
+    },
+    {
+      "type": "text",
+      "text": "(a) Quelle fraction de la propriete a ete vendue en 2013? 0,25 pt",
+      "en": "(a) What fraction of the property was sold in 2013? 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Quelle fraction de la propriete reste invendue a l'issue des deux annees? 0,25 pt",
+      "en": "(b) What fraction of the property remains unsold after the two years? 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "(c) Quelle etait la superficie de la propriete sachant que la partie invendue au bout des deux annees a une aire de $800m^2$ ? 0,5 pt",
+      "en": "(c) What was the area of the property, given that the unsold part after the two years has an area of $800m^2$? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. (a) Developper $(\\sqrt{2}-\\sqrt{3})^2$. 0,25 pt",
+      "en": "3. (a) Expand $(\\sqrt{2}-\\sqrt{3})^2$. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) En deduire la valeur exacte de $\\sqrt{5-2\\sqrt{6}}$. 0,25 pt",
+      "en": "(b) Deduce the exact value of $\\sqrt{5-2\\sqrt{6}}$. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Ecrire le nombre $\\frac{1}{\\sqrt{2}-\\sqrt{3}}$ sans radical au denominateur. 0,5 pt",
+      "en": "4. Write the number $\\frac{1}{\\sqrt{2}-\\sqrt{3}}$ without a radical in the denominator. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2 :",
+      "pts": "2 points",
+      "en": "Exercise 2:"
+    },
+    {
+      "type": "text",
+      "text": "On considere l’expression $E(x)=(2x+1)^2-2x^2$.",
+      "en": "Consider the expression $E(x)=(2x+1)^2-2x^2$."
+    },
+    {
+      "type": "text",
+      "text": "1. Developper, reduire et ordonner $E(x)$ suivant les puissances decroissantes de $x$. 0,5 pt",
+      "en": "1. Expand, simplify, and arrange $E(x)$ in descending powers of $x$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Factoriser $E(x)$. 0,5 pt",
+      "en": "2. Factorize $E(x)$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Calculer $E(0,02)$ et donner le resultat sous forme decimale. 0,5 pt",
+      "en": "3. Compute $E(0,02)$ and give the result in decimal form. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Resoudre dans l’equation $(x+1)(3x+1)=0$. 0,5 pt",
+      "en": "4. Solve the equation $(x+1)(3x+1)=0$. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3 :",
+      "pts": "2 points",
+      "en": "Exercise 3:"
+    },
+    {
+      "type": "text",
+      "text": "On a releve les notes de mathematiques, des eleves d'une classe de troisieme et on a obtenu le tableau suivant :",
+      "en": "The Mathematics marks of Form Three students were recorded and the following table was obtained:"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [2;4[ & [4;6[ & [6;8[ & [8;10[ & [10;12[\\\\ \\hline\\text{Effectifs} & 8 & 16 & 24 & 20 & 12\\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Marks} & [2;4[ & [4;6[ & [6;8[ & [8;10[ & [10;12[\\\\ \\hline\\text{Frequencies} & 8 & 16 & 24 & 20 & 12\\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "1. Tracer l'histogramme de cette serie. 1,25 pt",
+      "en": "1. Draw the histogram of this distribution. 1.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Determiner le pourcentage des eleves dont la note est superieure ou egale a 8. 0,25 pt",
+      "en": "2. Determine the percentage of students whose mark is greater than or equal to 8. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Quelle est la note moyenne de cette classe ? 0,5 pt",
+      "en": "3. What is the mean mark of this class? 0.5 pt"
+    },
+    {
+      "type": "section",
+      "title": "B- ACTIVITES GEOMETRIQUES :",
+      "pts": "6,5 points",
+      "en": "B- GEOMETRICAL ACTIVITIES:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This part consists of three independent exercises 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1 :",
+      "pts": "3 points",
+      "en": "Exercise 1:"
+    },
+    {
+      "type": "text",
+      "text": "1. Placer, dans un repere orthonorme $(O,\\vec{I},\\vec{J})$ du plan, les points : $A(-1;0)$ ; $B(-2;2)$ et $C(0;3)$.",
+      "en": "1. Plot, in an orthonormal coordinate system $(O,\\vec{I},\\vec{J})$ in the plane, the points: $A(-1;0)$; $B(-2;2)$ and $C(0;3)$."
+    },
+    {
+      "type": "text",
+      "text": "2. Montrer que $AC=\\sqrt{10}$. 0,25 pt",
+      "en": "2. Show that $AC=\\sqrt{10}$. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Sachant que $AB=BC=\\sqrt{5}$, demontrer que le triangle $ABC$ est rectangle. 0,5 pt",
+      "en": "3. Given that $AB=BC=\\sqrt{5}$, prove that triangle $ABC$ is right-angled. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Placer le point $D$ image de $A$ par la translation de vecteur $\\overrightarrow{BC}$. 0,25 pt",
+      "en": "4. Plot point $D$, the image of $A$ under the translation with vector $\\overrightarrow{BC}$. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "5. Justifier que le quadrilatere $ABCD$ est un carre. 0,5 pt",
+      "en": "5. Justify that quadrilateral $ABCD$ is a square. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "6. Donner une equation de la droite $(AB)$. 0,5 pt",
+      "en": "6. Give an equation of line $(AB)$. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2 :",
+      "pts": "2 points",
+      "en": "Exercise 2:"
+    },
+    {
+      "type": "text",
+      "text": "Une citerne a la forme d'un cylindre surmontant un cone de revolution de sommet $S$. Les cercles de base du cylindre ont pour rayon $0,5cm$. On donne $OO'=OS=1m$. On prendra $\\pi=3,14$.",
+      "en": "A tank has the shape of a cylinder topped by a right circular cone with vertex $S$. The base circles of the cylinder have radius $0,5cm$. It is given that $OO'=OS=1m$. Take $\\pi=3.14$."
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer le volume du cylindre. 0,75 pt",
+      "en": "1. Calculate the volume of the cylinder. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer le volume du cone. 0,75 pt",
+      "en": "2. Calculate the volume of the cone. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. En deduire le volume total de la citerne. 0,5 pt",
+      "en": "3. Deduce the total volume of the tank. 0.5 pt"
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2016-geo-ex2.jpg",
+      "text": "Solution activite geometrique 6",
+      "en": "Geometrical activity solution 6"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3 :",
+      "pts": "1,5 point",
+      "en": "Exercise 3:"
+    },
+    {
+      "type": "text",
+      "text": "Les droites $(CE)$ et $(BD)$ se coupent en $A$. On donne : $AB=21$, $AD=27$, $AC=28$, $AE=36$ et $DE=45$.",
+      "en": "The lines $(CE)$ and $(BD)$ intersect at $A$. Given: $AB=21$, $AD=27$, $AC=28$, $AE=36$ and $DE=45$."
+    },
+    {
+      "type": "text",
+      "text": "1. Montrer que les droites $(BC)$ et $(DE)$ sont paralleles. 0,5 pt",
+      "en": "1. Show that lines $(BC)$ and $(DE)$ are parallel. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer $BC$. 0,5 pt",
+      "en": "2. Calculate $BC$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Prouver que le triangle $ADE$ est rectangle. 0,5 pt",
+      "en": "3. Prove that triangle $ADE$ is right-angled. 0.5 pt"
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2016-geo-ex3.jpg",
+      "text": "Solution activite geometrique 7",
+      "en": "Geometrical activity solution 7"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE C- PROBLEME:",
+      "pts": "7 points",
+      "en": "PART C – PROBLEM:"
+    },
+    {
+      "type": "text",
+      "text": "Le video club Bobo propose deux formules pour la location mensuelle des DVD :",
+      "en": "The Bobo video club offers two pricing plans for monthly DVD rentals:"
+    },
+    {
+      "type": "text",
+      "text": "Formule A: 200 frs par DVD ;",
+      "en": "Plan A: 200 francs per DVD;"
+    },
+    {
+      "type": "text",
+      "text": "Formule B : abonnement mensuel 500 frs et 150 frs par DVD.",
+      "en": "Plan B: a monthly subscription of 500 francs plus 150 francs per DVD."
+    },
+    {
+      "type": "text",
+      "text": "1. (a) Recopier et completer le tableau ci-dessous : 2.5 pts",
+      "en": "1. (a) Copy and complete the table below: 2.5 pts"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Nombre de DVD} & 5 & 15 & & \\\\ \\hline\\text{Prix formule A} & & & & 3200\\\\ \\hline\\text{Prix formule B} & & & 1100 & \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Number of DVDs} & 5 & 15 & & \\\\ \\hline\\text{Price (Plan A)} & & & & 3200\\\\ \\hline\\text{Price (Plan B)} & & & 1100 & \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "(b) Deduire du tableau ci-dessus la formule la plus avantageuse pour une location mensuelle de 4 DVD, puis pour 16 DVD. 1 pt",
+      "en": "(b) From the table above, deduce which plan is more advantageous for a monthly rental of 4 DVDs, then for 16 DVDs. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. On montre que les prix a payer pour la location de $x$ DVD respectivement par les formules $A$ et $B$ sont donnes par les fonctions $f$ et $g$ definies par : $f(x)=200x$ et $g(x)=150x+500$.",
+      "en": "2. It is shown that the amounts to be paid for renting $x$ DVDs under plans $A$ and $B$ are given respectively by the functions $f$ and $g$ defined by: $f(x)=200x$ and $g(x)=150x+500$."
+    },
+    {
+      "type": "text",
+      "text": "(a) Laquelle de ces deux fonctions est lineaire ? 0,5 pt",
+      "en": "(a) Which of these two functions is linear? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Sur le graphique ci-contre, laquelle des deux fonctions est representee par la droite $(D)$ ? 0,5 pt",
+      "en": "(b) On the graph opposite, which of the two functions is represented by the line $(D)$? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Resoudre le systeme suivant : $\\left\\{\\begin{array}{l} y=200x \\\\ y=150x+500 \\end{array}\\right.$. 1 pt",
+      "en": "3. Solve the following system: $\\left\\{\\begin{array}{l} y=200x \\\\ y=150x+500 \\end{array}\\right.$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. (a) Determiner le nombre de DVD pour lequel aucune formule n'est avantageuse. 1 pt",
+      "en": "4. (a) Determine the number of DVDs for which neither plan is more advantageous. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Quel est alors le prix a payer ? 0,5 pt",
+      "en": "(b) What is the amount to be paid then? 0.5 pt"
+    }
+  ]
+}
