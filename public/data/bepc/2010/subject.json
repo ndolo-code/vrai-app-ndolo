@@ -1,0 +1,268 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2010",
+  "titleEn": "The Mathematics Examination – BEPC 2010",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A, B et C",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "section",
+      "title": "A - ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3",
+      "en": "This part consists of three independent exercises 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "1,5 pt",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "1. Ecrire le reel $A=-3\\times 243^{\\frac{2}{3}}$ sous la forme $\\frac{b}{a}$, ou $a$ est un entier naturel premier. 0,5 pt",
+      "en": "1. Write the real number $A=-3\\times 243^{\\frac{2}{3}}$ in the form $\\frac{b}{a}$, where $a$ is a prime natural integer. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer le reel $D=\\dfrac{2^3\\times 3^2\\times 21^{-10}\\times 5^{-3}}{3^{10}\\times 2^{-2}}$ et donner le resultat sous forme de fraction irreductible. 1 pt",
+      "en": "2. Compute $D=\\dfrac{2^3\\times 3^2\\times 21^{-10}\\times 5^{-3}}{3^{10}\\times 2^{-2}}$ and give the result as an irreducible fraction. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2,5 pts",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "Dans chacune des questions suivantes, identifier la bonne reponse et recopier la sur votre feuille de composition.",
+      "en": "In each of the following questions, identify the correct answer and copy it onto your answer sheet."
+    },
+    {
+      "type": "text",
+      "text": "1. La forme developpee de $A(x)=(x-1)(3-x)+(x-1)(2x-1)$ est : 0,5 pt",
+      "en": "1. The expanded form of $A(x)=(x-1)(3-x)+(x-1)(2x-1)$ is: 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "a) $-x^2+4x-3$ ; b) $x^2+4x+3$ ; c) $-x^2-4x-3$ ; d) $x^2-4x+3$.",
+      "en": "a) $-x^2+4x-3$ ; b) $x^2+4x+3$ ; c) $-x^2-4x-3$ ; d) $x^2-4x+3$."
+    },
+    {
+      "type": "text",
+      "text": "2. La forme factorisee de $A(x)=(x-1)(3-x)+(x-1)(2x-1)$ est : 0,5 pt",
+      "en": "2. The factorized form of $A(x)=(x-1)(3-x)+(x-1)(2x-1)$ is: 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "a) $(1-3+x)(\\ )$ ; b) $(x-1-3)(\\ )$ ; c) $(1-3-x)(\\ )$ ; d) $(x-1+3)(\\ )$.",
+      "en": "a) $(1-3+x)(\\ )$ ; b) $(x-1-3)(\\ )$ ; c) $(1-3-x)(\\ )$ ; d) $(x-1+3)(\\ )$."
+    },
+    {
+      "type": "text",
+      "text": "3. La condition d'existence de la fraction rationnelle $\\dfrac{1}{(2)(2-3+x)}$ est : 0,5 pt",
+      "en": "3. The condition for existence of the rational fraction $\\dfrac{1}{(2)(2-3+x)}$ is: 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "a) $x\\ne 1$ ou $x\\ne -3$ ; b) $x\\ne 1$ et $x\\ne -3$ ; c) $x\\ne -1$ et $x\\ne -3$ ; d) $x\\ne -1$ ou $x\\ne -3$.",
+      "en": "a) $x\\ne 1$ or $x\\ne -3$ ; b) $x\\ne 1$ and $x\\ne -3$ ; c) $x\\ne -1$ and $x\\ne -3$ ; d) $x\\ne -1$ or $x\\ne -3$."
+    },
+    {
+      "type": "text",
+      "text": "4. Dans $R^2$, l'ensemble des solutions du systeme $\\begin{cases}5x+3y=86000\\\\-2x+y=5200\\end{cases}$ est : 1 pt",
+      "en": "4. In $R^2$, the solution set of the system $\\begin{cases}5x+3y=86000\\\\-2x+y=5200\\end{cases}$ is: 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "a) $S_1=\\{6400,18000\\}$ ; b) $S_2=\\{6400,18000\\}$ ; c) $S_3=\\{(6400,18000)\\}$ ; d) $S_4=\\{18000,6400\\}$.",
+      "en": "a) $S_1=\\{6400,18000\\}$ ; b) $S_2=\\{6400,18000\\}$ ; c) $S_3=\\{(6400,18000)\\}$ ; d) $S_4=\\{18000,6400\\}$."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "2,5 pts",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "La repartition d'un college en fonction de la couleur de leurs tenues d'EPS a donne le tableau suivant :",
+      "en": "The distribution of students in a school according to the color of their PE uniforms is given in the table below:"
+    },
+    {
+      "type": "table",
+      "text": "$\\left[\\begin{array}{|c|c|c|c|c|}\\hline\\text{Couleur} & \\text{VERT} & \\text{ROUGE} & \\text{JAUNE} & \\text{Total}\\\\ \\hline\\text{Angle} & 60^\\circ & 180^\\circ & & \\\\ \\hline\\text{Effectif} & 225 & 900 & & \\\\ \\hline\\end{array}\\right]$",
+      "en": "$\\left[\\begin{array}{|c|c|c|c|c|}\\hline\\text{Color} & \\text{GREEN} & \\text{RED} & \\text{YELLOW} & \\text{Total}\\\\ \\hline\\text{Angle} & 60^\\circ & 180^\\circ & & \\\\ \\hline\\text{Frequency} & 225 & 900 & & \\\\ \\hline\\end{array}\\right]$"
+    },
+    {
+      "type": "text",
+      "text": "1. Donner la nature du caractere etudie. 0,5 pt",
+      "en": "1. State the nature of the variable studied. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Recopier et completer le tableau ci-dessus. 1 pt",
+      "en": "2. Copy and complete the table above. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Construire le diagramme semi-circulaire de cette serie. 1 pt",
+      "en": "3. Draw the semi-circular chart for this series. 1 pt"
+    },
+    {
+      "type": "section",
+      "title": "B - ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This part consists of three independent exercises 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2 pts",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "La figure ci-dessous represente une ferme de charpente d'une maison.",
+      "en": "The figure below represents a roof truss of a house."
+    },
+    {
+      "type": "text",
+      "text": "$AB=5\\,m$, $BC=4\\,m$ ; $AF=3,5\\,m$, $FE=2,8\\,m$ ; $BF=2,5\\,m$",
+      "en": "$AB=5\\,m$, $BC=4\\,m$ ; $AF=3.5\\,m$, $FE=2.8\\,m$ ; $BF=2.5\\,m$"
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2010-geo-ex1.jpg",
+      "text": "Figure de l'exercice 1",
+      "en": "Figure for exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "1. Montrer que les droites $(CE)$ et $(BF)$ sont paralleles. 1 pt",
+      "en": "1. Show that the lines $(CE)$ and $(BF)$ are parallel. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer la distance $CE$. 1 pt",
+      "en": "2. Compute the length $CE$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2 pts",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "Sur la figure ci-contre, les points $A$, $B$, $C$ et $D$ appartiennent au cercle de diametre $[BD]$ et de centre $O$. Le triangle $OAB$ est equilateral. Recopier et completer le tableau suivant : 2 pts",
+      "en": "In the figure, points $A$, $B$, $C$ and $D$ lie on the circle with diameter $[BD]$ and center $O$. Triangle $OAB$ is equilateral. Copy and complete the following table: 2 pts"
+    },
+    {
+      "type": "table",
+      "text": "$\\left[\\begin{array}{|c|c|c|c|c|}\\hline\\text{Angles} & \\text{OAB} & \\text{ACB} & \\text{BAD} & \\text{AOD}\\\\ \\hline\\text{Mesure en degre} & & & & \\\\ \\hline\\end{array}\\right]$",
+      "en": "$\\left[\\begin{array}{|c|c|c|c|c|}\\hline\\text{Angles} & \\text{OAB} & \\text{ACB} & \\text{BAD} & \\text{AOD}\\\\ \\hline\\text{Measure in degrees} & & & & \\\\ \\hline\\end{array}\\right]$"
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2010-geo-ex2.jpg",
+      "text": "Figure de l'exercice 2",
+      "en": "Figure for exercise 2"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "3 pts",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "On donne un triangle $SHB$ rectangle en $H$ : tel que $SH=60\\,cm$ et $SB^2=\\dfrac{90^2}{2}\\,cm^2$. On fait une revolution du triangle $SHB$ autour de l'axe $(SH)$, on obtient un solide de l'espace $(T)$.",
+      "en": "Given a right triangle $SHB$ right-angled at $H$ such that $SH=60\\,cm$ and $SB^2=\\dfrac{90^2}{2}\\,cm^2$. Rotating triangle $SHB$ around axis $(SH)$ produces a solid $(T)$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2010-geo-ex3.jpg",
+      "text": "Figure de l'exercice 3",
+      "en": "Figure for exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "1. Quelle est la nature de $(T)$ ? 0,5 pt",
+      "en": "1. What is the nature of $(T)$? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer la distance $HB$ et le volume $V$ de $(T)$. 1,5 pt",
+      "en": "2. Compute the length $HB$ and the volume $V$ of $(T)$. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. On suppose que $(T)$ est un recipient, donner sa capacite en litre. 0,5 pt",
+      "en": "3. Assuming $(T)$ is a container, give its capacity in liters. 0.5 pt"
+    },
+    {
+      "type": "section",
+      "title": "C - PROBLEME",
+      "pts": "7 points",
+      "en": "C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "L'unite de longueur est le centimetre ; dans un repere orthonorme $(O,i,j)$ du plan, on donne les points $A(3,2)$ ; $B(-1,3)$ et $C(2,-2)$.",
+      "en": "The unit of length is the centimeter. In an orthonormal coordinate system $(O,i,j)$, points are given: $A(3,2)$, $B(-1,3)$ and $C(2,-2)$."
+    },
+    {
+      "type": "text",
+      "text": "1. Placer les points $A$, $B$ et $C$ dans le repere $(O,i,j)$. 1 pt",
+      "en": "1. Plot points $A$, $B$ and $C$ on the coordinate system. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer les coordonnees des vecteurs $\\vec{AB}$, $\\vec{AC}$ et $\\vec{BC}$. 1,5 pt",
+      "en": "2. Compute the coordinates of vectors $\\vec{AB}$, $\\vec{AC}$ and $\\vec{BC}$. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Calculer les distances $AB$, $BC$ et $AC$ et en deduire la nature du triangle $ABC$. 1 pt",
+      "en": "3. Compute distances $AB$, $BC$ and $AC$ and deduce the nature of triangle $ABC$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Donner la mesure de l'angle $ABC$ ; calculer son cosinus. 0,5 pt",
+      "en": "4. Give the measure of angle $ABC$ and compute its cosine. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "5. (a) Calculer les coordonnees du milieu $K$ de $[BC]$. 0,5 pt",
+      "en": "5. (a) Compute the coordinates of the midpoint $K$ of $[BC]$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Calculer les coordonnees du point $D$ symetrique du point $A$ par rapport a $K$. 0,5 pt",
+      "en": "(b) Compute the coordinates of point $D$ symmetric to point $A$ with respect to $K$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "6. Determiner une equation cartesienne de la droite $(BC)$. 1 pt",
+      "en": "6. Determine a Cartesian equation of line $(BC)$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "7. Quelle est la nature du quadrilatere $ABCD$ ? Justifier votre reponse. 1 pt",
+      "en": "7. What is the nature of quadrilateral $ABCD$? Justify your answer. 1 pt"
+    }
+  ]
+}
