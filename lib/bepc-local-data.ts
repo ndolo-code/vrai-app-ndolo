@@ -1,5 +1,6 @@
 import type { ExamSection } from "./bac-d-data"
 import { autoTranslate } from "./auto-translate"
+import { BEPC_EXAMS } from "./bepc-data"
 
 import bepcIndex from "@/public/data/bepc/index.json"
 import bepc1999Subject from "@/public/data/bepc/1999/subject.json"
@@ -257,8 +258,10 @@ export const LOCAL_BEPC_YEARS = bepcIndex.years as number[]
 
 export function getLocalBepcSubject(year: number): ExamSection[] | null {
   const doc = LOCAL_BEPC_SUBJECTS[year]
-  if (!doc) return null
-  return normalizeDoc(doc)
+  if (doc) return normalizeDoc(doc)
+
+  const fallback = BEPC_EXAMS[year]
+  return fallback ?? null
 }
 
 export function getLocalBepcCorrection(year: number): ExamSection[] | null {
