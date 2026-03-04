@@ -1,65 +1,255 @@
 {
   "title": "BEPC 2025 - Sujet de mathématiques",
   "sections": [
-    { "type": "text", "text": "L'epreuve comporte les parties A et B." },
-
-    { "type": "section", "title": "PARTIE A - EVALUATION DES RESSOURCES", "pts": "12,5 points" },
-    { "type": "text", "text": "Cette partie comporte deux activites : une activite numerique et geometrique." },
-
-    { "type": "subsection", "title": "ACTIVITES NUMERIQUES", "pts": "6,5 points" },
-
-    { "type": "exercise", "title": "Exercice 1", "pts": "3,25 points" },
-    { "type": "text", "text": "1. Ecrire le nombre $A=\\left(\\frac{3}{2}+\\frac{5}{4}\\right)\\times\\left(\\frac{3}{2}-\\frac{5}{4}\\right)$ sous la forme d'une fraction irreductible. 1 pt" },
-    { "type": "text", "text": "2.a) Ecrire le nombre $B=(3\\sqrt{2}-4)^2$ sous la forme $a+b\\sqrt{2}$ ou $a$ et $b$ sont des entiers. 0,75 pt" },
-    { "type": "text", "text": "2.b) Montrer que le nombre $C=(3\\sqrt{2}-4)(3\\sqrt{2}+4)$ est un entier. 0,75 pt" },
-    { "type": "text", "text": "2.c) Ecrire le nombre $D=\\frac{3\\sqrt{2}-4}{3\\sqrt{2}+4}$ sans radical au denominateur. 0,75 pt" },
-
-    { "type": "exercise", "title": "Exercice 2", "pts": "3 points" },
-    { "type": "text", "text": "On considere l'expression $E=(x-3)(x+4)+x^2-16$." },
-    { "type": "text", "text": "1. Choisir la forme developpee de $E$ parmi celles qui sont proposees ci-dessous." },
-    { "type": "text", "text": "a) $2x^2-x-28$ ; b) $2x^2-x+28$ ; c) $2x^2+x+28$ ; d) $2x^2+x-28$. 1 pt" },
-    { "type": "text", "text": "2. Choisir la forme factorisee de $E$ parmi celles qui sont proposees ci-dessous." },
-    { "type": "text", "text": "a) $(x-4)(2x-7)$ ; b) $(x+4)(2x-7)$ ; c) $(x-4)(2x+7)$ ; d) $(x+4)(2x+7)$. 1 pt" },
-    { "type": "text", "text": "3. On considere la fraction rationnelle $Q=\\frac{(x+4)(2x-7)}{(x+4)(2x+7)}$." },
-    { "type": "text", "text": "a) Ecrire la condition d'existence d'une valeur numerique de $Q$. 0,5 pt" },
-    { "type": "text", "text": "b) Simplifier $Q$. 0,5 pt" },
-
-    { "type": "subsection", "title": "ACTIVITES GEOMETRIQUES", "pts": "6,25 points" },
-
-    { "type": "exercise", "title": "Exercice 1", "pts": "2 points" },
-    { "type": "text", "text": "Repondre par vrai ou faux." },
-    { "type": "text", "text": "1. Dans un repere orthonorme du plan, les droites $(D)$ et $(L)$ d'equations respectives $y=2x-1$ et $y=\\frac{1}{2}x+3$ sont perpendiculaires. 1 pt" },
-    { "type": "text", "text": "2. Les vecteurs $\\vec{u}$ et $\\vec{v}$ de coordonnees respectives $\\left(\\begin{array}{c}-2\\\\5\\end{array}\\right)$ et $\\left(\\begin{array}{c}5\\\\2\\end{array}\\right)$ sont colineaires. 1 pt" },
-
-    { "type": "exercise", "title": "Exercice 2", "pts": "2,25 points" },
-    { "type": "text", "text": "$ABC$ est un triangle rectangle en $B$ tel que $AB=6\\ \\text{cm}$ et $BC=8\\ \\text{cm}$." },
-    { "type": "text", "text": "1. Calculer $AC$. 0,75 pt" },
-    { "type": "text", "text": "2. Calculer la tangente de l'angle $\\widehat{BAC}$ et en deduire la mesure de l'angle $\\widehat{BAC}$ arrondie a l'entier le plus proche. 1,5 pts" },
-
-    { "type": "exercise", "title": "Exercice 3", "pts": "2 points" },
-    { "type": "text", "text": "$SABCD$ est une pyramide reguliere de hauteur $9\\ \\text{cm}$, dont la base est un carre de cote $8\\ \\text{cm}$. Calculer le volume de cette pyramide. 2 pts" },
-
-    { "type": "section", "title": "PARTIE B - EVALUATION DES COMPETENCES", "pts": "7,5 points" },
-    { "type": "text", "text": "I. Une association decide de venir en aide en fin d'annee a un orphelinat qui a presente un budget." },
-    { "type": "text", "text": "En debut d'annee, la caisse de l'association disposait encore d'une somme de 500000 FCFA." },
-    { "type": "text", "text": "Les membres de l'association ont cotise en plus une somme representant $\\frac{1}{5}$ du budget. Mais au moment de faire les comptes, ils constatent qu'il leur manque 100000 FCFA pour boucler le budget." },
-    { "type": "exercise", "title": "Tache 1" },
-    { "type": "text", "text": "Quel est le montant du budget presente par l'orphelinat ?" },
-
-    { "type": "text", "text": "II. Les dons en nature constitues de sacs de riz et de cartons d'huile ont ete achetes en deux temps chez le meme vendeur :" },
-    { "type": "text", "text": "- 1er temps : 3 sacs de riz et 2 cartons d'huile pour un montant total de 146000 FCFA ;" },
-    { "type": "text", "text": "- 2e temps : 2 sacs de riz et 2 cartons d'huile pour un montant total de 111000 FCFA." },
-    { "type": "text", "text": "Les factures des achats ont ete malheureusement egarees. 3 pts" },
-    { "type": "exercise", "title": "Tache 2" },
-    { "type": "text", "text": "Combien a coute un sac de riz et un carton d'huile ?" },
-
-    { "type": "text", "text": "III. Le chauffeur du vehicule charge du transport des achats a propose deux options :" },
-    { "type": "text", "text": "- 1re option : payer 5000 FCFA pour le carburant et 2000 FCFA par heure ;" },
-    { "type": "text", "text": "- 2e option : payer 10000 FCFA pour le carburant et 1000 FCFA par heure." },
-    { "type": "text", "text": "Le membre charge des achats voudrait savoir le nombre d'heures pour lequel la 1re option est la plus avantageuse. 3 pts" },
-    { "type": "exercise", "title": "Tache 3" },
-    { "type": "text", "text": "A partir de quelle duree en heures, l'option 2 est-elle plus avantageuse pour le transport des achats ? 3 pts" },
-
-    { "type": "text", "text": "Presentation : 1 pt" }
-  ]
+    {
+      "type": "text",
+      "text": "L'epreuve comporte les parties A et B.",
+      "en": "The exam consists of two independent parts A and B."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A - EVALUATION DES RESSOURCES",
+      "pts": "12,5 points",
+      "en": "PART A – RESOURCE ASSESSMENT:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux activites : une activite numerique et geometrique.",
+      "en": "This part includes two activities: a numerical activity and a geometrical activity."
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "NUMERICAL ACTIVITIES:"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "3,25 points",
+      "en": "Exercise 1:"
+    },
+    {
+      "type": "text",
+      "text": "1. Ecrire le nombre $A=\\left(\\frac{3}{2}+\\frac{5}{4}\\right)\\times\\left(\\frac{3}{2}-\\frac{5}{4}\\right)$ sous la forme d'une fraction irreductible. 1 pt",
+      "en": "1. Write the number $A=\\left(\\frac{3}{2}+\\frac{5}{4}\\right)\\times\\left(\\frac{3}{2}-\\frac{5}{4}\\right)$ as an irreducible fraction. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2.a) Ecrire le nombre $B=(3\\sqrt{2}-4)^2$ sous la forme $a+b\\sqrt{2}$ ou $a$ et $b$ sont des entiers. 0,75 pt",
+      "en": "2. a) Write the number $B=(3\\sqrt{2}-4)^2$ in the form $a+b\\sqrt{2}$ where $a$ and $b$ are integers. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2.b) Montrer que le nombre $C=(3\\sqrt{2}-4)(3\\sqrt{2}+4)$ est un entier. 0,75 pt",
+      "en": "b) Show that the number $C=(3\\sqrt{2}-4)(3\\sqrt{2}+4)$ is an integer. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2.c) Ecrire le nombre $D=\\frac{3\\sqrt{2}-4}{3\\sqrt{2}+4}$ sans radical au denominateur. 0,75 pt",
+      "en": "c) Write the number $D=\\frac{3\\sqrt{2}-4}{3\\sqrt{2}+4}$ without a radical in the denominator. 0.75 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "3 points",
+      "en": "Exercise 2:"
+    },
+    {
+      "type": "text",
+      "text": "On considere l'expression $E=(x-3)(x+4)+x^2-16$.",
+      "en": "Consider the expression $E=(x-3)(x+4)+x^2-16$."
+    },
+    {
+      "type": "text",
+      "text": "1. Choisir la forme developpee de $E$ parmi celles qui sont proposees ci-dessous.",
+      "en": "1. Choose the expanded form of $E$ from those proposed below."
+    },
+    {
+      "type": "text",
+      "text": "a) $2x^2-x-28$ ; b) $2x^2-x+28$ ; c) $2x^2+x+28$ ; d) $2x^2+x-28$. 1 pt",
+      "en": "a) $2x^2-x-28$ ; b) $2x^2-x+28$ ; c) $2x^2+x+28$ ; d) $2x^2+x-28$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Choisir la forme factorisee de $E$ parmi celles qui sont proposees ci-dessous.",
+      "en": "2. Choose the factorized form of $E$ from those proposed below:"
+    },
+    {
+      "type": "text",
+      "text": "a) $(x-4)(2x-7)$ ; b) $(x+4)(2x-7)$ ; c) $(x-4)(2x+7)$ ; d) $(x+4)(2x+7)$. 1 pt",
+      "en": "a) $(x-4)(2x-7)$ ; b) $(x+4)(2x-7)$ ; c) $(x-4)(2x+7)$ ; d) $(x+4)(2x+7)$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. On considere la fraction rationnelle $Q=\\frac{(x+4)(2x-7)}{(x+4)(2x+7)}$.",
+      "en": "3. Consider the rational fraction $Q=\\frac{(x+4)(2x-7)}{(x+4)(2x+7)}$."
+    },
+    {
+      "type": "text",
+      "text": "a) Ecrire la condition d'existence d'une valeur numerique de $Q$. 0,5 pt",
+      "en": "a) State the condition for the existence of a numerical value of $Q$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Simplifier $Q$. 0,5 pt",
+      "en": "b) Simplify $Q$. 0.5 pt"
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES GEOMETRIQUES",
+      "pts": "6,25 points",
+      "en": "GEOMETRICAL ACTIVITIES:"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2 points",
+      "en": "Exercise 1:"
+    },
+    {
+      "type": "text",
+      "text": "Repondre par vrai ou faux.",
+      "en": "Answer true or false."
+    },
+    {
+      "type": "text",
+      "text": "1. Dans un repere orthonorme du plan, les droites $(D)$ et $(L)$ d'equations respectives $y=2x-1$ et $y=\\frac{1}{2}x+3$ sont perpendiculaires. 1 pt",
+      "en": "1. In an orthonormal coordinate system of the plane, the lines $(D)$ and $(L)$ with respective equations $y=2x-1$ and $y=\\frac{1}{2}x+3$ are perpendicular. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Les vecteurs $\\vec{u}$ et $\\vec{v}$ de coordonnees respectives $\\left(\\begin{array}{c}-2\\\\5\\end{array}\\right)$ et $\\left(\\begin{array}{c}5\\\\2\\end{array}\\right)$ sont colineaires. 1 pt",
+      "en": "2. The vectors $\\vec{u}$ and $\\vec{v}$ with respective coordinates $\\left(\\begin{array}{c}-2\\\\5\\end{array}\\right)$ and $\\left(\\begin{array}{c}5\\\\2\\end{array}\\right)$ are collinear. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2,25 points",
+      "en": "Exercise 2:"
+    },
+    {
+      "type": "text",
+      "text": "$ABC$ est un triangle rectangle en $B$ tel que $AB=6\\ \\text{cm}$ et $BC=8\\ \\text{cm}$.",
+      "en": "$ABC$ is a right triangle at $B$ such that $AB=6\\ \\text{cm}$ and $BC=8\\ \\text{cm}$."
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer $AC$. 0,75 pt",
+      "en": "1. Calculate $AC$. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer la tangente de l'angle $\\widehat{BAC}$ et en deduire la mesure de l'angle $\\widehat{BAC}$ arrondie a l'entier le plus proche. 1,5 pts",
+      "en": "2. Calculate the tangent of angle $\\widehat{BAC}$ and deduce the measure of angle $\\widehat{BAC}$ rounded to the nearest integer. 1.5 pts"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "2 points",
+      "en": "Exercise 3:"
+    },
+    {
+      "type": "text",
+      "text": "$SABCD$ est une pyramide reguliere de hauteur $9\\ \\text{cm}$, dont la base est un carre de cote $8\\ \\text{cm}$. Calculer le volume de cette pyramide. 2 pts",
+      "en": "$SABCD$ is a regular pyramid with height $9\\ \\text{cm}$ whose base is a square with side $8\\ \\text{cm}$. Calculate the volume of this pyramid. 2 pts"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B - EVALUATION DES COMPETENCES",
+      "pts": "7,5 points",
+      "en": "PART B: SKILLS ASSESSMENT"
+    },
+    {
+      "type": "text",
+      "text": "I. Une association decide de venir en aide en fin d'annee a un orphelinat qui a presente un budget.",
+      "en": "I- At the end of the year, an association decides to provide support to an orphanage that has presented a budget."
+    },
+    {
+      "type": "text",
+      "text": "En debut d'annee, la caisse de l'association disposait encore d'une somme de 500000 FCFA.",
+      "en": "At the beginning of the year, the association's funds still amounted to 500000 FCFA."
+    },
+    {
+      "type": "text",
+      "text": "Les membres de l'association ont cotise en plus une somme representant $\\frac{1}{5}$ du budget. Mais au moment de faire les comptes, ils constatent qu'il leur manque 100000 FCFA pour boucler le budget.",
+      "en": "The members of the association additionally contributed an amount representing $\\frac{1}{5}$ of the budget. However, when balancing the accounts, they realize they are short of 100000 FCFA to complete the budget."
+    },
+    {
+      "type": "exercise",
+      "title": "Tache 1",
+      "en": "Task 1:"
+    },
+    {
+      "type": "text",
+      "text": "Quel est le montant du budget presente par l'orphelinat ?",
+      "en": "What is the total amount of the budget presented by the orphanage?"
+    },
+    {
+      "type": "text",
+      "text": "II. Les dons en nature constitues de sacs de riz et de cartons d'huile ont ete achetes en deux temps chez le meme vendeur :",
+      "en": "II- The in-kind donations consisting of bags of rice and cartons of oil were purchased in two installments from the same seller:"
+    },
+    {
+      "type": "text",
+      "text": "- 1er temps : 3 sacs de riz et 2 cartons d'huile pour un montant total de 146000 FCFA ;",
+      "en": "• 1st installment: 3 bags of rice and 2 cartons of oil for a total amount of 146000 FCFA;"
+    },
+    {
+      "type": "text",
+      "text": "- 2e temps : 2 sacs de riz et 2 cartons d'huile pour un montant total de 111000 FCFA.",
+      "en": "• 2nd installment: 2 bags of rice and 2 cartons of oil for a total amount of 111000 FCFA."
+    },
+    {
+      "type": "text",
+      "text": "Les factures des achats ont ete malheureusement egarees. 3 pts",
+      "en": "The purchase invoices were unfortunately misplaced. 3 pts"
+    },
+    {
+      "type": "exercise",
+      "title": "Tache 2",
+      "en": "Task 2:"
+    },
+    {
+      "type": "text",
+      "text": "Combien a coute un sac de riz et un carton d'huile ?",
+      "en": "How much did one bag of rice and one carton of oil cost?"
+    },
+    {
+      "type": "text",
+      "text": "III. Le chauffeur du vehicule charge du transport des achats a propose deux options :",
+      "en": "III- The driver of the vehicle responsible for transporting the purchases proposed two options:"
+    },
+    {
+      "type": "text",
+      "text": "- 1re option : payer 5000 FCFA pour le carburant et 2000 FCFA par heure ;",
+      "en": "• 1st option: pay 5000 FCFA for fuel and 2000 FCFA per hour;"
+    },
+    {
+      "type": "text",
+      "text": "- 2e option : payer 10000 FCFA pour le carburant et 1000 FCFA par heure.",
+      "en": "• 2nd option: pay 10000 FCFA for fuel and 1000 FCFA per hour."
+    },
+    {
+      "type": "text",
+      "text": "Le membre charge des achats voudrait savoir le nombre d'heures pour lequel la 1re option est la plus avantageuse. 3 pts",
+      "en": "The member in charge of the purchases would like to know the number of hours for which the 1st option is more advantageous. 3 pts"
+    },
+    {
+      "type": "exercise",
+      "title": "Tache 3",
+      "en": "Task 3:"
+    },
+    {
+      "type": "text",
+      "text": "A partir de quelle duree en heures, l'option 2 est-elle plus avantageuse pour le transport des achats ? 3 pts",
+      "en": "From what duration in hours does option 2 become more advantageous for transporting the purchases? 3 pts"
+    },
+    {
+      "type": "text",
+      "text": "Presentation : 1 pt",
+      "en": "Presentation: 1 pt"
+    }
+  ],
+  "titleEn": "The BEPC 2025 Mathematics Exam"
 }
