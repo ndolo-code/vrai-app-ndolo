@@ -1,10 +1,11 @@
 import type { ExamSection } from "./bac-d-data"
 import { autoTranslate } from "./auto-translate"
-import { BEPC_EXAMS } from "./bepc-data"
 
 import bepcIndex from "@/public/data/bepc/index.json"
 import bepc1999Subject from "@/public/data/bepc/1999/subject.json"
 import bepc1999Correction from "@/public/data/bepc/1999/correction.json"
+import bepc2011Subject from "@/public/data/bepc/2011/subject.json"
+import bepc2011Correction from "@/public/data/bepc/2011/correction.json"
 import bepc2012Subject from "@/public/data/bepc/2012/subject.json"
 import bepc2012Correction from "@/public/data/bepc/2012/correction.json"
 import bepc2013Subject from "@/public/data/bepc/2013/subject.json"
@@ -52,6 +53,7 @@ type LocalExamDoc = {
 // Keep all locally available BEPC years synchronized with index.json
 const LOCAL_BEPC_SUBJECTS = {
   1999: bepc1999Subject,
+  2011: bepc2011Subject,
   2012: bepc2012Subject,
   2013: bepc2013Subject,
   2014: bepc2014Subject,
@@ -70,6 +72,7 @@ const LOCAL_BEPC_SUBJECTS = {
 
 const LOCAL_BEPC_CORRECTIONS = {
   1999: bepc1999Correction,
+  2011: bepc2011Correction,
   2012: bepc2012Correction,
   2013: bepc2013Correction,
   2014: bepc2014Correction,
@@ -258,10 +261,8 @@ export const LOCAL_BEPC_YEARS = bepcIndex.years as number[]
 
 export function getLocalBepcSubject(year: number): ExamSection[] | null {
   const doc = LOCAL_BEPC_SUBJECTS[year]
-  if (doc) return normalizeDoc(doc)
-
-  const fallback = BEPC_EXAMS[year]
-  return fallback ?? null
+  if (!doc) return null
+  return normalizeDoc(doc)
 }
 
 export function getLocalBepcCorrection(year: number): ExamSection[] | null {
