@@ -7,7 +7,7 @@ import { getExamCountdown, getExamLabel, isExamClass } from "@/lib/data"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Input } from "@/components/ui/input"
-import { createClient } from "@/lib/supabase/client"
+import { createClient } from "@/lib/local-client"
 import { t, type Language } from "@/lib/i18n"
 
 interface CalEvent {
@@ -68,12 +68,12 @@ export function CalendarModal() {
     if (!isAuthenticated) return
     setLoading(true)
     try {
-      const supabase = createClient()
-      const { data: { session } } = await supabase.auth.getSession()
+      const localClient = createClient()
+      const { data: { session } } = await localClient.auth.getSession()
       if (!session) { setLoading(false); return }
       const startDate = `${year}-${String(month + 1).padStart(2, "0")}-01`
       const endDate = `${year}-${String(month + 1).padStart(2, "0")}-${daysInMonth}`
-      const { data, error } = await supabase
+      const { data, error } = await localClient
         .from("calendar_events")
         .select("*")
         .gte("event_date", startDate)
@@ -99,14 +99,14 @@ export function CalendarModal() {
     if (!newTitle.trim() || !selectedDate) return
     const cat = CATEGORIES.find(c => c.id === newCategory)
     try {
-      const supabase = createClient()
+      const localClient = createClient()
       // Use getSession for reliability (getUser makes a network call that can fail)
-      const { data: { session } } = await supabase.auth.getSession()
+      const { data: { session } } = await localClient.auth.getSession()
       if (!session?.user) {
         console.log("[v0] Calendar add: no session found")
         return
       }
-      const { data, error } = await supabase.from("calendar_events").insert({
+      const { data, error } = await localClient.from("calendar_events").insert({
         user_id: session.user.id,
         title: newTitle.trim(),
         description: "",
@@ -130,8 +130,8 @@ export function CalendarModal() {
 
   const handleDelete = async (id: string) => {
     try {
-      const supabase = createClient()
-      await supabase.from("calendar_events").delete().eq("id", id)
+      const localClient = createClient()
+      await localClient.from("calendar_events").delete().eq("id", id)
       setEvents(prev => prev.filter(e => e.id !== id))
     } catch { /* offline */ }
   }
