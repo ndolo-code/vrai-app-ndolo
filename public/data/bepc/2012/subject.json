@@ -1,0 +1,257 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2012",
+  "titleEn": "The Mathematics Examination – BEPC 2012",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A, B et C.",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A- ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "PART A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III.",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "1,5 point",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "On donne $X=\\dfrac{2^{7}\\times 3^{6}\\times 5^{3}}{81\\times 2^{8}\\times 125}$.",
+      "en": "Given $X=\\dfrac{2^{7}\\times 3^{6}\\times 5^{3}}{81\\times 2^{8}\\times 125}$."
+    },
+    {
+      "type": "text",
+      "text": "1. Ecrire $X$ sous forme de fraction irreductible. 0,5 pt",
+      "en": "1. Write $X$ as an irreducible fraction. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Trouver deux entiers consecutifs $\\alpha$ et $\\beta$ tels que $\\alpha<X<\\beta$. 1 pt",
+      "en": "2. Find two consecutive integers $\\alpha$ and $\\beta$ such that $\\alpha<X<\\beta$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "1. Le systeme $\\begin{cases}7u+3v=4850\\\\4u+6v=4700\\end{cases}$ admet une solution unique. Un seul des quatre ensembles ci-dessous represente son ensemble solution ; reproduisez-le sur votre feuille de composition. 0,5 pt",
+      "en": "1. The system $\\begin{cases}7u+3v=4850\\\\4u+6v=4700\\end{cases}$ has a unique solution. Only one of the four sets below represents its solution set; copy it onto your answer sheet. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "$S_1=\\{500;450\\}$ ; $S_2=\\{(450;500)\\}$ ; $S_3=\\{(500;450)\\}$ ; $S_4=(450;500)$",
+      "en": "$S_1=\\{500;450\\}$ ; $S_2=\\{(450;500)\\}$ ; $S_3=\\{(500;450)\\}$ ; $S_4=(450;500)$"
+    },
+    {
+      "type": "text",
+      "text": "2. MATO achete 7 cahiers et 3 bloc-notes a 4850 FCFA. MOKO achete 2 cahiers et trois bloc-notes identiques a ceux de MATO a 2350 FCFA. Calculer le prix d'un cahier et d'un bloc-notes. 1,5 pt",
+      "en": "2. MATO buys 7 notebooks and 3 notepads for 4850 FCFA. MOKO buys 2 notebooks and three notepads identical to MATO's for 2350 FCFA. Calculate the price of one notebook and one notepad. 1.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "3 points",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "On considere les nombres reels $a=3+\\sqrt{7}$ et $b=-3+\\sqrt{7}$.",
+      "en": "Consider the real numbers $a=3+\\sqrt{7}$ and $b=-3+\\sqrt{7}$."
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer $a^{2}$, $b^{2}$ et $ab$. 1,5 pt",
+      "en": "1. Calculate $a^{2}$, $b^{2}$ and $ab$. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Montrer que $\\dfrac{a}{b}+\\dfrac{b}{a}$ est un entier relatif negatif. 0,5 pt",
+      "en": "2. Show that $\\dfrac{a}{b}+\\dfrac{b}{a}$ is a negative integer. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Soit $Y=\\dfrac{a}{b}-\\dfrac{b}{a}$. Sachant que $2,6457<\\sqrt{7}<2,6458$, donner un encadrement de $Y$. 0,5 pt",
+      "en": "3. Let $Y=\\dfrac{a}{b}-\\dfrac{b}{a}$. Given that $2.6457<\\sqrt{7}<2.6458$, give bounds for $Y$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Une seule des quatre reponses ci-apres designe la valeur exacte de $\\left|-3+\\sqrt{7}\\right|$. Dire laquelle. 0,5 pt",
+      "en": "4. Only one of the four answers below gives the exact value of $\\left|-3+\\sqrt{7}\\right|$. State which one. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "a) $-3+\\sqrt{7}$ ; b) $3+\\sqrt{7}$ ; c) $3-\\sqrt{7}$ ; d) $-3-\\sqrt{7}$.",
+      "en": "a) $-3+\\sqrt{7}$ ; b) $3+\\sqrt{7}$ ; c) $3-\\sqrt{7}$ ; d) $-3-\\sqrt{7}$."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B- ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "PART B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1 et 2.",
+      "en": "This part consists of three independent exercises 1 and 2."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "1 point",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Repondre par vrai ou faux aux propositions suivantes.",
+      "en": "Answer True or False to the following statements."
+    },
+    {
+      "type": "text",
+      "text": "1. Si $A$ et $C$ sont deux angles complementaires, alors $\\cos A=\\sin C$. 0,5 pt",
+      "en": "1. If $A$ and $C$ are complementary angles, then $\\cos A=\\sin C$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Dans le plan rapporte a un repere orthonorme $(O,\\vec{i},\\vec{j})$ ; les vecteurs $\\vec{u}\\left(\\dfrac{1}{2};\\dfrac{1}{3}\\right)$ et $\\vec{v}(3;2)$ sont colineaires. 0,5 pt",
+      "en": "2. In the plane with an orthonormal coordinate system $(O,\\vec{i},\\vec{j})$, the vectors $\\vec{u}\\left(\\dfrac{1}{2};\\dfrac{1}{3}\\right)$ and $\\vec{v}(3;2)$ are collinear. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2,5 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "L'unite de longueur est le cm. On donne $AB=30$ et $BC=50$.",
+      "en": "The unit of length is the cm. Given $AB=30$ and $BC=50$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2012-geo-ex2.jpg",
+      "text": "Figure de l'exercice 2",
+      "en": "Figure for exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "1. Determiner $AC$ pour que le triangle $ABC$ soit rectangle en $A$. 1 pt",
+      "en": "1. Determine $AC$ so that triangle $ABC$ is right-angled at $A$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer $\\cos B$ et $\\sin B$. 1 pt",
+      "en": "2. Calculate $\\cos B$ and $\\sin B$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Determiner a $1^{\\circ}$ pres par exces de l'angle $B$. 0,5 pt",
+      "en": "3. Determine angle $B$ to the nearest $1^{\\circ}$ by excess. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "3 points",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "$SMNPQ$ est une pyramide reguliere de sommet $S$. Sa base est le carre $MNPQ$ de cote $8\\ \\text{cm}$ et sa hauteur $OS$ telle que $OS=7\\ \\text{cm}$.",
+      "en": "$SMNPQ$ is a regular pyramid with apex $S$. Its base is the square $MNPQ$ of side $8\\ \\text{cm}$ and its height $OS$ such that $OS=7\\ \\text{cm}$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2012-geo-ex3.jpg",
+      "text": "Figure de l'exercice 3",
+      "en": "Figure for exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "1. (a) Montrer que la mesure d'une arete laterale de cette pyramide est egale a $9\\ \\text{cm}$. 1 pt",
+      "en": "1. (a) Show that the length of a lateral edge of this pyramid is $9\\ \\text{cm}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Representer un patron de cette pyramide a l'echelle $\\dfrac{1}{2}$. 1 pt",
+      "en": "(b) Draw a net of this pyramid to the scale $\\dfrac{1}{2}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer la mesure de la hauteur issue de $S$ de la face laterale $SNP$. 1 pt",
+      "en": "2. Calculate the length of the altitude from $S$ in the lateral face $SNP$. 1 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE C- PROBLEME",
+      "pts": "7 points",
+      "en": "PART C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "L'unite de longueur est le centimetre.",
+      "en": "The unit of length is the centimeter."
+    },
+    {
+      "type": "text",
+      "text": "Dans un repere orthonorme $(O,\\vec{I},\\vec{J})$, on donne les points $R(1;5)$, $T(-1;-1)$.",
+      "en": "In an orthonormal coordinate system $(O,\\vec{I},\\vec{J})$, the points $R(1;5)$ and $T(-1;-1)$ are given."
+    },
+    {
+      "type": "text",
+      "text": "1. (a) Placer les points $R$ et $T$ dans le repere $(O,\\vec{I},\\vec{J})$. 0,5 pt",
+      "en": "1. (a) Plot the points $R$ and $T$ in the coordinate system $(O,\\vec{I},\\vec{J})$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Determiner une equation cartesienne de la droite $(RT)$. 1 pt",
+      "en": "(b) Determine a Cartesian equation of the line $(RT)$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Tracer dans un meme repere les droites $(D)$ et $(D')$ d'equations respectives $y=-\\dfrac{1}{3}x+2$ et $y=3x+2$. 1 pt",
+      "en": "2. Draw, in the same coordinate system, the lines $(D)$ and $(D')$ with respective equations $y=-\\dfrac{1}{3}x+2$ and $y=3x+2$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. (a) Determiner les coordonnees du point d'intersection de $(RT)$ avec l'axe des abscisses et celle du point d'intersection de $(D)$ avec le meme axe. 1 pt",
+      "en": "3. (a) Determine the coordinates of the intersection point of $(RT)$ with the x-axis and the coordinates of the intersection point of $(D)$ with the same axis. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Montrer que $K(0;2)$ est le point d'intersection des droites $(RT)$ et $(D)$. 0,5 pt",
+      "en": "(b) Show that $K(0;2)$ is the intersection point of the lines $(RT)$ and $(D)$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "(c) On considere les points $M\\left(-\\dfrac{2}{3};0\\right)$ ; $N(6;0)$. Demontrer que le triangle $KMN$ est rectangle en $K$. 1 pt",
+      "en": "(c) Consider the points $M\\left(-\\dfrac{2}{3};0\\right)$ and $N(6;0)$. Prove that triangle $KMN$ is right-angled at $K$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Le symetrique de $M$ par rapport a $K$ est note $M'$ et celui de $N$ est note $N'$.",
+      "en": "4. The reflection of $M$ across $K$ is denoted $M'$ and that of $N$ is denoted $N'$."
+    },
+    {
+      "type": "text",
+      "text": "(a) Montrer que le quadrilatere $MNM'N'$ est un losange. 1 pt",
+      "en": "(a) Show that quadrilateral $MNM'N'$ is a rhombus. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Calculer l'aire du losange $MNM'N'$. 1 pt",
+      "en": "(b) Calculate the area of the rhombus $MNM'N'$. 1 pt"
+    }
+  ]
+}

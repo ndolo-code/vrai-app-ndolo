@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useCallback } from "react"
 import { X, Send, Maximize2, Minimize2, WifiOff, MessageSquare, Flag, AlertTriangle, Loader2, Users } from "lucide-react"
 import { useAppStore } from "@/lib/store"
 import { CLASSES } from "@/lib/data"
-import { createClient } from "@/lib/supabase/client"
+import { createClient } from "@/lib/local-client"
 import { Input } from "@/components/ui/input"
 import { t } from "@/lib/i18n"
 
@@ -46,12 +46,12 @@ export function ForumDrawer() {
   // Load posts and subscribe to realtime
   useEffect(() => {
     if (!forumDrawerOpen || !isOnline) return
-    const supabase = createClient()
-    let channel: ReturnType<typeof supabase.channel> | null = null
+    const localClient = createClient()
+    let channel: ReturnType<typeof localClient.channel> | null = null
 
     const fetchPosts = async () => {
       setLoading(true)
-      const { data } = await supabase
+      const { data } = await localClient
         .from("posts")
         .select("*")
         .eq("class_id", registeredClass)
@@ -65,7 +65,7 @@ export function ForumDrawer() {
     fetchPosts()
 
     // Subscribe to realtime inserts
-    channel = supabase
+    channel = localClient
       .channel(`forum-${registeredClass}`)
       .on("postgres_changes", {
         event: "INSERT",
@@ -87,7 +87,7 @@ export function ForumDrawer() {
       })
       .subscribe()
 
-    return () => { if (channel) supabase.removeChannel(channel) }
+    return () => { if (channel) localClient.removeChannel(channel) }
   }, [forumDrawerOpen, registeredClass, isOnline])
 
   const scrollToBottom = useCallback(() => {
@@ -102,11 +102,11 @@ export function ForumDrawer() {
     setText("")
 
     try {
-      const supabase = createClient()
-      const { data: { user: authUser } } = await supabase.auth.getUser()
+      const localClient = createClient()
+      const { data: { user: authUser } } = await localClient.auth.getUser()
       if (!authUser) { setSending(false); return }
 
-      await supabase.from("posts").insert({
+      await localClient.from("posts").insert({
         user_id: authUser.id,
         class_id: registeredClass,
         content,
@@ -123,10 +123,10 @@ export function ForumDrawer() {
     if (reportedIds.has(postId)) return
     setReportingId(postId)
     try {
-      const supabase = createClient()
-      const { data: { user: authUser } } = await supabase.auth.getUser()
+      const localClient = createClient()
+      const { data: { user: authUser } } = await localClient.auth.getUser()
       if (!authUser) return
-      await supabase.from("reports").insert({
+      await localClient.from("reports").insert({
         reporter_id: authUser.id,
         post_id: postId,
         reason: "inappropriate",
