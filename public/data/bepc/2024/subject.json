@@ -1,68 +1,278 @@
 {
   "title": "BEPC 2024 - Sujet de mathematiques",
   "sections": [
-    { "type": "text", "text": "L'epreuve comporte les parties A et B." },
-
-    { "type": "section", "title": "PARTIE A - EVALUATION DES RESSOURCES", "pts": "10 points" },
-    { "type": "text", "text": "Cette partie comporte deux activites : une activite numerique et geometrique." },
-
-    { "type": "subsection", "title": "ACTIVITES NUMERIQUES", "pts": "5 points" },
-    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3." },
-
-    { "type": "exercise", "title": "Exercice 1", "pts": "1,5 point" },
-    { "type": "text", "text": "On considere le nombre $A=\\frac{2+\\sqrt{3}}{2-\\sqrt{3}}$." },
-    { "type": "text", "text": "1. Calculer $(2+\\sqrt{3})^2$. 0,5 pt" },
-    { "type": "text", "text": "2. Montrer que $A=7+4\\sqrt{3}$. 0,5 pt" },
-    { "type": "text", "text": "3. Sachant que $1,732<\\sqrt{3}<1,733$, determiner un encadrement de $A$ par deux nombres decimaux d'ordre 2. 0,5 pt" },
-
-    { "type": "exercise", "title": "Exercice 2", "pts": "1,5 point" },
-    { "type": "text", "text": "1. On considere l'expression $B=(x-2)^2+(x-2)(x+4)$." },
-    { "type": "text", "text": "Ecrire $B$ sous la forme d'un produit de facteurs du premier degre. 0,75 pt" },
-    { "type": "text", "text": "2. On considere la fraction rationnelle $C=\\frac{(x-2)(2x+1)}{(x-2)(x+3)}$." },
-    { "type": "text", "text": "Donner la condition d'existence d'une valeur numerique de $C$ puis simplifier $C$. 0,75 pt" },
-
-    { "type": "exercise", "title": "Exercice 3", "pts": "2 points" },
-    { "type": "text", "text": "Le tableau suivant recapitule les notes sur 20 en mathematiques de 50 eleves d'une classe de troisieme avec une donnee manquante." },
-    { "type": "table", "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [0;4[ & [4;8[ & [8;12[ & [12;16[ & [16;20[ \\\\ \\hline\\text{Effectifs} & 13 & 15 & 10 & 5 & \\text{?} \\\\ \\hline\\end{array}$$" },
-    { "type": "text", "text": "1. Quel est le caractere etudie et quelle est sa nature ? 0,5 pt" },
-    { "type": "text", "text": "2. Justifier que l'effectif de la classe $[16;20[$ est 7. 0,25 pt" },
-    { "type": "text", "text": "3. Quelle est la classe modale de cette serie statistique ? 0,25 pt" },
-    { "type": "text", "text": "4. Calculer la moyenne des notes sur 20 en mathematiques de cette classe. 1 pt" },
-
-    { "type": "subsection", "title": "ACTIVITES GEOMETRIQUES", "pts": "5 points" },
-    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3." },
-
-    { "type": "exercise", "title": "Exercice 1", "pts": "1,5 point" },
-    { "type": "text", "text": "Le plan est muni d'un repere orthonorme $(O,I,J)$. On considere les points $A$, $B$ et $C$ de coordonnees respectives $(2;2)$ ; $(-3;1)$ et $(4;-2)$." },
-    { "type": "text", "text": "Repondre par Vrai ou Faux :" },
-    { "type": "text", "text": "1. Le couple de coordonnees du vecteur $\\overrightarrow{AB}$ est $(-5;-1)$. 0,5 pt" },
-    { "type": "text", "text": "2. La distance $AC$ est egale a $3\\sqrt{3}$. 0,5 pt" },
-    { "type": "text", "text": "3. Une equation cartesienne de la droite $(AB)$ est $x-5y+8=0$. 0,5 pt" },
-
-    { "type": "exercise", "title": "Exercice 2", "pts": "2 points" },
-    { "type": "text", "text": "Sur la figure ci-contre, $ABC$ est un triangle rectangle en $C$ tel que $AB=5cm$, $BC=3cm$ et $AC=4cm$. $E$ est un point de $[AB]$ tel que $AE=4cm$. La droite passant par $E$ et parallele a $(BC)$ coupe $[AC]$ en $F$. $(C)$ est le cercle de centre $O$, circonscrit au triangle $ABC$. $M$ est un point du cercle $(C)$." },
-    { "type": "image", "src": "/images/bepc2024-geo-ex2.jpg", "text": "Figure geometrique BEPC 2024 - exercice 2" },
-    { "type": "text", "text": "1. Calculer $\\cos\\widehat{BAC}$ et en deduire l'arrondi a $10^{-1}$ pres de la mesure de l'angle $\\widehat{BAC}$. 0,75 pt" },
-    { "type": "text", "text": "2. Justifier que les angles $\\widehat{BAC}$ et $\\widehat{BMC}$ ont la meme mesure. 0,5 pt" },
-    { "type": "text", "text": "3. Calculer la distance $EF$. 0,75 pt" },
-
-    { "type": "exercise", "title": "Exercice 3", "pts": "1,5 point" },
-    { "type": "text", "text": "La figure ci-contre represente une pyramide reguliere $SABCD$ de hauteur $SM=6cm$ et dont la base est carree de cote $AB=4cm$." },
-    { "type": "text", "text": "On coupe cette pyramide suivant un plan parallele a la base et passant par le point $N$ tel que $SN=\\frac{1}{2}SM$." },
-    { "type": "image", "src": "/images/bepc2024-geo-ex3.jpg", "text": "Figure geometrique BEPC 2024 - exercice 3" },
-    { "type": "text", "text": "1. Calculer le volume $V$ de la pyramide $SABCD$. 0,75 pt" },
-    { "type": "text", "text": "2. En deduire le volume $v$ de la pyramide reduite $SEFGH$. 0,75 pt" },
-
-    { "type": "section", "title": "PARTIE B - EVALUATION DES COMPETENCES", "pts": "10 points" },
-    { "type": "exercise", "title": "Situation" },
-    { "type": "text", "text": "Le proprietaire d'un hotel voudrait effectuer des travaux de refection. Son comptable a envisage de faire financer les $\\frac{2}{5}$ du montant total du budget des travaux par une banque, le $\\frac{1}{4}$ du montant total de ce budget par une partie des recettes et le reste, soit la somme de $12\\ 225\\ 000\\ \\text{FCFA}$ par ses economies personnelles." },
-    { "type": "text", "text": "Avant de commencer les travaux, il voudrait connaitre le montant exact du budget total des travaux, mais son comptable est absent." },
-    { "type": "text", "text": "Une partie des travaux concerne le renouvellement du carrelage d'une cuisine de forme rectangulaire de longueur $4,80$ metres et largeur $3$ metres. Il envisage utiliser des carreaux carres ayant la plus grande dimension possible, poses sans espaces." },
-    { "type": "text", "text": "Une autre partie des travaux concerne la peinture des murs. Il a achete un total de $10$ seaux de peinture comprenant des seaux de peinture a huile et a eau. Un seau de peinture a eau coute $40\\ 000\\ \\text{FCFA}$ et un seau de peinture a huile $60\\ 000\\ \\text{FCFA}$ pour un montant total de $440\\ 000\\ \\text{FCFA}$." },
-
-    { "type": "exercise", "title": "Taches" },
-    { "type": "text", "text": "1. Calculer le montant total du budget des travaux de refection. 3 pts" },
-    { "type": "text", "text": "2. Calculer le nombre minimal de carreaux a acheter pour le renouvellement du carrelage. 3 pts" },
-    { "type": "text", "text": "3. Calculer le nombre de seaux de peinture de chaque type qui ont ete achetes. 3 pts" }
-  ]
+    {
+      "type": "text",
+      "text": "L'epreuve comporte les parties A et B.",
+      "en": "The exam consists of two independent parts A and B."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A - EVALUATION DES RESSOURCES",
+      "pts": "10 points",
+      "en": "PART A – RESOURCE ASSESSMENT:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux activites : une activite numerique et geometrique.",
+      "en": "This part includes two activities: a numerical activity and a geometrical activity."
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES NUMERIQUES",
+      "pts": "5 points",
+      "en": "NUMERICAL ACTIVITIES:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This part includes three independent exercises: 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "1,5 point",
+      "en": "Exercise 1:"
+    },
+    {
+      "type": "text",
+      "text": "On considere le nombre $A=\\frac{2+\\sqrt{3}}{2-\\sqrt{3}}$.",
+      "en": "Consider the number $A=\\frac{2+\\sqrt{3}}{2-\\sqrt{3}}$."
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer $(2+\\sqrt{3})^2$. 0,5 pt",
+      "en": "1. Calculate $(2+\\sqrt{3})^2$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Montrer que $A=7+4\\sqrt{3}$. 0,5 pt",
+      "en": "2. Show that $A=7+4\\sqrt{3}$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Sachant que $1,732<\\sqrt{3}<1,733$, determiner un encadrement de $A$ par deux nombres decimaux d'ordre 2. 0,5 pt",
+      "en": "3. Given that $1.732<\\sqrt{3}<1.733$, determine bounds for $A$ between two decimal numbers of order $2$. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "1,5 point",
+      "en": "Exercise 2:"
+    },
+    {
+      "type": "text",
+      "text": "1. On considere l'expression $B=(x-2)^2+(x-2)(x+4)$.",
+      "en": "1. Consider the expression $B=(x-2)^2+(x-2)(x+4)$."
+    },
+    {
+      "type": "text",
+      "text": "Ecrire $B$ sous la forme d'un produit de facteurs du premier degre. 0,75 pt",
+      "en": "Write $B$ as a product of first-degree factors. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. On considere la fraction rationnelle $C=\\frac{(x-2)(2x+1)}{(x-2)(x+3)}$.",
+      "en": "2. Consider the rational fraction $C=\\frac{(x-2)(2x+1)}{(x-2)(x+3)}$."
+    },
+    {
+      "type": "text",
+      "text": "Donner la condition d'existence d'une valeur numerique de $C$ puis simplifier $C$. 0,75 pt",
+      "en": "State the condition for the existence of a numerical value of $C$, then simplify $C$. 0.75 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "2 points",
+      "en": "Exercise 3:"
+    },
+    {
+      "type": "text",
+      "text": "Le tableau suivant recapitule les notes sur 20 en mathematiques de 50 eleves d'une classe de troisieme avec une donnee manquante.",
+      "en": "The following table summarizes the mathematics scores out of 20 of 50 students in a third-year class, with one missing value."
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Notes} & [0;4[ & [4;8[ & [8;12[ & [12;16[ & [16;20[ \\\\ \\hline\\text{Effectifs} & 13 & 15 & 10 & 5 & \\text{?} \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Scores} & [0;4[ & [4;8[ & [8;12[ & [12;16[ & [16;20[ \\\\ \\hline\\text{Frequencies} & 13 & 15 & 10 & 5 & \\text{?} \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "1. Quel est le caractere etudie et quelle est sa nature ? 0,5 pt",
+      "en": "1. What is the variable studied and what is its nature? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Justifier que l'effectif de la classe $[16;20[$ est 7. 0,25 pt",
+      "en": "2. Justify that the frequency of the class $[16;16[$ is 7. 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Quelle est la classe modale de cette serie statistique ? 0,25 pt",
+      "en": "3. What is the modal class of this statistical series? 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Calculer la moyenne des notes sur 20 en mathematiques de cette classe. 1 pt",
+      "en": "4. Calculate the mean score out of 20 in mathematics for this class. 1 pt"
+    },
+    {
+      "type": "subsection",
+      "title": "ACTIVITES GEOMETRIQUES",
+      "pts": "5 points",
+      "en": "GEOMETRICAL ACTIVITIES:"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This part includes two independent exercises: 1 and 2."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "1,5 point",
+      "en": "Exercise 1:"
+    },
+    {
+      "type": "text",
+      "text": "Le plan est muni d'un repere orthonorme $(O,I,J)$. On considere les points $A$, $B$ et $C$ de coordonnees respectives $(2;2)$ ; $(-3;1)$ et $(4;-2)$.",
+      "en": "The plane is equipped with an orthonormal coordinate system $(O,I,J)$. Consider the points $A$, $B$ and $C$ with respective coordinates $(2;2)$, $(-3;1)$ and $(4;-2)$."
+    },
+    {
+      "type": "text",
+      "text": "Repondre par Vrai ou Faux :",
+      "en": "Answer True or False to each of the following questions:"
+    },
+    {
+      "type": "text",
+      "text": "1. Le couple de coordonnees du vecteur $\\overrightarrow{AB}$ est $(-5;-1)$. 0,5 pt",
+      "en": "1. The coordinate pair of the vector $\\overrightarrow{AB}$ is: $(-5;-1)$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. La distance $AC$ est egale a $3\\sqrt{3}$. 0,5 pt",
+      "en": "2. The distance $AC$ is equal to $3\\sqrt{3}$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Une equation cartesienne de la droite $(AB)$ est $x-5y+8=0$. 0,5 pt",
+      "en": "3. A Cartesian equation of the line $(AB)$ is: $x-5y+8=0$. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2 points",
+      "en": "Exercise 2:"
+    },
+    {
+      "type": "text",
+      "text": "Sur la figure ci-contre, $ABC$ est un triangle rectangle en $C$ tel que $AB=5cm$, $BC=3cm$ et $AC=4cm$. $E$ est un point de $[AB]$ tel que $AE=4cm$. La droite passant par $E$ et parallele a $(BC)$ coupe $[AC]$ en $F$. $(C)$ est le cercle de centre $O$, circonscrit au triangle $ABC$. $M$ est un point du cercle $(C)$.",
+      "en": "In the adjacent figure, $ABC$ is a right triangle at $C$ such that: $AB=5cm$; $BC=3cm$ and $AC=4cm$. $E$ is the point on segment $[AB]$ such that $AE=4cm$. The line passing through $E$ and parallel to $(BC)$ intersects segment $[AC]$ at $F$. $(C)$ is the circle with center $O$, circumscribed about triangle $ABC$. $M$ is a point on the circle $(C)$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2024-geo-ex2.jpg",
+      "text": "Figure geometrique BEPC 2024 - exercice 2",
+      "en": "Geometrical activity solution 21"
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer $\\cos\\widehat{BAC}$ et en deduire l'arrondi a $10^{-1}$ pres de la mesure de l'angle $\\widehat{BAC}$. 0,75 pt",
+      "en": "1. Calculate $\\cos\\widehat{BAC}$ and deduce the value of the measure of angle $\\widehat{BAC}$ rounded to the nearest $10^{-1}$. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Justifier que les angles $\\widehat{BAC}$ et $\\widehat{BMC}$ ont la meme mesure. 0,5 pt",
+      "en": "2. Justify that the angles $\\widehat{BAC}$ and $\\widehat{BMC}$ have the same measure. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Calculer la distance $EF$. 0,75 pt",
+      "en": "3. Calculate the distance $EF$. 0.75 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "1,5 point",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "La figure ci-contre represente une pyramide reguliere $SABCD$ de hauteur $SM=6cm$ et dont la base est carree de cote $AB=4cm$.",
+      "en": "The adjacent figure represents a regular pyramid $SABCD$ with height $SM=6cm$ and a square base with side $AB=4cm$."
+    },
+    {
+      "type": "text",
+      "text": "On coupe cette pyramide suivant un plan parallele a la base et passant par le point $N$ tel que $SN=\\frac{1}{2}SM$.",
+      "en": "This pyramid is cut by a plane parallel to the base and passing through point $N$ such that $SN=\\frac{1}{2}SM$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2024-geo-ex3.jpg",
+      "text": "Figure geometrique BEPC 2024 - exercice 3",
+      "en": "Geometrical activity solution 22"
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer le volume $V$ de la pyramide $SABCD$. 0,75 pt",
+      "en": "1. Calculate the volume $V$ of the pyramid $SABCD$. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. En deduire le volume $v$ de la pyramide reduite $SEFGH$. 0,75 pt",
+      "en": "2. Deduce the volume $v$ of the reduced pyramid $SEFGH$. 0.75 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B - EVALUATION DES COMPETENCES",
+      "pts": "10 points",
+      "en": "PART B – SKILLS ASSESSMENT:"
+    },
+    {
+      "type": "exercise",
+      "title": "Situation",
+      "en": "Situation:"
+    },
+    {
+      "type": "text",
+      "text": "Le proprietaire d'un hotel voudrait effectuer des travaux de refection. Son comptable a envisage de faire financer les $\\frac{2}{5}$ du montant total du budget des travaux par une banque, le $\\frac{1}{4}$ du montant total de ce budget par une partie des recettes et le reste, soit la somme de $12\\ 225\\ 000\\ \\text{FCFA}$ par ses economies personnelles.",
+      "en": "The owner of a hotel would like to carry out renovation work. His accountant planned to finance $\\frac{2}{5}$ of the total renovation budget through a bank, $\\frac{1}{4}$ of the total budget from part of the revenue, and the remainder, that is the sum of $1\\ 2225\\ 000\\ \\text{FCFA}$, from his personal savings."
+    },
+    {
+      "type": "text",
+      "text": "Avant de commencer les travaux, il voudrait connaitre le montant exact du budget total des travaux, mais son comptable est absent.",
+      "en": "Before starting the work, he would like to know the exact total budget amount, but his accountant is absent."
+    },
+    {
+      "type": "text",
+      "text": "Une partie des travaux concerne le renouvellement du carrelage d'une cuisine de forme rectangulaire de longueur $4,80$ metres et largeur $3$ metres. Il envisage utiliser des carreaux carres ayant la plus grande dimension possible, poses sans espaces.",
+      "en": "Part of the work concerns replacing the tiles of a rectangular kitchen measuring $4.80$ meters in length and $3$ meters in width. He plans to use square tiles of the largest possible size, laid without gaps. He therefore wants to know the minimum number of tiles to purchase."
+    },
+    {
+      "type": "text",
+      "text": "Une autre partie des travaux concerne la peinture des murs. Il a achete un total de $10$ seaux de peinture comprenant des seaux de peinture a huile et a eau. Un seau de peinture a eau coute $40\\ 000\\ \\text{FCFA}$ et un seau de peinture a huile $60\\ 000\\ \\text{FCFA}$ pour un montant total de $440\\ 000\\ \\text{FCFA}$.",
+      "en": "Another part of the work concerns painting the walls. For this purpose, he purchased a total of $10$ buckets of paint, including oil-based paint and water-based paint. The hardware store sold him one bucket of water-based paint for $40\\ 000\\ \\text{FCFA}$ and one bucket of oil-based paint for $60\\ 000\\ \\text{FCFA}$ for a total amount of $440\\ 000\\ \\text{FCFA}$. At the time of delivery, he would like to verify the number of buckets of each type."
+    },
+    {
+      "type": "exercise",
+      "title": "Taches",
+      "en": "Tasks:"
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer le montant total du budget des travaux de refection. 3 pts",
+      "en": "1. Calculate the total renovation budget 3 pts"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer le nombre minimal de carreaux a acheter pour le renouvellement du carrelage. 3 pts",
+      "en": "2. Calculate the minimum number of tiles to purchase for replacing the flooring 3 pts"
+    },
+    {
+      "type": "text",
+      "text": "3. Calculer le nombre de seaux de peinture de chaque type qui ont ete achetes. 3 pts",
+      "en": "3. Calculate the number of paint buckets of each type that were purchased. 3 pts"
+    }
+  ],
+  "titleEn": "The BEPC 2024 Mathematics Exam"
 }
