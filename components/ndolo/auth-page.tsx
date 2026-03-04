@@ -7,7 +7,7 @@ import { COUNTRIES, CLASSES, COUNTRY_PHONE_CODES } from "@/lib/data"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Checkbox } from "@/components/ui/checkbox"
-import { createClient } from "@/lib/supabase/client"
+import { createClient } from "@/lib/local-client"
 import { t } from "@/lib/i18n"
 import type { Language } from "@/lib/i18n"
 
@@ -67,8 +67,8 @@ export function AuthPage() {
 
     setIsSubmitting(true)
     try {
-      const supabase = createClient()
-      const { data, error } = await supabase.auth.signInWithPassword({ email: loginEmail.trim(), password: loginPw })
+      const localClient = createClient()
+      const { data, error } = await localClient.auth.signInWithPassword({ email: loginEmail.trim(), password: loginPw })
       if (error) {
         if (error.message.includes("Invalid login")) {
           setServerError(t("auth.wrongCredentials", lang))
@@ -86,7 +86,7 @@ export function AuthPage() {
         } else {
           localStorage.removeItem("ndolo_remember_email")
         }
-        const { data: profile } = await supabase.from("profiles").select("*").eq("id", data.user.id).single()
+        const { data: profile } = await localClient.from("profiles").select("*").eq("id", data.user.id).single()
         login({
           name: profile?.full_name || data.user.user_metadata?.full_name || "",
           email: data.user.email || "",
@@ -119,8 +119,8 @@ export function AuthPage() {
 
     setIsSubmitting(true)
     try {
-      const supabase = createClient()
-      const { data, error } = await supabase.auth.signUp({
+      const localClient = createClient()
+      const { data, error } = await localClient.auth.signUp({
         email: regEmail.trim(),
         password: regPw,
         options: {
@@ -148,7 +148,7 @@ export function AuthPage() {
       }
       if (data.user) {
         if (regPhone) {
-          await supabase.from("profiles").update({ phone: phonePrefix + regPhone }).eq("id", data.user.id)
+          await localClient.from("profiles").update({ phone: phonePrefix + regPhone }).eq("id", data.user.id)
         }
         login({
           name: regName.trim(),
@@ -175,8 +175,8 @@ export function AuthPage() {
 
     setIsSubmitting(true)
     try {
-      const supabase = createClient()
-      const { error } = await supabase.auth.resetPasswordForEmail(forgotEmail.trim(), {
+      const localClient = createClient()
+      const { error } = await localClient.auth.resetPasswordForEmail(forgotEmail.trim(), {
         redirectTo: `${window.location.origin}`,
       })
       if (error) {
