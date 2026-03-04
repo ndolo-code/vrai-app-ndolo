@@ -1,0 +1,206 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2011",
+  "titleEn": "The Mathematics Examination – BEPC 2011",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A, B et C.",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "section",
+      "title": "A- ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III.",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2,5 pts",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Dans cet exercice pour chacune des questions posees il vous est proposee quatre reponses denommees Rep a), Rep b), Rep c), Rep d) parmi lesquelles une seule est juste; sans faire de calculs sur votre feuille de composition, reproduisez sur celle-ci le numero de la question et la denomination de la reponse juste correspondante.",
+      "en": "In this exercise, for each question you are given four answers labeled Answer a), Answer b), Answer c), Answer d). Only one is correct. Without doing any calculations on your answer sheet, copy the question number and the letter of the correct answer."
+    },
+    {
+      "type": "text",
+      "text": "$1^{\\circ}) : 0,75pt \\ ; \\ 2^{\\circ}) : 0,75pt \\ ; \\ 3^{\\circ}) : 0,5pt \\ ; \\ 4^{\\circ}) : 0,5pt.$",
+      "en": "$1^{\\circ}) : 0.75pt \\ ; \\ 2^{\\circ}) : 0.75pt \\ ; \\ 3^{\\circ}) : 0.5pt \\ ; \\ 4^{\\circ}) : 0.5pt.$"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|l|c|c|c|c|}\\hline\\text{Question} & \\text{Reponse a)} & \\text{Reponse b)} & \\text{Reponse c)} & \\text{Reponse d)} \\\\ \\hline 1^{\\circ}\\ a=\\dfrac{\\dfrac{4}{3}+\\dfrac{7}{2}}{\\dfrac{1}{6}-\\dfrac{5}{3}}\\ \\text{a est egal a :} & a=\\dfrac{29}{9} & a=-\\dfrac{29}{9} & a=\\dfrac{9}{29} & a=-\\dfrac{9}{29} \\\\ \\hline 2^{\\circ}\\ b=\\dfrac{\\sqrt{7}-\\sqrt{5}}{\\sqrt{7}+\\sqrt{5}}\\ ;\\ b\\ \\text{est egal a :} & \\dfrac{\\sqrt{7}}{\\sqrt{7}}-\\dfrac{\\sqrt{5}}{\\sqrt{5}} & \\dfrac{\\sqrt{2}}{\\sqrt{12}} & \\sqrt{35}-6 & 6-\\sqrt{35} \\\\ \\hline 3^{\\circ}\\ \\text{La forme developpee et reduite de}\\ p(x)=(3x+1)^{2}\\ \\text{suivant les puissances decroissantes de}\\ x\\ \\text{est egale a :} & 9x^{2}+6x+1 & 9x^{2}-6x+1 & 1+6x+9x^{2} & 9x^{2}+1 \\\\ \\hline 4^{\\circ}\\ \\text{La forme factorisee de}\\ Q(x)=9x^{2}+6x+1-(3x+1)(4x+5)\\ \\text{est egal a :} & (3x-1)(4+x) & (3x+1)(4-x) & (3x+1)(-4-x) & (1-3x)(4+x) \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|l|c|c|c|c|}\\hline\\text{Question} & \\text{Answer a)} & \\text{Answer b)} & \\text{Answer c)} & \\text{Answer d)} \\\\ \\hline 1^{\\circ}\\ a=\\dfrac{\\dfrac{4}{3}+\\dfrac{7}{2}}{\\dfrac{1}{6}-\\dfrac{5}{3}}\\ \\text{a is equal to:} & a=\\dfrac{29}{9} & a=-\\dfrac{29}{9} & a=\\dfrac{9}{29} & a=-\\dfrac{9}{29} \\\\ \\hline 2^{\\circ}\\ b=\\dfrac{\\sqrt{7}-\\sqrt{5}}{\\sqrt{7}+\\sqrt{5}}\\ ;\\ b\\ \\text{is equal to:} & \\dfrac{\\sqrt{7}}{\\sqrt{7}}-\\dfrac{\\sqrt{5}}{\\sqrt{5}} & \\dfrac{\\sqrt{2}}{\\sqrt{12}} & \\sqrt{35}-6 & 6-\\sqrt{35} \\\\ \\hline 3^{\\circ}\\ \\text{The expanded and simplified form of}\\ p(x)=(3x+1)^{2}\\ \\text{in descending powers of}\\ x\\ \\text{is:} & 9x^{2}+6x+1 & 9x^{2}-6x+1 & 1+6x+9x^{2} & 9x^{2}+1 \\\\ \\hline 4^{\\circ}\\ \\text{The factorized form of}\\ Q(x)=9x^{2}+6x+1-(3x+1)(4x+5)\\ \\text{is:} & (3x-1)(4+x) & (3x+1)(4-x) & (3x+1)(-4-x) & (1-3x)(4+x) \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2,5 pts",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "Le diagramme circulaire ci-contre represente la repartition de la population de six villages $A$, $B$, $C$, $D$, $E$, $F$. La population totale de l'ensemble des villages est $72000$ habitants.",
+      "en": "The pie chart shown alongside represents the distribution of the population of six villages $A$, $B$, $C$, $D$, $E$, $F$. The total population of all the villages is $72000$ inhabitants."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2011-num-ex2.jpg",
+      "text": "Diagramme de l'exercice 2",
+      "en": "Chart for exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "1. Reproduire et completer le tableau ci-dessous en utilisant le diagramme ci-dessus : 1,5 pt",
+      "en": "1. Copy and complete the table below using the chart above: 1.5 pt"
+    },
+    {
+      "type": "table",
+      "text": "$$\\begin{array}{|l|c|c|c|c|c|c|c|}\\hline\\text{Villages} & A & B & C & D & E & F & \\text{Total} \\\\ \\hline\\text{Mesure des angles au centre associes} &  &  &  & 20\\% &  & 30\\% & 360\\% \\\\ \\hline\\text{Effectifs de la population} & 12000 &  & 6000 & 4000 &  & 6000 & 72000 \\\\ \\hline\\end{array}$$",
+      "en": "$$\\begin{array}{|l|c|c|c|c|c|c|c|}\\hline\\text{Villages} & A & B & C & D & E & F & \\text{Total} \\\\ \\hline\\text{Measures of the corresponding central angles} &  &  &  & 20\\% &  & 30\\% & 360\\% \\\\ \\hline\\text{Population counts} & 12000 &  & 6000 & 4000 &  & 6000 & 72000 \\\\ \\hline\\end{array}$$"
+    },
+    {
+      "type": "text",
+      "text": "2. Quel est la nature du caractere de cette serie statistique? 0,5 pt",
+      "en": "2. What is the nature of the variable in this statistical series? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Determiner le mode de cette serie. 0,5 pt",
+      "en": "3. Determine the mode of this series. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "1,5 pts",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "1. Resoudre dans l'equation $15x+20=110$. 0,5 pt",
+      "en": "1. Solve the equation $15x+20=110$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "M. Kafinda est menuisier. Pour realiser ses travaux, un atelier lui propose un contrat dont les termes sont les suivants : $2000$ Frs de caution non remboursable, puis $1500$ Frs par heure passee sur la machine a bois. Aujourd'hui, M. Kafinda a paye $11000$ Frs. Combien d'heures a-t-il passe sur la machine? 1 pt",
+      "en": "Mr. Kafinda is a carpenter. To carry out his work, a workshop offers him a contract with the following terms: a non-refundable deposit of 2000 francs, then 1500 francs per hour spent on the woodworking machine. Today, Mr. Kafinda paid 11000 francs. How many hours did he spend on the machine? 1 pt"
+    },
+    {
+      "type": "section",
+      "title": "B- ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1 et 2.",
+      "en": "This part consists of three independent exercises 1 and 2."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "3,5 pts",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Dans le plan rapporte a un repere orthonorme on considere les points $A(-2,1)$, $B(1,2)$ et $C(-3,0)$.",
+      "en": "In the plane with an orthonormal coordinate system, consider the points $A(-2,1)$, $B(1,2)$ and $C(-3,0)$."
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer les coordonnees des vecteurs $AB$ et $AC$. 1 pt",
+      "en": "1. Compute the coordinates of vectors $AB$ and $AC$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Les points $A$, $B$ et $C$ sont-ils alignes? Justifier. 1 pt",
+      "en": "2. Are the points $A$, $B$ and $C$ collinear? Justify. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Donner un vecteur directeur de la droite $(D)$ d'equation cartesienne $y=-x+31$. 0,5 pt",
+      "en": "3. Give a direction vector of the line $(D)$ with Cartesian equation $y=-x+31$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Montrer que les droites $(D)$ et $(AB)$ sont perpendiculaires. 1 pt",
+      "en": "4. Show that the lines $(D)$ and $(AB)$ are perpendicular. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "3 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "Sur la figure ci-contre $ABCD$ et $MNAL$ sont des carres, les droites $(LI)$ et $(BK)$ sont paralleles, $AI=2$, $AK=4$.",
+      "en": "In the figure shown, $ABCD$ and $MNAL$ are squares; the lines $(LI)$ and $(BK)$ are parallel; $AI=2$, $AK=4$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2011-geo-ex2.jpg",
+      "text": "Figure de l'exercice 2",
+      "en": "Figure for exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "1. Justifier que $\\dfrac{1}{2}=\\dfrac{AL}{AK}$. 1 pt",
+      "en": "1. Justify that $\\dfrac{1}{2}=\\dfrac{AL}{AK}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Soit $h$ l'homothetie de centre $A$ et qui transforme $L$ en $B$ ; determiner le rapport de $h$. 1 pt",
+      "en": "2. Let $h$ be the homothety with center $A$ that maps $L$ to $B$; determine the ratio of $h$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. $s$ et $s'$ designent respectivement les aires des carres $ABCD$ et $MNAL$. Determiner le rapport $\\dfrac{s'}{s}$. 1 pt",
+      "en": "3. Let $s$ and $s'$ be the areas of the squares $ABCD$ and $MNAL$, respectively. Determine the ratio $\\dfrac{s'}{s}$. 1 pt"
+    },
+    {
+      "type": "section",
+      "title": "C- PROBLEME",
+      "pts": "7 points",
+      "en": "C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "La figure ci-contre represente un chateau d'eau compose d'un polynome cylindrique en beton, dont la base est un disque de $1$ m de rayon, au-dessus duquel se trouve un reservoir compose d'un tronc de cone surmonte d'une cuve cylindrique.",
+      "en": "The figure shown represents a water tower made of a cylindrical concrete column whose base is a disk of radius $1$ m, above which there is a tank consisting of a frustum of a cone topped by a cylindrical container."
+    },
+    {
+      "type": "text",
+      "text": "1. Montrer que le rayon de la base de la cuve cylindrique du reservoir est egal a $2m$. 1,5 pt",
+      "en": "1. Show that the radius of the base of the cylindrical container of the tank is $2m$. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "Sachant que la hauteur du reservoir est $7,1m$, calculer :",
+      "en": "Knowing that the height of the tank is $7.1m$, calculate:"
+    },
+    {
+      "type": "text",
+      "text": "(a) le volume de sa partie cylindrique. 1,5 pt",
+      "en": "(a) the volume of its cylindrical part. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) le volume de sa partie tronconique. 2 pts",
+      "en": "(b) the volume of its frustum-shaped (conical) part. 2 pts"
+    },
+    {
+      "type": "text",
+      "text": "3. Montrer que la capacite du reservoir est de $78186$ litres. (On prendra $\\pi=3,14$). 2 pts",
+      "en": "3. Show that the capacity of the tank is $78186$ liters. (Take $\\pi=3.14$). 2 pts"
+    }
+  ]
+}
