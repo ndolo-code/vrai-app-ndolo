@@ -1,0 +1,27 @@
+{
+  "title": "BEPC 1999 - Sujet de mathematiques (demo)",
+  "sections": [
+    {
+      "type": "section",
+      "title": "A - Activites numeriques",
+      "pts": "6,5 points"
+    },
+    {
+      "type": "text",
+      "text": "1) Simplifier l'expression $A = 3x - 2x + 5$."
+    },
+    {
+      "type": "text",
+      "text": "2) Resoudre dans $\\mathbb{R}$ : $2x + 5 = 13$."
+    },
+    {
+      "type": "section",
+      "title": "B - Activites geometriques",
+      "pts": "6,5 points"
+    },
+    {
+      "type": "text",
+      "text": "Dans un triangle rectangle, on donne les cotes de l'angle droit 3 cm et 4 cm. Calculer l'hypotenuse."
+    }
+  ]
+}
