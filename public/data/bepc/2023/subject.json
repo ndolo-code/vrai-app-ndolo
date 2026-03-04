@@ -1,0 +1,73 @@
+{
+  "title": "BEPC 2023 - Sujet de mathematiques",
+  "sections": [
+    { "type": "text", "text": "L'epreuve comporte trois parties independantes A et B." },
+
+    { "type": "section", "title": "PARTIE A - EVALUATION DES RESSOURCES", "pts": "10 points" },
+    { "type": "text", "text": "Cette partie comporte deux activites : une activite numerique et geometrique." },
+
+    { "type": "subsection", "title": "ACTIVITES NUMERIQUES", "pts": "5 points" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "2 points" },
+    { "type": "text", "text": "1. Calculer le nombre $A=\\frac{25}{18}-\\frac{7}{9}\\times\\left(-\\frac{5}{14}+\\frac{8}{21}\\right)$ et donner le resultat sous forme d'une fraction irreductible. 1 pt" },
+    { "type": "text", "text": "2. Soit $B=(3-\\sqrt{3})^2$. Montrer que $B=21-12\\sqrt{3}$. 0,5 pt" },
+    { "type": "text", "text": "3. Choisir la bonne reponse parmi les quatre qui sont proposees : 0,5 pt" },
+    { "type": "text", "text": "Le nombre $\\sqrt{21-12\\sqrt{3}}$ est egal a :" },
+    { "type": "text", "text": "a) $3-2\\sqrt{3}$ ; b) $3+2\\sqrt{3}$ ; c) $-3+2\\sqrt{3}$ ; d) $-3-2\\sqrt{3}$." },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "1,5 point" },
+    { "type": "text", "text": "1. On considere l'expression $C=(x-1)^2+(x-1)(2x-3)$. Mettre $C$ sous forme d'un produit de facteurs du premier degre. 0,75 pt" },
+    { "type": "text", "text": "2. On considere la fraction rationnelle $Q=\\frac{(x-1)(3x-4)}{(x-1)(x+2)}$. Donner la condition d'existence d'une valeur numerique de $Q$ puis simplifier $Q$. 0,75 pt" },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "1,5 point" },
+    { "type": "text", "text": "L'histogramme ci-contre represente la serie statistique des ages regroupes en classes, des 30 enfants d'un club de sport." },
+    { "type": "image", "src": "/images/bepc2023-num-ex3.jpg", "text": "Histogramme des ages - BEPC 2023" },
+    { "type": "text", "text": "1. Determiner l'amplitude des classes de cette serie. 0,25 pt" },
+    { "type": "text", "text": "2. Donner une classe modale de cette serie statistique. 0,25 pt" },
+    { "type": "text", "text": "3. Calculer la moyenne des ages des enfants de ce club. 1 pt" },
+
+    { "type": "subsection", "title": "ACTIVITES GEOMETRIQUES", "pts": "5 points" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "2 points" },
+    { "type": "text", "text": "Le plan est muni d'un repere orthonorme $(O,I,J)$. On considere les points $A$ et $B$ de coordonnees respectives $(3;2)$ ; $(-2;1)$." },
+    { "type": "text", "text": "1. Calculer les coordonnees du vecteur $\\overrightarrow{AB}$. 0,5 pt" },
+    { "type": "text", "text": "2. Determiner une equation cartesienne de la droite $(AB)$. 0,75 pt" },
+    { "type": "text", "text": "3. Repondre par Vrai ou Faux. Les droites $(D)$ et $(L)$ d'equations respectives $x-5y+7=0$ et $5x+y+9=0$ sont perpendiculaires. 0,75 pt" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "1,5 point" },
+    { "type": "text", "text": "Sur la figure ci-contre, le triangle $EFG$, rectangle en $E$ est tel que : $EF=6cm$ ; $EG=8cm$." },
+    { "type": "image", "src": "/images/bepc2023-geo-ex2.jpg", "text": "Figure geometrique - exercice 2" },
+    { "type": "text", "text": "$M$ et $N$ sont respectivement des points de $[EF]$ et $[EG]$ tels que $EM=1,5cm$ et $EN=2cm$." },
+    { "type": "text", "text": "1. Montrer que les droites $(FG)$ et $(MN)$ sont paralleles. 0,5 pt" },
+    { "type": "text", "text": "2. Calculer $\\tan(\\widehat{EGF})$ et l'arrondi a $1^\\circ$ pres de la mesure de l'angle $\\widehat{EGF}$. 0,5 pt" },
+    { "type": "text", "text": "3. Le triangle $EFG$ est l'image du triangle $EMN$ par une homothetie. Donner le centre et le rapport de cette homothetie. 0,5 pt" },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "1,5 point" },
+    { "type": "text", "text": "La figure ci-contre represente un grand cone de revolution coupe par un plan parallele a la base et passant par $O'$ et $B$." },
+    { "type": "image", "src": "/images/bepc2023-geo-ex3.jpg", "text": "Figure du cone - exercice 3" },
+    { "type": "text", "text": "On designe respectivement par $v$ et $a$ le volume du petit cone et l'aire du disque de rayon $[O'B]$." },
+    { "type": "text", "text": "On donne $v=10cm^3$ ; $a=5cm^2$ et $\\frac{SO'}{SO}=\\frac{1}{3}$." },
+    { "type": "text", "text": "1. Calculer le volume $V$ du grand cone. 0,75 pt" },
+    { "type": "text", "text": "2. Calculer l'aire $A$ de la base du grand cone. 0,75 pt" },
+
+    { "type": "section", "title": "PARTIE B - EVALUATION DES COMPETENCES", "pts": "10 points" },
+    { "type": "text", "text": "Situation : ANGO a un terrain rectangulaire de dimensions $546m$ et $510m$, qu'il voudrait cloturer pour besoin de securite." },
+    { "type": "text", "text": "Afin de poser un grillage, il doit planter des poteaux regulierement espaces." },
+    { "type": "text", "text": "Par souci de limiter les depenses, il souhaite utiliser le plus petit nombre possible de poteaux et que la distance entre deux poteaux soit un nombre entier de metres." },
+    { "type": "text", "text": "Il place un poteau a chaque coin du terrain. ANGO commence les travaux par l'une des deux longueurs du terrain." },
+    { "type": "text", "text": "Pour l'achat des poteaux, il s'adresse a deux vendeurs Alpha et Beta qui font les offres suivantes :" },
+    { "type": "text", "text": "- Vendeur Alpha : un poteau a $1400$ FCFA et $20000$ FCFA pour les frais de livraison." },
+    { "type": "text", "text": "- Vendeur Beta : un poteau a $1600$ FCFA et la livraison gratuite." },
+    { "type": "text", "text": "Pour operer son choix, ANGO voudrait savoir le nombre minimal de poteaux pour lequel l'offre du vendeur Alpha est la plus avantageuse des deux." },
+    { "type": "text", "text": "Pour l'exploitation des $278460m^2$ de son terrain, il a prevu trois parcelles de culture : la premiere pour le palmier a huile, la deuxieme representant les $\\frac{4}{5}$ de la premiere pour le mais et les $54360m^2$ restants pour les arbres fruitiers." },
+    { "type": "text", "text": "Pour un meilleur rendement, les techniciens lui indiquent qu'il faut reserver $35m^2$ par palmier, mais il a oublie la superficie de la parcelle reservee a la culture du palmier a huile." },
+
+    { "type": "exercise", "title": "Taches" },
+    { "type": "text", "text": "1. Calculer le nombre minimal de poteaux que ANGO doit utiliser pour l'une des deux longueurs de son terrain. 3 pts" },
+    { "type": "text", "text": "2. Calculer le nombre minimal de poteaux pour lequel l'offre du vendeur Alpha est plus avantageuse que celle du vendeur Beta. 3 pts" },
+    { "type": "text", "text": "3. Calculer le nombre de palmiers a huile que ANGO peut planter sur la premiere parcelle. 3 pts" },
+    { "type": "text", "text": "Presentation : 1 pt" }
+  ]
+}
