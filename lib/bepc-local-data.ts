@@ -4,6 +4,12 @@ import { autoTranslate } from "./auto-translate"
 import bepcIndex from "@/public/data/bepc/index.json"
 import bepc1999Subject from "@/public/data/bepc/1999/subject.json"
 import bepc1999Correction from "@/public/data/bepc/1999/correction.json"
+import bepc2006Subject from "@/public/data/bepc/2006/subject.json"
+import bepc2006Correction from "@/public/data/bepc/2006/correction.json"
+import bepc2007Subject from "@/public/data/bepc/2007/subject.json"
+import bepc2007Correction from "@/public/data/bepc/2007/correction.json"
+import bepc2008Subject from "@/public/data/bepc/2008/subject.json"
+import bepc2008Correction from "@/public/data/bepc/2008/correction.json"
 import bepc2009Subject from "@/public/data/bepc/2009/subject.json"
 import bepc2009Correction from "@/public/data/bepc/2009/correction.json"
 import bepc2010Subject from "@/public/data/bepc/2010/subject.json"
@@ -57,6 +63,9 @@ type LocalExamDoc = {
 // Keep all locally available BEPC years synchronized with index.json
 const LOCAL_BEPC_SUBJECTS = {
   1999: bepc1999Subject,
+  2006: bepc2006Subject,
+  2007: bepc2007Subject,
+  2008: bepc2008Subject,
   2009: bepc2009Subject,
   2010: bepc2010Subject,
   2011: bepc2011Subject,
@@ -78,6 +87,9 @@ const LOCAL_BEPC_SUBJECTS = {
 
 const LOCAL_BEPC_CORRECTIONS = {
   1999: bepc1999Correction,
+  2006: bepc2006Correction,
+  2007: bepc2007Correction,
+  2008: bepc2008Correction,
   2009: bepc2009Correction,
   2010: bepc2010Correction,
   2011: bepc2011Correction,
@@ -268,13 +280,13 @@ function normalizeDoc(doc: LocalExamDoc): ExamSection[] {
 export const LOCAL_BEPC_YEARS = bepcIndex.years as number[]
 
 export function getLocalBepcSubject(year: number): ExamSection[] | null {
-  const doc = LOCAL_BEPC_SUBJECTS[year]
+  const doc = (LOCAL_BEPC_SUBJECTS as Record<number, LocalExamDoc>)[year]
   if (!doc) return null
   return normalizeDoc(doc)
 }
 
 export function getLocalBepcCorrection(year: number): ExamSection[] | null {
-  const doc = LOCAL_BEPC_CORRECTIONS[year]
+  const doc = (LOCAL_BEPC_CORRECTIONS as Record<number, LocalExamDoc>)[year]
   if (!doc) return null
   return normalizeDoc(doc)
 }
