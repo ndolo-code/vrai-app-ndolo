@@ -1,0 +1,67 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2005",
+  "titleEn": "The BEPC 2005 Mathematics Exam",
+  "sections": [
+    { "type": "text", "text": "L'epreuve comporte trois parties independantes A, B et C.", "en": "The exam consists of three independent parts A, B and C." },
+
+    { "type": "section", "title": "A- ACTIVITES NUMERIQUES", "pts": "6,5 points", "en": "A – NUMERICAL ACTIVITIES" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3.", "en": "This part includes three independent exercises 1, 2 and 3." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "2 points", "en": "Exercise 1" },
+    { "type": "text", "text": "I - $A=\\sqrt{18}+\\sqrt{50}-\\sqrt{8}+\\sqrt{32}$ et $B=\\frac{2}{3}-\\frac{4}{5}\\times\\frac{3}{11}+\\frac{7}{3}$", "en": "I - $A=\\sqrt{18}+\\sqrt{50}-\\sqrt{8}+\\sqrt{32}$ and $B=\\frac{2}{3}-\\frac{4}{5}\\times\\frac{3}{11}+\\frac{7}{3}$" },
+    { "type": "text", "text": "1. Ecrire $A$ sous la forme $a\\sqrt{b}$ ou $a$ et $b$ sont deux entiers naturels, et $b$ n'est pas un carre parfait. 0,75 pt", "en": "1. Write $A$ in the form $a\\sqrt{b}$ where $a$ and $b$ are natural integers, and $b$ is not a perfect square. 0.75 pt" },
+    { "type": "text", "text": "2. En faisant ressortir les details de calculs, montrer que $B=\\frac{153}{55}$. 0,75 pt", "en": "2. Showing the calculation details, prove that $B=\\frac{153}{55}$. 0.75 pt" },
+    { "type": "text", "text": "3. Donner un encadrement de $B$ d'amplitude $10^{-3}$. 0,5 pt", "en": "3. Give a bound for $B$ with amplitude $10^{-3}$. 0.5 pt" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "1 point", "en": "Exercise 2" },
+    { "type": "text", "text": "Un cote d'un rectangle mesure $6$ cm. Le perimetre (en cm) et l'aire (en cm$^2$) sont exprimes par le meme entier naturel.", "en": "One side of a rectangle measures $6$ cm. The perimeter (in cm) and area (in cm$^2$) are expressed by the same natural integer." },
+    { "type": "text", "text": "Soit $x$ la longueur de l'autre cote.", "en": "Let $x$ be the length of the other side." },
+    { "type": "text", "text": "1. Montrer que $x$ est solution de l'equation $4x-12=0$. 0,5 pt", "en": "1. Show that $x$ is a solution of the equation $4x-12=0$. 0.5 pt" },
+    { "type": "text", "text": "2. Trouver la mesure de l'autre cote. 0,5 pt", "en": "2. Find the measure of the other side. 0.5 pt" },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "3,5 points", "en": "Exercise 3" },
+    { "type": "text", "text": "Le tableau ci-dessous donne la representation des notes des eleves de la classe de troisieme a une epreuve de mathematiques.", "en": "The table below represents the scores of third-year students on a mathematics exam." },
+    { "type": "table", "text": "$\\begin{array}{|l|c|c|c|c|}\\hline\\text{Note dans l'intervalle} & [0;5[ & [5;10[ & [10;15[ & [15;20[ \\\\ \\hline\\text{Nombre d'eleve} & 10 & 10 & 25 & 15 \\\\ \\hline\\end{array}$", "en": "$\\begin{array}{|l|c|c|c|c|}\\hline\\text{Score in the interval} & [0;5[ & [5;10[ & [10;15[ & [15;20[ \\\\ \\hline\\text{Number of students} & 10 & 10 & 25 & 15 \\\\ \\hline\\end{array}$" },
+    { "type": "text", "text": "1. Repondre par vrai ou faux :", "en": "1. Answer True or False:" },
+    { "type": "text", "text": "a) Les notes sont reparties en quatre classes d'amplitude $5$. 0,5 pt", "en": "a) The scores are grouped into four classes of width $5$. 0.5 pt" },
+    { "type": "text", "text": "b) Le centre de la classe de plus grand effectif est egal a $12$. 0,5 pt", "en": "b) The midpoint of the class with the largest frequency is equal to $12$. 0.5 pt" },
+    { "type": "text", "text": "c) $72\\%$ des eleves ont obtenu une note superieure ou egale a $10$. 0,5 pt", "en": "c) $72\\%$ of the students scored greater than or equal to $10$. 0.5 pt" },
+    { "type": "text", "text": "2. Recopier ce tableau et completer la ligne des frequences. 1 pt", "en": "2. Copy this table and complete the frequency row. 1 pt" },
+    { "type": "text", "text": "3. Representer cette statistique par un diagramme circulaire. 1 pt", "en": "3. Represent this distribution with a pie chart. 1 pt" },
+
+    { "type": "section", "title": "B- ACTIVITES GEOMETRIQUES", "pts": "6,5 points", "en": "B – GEOMETRICAL ACTIVITIES" },
+    { "type": "text", "text": "Cette partie comporte deux exercices independants 1 et 2.", "en": "This part includes two independent exercises 1 and 2." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "2 points", "en": "Exercise 1" },
+    { "type": "text", "text": "Dans le plan muni d'un repere orthonorme $(O,I,J)$, $(D)$ est la droite d'equation $x=4$.", "en": "In the plane with an orthonormal coordinate system $(O,I,J)$, $(D)$ is the line with equation $x=4$." },
+    { "type": "text", "text": "1. Tracer la droite $(D)$. 1 pt", "en": "1. Draw the line $(D)$. 1 pt" },
+    { "type": "text", "text": "2. Ecrire une equation cartesienne de la droite $(D_n)$ perpendiculaire a $(D)$ et passant par $A(-1;3)$. 1 pt", "en": "2. Write a Cartesian equation of line $(D_n)$ perpendicular to $(D)$ and passing through $A(-1;3)$. 1 pt" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "2 points", "en": "Exercise 2" },
+    { "type": "text", "text": "L'unite est le millimetre. Un triangle $NOT$ est tel que : $NT=45$, $NO=36$, et $TO=60$.", "en": "The unit is the millimeter. A triangle $NOT$ is such that: $NT=45$, $NO=36$, and $TO=60$." },
+    { "type": "text", "text": "$D$ est un point de la droite $(NO)$ tel que $N$ est entre $O$ et $D$ et $ND=\\frac{1}{3}NO$.", "en": "$D$ is a point on line $(NO)$ such that $N$ lies between $O$ and $D$ and $ND=\\frac{1}{3}NO$." },
+    { "type": "text", "text": "$E$ est le point d'intersection de la droite $(NT)$ et de la parallele a la droite $(TO)$ passant par $D$.", "en": "$E$ is the intersection of line $(NT)$ and the line parallel to $(TO)$ passing through $D$." },
+    { "type": "text", "text": "1. Faire la figure. 1 pt", "en": "1. Draw the figure. 1 pt" },
+    { "type": "text", "text": "2. Calculer $NE$ et $DE$. 1 pt", "en": "2. Calculate $NE$ and $DE$. 1 pt" },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "2,5 points", "en": "Exercise 3" },
+    { "type": "text", "text": "Voici trois solides et trois patrons de ces solides.", "en": "Here are three solids and three nets of these solids." },
+    { "type": "image", "src": "/images/bepc2005-geo-ex3.jpg", "text": "Solides et patrons", "en": "Solids and nets" },
+    { "type": "text", "text": "1. Donner la nature des solides $1$, $2$ et $3$. 1,5 pt", "en": "1. State the type of solids $1$, $2$ and $3$. 1.5 pt" },
+    { "type": "text", "text": "2. Associer chaque solide a son patron. 1 pt", "en": "2. Match each solid with its net. 1 pt" },
+
+    { "type": "section", "title": "C- PROBLEME", "pts": "7 points", "en": "C – PROBLEM" },
+    { "type": "text", "text": "Dans le plan rapporte a un repere orthonorme $(O,I,J)$, on considere les points $I(-5;3)$ ; $J(2;2)$ et $K(1;-5)$.", "en": "In the plane with an orthonormal coordinate system $(O,I,J)$, consider points $I(-5;3)$, $J(2;2)$ and $K(1;-5)$." },
+    { "type": "text", "text": "1. a) Determiner les coordonnees des vecteurs $\\overrightarrow{IJ}$ et $\\overrightarrow{JK}$. 0,5 pt", "en": "1. a) Determine the coordinates of vectors $\\overrightarrow{IJ}$ and $\\overrightarrow{JK}$. 0.5 pt" },
+    { "type": "text", "text": "b) En deduire que $IJ=JK$. 0,5 pt", "en": "b) Deduce that $IJ=JK$. 0.5 pt" },
+    { "type": "text", "text": "c) Demontrer que les vecteurs $\\overrightarrow{IJ}$ et $\\overrightarrow{JK}$ sont orthogonaux. 1 pt", "en": "c) Prove that vectors $\\overrightarrow{IJ}$ and $\\overrightarrow{JK}$ are orthogonal. 1 pt" },
+    { "type": "text", "text": "d) Deduire la nature exacte du triangle $IJK$. 0,5 pt", "en": "d) Deduce the exact nature of triangle $IJK$. 0.5 pt" },
+    { "type": "text", "text": "2. Soit $Q$ le milieu de $[IK]$ et $P$ le symetrique de $J$ par rapport a $Q$.", "en": "2. Let $Q$ be the midpoint of $[IK]$ and $P$ be the reflection of $J$ across $Q$." },
+    { "type": "text", "text": "a) Determiner les coordonnees de $Q$. 0,5 pt", "en": "a) Determine the coordinates of $Q$. 0.5 pt" },
+    { "type": "text", "text": "b) Montrer que $P$ a pour coordonnees $(-6;-4)$. 0,5 pt", "en": "b) Show that $P$ has coordinates $(-6;-4)$. 0.5 pt" },
+    { "type": "text", "text": "c) En deduire la nature de $IJKP$. 1 pt", "en": "c) Deduce the nature of $IJKP$. 1 pt" },
+    { "type": "text", "text": "3. a) Montrer que les triangles $IQP$ et $JQK$ sont superposables. 0,5 pt", "en": "3. a) Show that triangles $IQP$ and $JQK$ are congruent. 0.5 pt" },
+    { "type": "text", "text": "b) Determiner le cosinus et le sinus de l'angle $\\widehat{JIK}$. 1 pt", "en": "b) Determine the cosine and sine of angle $\\widehat{JIK}$. 1 pt" },
+    { "type": "text", "text": "c) En deduire la mesure en degre de cet angle. 0,5 pt", "en": "c) Deduce the measure of this angle in degrees. 0.5 pt" }
+  ]
+}
