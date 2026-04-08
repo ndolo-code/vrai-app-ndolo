@@ -4,6 +4,8 @@ import { autoTranslate } from "./auto-translate"
 import bepcIndex from "@/public/data/bepc/index.json"
 import bepc1999Subject from "@/public/data/bepc/1999/subject.json"
 import bepc1999Correction from "@/public/data/bepc/1999/correction.json"
+import bepc2009Subject from "@/public/data/bepc/2009/subject.json"
+import bepc2009Correction from "@/public/data/bepc/2009/correction.json"
 import bepc2010Subject from "@/public/data/bepc/2010/subject.json"
 import bepc2010Correction from "@/public/data/bepc/2010/correction.json"
 import bepc2011Subject from "@/public/data/bepc/2011/subject.json"
@@ -55,6 +57,7 @@ type LocalExamDoc = {
 // Keep all locally available BEPC years synchronized with index.json
 const LOCAL_BEPC_SUBJECTS = {
   1999: bepc1999Subject,
+  2009: bepc2009Subject,
   2010: bepc2010Subject,
   2011: bepc2011Subject,
   2012: bepc2012Subject,
@@ -75,6 +78,7 @@ const LOCAL_BEPC_SUBJECTS = {
 
 const LOCAL_BEPC_CORRECTIONS = {
   1999: bepc1999Correction,
+  2009: bepc2009Correction,
   2010: bepc2010Correction,
   2011: bepc2011Correction,
   2012: bepc2012Correction,
