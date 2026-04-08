@@ -1,0 +1,226 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2008",
+  "titleEn": "The Mathematics Examination – BEPC 2008",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A, B et C",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "section",
+      "title": "A- ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "I",
+      "pts": "2 pts",
+      "en": "I"
+    },
+    {
+      "type": "text",
+      "text": "Recopie la lettre correspondant a l'egalite et dire si elle est vraie ou fausse :",
+      "en": "Copy the letter corresponding to the equality and say whether it is true or false:"
+    },
+    {
+      "type": "text",
+      "text": "a) $(-2)^2=-2^2$ ; b) $\\sqrt{0,025}-\\sqrt{6,4}=-\\dfrac{3}{4\\sqrt{10}}$ ; c) $(2x-3)^2=4x^2-9$ ; d) $\\dfrac{x^2-10x+25}{2x-10}=\\dfrac{1}{2}(x-5)$ pour tout reel $x\\ne 5$. 2 pts",
+      "en": "a) $(-2)^2=-2^2$ ; b) $\\sqrt{0,025}-\\sqrt{6,4}=-\\dfrac{3}{4\\sqrt{10}}$ ; c) $(2x-3)^2=4x^2-9$ ; d) $\\dfrac{x^2-10x+25}{2x-10}=\\dfrac{1}{2}(x-5)$ for every real number $x\\ne 5$. 2 pts"
+    },
+    {
+      "type": "exercise",
+      "title": "II",
+      "pts": "2,5 pts",
+      "en": "II"
+    },
+    {
+      "type": "text",
+      "text": "1. Resoudre le systeme: $\\begin{cases}x+y=25\\\\y-x=5\\end{cases}$. 1 pt",
+      "en": "1. Solve the system: $\\begin{cases}x+y=25\\\\y-x=5\\end{cases}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Un rectangle a pour perimetre 50 cm. Trouver ses deux dimensions sachant que la longueur a 5 cm de plus que la largeur. 1,5 pt",
+      "en": "2. A rectangle has perimeter 50 cm. Find its two dimensions, knowing that the length is 5 cm more than the width. 1.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "III",
+      "pts": "2 pts",
+      "en": "III"
+    },
+    {
+      "type": "text",
+      "text": "La bibliotheque d'un lycee contient dans ses rayons 1000 livres ainsi repertories :",
+      "en": "A high school library contains 1000 books on its shelves, classified as follows:"
+    },
+    {
+      "type": "table",
+      "text": "$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Disciplines} & \\text{Mathematiques} & \\text{Anglais} & \\text{Francais} & \\text{PCT}\\\\ \\hline\\text{Effectifs} & 400 & 350 & 50 & 200\\\\ \\hline\\end{array}$",
+      "en": "$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Subjects} & \\text{Mathematics} & \\text{English} & \\text{French} & \\text{PCT}\\\\ \\hline\\text{Frequencies} & 400 & 350 & 50 & 200\\\\ \\hline\\end{array}$"
+    },
+    {
+      "type": "text",
+      "text": "1. Quel est le mode de cette serie ? 0,5 pt",
+      "en": "1. What is the mode of this series? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. On voudrait representer cette serie dans un diagramme semi-circulaire, reproduire et completer le tableau ci-dessous : 1 pt",
+      "en": "2. We want to represent this series with a semicircular chart; copy and complete the table below: 1 pt"
+    },
+    {
+      "type": "table",
+      "text": "$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Disciplines} & \\text{Mathematique} & \\text{Anglais} & \\text{Francais} & \\text{PCT}\\\\ \\hline\\text{Effectifs} & 400 & 350 & 50 & 200\\\\ \\hline\\text{Frequences} & 0,4 &  & 0,05 & 0,2\\\\ \\hline\\text{Mesure d'angle} &  & 63^\\circ &  & \\\\ \\hline\\end{array}$",
+      "en": "$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Subjects} & \\text{Mathematics} & \\text{English} & \\text{French} & \\text{PCT}\\\\ \\hline\\text{Frequencies} & 400 & 350 & 50 & 200\\\\ \\hline\\text{Relative frequencies} & 0,4 &  & 0,05 & 0,2\\\\ \\hline\\text{Angle measure} &  & 63^\\circ &  & \\\\ \\hline\\end{array}$"
+    },
+    {
+      "type": "text",
+      "text": "3. Construire alors le diagramme semi-circulaire representant la serie etudiee. 0,5 pt",
+      "en": "3. Then draw the semicircular chart representing the studied series. 0.5 pt"
+    },
+    {
+      "type": "section",
+      "title": "B- ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III.",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "I",
+      "pts": "3,5 pts",
+      "en": "I"
+    },
+    {
+      "type": "text",
+      "text": "On designe par $(C)$ le demi-cercle de centre $O$ et de rayon $OA$ cm = 2,5. C'est un point du cercle comme l'indique la figure ci-contre.",
+      "en": "Let $(C)$ be the semicircle with center $O$ and radius $OA$ cm = 2.5. Point $C$ lies on the semicircle as shown in the figure."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2008-geo-ex1.jpg",
+      "text": "Figure de l'exercice I",
+      "en": "Figure for exercise I"
+    },
+    {
+      "type": "text",
+      "text": "1. Quelle est la nature du triangle $ABC$ ? 1 pt",
+      "en": "1. What is the nature of triangle $ABC$? 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Recopier et completer le tableau ci-dessous. 1 pt",
+      "en": "2. Copy and complete the table below. 1 pt"
+    },
+    {
+      "type": "table",
+      "text": "$\\begin{array}{|c|c|c|c|}\\hline\\text{Angle} & BCA & ABC & AOC\\\\ \\hline\\text{Mesure en degres} &  &  & \\\\ \\hline\\end{array}$",
+      "en": "$\\begin{array}{|c|c|c|c|}\\hline\\text{Angle} & BCA & ABC & AOC\\\\ \\hline\\text{Measure in degrees} &  &  & \\\\ \\hline\\end{array}$"
+    },
+    {
+      "type": "text",
+      "text": "3. On appelle $E$ l'image de $C$ par $OS$ (symetrie de centre $O$).",
+      "en": "3. Let $E$ be the image of $C$ by $OS$ (central symmetry with center $O$)."
+    },
+    {
+      "type": "text",
+      "text": "a. Quelle est la nature du quadrilatere $ACBE$ ? Justifier. 0,5 pt",
+      "en": "a) What is the nature of quadrilateral $ACBE$? Justify. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b. Montrer que $CA=CB=\\dfrac{5\\sqrt{2}}{2}$ cm. 1 pt",
+      "en": "b) Show that $CA=CB=\\dfrac{5\\sqrt{2}}{2}$ cm. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "II",
+      "pts": "1,5 pts",
+      "en": "II"
+    },
+    {
+      "type": "text",
+      "text": "Le plan $P$ est muni d'un repere orthonorme $(O,i,j)$, $f$ est une application du plan $P$. En se servant de la figure ci-contre, preciser dans chaque cas la nature de la transformation $f$.",
+      "en": "The plane $P$ is provided with an orthonormal coordinate system $(O,i,j)$. Let $f$ be a transformation of plane $P$. Using the figure, specify in each case the nature of transformation $f$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2008-geo-ex2.jpg",
+      "text": "Figure de l'exercice II",
+      "en": "Figure for exercise II"
+    },
+    {
+      "type": "text",
+      "text": "1.a. $f(I_1)=I_2$ b. $f(I_3)=I_2$ c. $f(I_1)=I_5$ 0,5 pt",
+      "en": "1.a) $f(I_1)=I_2$ b) $f(I_3)=I_2$ c) $f(I_1)=I_5$ 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. On considere les points $A(3;2)$ et $B(1,4)$. Determiner une equation cartesienne de la droite $(AB)$. 1 pt",
+      "en": "2. Consider points $A(3;2)$ and $B(1,4)$. Determine a Cartesian equation of line $(AB)$. 1 pt"
+    },
+    {
+      "type": "section",
+      "title": "C- PROBLEME",
+      "pts": "7 points",
+      "en": "C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "Pour labourer son champ, on peut louer chez M. IGREC : un ane a 150 francs CFA par jour ; un boeuf a 100 francs CFA par jour avec une caution non remboursable de 500 francs CFA ; un cheval a 3000 francs pour trente jours au plus.",
+      "en": "To plough his field, one can rent from Mr. IGREC: a donkey for 150 CFA francs per day; an ox for 100 CFA francs per day with a non-refundable deposit of 500 CFA francs; a horse for 3000 francs for up to thirty rental days."
+    },
+    {
+      "type": "text",
+      "text": "1. Recopier et completer le tableau ci-dessous. 2,25 pts",
+      "en": "1. Copy and complete the table below. 2.25 pts"
+    },
+    {
+      "type": "table",
+      "text": "$\\begin{array}{|c|c|c|c|}\\hline\\text{Nombre de jour de location} & 9 & 17 & 30\\\\ \\hline\\text{Montant de la location avec un ane} &  &  & \\\\ \\hline\\text{Montant de location avec un boeuf} &  &  & \\\\ \\hline\\text{Montant de location avec un cheval} &  &  & \\\\ \\hline\\end{array}$",
+      "en": "$\\begin{array}{|c|c|c|c|}\\hline\\text{Number of rental days} & 9 & 17 & 30\\\\ \\hline\\text{Rental cost with a donkey} &  &  & \\\\ \\hline\\text{Rental cost with an ox} &  &  & \\\\ \\hline\\text{Rental cost with a horse} &  &  & \\\\ \\hline\\end{array}$"
+    },
+    {
+      "type": "text",
+      "text": "2. Quel est le tarif le moins cher pour 9 jours, 17 jours, 30 jours ? 1 pt",
+      "en": "2. Which is the cheapest rate for 9 days, 17 days, and 30 days? 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Soit $x$ le nombre de jours de location $(x\\le 30)$. On appelle $y_A$, $y_B$, $y_C$ les montants de la location pour une duree de $x$ jours avec respectivement les tarifs de l'ane, du boeuf et du cheval.",
+      "en": "3. Let $x$ be the number of rental days $(x\\le 30)$. Let $y_A$, $y_B$, $y_C$ be the rental costs for $x$ days with donkey, ox and horse rates respectively."
+    },
+    {
+      "type": "text",
+      "text": "a) Exprimer $y_A$, $y_B$ en fonction de $x$. 1 pt",
+      "en": "a) Express $y_A$ and $y_B$ as functions of $x$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Que peut-on dire de $y_C$ ? 0,25 pt",
+      "en": "b) What can be said about $y_C$? 0.25 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Dans le plan muni d'un repere $(O,I,J)$, tracer les droites $D_1$ et $D_2$ d'equations respectives $y=150x$ et $y=100x+500$ avec les unites demandees. 1 pt",
+      "en": "4. In a coordinate system $(O,I,J)$, draw lines $D_1$ and $D_2$ with equations $y=150x$ and $y=100x+500$ using the requested units. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "5. Trouver $x$, le nombre de jours pour que chez M. IGREC, un ane et un boeuf reviennent au meme cout. 1 pt",
+      "en": "5. Find $x$, the number of days such that renting a donkey and an ox from Mr. IGREC costs the same. 1 pt"
+    }
+  ]
+}

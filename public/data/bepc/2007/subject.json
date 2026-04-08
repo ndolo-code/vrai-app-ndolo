@@ -1,0 +1,61 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2007",
+  "titleEn": "The BEPC 2007 Mathematics Exam",
+  "sections": [
+    { "type": "text", "text": "L'epreuve comporte trois parties independantes A, B et C", "en": "The exam consists of three independent parts A, B and C." },
+
+    { "type": "section", "title": "A- ACTIVITES NUMERIQUES", "pts": "6,5 points", "en": "A – NUMERICAL ACTIVITIES" },
+    { "type": "text", "text": "Cette partie comporte quatre exercices independants I, II, III et IV", "en": "This part includes four independent exercises I, II, III and IV." },
+
+    { "type": "exercise", "title": "I", "pts": "1 pt", "en": "I" },
+    { "type": "text", "text": "On donne $A=\\sqrt{3}+2\\sqrt{123}$. Une seule des ecritures suivantes est vraie. Recopiez son numero sur votre feuille de composition. 1 pt", "en": "We are given $A=\\sqrt{3}+2\\sqrt{123}$. Only one of the following expressions is true. Copy its number onto your answer sheet. 1 pt" },
+    { "type": "text", "text": "a) $A^2=3+4\\sqrt{123}$ ; b) $A^2=249$ ; c) $A^2=495+4\\sqrt{369}$ ; d) $A^2=495-4\\sqrt{369}$", "en": "a) $A^2=3+4\\sqrt{123}$ ; b) $A^2=249$ ; c) $A^2=495+4\\sqrt{369}$ ; d) $A^2=495-4\\sqrt{369}$" },
+
+    { "type": "exercise", "title": "II", "pts": "2 pts", "en": "II" },
+    { "type": "text", "text": "On donne $p(x)=25x^2-81$ et $q(x)=x^2+14x+49$.", "en": "We are given $p(x)=25x^2-81$ and $q(x)=x^2+14x+49$." },
+    { "type": "text", "text": "1. Factoriser $p(x)$ et $q(x)$. 1 pt", "en": "1. Factorize $p(x)$ and $q(x)$. 1 pt" },
+    { "type": "text", "text": "2. Resoudre dans $\\mathbb{R}$ : $(x+3)(x-5)=0$ et $(x+4)^2=0$. 1 pt", "en": "2. Solve in $\\mathbb{R}$: $(x+3)(x-5)=0$ and $(x+4)^2=0$. 1 pt" },
+
+    { "type": "exercise", "title": "III", "pts": "1 pt", "en": "III" },
+    { "type": "text", "text": "Resoudre dans $\\mathbb{R}^2$ le systeme suivant : $\\begin{cases}x+y=12\\\\x-2y=-3\\end{cases}$.", "en": "Solve in $\\mathbb{R}^2$ the following system: $\\begin{cases}x+y=12\\\\x-2y=-3\\end{cases}$." },
+    { "type": "text", "text": "Deux villages A et B ont produit ensemble 12 tonnes de feves de cacao. Si on ajoute 3 tonnes de feves a la production de A, on obtient le double de la production de B. Calculer, en tonnes, la production de chacun des deux villages. 1 pt", "en": "Two villages A and B together produced 12 tons of cocoa beans. If 3 tons are added to village A's production, it becomes twice village B's production. Calculate, in tons, the production of each of the two villages. 1 pt" },
+
+    { "type": "exercise", "title": "IV", "pts": "2,5 pts", "en": "IV" },
+    { "type": "text", "text": "Le diagramme ci-contre presente les notes des eleves d'une classe de 3eme en mathematiques a l'issue d'un test.", "en": "The adjacent chart shows the mathematics test scores of students in a 3rd-year class." },
+    { "type": "image", "src": "/images/bepc2007-num-ex4.jpg", "text": "Diagramme de l'exercice IV", "en": "Chart for exercise IV" },
+    { "type": "text", "text": "1. Recopier et completer le tableau statistique suivant : 2,5 pts", "en": "1. Copy and complete the following statistical table: 2.5 pts" },
+    { "type": "table", "text": "$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Note} & 3 & 6 & 12 & 15\\\\ \\hline\\text{Effectifs} & 2 & 9 & 1 & 3\\\\ \\hline\\end{array}$", "en": "$\\begin{array}{|c|c|c|c|c|}\\hline\\text{Score} & 3 & 6 & 12 & 15\\\\ \\hline\\text{Frequencies} & 2 & 9 & 1 & 3\\\\ \\hline\\end{array}$" },
+
+    { "type": "section", "title": "B- ACTIVITES GEOMETRIQUES", "pts": "6,5 points", "en": "B – GEOMETRICAL ACTIVITIES" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants I, II et III.", "en": "This part includes three independent exercises I, II and III." },
+
+    { "type": "exercise", "title": "I", "pts": "2 pts", "en": "I" },
+    { "type": "text", "text": "Soit un losange $ABCD$ de $3$ cm de cote.", "en": "Let $ABCD$ be a rhombus with side length $3$ cm." },
+    { "type": "text", "text": "1. Construire $ABCD$. 1 pt", "en": "1. Construct $ABCD$. 1 pt" },
+    { "type": "text", "text": "2. Construire l'image $ABCD$ par la translation de vecteur $\\overrightarrow{AB}$. 1 pt", "en": "2. Construct the image of $ABCD$ under the translation with vector $\\overrightarrow{AB}$. 1 pt" },
+
+    { "type": "exercise", "title": "II", "pts": "2,5 pts", "en": "II" },
+    { "type": "text", "text": "Un cone de revolution a une generatrice de $20$ cm ; le rayon de sa base est $12$ cm et on note $h$ sa hauteur.", "en": "A cone of revolution has a slant height of $20$ cm; the radius of its base is $12$ cm, and $h$ denotes its height." },
+    { "type": "text", "text": "1. a. Montrer que $h=16$ cm. 0,5 pt", "en": "1. a) Show that $h=16$ cm. 0.5 pt" },
+    { "type": "text", "text": "b. Calculer le volume de ce cone. 0,5 pt", "en": "b) Calculate the volume of this cone. 0.5 pt" },
+    { "type": "text", "text": "2. On coupe ce cone par un plan parallele a sa base. On obtient un petit cone de hauteur $4$ cm. Soit $r_1$ le rayon de la base du petit cone.", "en": "2. This cone is cut by a plane parallel to its base. We obtain a small cone of height $4$ cm. Let $r_1$ be the radius of the base of the small cone." },
+    { "type": "text", "text": "a. Demontrer que $r_1=3$ cm. 0,75 pt", "en": "a) Prove that $r_1=3$ cm. 0.75 pt" },
+    { "type": "text", "text": "b. Calculer le volume du petit cone. 0,75 pt", "en": "b) Calculate the volume of the small cone. 0.75 pt" },
+
+    { "type": "exercise", "title": "III", "pts": "2 pts", "en": "III" },
+    { "type": "text", "text": "Sur la figure ci-dessous, $ABCD$ et $EGFH$ sont des carres de centre $O$. $(\\Gamma)$ est le cercle de centre $O$ et de diametre $EF$.", "en": "In the figure below, $ABCD$ and $EGFH$ are squares with center $O$. $(\\Gamma)$ is the circle with center $O$ and diameter $EF$." },
+    { "type": "text", "text": "La rotation $R$ de centre $O$ et d'angle $45^\\circ$ transforme $F$ en $L$ et on note : $R(F)=L$.", "en": "The rotation $R$ with center $O$ and angle $45^\\circ$ maps $F$ to $L$, and we write: $R(F)=L$." },
+    { "type": "text", "text": "1. Recopier et completer le tableau suivant : 1 pt", "en": "1. Copy and complete the following table: 1 pt" },
+    { "type": "table", "text": "$\\begin{array}{|c|c|c|c|c|}\\hline R(F) & R(M) & R(H) & R(K) & R(G)\\\\ \\hline L &  &  &  & \\\\ \\hline\\end{array}$", "en": "$\\begin{array}{|c|c|c|c|c|}\\hline R(F) & R(M) & R(H) & R(K) & R(G)\\\\ \\hline L &  &  &  & \\\\ \\hline\\end{array}$" },
+    { "type": "text", "text": "2. Quelle est la mesure en degre de l'angle $FHG$ ? Justifier votre reponse. 1 pt", "en": "2. What is the measure (in degrees) of angle $FHG$? Justify your answer. 1 pt" },
+    { "type": "image", "src": "/images/bepc2007-geo-ex3.jpg", "text": "Figure de l'exercice III", "en": "Figure for exercise III" },
+
+    { "type": "section", "title": "C- PROBLEME", "pts": "7 points", "en": "C – PROBLEM" },
+    { "type": "text", "text": "Le plan est muni d'un repere orthonorme $(O,I,J)$. On donne les points $A(2;-1)$ ; $B(-2;3)$ ; $C(0;3)$ ; $D(-2;0)$.", "en": "The plane is equipped with an orthonormal coordinate system $(O,I,J)$. We are given points $A(2;-1)$, $B(-2;3)$, $C(0;3)$, $D(-2;0)$." },
+    { "type": "text", "text": "1. Placer ces points dans le plan. 1 pt", "en": "1. Plot these points in the plane. 1 pt" },
+    { "type": "text", "text": "2. Ecrire une equation cartesienne de la droite $(AB)$. 1 pt", "en": "2. Write a Cartesian equation of the line $(AB)$. 1 pt" },
+    { "type": "text", "text": "3. Determiner les coordonnees des points $I$, $J$, $K$ et $L$, milieux respectifs des segments $[BC]$, $[BD]$, $[DA]$ et $[AC]$. 2 pts", "en": "3. Determine the coordinates of points $I$, $J$, $K$ and $L$, the midpoints of segments $[BC]$, $[BD]$, $[DA]$ and $[AC]$ respectively. 2 pts" },
+    { "type": "text", "text": "4. Demontrer que le quadrilatere $IJKL$ est un parallelogramme. 2 pts", "en": "4. Prove that quadrilateral $IJKL$ is a parallelogram. 2 pts" },
+    { "type": "text", "text": "5. L'unite de longueur etant le centimetre, calculer le perimetre du quadrilatere $ABCD$. 1 pt", "en": "5. Since the unit of length is the centimeter, calculate the perimeter of quadrilateral $ABCD$. 1 pt" }
+  ]
+}

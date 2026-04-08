@@ -1,0 +1,69 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2006",
+  "titleEn": "The BEPC 2006 Mathematics Exam",
+  "sections": [
+    { "type": "text", "text": "L'epreuve comporte trois parties independantes A, B et C.", "en": "The exam consists of three independent parts A, B and C." },
+
+    { "type": "section", "title": "A- ACTIVITES NUMERIQUES", "pts": "6,5 points", "en": "A – NUMERICAL ACTIVITIES" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3.", "en": "This part includes three independent exercises 1, 2 and 3." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "1,5 point", "en": "Exercise 1" },
+    { "type": "text", "text": "Recopier le numero de la question et la lettre qui designe la reponse juste sur la feuille de composition.", "en": "Copy the number of the question and the letter indicating the correct answer onto your answer sheet." },
+    { "type": "text", "text": "1. Le reel $x=(2-\\sqrt5)^2$ est egal a : 0,5 pt", "en": "1. The real number $x=(2-\\sqrt5)^2$ is equal to: 0.5 pt" },
+    { "type": "text", "text": "a) $2-\\sqrt5$ ; b) $9-4\\sqrt5$ ; c) $-2+\\sqrt5$ ; d) $-2-\\sqrt5$", "en": "a) $2-\\sqrt5$ ; b) $9-4\\sqrt5$ ; c) $-2+\\sqrt5$ ; d) $-2-\\sqrt5$" },
+    { "type": "text", "text": "2. Dans $\\mathbb{R}$, donner la solution de l'equation $10^5\\cdot x^2=10^{-3}$ : 0,5 pt", "en": "2. In $\\mathbb{R}$, give the solution of the equation $10^5\\cdot x^2=10^{-3}$: 0.5 pt" },
+    { "type": "text", "text": "a) $x=\\pm10^{1}$ ; b) $x=\\pm10^{-2}$ ; c) $x=\\pm10^{-4}$ ; d) $x=\\pm10^{-5}$", "en": "a) $x=\\pm10^{1}$ ; b) $x=\\pm10^{-2}$ ; c) $x=\\pm10^{-4}$ ; d) $x=\\pm10^{-5}$" },
+    { "type": "text", "text": "3. Dans $\\mathbb{R}$, donner l'ensemble des solutions de l'inequation : $\\dfrac{x+3}{x+8}\\le0$ : 0,5 pt", "en": "3. In $\\mathbb{R}$, give the solution set of the inequality $\\dfrac{x+3}{x+8}\\le0$: 0.5 pt" },
+    { "type": "text", "text": "a) $x\\in[-8;-3]$ ; b) $x\\in[-8;-3[$ ; c) $x\\in]-8;-3]$ ; d) $x\\in]-8;-3[$", "en": "a) $x\\in[-8;-3]$ ; b) $x\\in[-8;-3[$ ; c) $x\\in]-8;-3]$ ; d) $x\\in]-8;-3[$" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "1,5 point", "en": "Exercise 2" },
+    { "type": "text", "text": "On dispose de 2 tonnes d'arachides, soit 2 000 kg, et de sacs de 25 kg et de 50 kg.", "en": "We have 2 tons of groundnuts, i.e. 2,000 kg, and bags of 25 kg and 50 kg." },
+    { "type": "text", "text": "Le nombre total de sacs de 25 kg et 50 kg est 55.", "en": "The total number of 25 kg and 50 kg bags is 55." },
+    { "type": "text", "text": "Determiner le nombre de sacs respectifs de 25 kg et de 50 kg.", "en": "Determine the respective numbers of 25 kg bags and 50 kg bags." },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "2 points", "en": "Exercise 3" },
+    { "type": "text", "text": "Une enquete realisee sur une population donnee a permis de construire un tableau dont certaines informations ont ete perdues.", "en": "A survey on a given population produced a table in which some information was lost." },
+    { "type": "table", "text": "$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Modalites} & \\text{A} & \\text{B} & \\text{C} & \\text{D} & \\text{E}\\\\ \\hline\\text{Effectifs} & 227 &  & 78 & 122 &  \\\\ \\hline\\text{Frequence (\\%)} &  & 14,6 &  & 12,2 & 42,7\\\\ \\hline\\end{array}$", "en": "$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Categories} & \\text{A} & \\text{B} & \\text{C} & \\text{D} & \\text{E}\\\\ \\hline\\text{Frequencies} & 227 &  & 78 & 122 &  \\\\ \\hline\\text{Frequency (\\%)} &  & 14.6 &  & 12.2 & 42.7\\\\ \\hline\\end{array}$" },
+    { "type": "text", "text": "1. Determiner l'effectif total de cette population. 0,5 pt", "en": "1. Determine the total population size. 0.5 pt" },
+    { "type": "text", "text": "2. Recopier et completer le tableau des modalites. 1 pt", "en": "2. Copy and complete the table of categories. 1 pt" },
+    { "type": "text", "text": "3. Quel est le mode de cette serie statistique ? 0,5 pt", "en": "3. What is the mode of this statistical distribution? 0.5 pt" },
+
+    { "type": "section", "title": "B- ACTIVITES GEOMETRIQUES", "pts": "6,5 points", "en": "B – GEOMETRICAL ACTIVITIES" },
+    { "type": "text", "text": "Cette partie comporte trois exercices independants 1, 2 et 3.", "en": "This part includes three independent exercises 1, 2 and 3." },
+
+    { "type": "exercise", "title": "Exercice 1", "pts": "3 points", "en": "Exercise 1" },
+    { "type": "text", "text": "Dans un repere orthonorme, on donne $A(-1;3)$ ; $B(3;\\sqrt5)$ ; $C(2;-3)$ et $D(-2;-\\sqrt5)$.", "en": "In an orthonormal coordinate system, we are given $A(-1;3)$, $B(3;\\sqrt5)$, $C(2;-3)$ and $D(-2;-\\sqrt5)$." },
+    { "type": "text", "text": "$I$ est le milieu de $[AC]$ et $J$ est le milieu de $[BD]$.", "en": "$I$ is the midpoint of $[AC]$ and $J$ is the midpoint of $[BD]$." },
+    { "type": "text", "text": "1. Calculer les coordonnees de $I$ et $J$. 1 pt", "en": "1. Calculate the coordinates of $I$ and $J$. 1 pt" },
+    { "type": "text", "text": "2. En deduire que $ABCD$ est un parallelogramme. 0,5 pt", "en": "2. Deduce that $ABCD$ is a parallelogram. 0.5 pt" },
+    { "type": "text", "text": "3. a) Calculer $AC$ et $BD$. 1 pt", "en": "3. a) Calculate $AC$ and $BD$. 1 pt" },
+    { "type": "text", "text": "b) En deduire que $ABCD$ est un rectangle. 0,5 pt", "en": "b) Deduce that $ABCD$ is a rectangle. 0.5 pt" },
+
+    { "type": "exercise", "title": "Exercice 2", "pts": "2 points", "en": "Exercise 2" },
+    { "type": "text", "text": "Observer la figure ci-contre.", "en": "Observe the adjacent figure." },
+    { "type": "image", "src": "/images/bepc2006-geo-ex2.jpg", "text": "Figure de l'exercice 2", "en": "Figure for exercise 2" },
+    { "type": "text", "text": "On donne $AB=7$ cm ; $\\widehat{ABC}=58^\\circ$ et $\\text{mes }\\widehat{BAC}=42^\\circ$.", "en": "We are given $AB=7$ cm, $\\widehat{ABC}=58^\\circ$ and $\\text{m }\\widehat{BAC}=42^\\circ$." },
+    { "type": "text", "text": "$(BB')$ et $(AA')$ sont les hauteurs issues respectivement de $B$ et $A$.", "en": "$(BB')$ and $(AA')$ are the altitudes from $B$ and $A$ respectively." },
+    { "type": "text", "text": "1. Calculer les valeurs approchees de $AB'$ et $BA'$. 1 pt", "en": "1. Calculate approximate values of $AB'$ and $BA'$. 1 pt" },
+    { "type": "text", "text": "2. Montrer que $A$, $B$, $B'$ et $A'$ sont les points d'un meme cercle dont on donnera le diametre. 1 pt", "en": "2. Show that $A$, $B$, $B'$ and $A'$ lie on the same circle, and state its diameter. 1 pt" },
+
+    { "type": "exercise", "title": "Exercice 3", "pts": "1,5 point", "en": "Exercise 3" },
+    { "type": "text", "text": "Un cone de revolution a une base circulaire d'aire $S=1,01\\,m^2$. La longueur d'une generatrice est de $6,5$. On prendra $\\pi=3,14$.", "en": "A cone of revolution has a circular base of area $S=1.01\\,m^2$. The slant height is $6.5$. Take $\\pi=3.14$." },
+    { "type": "text", "text": "1. Calculer la hauteur du cone. 0,5 pt", "en": "1. Calculate the height of the cone. 0.5 pt" },
+    { "type": "text", "text": "2. Calculer le volume $V$ de ce cone. 1 pt", "en": "2. Calculate the volume $V$ of this cone. 1 pt" },
+
+    { "type": "section", "title": "C- PROBLEME", "pts": "7 points", "en": "C – PROBLEM" },
+    { "type": "text", "text": "$MPQ$ est un triangle rectangle isocele en $Q$. $K$ est le milieu de $[MP]$, $D$ est le symetrique de $Q$ par rapport a $K$.", "en": "$MPQ$ is an isosceles right triangle at $Q$. $K$ is the midpoint of $[MP]$, and $D$ is the reflection of $Q$ across $K$." },
+    { "type": "text", "text": "1. a) Faire une figure. 1 pt", "en": "1. a) Draw a figure. 1 pt" },
+    { "type": "text", "text": "b) Demontrer que $MQPD$ est un parallelogramme. 0,5 pt", "en": "b) Prove that $MQPD$ is a parallelogram. 0.5 pt" },
+    { "type": "text", "text": "2. a) Montrer que les angles $PMQ$ et $MPQ$ ont meme mesure. 0,5 pt", "en": "2. a) Show that angles $PMQ$ and $MPQ$ have the same measure. 0.5 pt" },
+    { "type": "text", "text": "b) En deduire que la droite $(MP)$ est une bissectrice de l'angle $QPD$. 0,5 pt", "en": "b) Deduce that line $(MP)$ is an angle bisector of angle $QPD$. 0.5 pt" },
+    { "type": "text", "text": "c) Deduir la mesure de l'angle $\\widehat{QPD}$. 0,5 pt", "en": "c) Deduce the measure of angle $\\widehat{QPD}$. 0.5 pt" },
+    { "type": "text", "text": "3. a) Montrer que les triangles $QPK$ et $PKD$ sont superposables. 1 pt", "en": "3. a) Show that triangles $QPK$ and $PKD$ are congruent. 1 pt" },
+    { "type": "text", "text": "b) En deduire que $MPQD$ est un carre. 0,5 pt", "en": "b) Deduce that $MPQD$ is a square. 0.5 pt" },
+    { "type": "text", "text": "4. On considere le cercle $(C_1)$ inscrit dans le carre $MPQD$ et le cercle $(C_2)$ circonscrit au carre $MPQD$.", "en": "4. Consider circle $(C_1)$ inscribed in square $MPQD$ and circle $(C_2)$ circumscribed about square $MPQD$." },
+    { "type": "text", "text": "a) Determiner le centre de ces deux cercles. 0,5 pt", "en": "a) Determine the centers of these two circles. 0.5 pt" },
+    { "type": "text", "text": "b) Determiner les rayons respectifs des cercles $(C_1)$ et $(C_2)$. 1 pt", "en": "b) Determine the respective radii of circles $(C_1)$ and $(C_2)$. 1 pt" },
+    { "type": "text", "text": "c) Calculer en fonction du cote $a$, l'aire de la couronne comprise entre les 2 disques limites par $(C_1)$ et $(C_2)$. 1 pt", "en": "c) Calculate, as a function of side length $a$, the area of the annulus between the two disks bounded by $(C_1)$ and $(C_2)$. 1 pt" }
+  ]
+}
