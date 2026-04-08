@@ -1,0 +1,261 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2014",
+  "titleEn": "The Mathematics Examination – BEPC 2014",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A, B et C.",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A- ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "PART A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III.",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Relever le numero de chacune des egalites suivantes et indiquer si elle est vraie (V) ou fausse (F).",
+      "en": "Write down the number of each of the following equalities and state whether it is true (T) or false (F)."
+    },
+    {
+      "type": "text",
+      "text": "1. $]-\\infty;3]\\cap[-3;+\\infty[=[-3;3]$ 0,5 pt",
+      "en": "1. $]-\\infty;3]\\cap[-3;+\\infty[=[-3;3]$ 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. $\\frac{1}{4}+\\frac{3}{4}\\times\\frac{5}{3}=\\frac{5}{3}$ 0,5 pt",
+      "en": "2. $\\frac{1}{4}+\\frac{3}{4}\\times\\frac{5}{3}=\\frac{5}{3}$ 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. $\\sqrt{5}-\\sqrt{2}=\\sqrt{3}$ 0,5 pt",
+      "en": "3. $\\sqrt{5}-\\sqrt{2}=\\sqrt{3}$ 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. $\\left|2\\sqrt{3}-3\\sqrt{2}\\right|=3\\sqrt{2}-2\\sqrt{3}$ 0,5 pt",
+      "en": "4. $\\left|2\\sqrt{3}-3\\sqrt{2}\\right|=3\\sqrt{2}-2\\sqrt{3}$ 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2,5 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "On considere des expressions litterales $E=36-(2x-1)^2$ et $F=\\frac{-14+4x}{(7-2x)(5+2x)}$ ou $x$ est un reel.",
+      "en": "Consider the algebraic expressions $E=36-(2x-1)^2$ and $F=\\frac{-14+4x}{(7-2x)(5+2x)}$, where $x$ is a real number."
+    },
+    {
+      "type": "text",
+      "text": "1. Mettre $E$ sous la forme d'un produit de facteurs du premier degre. 0,5 pt",
+      "en": "1. Write $E$ as a product of first-degree factors. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Donner la condition d'existence d'une valeur numerique de $E$. 1 pt",
+      "en": "2. State the condition for the existence of a numerical value of $E$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Donner la forme simplifiee de $F$. 1 pt",
+      "en": "3. Give the simplified form of $F$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "2 points",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "La repartition des pointures d'un stock de chaussures dans un magasin de vente des chaussures de sport est donnee par le tableau suivant :",
+      "en": "The distribution of shoe sizes in a stock of shoes in a sports shoe store is given by the following table:"
+    },
+    {
+      "type": "table",
+      "text": "$\\begin{array}{|c|c|c|c|c|c|c|}\\hline\\text{Pointures} & [32;34[ & [34;36[ & [36;38[ & [38;40[ & [40;42[ & [42;44[ \\\\ \\hline\\text{Effectifs} & 8 & 9 & 13 & 5 & 13 & 2 \\\\ \\hline\\end{array}$",
+      "en": "$\\begin{array}{|c|c|c|c|c|c|c|}\\hline\\text{Shoe sizes} & [32;34[ & [34;36[ & [36;38[ & [38;40[ & [40;42[ & [42;44[ \\\\ \\hline\\text{Frequencies} & 8 & 9 & 13 & 5 & 13 & 2 \\\\ \\hline\\end{array}$"
+    },
+    {
+      "type": "text",
+      "text": "1. Donner les classes de plus grand effectif de cette serie. 0,5*2 = 1 pt",
+      "en": "1. Give the class(es) with the highest frequency in this distribution. 0.5*2 = 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Construire l'histogramme de cette serie. 1 pt",
+      "en": "2. Draw the histogram for this distribution. 1 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B- ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "PART B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This part consists of three independent exercises 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2,5 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Le plan est muni du repere orthonorme $(O,I,J)$. On donne les points $A(-1;2)$, $B(3;-1)$ et une droite $(D)$ d'equation cartesienne $-4x+3y+6=0$.",
+      "en": "The plane is equipped with an orthonormal coordinate system $(O,I,J)$. The points $A(-1;2)$, $B(3;-1)$ and a line $(D)$ with Cartesian equation $-4x+3y+6=0$ are given."
+    },
+    {
+      "type": "text",
+      "text": "1. a) Determiner les coordonnees du vecteur $\\overrightarrow{BA}$. 0,5 pt",
+      "en": "1. a) Determine the coordinates of vector $\\overrightarrow{BA}$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "1. b) Calculer la distance $AB$. 0,5 pt",
+      "en": "1. b) Calculate the distance $AB$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Determiner une equation cartesienne de la droite $(AB)$. 0,5 pt",
+      "en": "2. Determine a Cartesian equation of line $(AB)$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Choisir la bonne reponse parmi celles qui sont proposees. 0,5 pt",
+      "en": "3. Choose the correct answer among those proposed. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "a) La droite $(D)$ a pour coefficient directeur : i) $-4$ ; ii) $\\frac{3}{4}$ ; iii) $\\frac{4}{3}$.",
+      "en": "a) The line $(D)$ has slope: i) $-4$; ii) $\\frac{3}{4}$; iii) $\\frac{4}{3}$."
+    },
+    {
+      "type": "text",
+      "text": "b) Les droites $(D)$ et $(AB)$ sont : i) paralleles ; ii) perpendiculaires ; iii) confondues. 0,5 pt",
+      "en": "b) The lines $(D)$ and $(AB)$ are: i) parallel; ii) perpendicular; iii) coincident. 0.5 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "Sur la figure ci-dessous $ABCD$ est un rectangle ; les droites $(HF)$ et $(EG)$ sont paralleles. On donne $AG=7$ ; $DE=4$ ; $AD=3$ et $AH=2$.",
+      "en": "In the figure below, $ABCD$ is a rectangle; the lines $(HF)$ and $(EG)$ are parallel. Given $AG=7$, $DE=4$, $AD=3$ and $AH=2$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2014-geo-ex2.jpg",
+      "text": "Figure de l'exercice 2",
+      "en": "Figure for exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "1. Montrer que $AE=5$. 1 pt",
+      "en": "1. Show that $AE=5$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer $AF$. 1 pt",
+      "en": "2. Calculate $AF$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "2 points",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "1. Un eleve de troisieme veut calculer le volume d'un cone de revolution. Aide-le a retrouver la bonne formule parmi : $\\frac{4\\pi rh}{3}$ ; $\\frac{4\\pi r^2h}{3}$ ; $\\pi r^2$ ; $\\frac{\\pi r^2h}{3}$. 1 pt",
+      "en": "1. A Form Three student wants to calculate the volume of a right circular cone. Help identify the correct formula among: $\\frac{4\\pi rh}{3}$; $\\frac{4\\pi r^2h}{3}$; $\\pi r^2$; $\\frac{\\pi r^2h}{3}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "($r$ est le rayon de la base et $h$ la hauteur du cone).",
+      "en": "($r$ is the base radius and $h$ the height of the cone)."
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer en centimetre le rayon de la base de ce cone sachant que son volume est egal a $18,84\\text{ cm}^3$ et sa hauteur est $8$ cm (on prendra $\\pi=3,14$). 1 pt",
+      "en": "2. Calculate, in centimeters, the radius of the base of this cone, given that its volume is $18.84\\text{ cm}^3$ and its height is $8$ cm (take $\\pi=3.14$). 1 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE C- PROBLEME",
+      "pts": "7 points",
+      "en": "PART C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "A. On considere les fonctions numeriques definies respectivement par: $f(x)=80x$ et $g(x)=200-120x$.",
+      "en": "A. Consider the numerical functions defined respectively by: $f(x)=80x$ and $g(x)=200-120x$."
+    },
+    {
+      "type": "text",
+      "text": "1. a) Quel est le sens de variation de $g$ ? 1 pt",
+      "en": "1. a) What is the direction of variation of $g$? 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Calculer $f(1)$ et $g(1)$. 0,5*2 = 1 pt",
+      "en": "b) Calculate $f(1)$ and $g(1)$. 0.5*2 = 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Determiner les reels $a$ et $b$ tels que $f(a)=200$ et $g(b)=0$. 1*2 = 2 pts",
+      "en": "2. Determine the real numbers $a$ and $b$ such that $f(a)=200$ and $g(b)=0$. 1*2 = 2 pts"
+    },
+    {
+      "type": "text",
+      "text": "3. Dans le plan muni d'un repere orthogonal $(O,I,J)$ (1 cm pour une unite en abscisse et 1 cm pour 20 unites en ordonnee), on considere les droites $(D)$ et $(D')$ d'equations respectives $80x-y=0$ et $120x+y-200=0$. Representer ces deux droites dans le meme repere.",
+      "en": "3. In a plane with an orthogonal coordinate system $(O,I,J)$ (scale: 1 cm for one unit on the x-axis and 1 cm for 20 units on the y-axis), consider the lines $(D)$ and $(D')$ with respective equations $80x-y=0$ and $120x+y-200=0$. Plot these two lines in the same coordinate system."
+    },
+    {
+      "type": "text",
+      "text": "Determiner graphiquement les coordonnees du point d'intersection de ces deux droites. 1 pt",
+      "en": "Determine graphically the coordinates of the intersection point of these two lines. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "B. Deux vehicules partent des villes $A$ et $B$ distantes de 200 km, a la meme heure 6 h 30. Le premier $V_A$ va de $B$ vers $A$ a la vitesse moyenne de 80 km/h ; le deuxieme $V_B$ va de $B$ vers $A$ a la vitesse moyenne de 120 km/h.",
+      "en": "B. Two vehicles start from cities $A$ and $B$ which are 200 km apart, at the same time, 6:30. The first, $V_A$, travels from $B$ to $A$ at an average speed of 80 km/h; the second, $V_B$, travels from $B$ to $A$ at an average speed of 120 km/h."
+    },
+    {
+      "type": "text",
+      "text": "Les distances $x$ et $y$ des deux vehicules $V_A$ et $V_B$ a la ville $A$ sont respectivement $x=80t$ et $y=200-120t$, ou $t$ est la duree en heure.",
+      "en": "The distances $x$ and $y$ of the two vehicles $V_A$ and $V_B$ from city $A$ are respectively $x=80t$ and $y=200-120t$, where $t$ is the time in hours."
+    },
+    {
+      "type": "text",
+      "text": "4. a) A quelle heure les deux vehicules se rencontrent-ils ? 1 pt",
+      "en": "4. a) At what time do the two vehicles meet? 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Quelle sera alors la distance parcourue par chaque vehicule ? 1 pt",
+      "en": "b) What will be the distance traveled by each vehicle at that time? 1 pt"
+    }
+  ]
+}
