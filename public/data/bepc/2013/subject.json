@@ -1,0 +1,278 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2013",
+  "titleEn": "The Mathematics Examination – BEPC 2013",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A, B et C.",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A- ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "PART A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III.",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "2,5 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "On pose $x=\\dfrac{1-\\sqrt{5}}{2}$.",
+      "en": "Let $x=\\dfrac{1-\\sqrt{5}}{2}$."
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer et rendre rationnel le denominateur du nombre $\\dfrac{x+1}{x}$. 1,5 pt",
+      "en": "1. Calculate and rationalize the denominator of $\\dfrac{x+1}{x}$. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Sachant que $2,23<\\sqrt{5}<2,24$, determiner un encadrement de $x$ par deux nombres decimaux. 1 pt",
+      "en": "2. Given that $2.23<\\sqrt{5}<2.24$, determine bounds for $x$ using two decimal numbers. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "1. Developper et reduire le polynome $(2x-3)(x+2)$. 0,5 pt",
+      "en": "1. Expand and simplify the polynomial $(2x-3)(x+2)$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Resoudre dans $E$ l'equation $(2x-3)(x+2)=0$. 1 pt",
+      "en": "2. Solve in $E$ the equation $(2x-3)(x+2)=0$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Recopier sur votre feuille de composition la reponse juste de la question suivante.",
+      "en": "3. Copy onto your answer sheet the correct response to the following question."
+    },
+    {
+      "type": "text",
+      "text": "L'ensemble des reels $x$ tel que $-5\\le 2x-3\\le 3$ est : 0,5 pt",
+      "en": "The set of real numbers $x$ such that $-5\\le 2x-3\\le 3$ is: 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "a. $[-5,3]$ ; b. $[-1,3[$ ; c. $[-1,3]$ ; d. $[-3,1]$",
+      "en": "a. $[-5,3]$ ; b. $[-1,3[$ ; c. $[-1,3]$ ; d. $[-3,1]$"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "2 points",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "On a releve le taux de cholesterol dans le sang, en centigramme par centilitre $(cg/cl)$ de 25 hommes dont l'age varie entre 50 et 59 ans, et on a obtenu les resultats suivants :",
+      "en": "Cholesterol levels in the blood, measured in centigrams per centiliter $(cg/cl)$, were recorded for 25 men aged between 50 and 59. The following results were obtained:"
+    },
+    {
+      "type": "text",
+      "text": "120 242 200 185 197"
+    },
+    {
+      "type": "text",
+      "text": "203 138 152 265 178"
+    },
+    {
+      "type": "text",
+      "text": "187 218 175 197 132"
+    },
+    {
+      "type": "text",
+      "text": "146 183 188 144 248"
+    },
+    {
+      "type": "text",
+      "text": "237 196 255 240 185"
+    },
+    {
+      "type": "text",
+      "text": "1. Recopier et completer le tableau suivant. 1,25 pt",
+      "en": "1. Copy and complete the following table. 1.25 pt"
+    },
+    {
+      "type": "table",
+      "text": "$\\begin{array}{|l|c|c|c|c|c|}\\hline\\text{Taux de cholesterol} & [120;150[ & [150;180[ & [180;210[ & [210;240[ & [240;270[ \\\\ \\hline\\text{Effectif} &  &  &  &  &  \\\\ \\hline\\end{array}$",
+      "en": "$\\begin{array}{|l|c|c|c|c|c|}\\hline\\text{Cholesterol level} & [120;150[ & [150;180[ & [180;210[ & [210;240[ & [240;270[ \\\\ \\hline\\text{Frequency} &  &  &  &  &  \\\\ \\hline\\end{array}$"
+    },
+    {
+      "type": "text",
+      "text": "2. A partir de $240\\,cg/cl$, on considere que le sujet est a surveiller.",
+      "en": "2. From $240\\,cg/cl$ onward, the subject is considered to require monitoring."
+    },
+    {
+      "type": "text",
+      "text": "Quel est le pourcentage des sujets a surveiller dans ce groupe ? 0,75 pt",
+      "en": "What percentage of subjects require monitoring in this group? 0.75 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B- ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "PART B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants 1, 2 et 3.",
+      "en": "This part consists of three independent exercises 1, 2 and 3."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "3 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "Le plan est rapporte au repere orthonorme $(O,I,J)$. On donne les points $A(2,1)$ et $B(0,2)$.",
+      "en": "The plane is referred to an orthonormal coordinate system $(O,I,J)$. The points $A(2,1)$ and $B(0,2)$ are given."
+    },
+    {
+      "type": "text",
+      "text": "1. Ecrire une equation cartesienne de la droite $(AB)$. 1 pt",
+      "en": "1. Write a Cartesian equation of the line $(AB)$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Tracer dans le repere $(O,I,J)$ la droite $(D)$ d'equation cartesienne $2x-y-1=0$. 1 pt",
+      "en": "2. Draw in the coordinate system $(O,I,J)$ the line $(D)$ with Cartesian equation $2x-y-1=0$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Construire l'image du triangle $OAB$ par l'homothetie de centre $O$ et de rapport $\\dfrac{1}{2}$. 1 pt",
+      "en": "3. Construct the image of triangle $OAB$ under the homothety with center $O$ and ratio $\\dfrac{1}{2}$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "3,5 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "On donne un triangle $ABC$ tel que $AC=6\\,cm$, $AB=8\\,cm$ et $BC=10\\,cm$.",
+      "en": "Consider a triangle $ABC$ such that $AC=6\\,cm$, $AB=8\\,cm$ and $BC=10\\,cm$."
+    },
+    {
+      "type": "text",
+      "text": "1. Montrer que le triangle $ABC$ est rectangle. 0,5 pt",
+      "en": "1. Show that triangle $ABC$ is right-angled. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Soit $(C)$ le cercle circonscrit au triangle $ABC$ et $O$ le centre de ce cercle. Calculer le rayon du cercle $(C)$. 0,5 pt",
+      "en": "2. Let $(C)$ be the circumcircle of triangle $ABC$ and $O$ the center of this circle. Calculate the radius of circle $(C)$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. a. Calculer le sinus de l'angle $ABC$. 0,5 pt",
+      "en": "3. a. Calculate the sine of angle $ABC$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b. En deduire une mesure de chacun des angles $ABC$ et $AOC$. 1 pt",
+      "en": "b. Deduce a measure of each of the angles $ABC$ and $AOC$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. $E$ est le milieu de $[AB]$ ; montrer que les droites $(AC)$ et $(OE)$ sont paralleles. 1 pt",
+      "en": "4. $E$ is the midpoint of $[AB]$; show that the lines $(AC)$ and $(OE)$ are parallel. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "NB on donne :"
+    },
+    {
+      "type": "text",
+      "text": "$\\alpha$ en degre 35,45 36,15 38,87 37,588",
+      "en": "$\\alpha$ in degrees 35.45 36.15 38.87 37.588"
+    },
+    {
+      "type": "text",
+      "text": "$\\sin\\alpha$ 0,58 0,59 0,6 0,61",
+      "en": "$\\sin\\alpha$ 0.58 0.59 0.6 0.61"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE C- PROBLEME",
+      "pts": "7 points",
+      "en": "PART C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "Une citerne transparente a la forme d'un cone de capacite 1800 litres. L'aire de la base $S$ dudit cone est de 1,5cm.",
+      "en": "A transparent tank has the shape of a cone with a capacity of 1800 liters. The base area $S$ of the cone is $1.5cm$."
+    },
+    {
+      "type": "text",
+      "text": "1. Calculer la hauteur de cette citerne. 1 pt",
+      "en": "1. Calculate the height of this tank. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Cette citerne etant pleine d'eau, on ouvre le robinet situe sur sa partie inferieure ; a un moment donne, on constate qu'il reste 225 litres d'eau dans la citerne. Cette eau prend la forme d'un cone semblable au grand cone et de base $S'$.",
+      "en": "2. The tank is full of water. A tap located at the bottom is opened; at a certain moment, it is observed that 225 liters of water remain in the tank. This water forms a cone similar to the large cone, with base area $S'$."
+    },
+    {
+      "type": "text",
+      "text": "a. Calculer le rapport $k^3=\\dfrac{V'}{V}$. 1 pt",
+      "en": "a. Calculate the ratio $k^3=\\dfrac{V'}{V}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "b. En deduire la hauteur $h'$ du petit cone. 1 pt",
+      "en": "b. Deduce the height $h'$ of the small cone. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "($V$ volume initial et $V'$ volume d'eau a ce moment, $k$ coefficient de reduction)",
+      "en": "($V$ is the initial volume and $V'$ the water volume at that moment; $k$ is the reduction factor.)"
+    },
+    {
+      "type": "text",
+      "text": "3. On suppose que le debit du robinet ci-dessus est de 15 litres par minute et que la citerne est pleine. Calculer le temps necessaire pour vider la citerne. 1 pt",
+      "en": "3. Suppose the flow rate of the tap is 15 liters per minute and the tank is full. Calculate the time required to empty the tank. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. On designe par $t$, le temps en minute d'ecoulement du robinet et $V(t)$ le volume en metre cube de l'eau qui reste dans la citerne apres le temps $t$.",
+      "en": "4. Let $t$ be the time in minutes during which the tap runs, and $V(t)$ the volume in cubic meters of water remaining in the tank after time $t$."
+    },
+    {
+      "type": "text",
+      "text": "a. Montrer que $V(t)=1,8-0,015t$. 1 pt",
+      "en": "a. Show that $V(t)=1.8-0.015t$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "b. Calculer $V(90)$ et $V(120)$. 1 pt",
+      "en": "b. Calculate $V(90)$ and $V(120)$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "c. Apres combien de temps restera-t-il exactement $0,9m^3$ d'eau dans la citerne ? 1 pt",
+      "en": "c. After how much time will exactly $0.9m^3$ of water remain in the tank? 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "NB on notera que $\\left(\\dfrac{1}{2}\\right)^3=\\dfrac{1}{8}=0,125$.",
+      "en": "NB Note that $\\left(\\dfrac{1}{2}\\right)^3=\\dfrac{1}{8}=0.125$."
+    }
+  ]
+}
