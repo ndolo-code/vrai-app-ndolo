@@ -1,0 +1,60 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2004",
+  "titleEn": "The BEPC 2004 Mathematics Exam",
+  "sections": [
+    { "type": "section", "title": "A- ACTIVITES NUMERIQUES", "pts": "6,5 points", "en": "A – NUMERICAL ACTIVITIES" },
+    { "type": "text", "text": "Cette partie comporte quatre exercices independants I, II, III et IV.", "en": "This part includes four independent exercises I, II, III and IV." },
+
+    { "type": "exercise", "title": "I", "pts": "1 pt", "en": "I" },
+    { "type": "text", "text": "Mettre le reel $\\frac{1}{5-\\sqrt{3}}$ sous la forme $a+b\\sqrt{3}$ ou $a$ et $b$ sont des nombres rationnels positifs. 1 pt", "en": "Write the real number $\\frac{1}{5-\\sqrt{3}}$ in the form $a+b\\sqrt{3}$ where $a$ and $b$ are positive rational numbers. 1 pt" },
+
+    { "type": "exercise", "title": "II", "pts": "1 pt", "en": "II" },
+    { "type": "text", "text": "Resoudre dans $\\mathbb{R}$ l'equation $(2x-5)^2-(5-2x)(1-3x)=0$. 1 pt", "en": "Solve in $\\mathbb{R}$ the equation $(2x-5)^2-(5-2x)(1-3x)=0$. 1 pt" },
+
+    { "type": "exercise", "title": "III", "pts": "1 pt", "en": "III" },
+    { "type": "text", "text": "Le tiers d'un nombre $x$, augmente de son double et diminue de son quart donne 50. Quel est ce nombre ? 1 pt", "en": "One third of a number $x$, increased by its double and decreased by one quarter, gives 50. What is this number? 1 pt" },
+
+    { "type": "exercise", "title": "IV", "pts": "4,5 pts", "en": "IV" },
+    { "type": "text", "text": "Dans une maternite, on a mesure la taille des bebes a la naissance. Le diagramme a bandes ci-contre montre leur repartition selon la taille.", "en": "In a maternity ward, newborn babies’ heights were measured. The adjacent bar chart shows their distribution by height." },
+    { "type": "image", "src": "/images/bepc2004-num-ex4.jpg", "text": "Diagramme numerique 2004", "en": "Numerical chart 2004" },
+    { "type": "text", "text": "a) Quel est l'effectif total de la population etudiee ? 1 pt", "en": "a) What is the total number of individuals in the studied population? 1 pt" },
+    { "type": "text", "text": "b) Etablir le tableau des effectifs et frequences (en pourcentage). 1,5 pt", "en": "b) Build the table of counts and frequencies (in percentages). 1.5 pt" },
+    { "type": "text", "text": "c) Quelle est la moyenne des tailles de bebes ? 1 pt", "en": "c) What is the mean baby height? 1 pt" },
+
+    { "type": "section", "title": "B- ACTIVITES GEOMETRIQUES", "pts": "6,5 points", "en": "B – GEOMETRICAL ACTIVITIES" },
+    { "type": "text", "text": "Cette partie comporte quatre exercices independants I, II, III et IV.", "en": "This part includes four independent exercises I, II, III and IV." },
+
+    { "type": "exercise", "title": "I", "pts": "1 pt", "en": "I" },
+    { "type": "text", "text": "ABC est un triangle equilateral de 4 cm de cote. Construire l'image de ce triangle par la translation de vecteur $\\overrightarrow{AB}$. 1 pt", "en": "$ABC$ is an equilateral triangle with side length 4 cm. Construct its image by translation with vector $\\overrightarrow{AB}$. 1 pt" },
+
+    { "type": "exercise", "title": "II", "pts": "2,5 pts", "en": "II" },
+    { "type": "text", "text": "Observer la figure : O est le centre du cercle. Recopier et completer le tableau suivant.", "en": "Observe the figure: O is the center of the circle. Copy and complete the following table." },
+    { "type": "image", "src": "/images/bepc2004-geo-ex2a.jpg", "text": "Figure geometrie 2004 ex II (a)", "en": "Geometry figure 2004 ex II (a)" },
+    { "type": "image", "src": "/images/bepc2004-geo-ex2b.jpg", "text": "Tableau geometrie 2004 ex II (b)", "en": "Geometry table 2004 ex II (b)" },
+
+    { "type": "exercise", "title": "III", "pts": "1 pt", "en": "III" },
+    { "type": "text", "text": "Soient $(d_1):2x-3y+4=0$, $(d_2):y=\\frac{3}{2}x+1$, $(d_3):y=-\\frac{3}{2}x+1$. Une seule phrase est juste parmi : a) $(d_1)\\perp(d_2)$ ; b) $(d_2)//(d_3)$ ; c) $(d_2)\\perp(d_3)$ ; d) $(d_1)\\perp(d_3)$. 1 pt", "en": "Let $(d_1):2x-3y+4=0$, $(d_2):y=\\frac{3}{2}x+1$, $(d_3):y=-\\frac{3}{2}x+1$. Only one statement is true among: a) $(d_1)\\perp(d_2)$; b) $(d_2)$ parallel to $(d_3)$; c) $(d_2)\\perp(d_3)$; d) $(d_1)\\perp(d_3)$. 1 pt" },
+
+    { "type": "exercise", "title": "IV", "pts": "2 pts", "en": "IV" },
+    { "type": "text", "text": "Sur la figure ci-contre, on suppose que $(OE)$ et $(LM)$ sont paralleles. On donne $AE=1,5$, $AL=4,5$ et $AM=3,9$.", "en": "In the adjacent figure, assume $(OE)$ and $(LM)$ are parallel. Given $AE=1.5$, $AL=4.5$ and $AM=3.9$." },
+    { "type": "image", "src": "/images/bepc2004-geo-ex4.jpg", "text": "Figure geometrie 2004 ex IV", "en": "Geometry figure 2004 ex IV" },
+    { "type": "text", "text": "a) Calculer $AO$. 1 pt", "en": "a) Compute $AO$. 1 pt" },
+    { "type": "text", "text": "b) Calculer l'aire du trapeze OELM. 1 pt", "en": "b) Compute the area of trapezoid OELM. 1 pt" },
+
+    { "type": "section", "title": "C- PROBLEME", "pts": "7 points", "en": "C – PROBLEM" },
+
+    { "type": "exercise", "title": "I", "pts": "4 pts", "en": "I" },
+    { "type": "text", "text": "Le solide ci-dessous est forme d'une pyramide de 3 cm de hauteur et d'un pave droit de dimensions 2 cm, 3 cm et 4 cm.", "en": "The solid below is made of a 3 cm high pyramid and a rectangular prism with dimensions 2 cm, 3 cm and 4 cm." },
+    { "type": "image", "src": "/images/bepc2004-prob-solide.jpg", "text": "Solide du probleme 2004", "en": "Problem solid 2004" },
+    { "type": "text", "text": "a) Calculer le volume de ce solide, sachant que pour une pyramide $V=\\frac{1}{3}Bh$. 1 pt", "en": "a) Compute the volume of this solid, knowing that for a pyramid $V=\\frac{1}{3}Bh$. 1 pt" },
+    { "type": "text", "text": "b) On verse un liquide jusqu'a une hauteur correspondant aux $\\frac{3}{5}$ de celle du solide creux. Calculer cette hauteur. 1,5 pt", "en": "b) Liquid is poured up to a height equal to $\\frac{3}{5}$ of the hollow solid height. Compute this height. 1.5 pt" },
+    { "type": "image", "src": "/images/bepc2004-prob-flacon.jpg", "text": "Flacon du probleme 2004", "en": "Problem bottle 2004" },
+    { "type": "text", "text": "c) Ce liquide a un volume de $368,38\\,\\mathrm{cm}^3$ et on le transvase dans un cylindre de rayon 3 cm. Quelle hauteur atteint-il ? (Prendre $\\pi=3,14$). 1,5 pt", "en": "c) This liquid has volume $368.38\\,\\mathrm{cm}^3$ and is poured into a cylinder of radius 3 cm. What height does it reach? (Use $\\pi=3.14$). 1.5 pt" },
+
+    { "type": "exercise", "title": "II", "pts": "2 pts", "en": "II" },
+    { "type": "text", "text": "Soit $V$ la fonction definie par $V(x)=28,26x$ avec $x$ positif.", "en": "Let $V$ be the function defined by $V(x)=28.26x$ with positive $x$." },
+    { "type": "text", "text": "a) Recopier et completer le tableau suivant. 1 pt", "en": "a) Copy and complete the following table. 1 pt" },
+    { "type": "image", "src": "/images/bepc2004-prob-tableau.jpg", "text": "Tableau du probleme 2004", "en": "Problem table 2004" },
+    { "type": "text", "text": "b) Representer la fonction $V$ dans un repere orthogonal : 1 cm pour 1 unite en abscisse et 1 cm pour 28,26 unites en ordonnee. 1 pt", "en": "b) Plot function $V$ in orthogonal axes: 1 cm for 1 unit on x-axis and 1 cm for 28.26 units on y-axis. 1 pt" }
+  ]
+}
