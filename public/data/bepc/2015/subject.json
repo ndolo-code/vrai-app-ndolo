@@ -1,0 +1,236 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2015",
+  "titleEn": "The Mathematics Examination – BEPC 2015",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A, B et C.",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "section",
+      "title": "PARTIE A- ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "PART A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III.",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "1,5 point",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "1. Verifier que $(x+1)(2x+3)=2x^2+5x+3$. 0,75 pt",
+      "en": "1. Verify that $(x+1)(2x+3)=2x^2+5x+3$. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. En deduire une factorisation de : $A(x)=2x^2+5x+3-(2x+3)(4x-2)$. 0,75 pt",
+      "en": "2. Deduce a factorization of: $A(x)=2x^2+5x+3-(2x+3)(4x-2)$. 0.75 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "2,5 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "On s'est interesse aux ages de tous les eleves d'une classe de $3^{\\text{eme}}$. Les resultats obtenus sont consignes dans le tableau suivant :",
+      "en": "We considered the ages of all the students in a Form Three class. The results obtained are recorded in the table below:"
+    },
+    {
+      "type": "table",
+      "text": "$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Ages} & 12 & 14 & 16 & 17 & 18 \\\\ \\hline\\text{Nombre d'eleves} & 3 & 25 & 22 & 18 & 2 \\\\ \\hline\\end{array}$",
+      "en": "$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Ages} & 12 & 14 & 16 & 17 & 18 \\\\ \\hline\\text{Number of students} & 3 & 25 & 22 & 18 & 2 \\\\ \\hline\\end{array}$"
+    },
+    {
+      "type": "text",
+      "text": "1. Quel est l'effectif total des eleves de cette classe ? 0,5 pt",
+      "en": "1. What is the total number of students in this class? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Quel est le mode de la serie statistique ainsi definie ? 0,5 pt",
+      "en": "2. What is the mode of this statistical series? 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Representer cette serie par un diagramme a batons. 1,5 pt",
+      "en": "3. Represent this series using a bar chart. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "(On prendra : $1\\ \\text{cm}$ pour $2\\ \\text{ans}$ en abscisses ; $1\\ \\text{cm}$ pour $3\\ \\text{eleves}$ en ordonnees).",
+      "en": "(Use: $1\\ \\text{cm}$ for $2\\ \\text{years}$ on the x-axis; $1\\ \\text{cm}$ for $3\\ \\text{students}$ on the y-axis)."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 3",
+      "pts": "2,5 points",
+      "en": "Exercise 3"
+    },
+    {
+      "type": "text",
+      "text": "1. Ecrire chacun des nombres $A$ et $B$ suivants sous la forme $a\\sqrt{b}$ ou $a$ et $b$ sont des entiers relatifs. $A=-4\\sqrt{3}+\\sqrt{48}-\\sqrt{27}$ ; $B=\\dfrac{7\\sqrt{20}}{\\sqrt{2}}$. 1 pt",
+      "en": "1. Write each of the numbers $A$ and $B$ below in the form $a\\sqrt{b}$ where $a$ and $b$ are integers. $A=-4\\sqrt{3}+\\sqrt{48}-\\sqrt{27}$ ; $B=\\dfrac{7\\sqrt{20}}{\\sqrt{2}}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. (a) Comparer les nombres $3$ et $2\\sqrt{3}$ en justifiant la reponse. 0,5 pt",
+      "en": "2. (a) Compare the numbers $3$ and $2\\sqrt{3}$, justifying your answer. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) On pose $C=(3-2\\sqrt{3})^2$. Ecrire le nombre $C$ sous la forme $a+b\\sqrt{c}$. 0,5 pt",
+      "en": "(b) Let $C=(3-2\\sqrt{3})^2$. Write $C$ in the form $a+b\\sqrt{c}$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "(c) En deduire que : $\\sqrt{21-12\\sqrt{3}}=2\\sqrt{3}-3$. 0,5 pt",
+      "en": "(c) Deduce that: $\\sqrt{21-12\\sqrt{3}}=2\\sqrt{3}-3$. 0.5 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE B- ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "PART B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte deux exercices independants 1 et 2.",
+      "en": "This part consists of two independent exercises 1 and 2."
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 1",
+      "pts": "3 points",
+      "en": "Exercise 1"
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2015-geo-ex1.jpg",
+      "text": "Figure de l'exercice 1",
+      "en": "Figure for exercise 1"
+    },
+    {
+      "type": "text",
+      "text": "1. En observant la figure ci-contre dans laquelle $O$ est le centre du cercle, $mesCAB=36^\\circ$ et $mesBOD=130^\\circ$.",
+      "en": "1. Observe the figure opposite, in which $O$ is the center of the circle, $mesCAB=36^\\circ$ and $mesBOD=130^\\circ$."
+    },
+    {
+      "type": "text",
+      "text": "(a) Calculer la mesure de l'angle $COB$. 1 pt",
+      "en": "(a) Calculate the measure of angle $COB$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Deduire que : $mesOCB=mesCBO=54^\\circ$. 1 pt",
+      "en": "(b) Deduce that: $mesOCB=mesCBO=54^\\circ$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer la mesure de l'angle $BED$. 1 pt",
+      "en": "2. Calculate the measure of angle $BED$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "Exercice 2",
+      "pts": "3,5 points",
+      "en": "Exercise 2"
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2015-geo-ex2.jpg",
+      "text": "Figure de l'exercice 2",
+      "en": "Figure for exercise 2"
+    },
+    {
+      "type": "text",
+      "text": "Observe le cone de revolution d'axe $[AC]$ et de generatrice $[CE]$ ci-contre. On pose : $AC=3\\ \\text{cm}$, $FB=\\dfrac{2}{3}\\ \\text{cm}$ et $BC=1\\ \\text{cm}$ ; on admet que les droites $(FB)$ et $(AE)$ sont paralleles.",
+      "en": "Observe the right circular cone with axis $[AC]$ and slant height $[CE]$ shown opposite. Let: $AC=3\\ \\text{cm}$, $FB=\\dfrac{2}{3}\\ \\text{cm}$ and $BC=1\\ \\text{cm}$; it is admitted that the lines $(FB)$ and $(AE)$ are parallel."
+    },
+    {
+      "type": "text",
+      "text": "1. (a) Montrer que $AE=2\\ \\text{cm}$. 1 pt",
+      "en": "1. (a) Show that $AE=2\\ \\text{cm}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) En deduire que le volume $V$ de ce cone est $V=12,56\\ \\text{cm}^3$ (on prendra $\\pi=3,14$). 1 pt",
+      "en": "(b) Deduce that the volume $V$ of this cone is $V=12.56\\ \\text{cm}^3$ (take $\\pi=3.14$). 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(c) En considerant les droites $(AE)$ et $(AC)$ perpendiculaires, calculer $CE$. 0,75 pt",
+      "en": "(c) Considering that lines $(AE)$ and $(AC)$ are perpendicular, calculate $CE$. 0.75 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. On coupe ce cone suivant le plan passant par $B$ et parallele au plan de base. Calculer le volume du tronc de cone issu de cette coupe. 0,75 pt",
+      "en": "2. The cone is cut by a plane passing through $B$ and parallel to the base plane. Calculate the volume of the frustum obtained from this cut. 0.75 pt"
+    },
+    {
+      "type": "section",
+      "title": "PARTIE C- PROBLEME",
+      "pts": "7 points",
+      "en": "PART C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "Dans la figure ci-contre, des points $A$, $B$ et $C$ sont representes dans un repere orthonorme $(O,I,J)$. On donne $\\overrightarrow{OC}=6\\overrightarrow{i}+2\\overrightarrow{j}$.",
+      "en": "In the figure opposite, points $A$, $B$ and $C$ are plotted in an orthonormal coordinate system $(O,I,J)$. It is given that $\\overrightarrow{OC}=6\\overrightarrow{i}+2\\overrightarrow{j}$."
+    },
+    {
+      "type": "text",
+      "text": "1. (a) Par lecture graphique, determiner les coordonnees des points $A$ et $B$. 1 pt",
+      "en": "1. (a) By reading the graph, determine the coordinates of points $A$ and $B$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) En deduire que $\\overrightarrow{AB}=-5\\overrightarrow{i}+4\\overrightarrow{j}$ et $\\overrightarrow{AC}=-3\\overrightarrow{i}+3\\overrightarrow{j}$. 1 pt",
+      "en": "(b) Deduce that $\\overrightarrow{AB}=-5\\overrightarrow{i}+4\\overrightarrow{j}$ and $\\overrightarrow{AC}=-3\\overrightarrow{i}+3\\overrightarrow{j}$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. (a) Justifier que la droite $(AB)$ a pour equation cartesienne : $4x+5y-37=0$. 1 pt",
+      "en": "2. (a) Justify that line $(AB)$ has the Cartesian equation: $4x+5y-37=0$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) Determiner une equation cartesienne de la droite $(AC)$. 1 pt",
+      "en": "(b) Determine a Cartesian equation of line $(AC)$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. A l'occasion d'une fete de famille, le pere de Nanga achete des casiers de bieres et jus. Le nombre total des casiers achetes est de $8$ ; sa depense totale pour ces achats est de $37.000\\ \\text{FCFA}$.",
+      "en": "3. On the occasion of a family celebration, Nanga's father buys crates of beer and juice. The total number of crates purchased is $8$, and his total expense for these purchases is $37.000\\ \\text{FCFA}$."
+    },
+    {
+      "type": "text",
+      "text": "On designe par $x$ le nombre de casiers de jus et par $y$ le nombre de casiers de bieres achetes ; on admet qu'un casier de jus coute $4000\\ \\text{FCFA}$ et qu'un casier de biere coute $5000\\ \\text{FCFA}$.",
+      "en": "Let $x$ be the number of juice crates and $y$ the number of beer crates purchased. It is admitted that one crate of juice costs $4000\\ \\text{FCFA}$ and one crate of beer costs $5000\\ \\text{FCFA}$."
+    },
+    {
+      "type": "text",
+      "text": "(a) Justifier que $x$ et $y$ verifient le systeme suivant : $\\left\\{\\begin{array}{l} 4x+5y-37=0 \\\\ x+y-8=0 \\end{array}\\right.$. 1 pt",
+      "en": "(a) Justify that $x$ and $y$ satisfy the following system: $\\left\\{\\begin{array}{l} 4x+5y-37=0 \\\\ x+y-8=0 \\end{array}\\right.$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(b) En deduire par lecture graphique, le nombre de casiers de jus et le nombre de casiers de bieres achetes. 1 pt",
+      "en": "(b) Deduce, by reading the graph, the number of juice crates and the number of beer crates purchased. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "(c) Retrouver ces resultats en resolvant le systeme $(S)$. 1 pt",
+      "en": "(c) Find the same results by solving system $(S)$. 1 pt"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2001",
+  "titleEn": "The BEPC 2001 Mathematics Exam",
+  "sections": [
+    { "type": "text", "text": "Epreuve disponible avec la correction sur le site Ndolomath.", "en": "Exam available with correction on the Ndolomath website." },
+
+    { "type": "section", "title": "A- ACTIVITES NUMERIQUES", "pts": "6,5 points", "en": "A – NUMERICAL ACTIVITIES" },
+    { "type": "text", "text": "Quatre exercices independants I, II, III et IV.", "en": "Four independent exercises I, II, III and IV." },
+
+    { "type": "exercise", "title": "I", "pts": "1,5 pt", "en": "I" },
+    { "type": "text", "text": "a) Calculer $A=\\frac{(\\sqrt{5}+\\sqrt{2})^2+(\\sqrt{5}-\\sqrt{2})^2}{4}$ et l'ecrire sous forme de fraction irreductible. 1 pt", "en": "a) Compute $A=\\frac{(\\sqrt{5}+\\sqrt{2})^2+(\\sqrt{5}-\\sqrt{2})^2}{4}$ and write it in simplest fractional form. 1 pt" },
+    { "type": "text", "text": "b) Determiner un encadrement de $A$ par deux entiers consecutifs. 0,5 pt", "en": "b) Bound $A$ between two consecutive integers. 0.5 pt" },
+
+    { "type": "exercise", "title": "II", "pts": "1 pt", "en": "II" },
+    { "type": "text", "text": "On donne $B=(2x+1)^2-16$. Factoriser $B$. 1 pt", "en": "Given $B=(2x+1)^2-16$. Factorize $B$. 1 pt" },
+
+    { "type": "exercise", "title": "III", "pts": "2 pts", "en": "III" },
+    { "type": "text", "text": "Dans le bar de la cantine, la vendeuse a vendu 85 bouteilles (Coca-Cola, Fanta, Sprite, Malta, Tonic). Le diagramme indique les ventes par type.", "en": "At the school canteen bar, 85 bottles were sold (Coca-Cola, Fanta, Sprite, Malta, Tonic). The chart gives sales by type." },
+    { "type": "image", "src": "/images/bepc2001-num-ex3.jpg", "text": "Diagramme des boissons vendues", "en": "Chart of drinks sold" },
+    { "type": "text", "text": "Recopier et completer le tableau des nombres vendus et frequences. 2 pts", "en": "Copy and complete the table of quantities sold and frequencies. 2 pts" },
+    { "type": "table", "text": "$$\\begin{array}{|l|c|c|c|c|c|}\\hline\\text{Types de boissons} & \\text{Coca-cola} & \\text{Fanta} & \\text{Sprite} & \\text{Malta} & \\text{Tonic}\\\\ \\hline\\text{Nombres de bouteilles vendues} & 25 &  &  &  & \\\\ \\hline\\text{frequences} & \\frac{5}{17} &  &  &  & \\\\ \\hline\\end{array}$$", "en": "$$\\begin{array}{|l|c|c|c|c|c|}\\hline\\text{Types of drinks} & \\text{Coca-cola} & \\text{Fanta} & \\text{Sprite} & \\text{Malta} & \\text{Tonic}\\\\ \\hline\\text{Number of bottles sold} & 25 &  &  &  & \\\\ \\hline\\text{frequencies} & \\frac{5}{17} &  &  &  & \\\\ \\hline\\end{array}$$" },
+
+    { "type": "exercise", "title": "IV", "pts": "2 pts", "en": "IV" },
+    { "type": "text", "text": "Maman a achete 30 kg d'un melange de viande sans os (1500 F/kg) et avec os (1300 F/kg) pour 41 400 F. Calculer les kilogrammes de chaque type.", "en": "Mother bought 30 kg of mixed boneless beef (1500 F/kg) and bone-in beef (1300 F/kg) for 41,400 F. Compute kilograms of each type." },
+
+    { "type": "section", "title": "B- ACTIVITES GEOMETRIQUES", "pts": "6,5 points", "en": "B – GEOMETRIC ACTIVITIES" },
+    { "type": "text", "text": "Trois exercices independants I, II et III.", "en": "Three independent exercises I, II and III." },
+
+    { "type": "exercise", "title": "I", "pts": "2,5 pts", "en": "I" },
+    { "type": "text", "text": "Sur le schema, $ABC$ est un triangle equilateral et $(D)$ est perpendiculaire a $(AC)$. Completer la figure par symetrie par rapport a $(D)$. 2,5 pts", "en": "In the diagram, $ABC$ is an equilateral triangle and $(D)$ is perpendicular to $(AC)$. Complete the figure by symmetry with respect to $(D)$. 2.5 pts" },
+    { "type": "image", "src": "/images/bepc2001-geo-ex1.jpg", "text": "Figure de geometrie 2001", "en": "Geometry figure 2001" },
+
+    { "type": "exercise", "title": "II", "pts": "2 pts", "en": "II" },
+    { "type": "text", "text": "Dans le repere orthonorme $(O,\\vec{i},\\vec{j})$, on donne $A(1;2)$ et $\\vec{v}=-2\\vec{i}-\\vec{j}$. Ecrire une equation cartesienne de la droite passant par $A$ et de vecteur directeur $\\vec{v}$. 2 pts", "en": "In the orthonormal frame $(O,\\vec{i},\\vec{j})$, given $A(1;2)$ and $\\vec{v}=-2\\vec{i}-\\vec{j}$. Write a Cartesian equation of the line through $A$ with direction vector $\\vec{v}$. 2 pts" },
+
+    { "type": "exercise", "title": "III", "pts": "2 pts", "en": "III" },
+    { "type": "text", "text": "$ABCD$ est un parallelogramme et $E$ tel que $\\overrightarrow{BE}=\\overrightarrow{AC}$. Demontrer que $\\overrightarrow{DE}=2\\overrightarrow{DC}$. 2 pts", "en": "$ABCD$ is a parallelogram and $E$ such that $\\overrightarrow{BE}=\\overrightarrow{AC}$. Prove that $\\overrightarrow{DE}=2\\overrightarrow{DC}$. 2 pts" },
+
+    { "type": "section", "title": "C- PROBLEME", "pts": "7 points", "en": "C – PROBLEM" },
+    { "type": "text", "text": "Le volume d'une pyramide de hauteur $h$ et base $b$ est $v=\\frac{1}{3}hb$. On a une pyramide de fer $ABCDE$ de base rectangulaire $ABCD$, hauteur $[ED]$, avec $AB=5$, $BC=12$, $ED=8$.", "en": "The volume of a pyramid of height $h$ and base area $b$ is $v=\\frac{1}{3}hb$. Consider an iron pyramid $ABCDE$ with rectangular base $ABCD$, height $[ED]$, with $AB=5$, $BC=12$, $ED=8$." },
+    { "type": "image", "src": "/images/bepc2001-prob.jpg", "text": "Figure du probleme 2001", "en": "Problem figure 2001" },
+    { "type": "text", "text": "1) Sachant que $EDA$ est rectangle en $D$, demontrer que $EA=4\\sqrt{13}$. 1,5 pt", "en": "1) Knowing $EDA$ is right-angled at $D$, prove that $EA=4\\sqrt{13}$. 1.5 pt" },
+    { "type": "text", "text": "2a) Calculer $\\tan(\\widehat{AED})$. 1 pt", "en": "2a) Compute $\\tan(\\widehat{AED})$. 1 pt" },
+    { "type": "text", "text": "2b) Donner un encadrement d'amplitude 1 degre de $\\widehat{AED}$. 1 pt", "en": "2b) Give a 1-degree bound for $\\widehat{AED}$. 1 pt" },
+    { "type": "text", "text": "3) Calculer le volume de la pyramide. 1,5 pt", "en": "3) Compute the pyramid volume. 1.5 pt" },
+    { "type": "text", "text": "4) La masse volumique du fer est 7,87 kg/dm^3. Calculer en grammes la masse de la pyramide $ABCDE$. 2 pts", "en": "4) Iron density is 7.87 kg/dm^3. Compute in grams the mass of pyramid $ABCDE$. 2 pts" },
+    { "type": "table", "text": "$$\\begin{array}{|c|c|c|c|c|c|c|}\\hline x\\ \\text{en degre} & 54 & 55 & 56 & 57 & 58 & 59\\\\ \\hline \\tan x & 1,37 & 1,42 & 1,48 & 1,53 & 1,60 & 1,66\\\\ \\hline\\end{array}$$", "en": "$$\\begin{array}{|c|c|c|c|c|c|c|}\\hline x\\ \\text{in degrees} & 54 & 55 & 56 & 57 & 58 & 59\\\\ \\hline \\tan x & 1.37 & 1.42 & 1.48 & 1.53 & 1.60 & 1.66\\\\ \\hline\\end{array}$$" }
+  ]
+}

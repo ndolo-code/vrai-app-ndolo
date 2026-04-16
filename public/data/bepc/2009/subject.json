@@ -1,0 +1,269 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2009",
+  "titleEn": "The Mathematics Examination – BEPC 2009",
+  "sections": [
+    {
+      "type": "text",
+      "text": "L'epreuve comporte trois parties independantes A, B et C",
+      "en": "The examination consists of three independent parts A, B and C."
+    },
+    {
+      "type": "section",
+      "title": "A- ACTIVITES NUMERIQUES",
+      "pts": "6,5 points",
+      "en": "A – NUMERICAL ACTIVITIES"
+    },
+    {
+      "type": "text",
+      "text": "Cette partie comporte trois exercices independants I, II et III",
+      "en": "This part consists of three independent exercises I, II and III."
+    },
+    {
+      "type": "exercise",
+      "title": "I",
+      "pts": "1 pt",
+      "en": "I"
+    },
+    {
+      "type": "text",
+      "text": "Le reel $(2+\\sqrt{5})^2-3\\sqrt{20}$ s'ecrit sous la forme $a+b\\sqrt{5}$, ou $a$ et $b$ sont des entiers rationnels. Trouver les nombres $a$ et $b$. 1 pt",
+      "en": "The real number $(2+\\sqrt{5})^2-3\\sqrt{20}$ can be written in the form $a+b\\sqrt{5}$, where $a$ and $b$ are rational integers. Find $a$ and $b$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "II",
+      "pts": "2,5 pts",
+      "en": "II"
+    },
+    {
+      "type": "text",
+      "text": "Soit l'expression litterale : $P=(x-1)^2+(x-1)(x+2)$.",
+      "en": "Let the algebraic expression be: $P=(x-1)^2+(x-1)(x+2)$."
+    },
+    {
+      "type": "text",
+      "text": "a) Developper et reduire $P$. 0,5 pt",
+      "en": "a) Expand and simplify $P$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Donner la forme factorisee de $P$. 1 pt",
+      "en": "b) Give the factorized form of $P$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "c) Resoudre dans $\\mathbb{R}$ l'equation $(x-1)(2x+1)=0$. 1 pt",
+      "en": "c) Solve in $\\mathbb{R}$ the equation $(x-1)(2x+1)=0$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "III",
+      "pts": "1 pt",
+      "en": "III"
+    },
+    {
+      "type": "text",
+      "text": "Resoudre dans $\\mathbb{R}\\times\\mathbb{R}$ le systeme : $\\begin{cases}a+b=36\\\\4a+2b=90\\end{cases}$. 1 pt",
+      "en": "Solve in $\\mathbb{R}\\times\\mathbb{R}$ the system: $\\begin{cases}a+b=36\\\\4a+2b=90\\end{cases}$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "IV",
+      "pts": "2,5 pts",
+      "en": "IV"
+    },
+    {
+      "type": "text",
+      "text": "Une enquete portant sur la recolte du cafe a donne le diagramme a bandes ci-dessous, representant le nombre de planteurs et la masse en tonnes de leurs recoltes.",
+      "en": "A survey about coffee harvest produced the bar chart below, showing the number of farmers and the mass (in tons) of their harvests."
+    },
+    {
+      "type": "text",
+      "text": "La production est regroupee en classes.",
+      "en": "Production is grouped into classes."
+    },
+    {
+      "type": "table",
+      "text": "$\\left[\\begin{array}{c|c|c|c|c|c|c}\\text{Classe} & [0;10[ & [10;20[ & [20;30[ & [30;40[ & [40;50[ & [50;60[ \\\\ \\hline\\text{Effectifs} & 14 &  & 12 &  & 30 & 10 \\\\ \\hline\\text{Frequence en \\%} & 14\\% & 18\\% &  &  & 30\\% & 10\\% \\end{array}\\right]$",
+      "en": "$\\left[\\begin{array}{c|c|c|c|c|c|c}\\text{Class} & [0;10[ & [10;20[ & [20;30[ & [30;40[ & [40;50[ & [50;60[ \\\\ \\hline\\text{Frequency} & 14 &  & 12 &  & 30 & 10 \\\\ \\hline\\text{Percent frequency} & 14\\% & 18\\% &  &  & 30\\% & 10\\% \\end{array}\\right]$"
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2009-num-ex4.jpg",
+      "text": "Diagramme de l'exercice IV",
+      "en": "Chart for exercise IV"
+    },
+    {
+      "type": "text",
+      "text": "a) En utilisant le graphique ci-dessus, trouver le nombre de planteurs interroges. 0,5 pt",
+      "en": "a) Using the chart above, find the number of farmers surveyed. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) En utilisant le graphique ci-dessus recopier et completer le tableau suivant. 1 pt",
+      "en": "b) Using the chart above, copy and complete the following table. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "c) Combien de planteurs ont moins de 40 tonnes ? 0,5 pt",
+      "en": "c) How many farmers harvested less than 40 tons? 0.5 pt"
+    },
+    {
+      "type": "section",
+      "title": "B- ACTIVITES GEOMETRIQUES",
+      "pts": "6,5 points",
+      "en": "B – GEOMETRICAL ACTIVITIES"
+    },
+    {
+      "type": "exercise",
+      "title": "I",
+      "pts": "2 pts",
+      "en": "I"
+    },
+    {
+      "type": "text",
+      "text": "Un seul des quatre resultats suivants : a), b), c) et d), est le volume d'une pyramide reguliere $ABCDE$ a base carree $ABCD$, de hauteur $4,5\\text{ cm}$, et de cote $AB=2,5\\text{ cm}$. Noter son numero sur votre feuille de composition. 2 pts",
+      "en": "Only one of the following results a), b), c) and d) is the volume of a regular pyramid $ABCDE$ with square base $ABCD$, height $4.5\\text{ cm}$, and side $AB=2.5\\text{ cm}$. Write its letter on your answer sheet. 2 pts"
+    },
+    {
+      "type": "text",
+      "text": "a) $93,75\\text{ cm}^3$ ; b) $28,125\\text{ cm}^3$ ; c) $9,375\\text{ cm}^3$ ; d) $11,25\\text{ cm}^3$",
+      "en": "a) $93.75\\text{ cm}^3$ ; b) $28.125\\text{ cm}^3$ ; c) $9.375\\text{ cm}^3$ ; d) $11.25\\text{ cm}^3$"
+    },
+    {
+      "type": "exercise",
+      "title": "II",
+      "pts": "2,5 pts",
+      "en": "II"
+    },
+    {
+      "type": "text",
+      "text": "Sur la figure ci-contre, $ABC$ est un triangle tel que : $mes\\widehat{ABC}=30^\\circ$ ; $mes\\widehat{ACB}=45^\\circ$ et $AH=5\\text{ cm}$ ; ou $H$ est le pied de la hauteur issue de $A$.",
+      "en": "In the figure, $ABC$ is a triangle such that: $mes\\widehat{ABC}=30^\\circ$, $mes\\widehat{ACB}=45^\\circ$ and $AH=5\\text{ cm}$, where $H$ is the foot of the altitude from $A$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2009-geo-ex2.jpg",
+      "text": "Figure de l'exercice II",
+      "en": "Figure for exercise II"
+    },
+    {
+      "type": "text",
+      "text": "a) Determiner $HC$ et $HB$. 1,5 pt",
+      "en": "a) Determine $HC$ and $HB$. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Calculer l'aire du triangle $ABC$. 1 pt",
+      "en": "b) Compute the area of triangle $ABC$. 1 pt"
+    },
+    {
+      "type": "exercise",
+      "title": "III",
+      "pts": "2 pts",
+      "en": "III"
+    },
+    {
+      "type": "text",
+      "text": "Sur la figure ci-contre, $(C)$ et $(C')$ sont deux cercles de meme rayon $r=2\\text{ cm}$ et de centres respectifs $A$ et $B$ tels que $AB=2\\sqrt{3}$. $(C)$ et $(C')$ se coupent en $J$ et $K$. $(AB)$ et $(JK)$ se coupent en $O$.",
+      "en": "In the figure, $(C)$ and $(C')$ are two circles with the same radius $r=2\\text{ cm}$ and centers $A$ and $B$ such that $AB=2\\sqrt{3}$. $(C)$ and $(C')$ intersect at $J$ and $K$. Lines $(AB)$ and $(JK)$ intersect at $O$."
+    },
+    {
+      "type": "image",
+      "src": "/images/bepc2009-geo-ex3.jpg",
+      "text": "Figure de l'exercice III",
+      "en": "Figure for exercise III"
+    },
+    {
+      "type": "text",
+      "text": "d) Le triangle $AJB$ est equilateral. 0,5 pt",
+      "en": "d) Triangle $AJB$ is equilateral. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "Repondre par vrai ou faux :",
+      "en": "Answer true or false:"
+    },
+    {
+      "type": "text",
+      "text": "a) Les droites $(AB)$ et $(JK)$ sont perpendiculaires. 0,5 pt",
+      "en": "a) Lines $(AB)$ and $(JK)$ are perpendicular. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Le quadrilatere $AKBJ$ est un losange. 0,5 pt",
+      "en": "b) Quadrilateral $AKBJ$ is a rhombus. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "c) $(JK)$ est axe de symetrie pour chacun des deux cercles. 0,5 pt",
+      "en": "c) $(JK)$ is an axis of symmetry for each of the two circles. 0.5 pt"
+    },
+    {
+      "type": "section",
+      "title": "C- PROBLEME",
+      "pts": "7 points",
+      "en": "C – PROBLEM"
+    },
+    {
+      "type": "text",
+      "text": "Le Plan est rapporte a un repere orthonorme $(O,i,j)$.",
+      "en": "The plane is provided with an orthonormal coordinate system $(O,i,j)$."
+    },
+    {
+      "type": "text",
+      "text": "1. Placer les points $A(2;1)$ ; $B(-2;-2)$ et $C(0;-3)$. 1 pt",
+      "en": "1. Plot points $A(2;1)$, $B(-2;-2)$ and $C(0;-3)$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "2. Calculer les distances: $d(A,B)$, $d(A,C)$ et $d(B,C)$. 1,5 pt",
+      "en": "2. Compute the distances: $d(A,B)$, $d(A,C)$ and $d(B,C)$. 1.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "3. Demontrer que le triangle $ABC$ est rectangle en $C$. 1 pt",
+      "en": "3. Prove that triangle $ABC$ is right-angled at $C$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "4. Ecrire une equation cartesienne de la droite $(AB)$. 1 pt",
+      "en": "4. Write a Cartesian equation of line $(AB)$. 1 pt"
+    },
+    {
+      "type": "text",
+      "text": "5. Soit $f$ la fonction lineaire definie par $f(x)=ax$, ou $a$ est un nombre reel. On note $(D)$ la droite qui represente cette fonction lineaire.",
+      "en": "5. Let $f$ be the linear function defined by $f(x)=ax$, where $a$ is a real number. Let $(D)$ be the line representing this linear function."
+    },
+    {
+      "type": "text",
+      "text": "a) Determiner $a$ pour que $(D)$ soit parallele a la droite $(\\Delta)$ d'equation $y=\\frac{3}{4}x-\\frac{1}{2}$. 0,5 pt",
+      "en": "a) Determine $a$ so that $(D)$ is parallel to the line $(\\Delta)$ with equation $y=\\frac{3}{4}x-\\frac{1}{2}$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Determiner $a$ pour que $(D)$ soit perpendiculaire a la droite $(\\Delta)$. 0,5 pt",
+      "en": "b) Determine $a$ so that $(D)$ is perpendicular to line $(\\Delta)$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "6. Soit $I$ le milieu de $[AB]$.",
+      "en": "6. Let $I$ be the midpoint of $[AB]$."
+    },
+    {
+      "type": "text",
+      "text": "a) Donner les coordonnees de $I$. 0,5 pt",
+      "en": "a) Give the coordinates of $I$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "b) Construire le cercle circonscrit au triangle $ABC$. 0,5 pt",
+      "en": "b) Construct the circumcircle of triangle $ABC$. 0.5 pt"
+    },
+    {
+      "type": "text",
+      "text": "c) On donne $mes\\widehat{BAC}=30^\\circ$. Donner une mesure de l'angle au centre associe a l'angle $BAC$. 0,5 pt",
+      "en": "c) Given $mes\\widehat{BAC}=30^\\circ$, give a measure of the central angle associated with angle $BAC$. 0.5 pt"
+    }
+  ]
+}
