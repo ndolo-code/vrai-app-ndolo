@@ -1,0 +1,48 @@
+{
+  "title": "L'epreuve de mathematiques du BEPC 2000",
+  "titleEn": "The BEPC 2000 Mathematics Exam",
+  "sections": [
+    { "type": "section", "title": "A- ACTIVITES NUMERIQUES", "pts": "6,5 points", "en": "A – NUMERICAL ACTIVITIES" },
+    { "type": "text", "text": "Quatre exercices independants I, II, III et IV.", "en": "Four independent exercises I, II, III and IV." },
+
+    { "type": "exercise", "title": "I", "pts": "1 pt", "en": "I" },
+    { "type": "text", "text": "Calculer $\\frac{2^7\\times 3^5\\times 5}{3^4\\times 2^8\\times 5^2}$ et ecrire le resultat sous forme de fraction irreductible. 1 pt", "en": "Compute $\\frac{2^7\\times 3^5\\times 5}{3^4\\times 2^8\\times 5^2}$ and write the result in simplest fractional form. 1 pt" },
+
+    { "type": "exercise", "title": "II", "pts": "1 pt", "en": "II" },
+    { "type": "text", "text": "Factoriser l'expression $p(x-1)^2-121$. 1 pt", "en": "Factorize the expression $p(x-1)^2-121$. 1 pt" },
+
+    { "type": "exercise", "title": "III", "pts": "2 pts", "en": "III" },
+    { "type": "text", "text": "Atangana a achete des mangues a 20 F l'une. Sa fille en a suce 15 et le reste a ete revendu a 50 F l'une. Le benefice est egal au quart du prix d'achat. Combien de mangues a-t-il achete ? 2 pts", "en": "Atangana bought mangoes at 20 F each. His daughter consumed 15 and the rest were sold at 50 F each. The profit equals one quarter of the purchase cost. How many mangoes did he buy? 2 pts" },
+
+    { "type": "exercise", "title": "IV", "pts": "2,5 pts", "en": "IV" },
+    { "type": "text", "text": "Releves des annees de naissance en classe de troisieme : 1980; 1980; 1979; 1981; 1982; 1980; 1983; 1979; 1979; 1983; 1983; 1980; 1979; 1982; 1983; 1979; 1980; 1981; 1982; 1983; 1981; 1981; 1981; 1979; 1980; 1981; 1980; 1980; 1981; 1983.", "en": "Recorded birth years in a Form Three class: 1980; 1980; 1979; 1981; 1982; 1980; 1983; 1979; 1979; 1983; 1983; 1980; 1979; 1982; 1983; 1979; 1980; 1981; 1982; 1983; 1981; 1981; 1981; 1979; 1980; 1981; 1980; 1980; 1981; 1983." },
+    { "type": "text", "text": "1. Recopier et completer le tableau des effectifs/frequences (arrondi a l'unite). 1,5 pt", "en": "1. Copy and complete the counts/frequencies table (rounded to nearest unit). 1.5 pt" },
+    { "type": "table", "text": "$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Modalites} & 1979 & 1980 & 1981 & 1982 & 1983\\\\ \\hline\\text{Effectifs} & 6 &  & 7 & 3 & \\\\ \\hline\\text{Frequences (en \\%)} &  &  & 23 &  & \\\\ \\hline\\end{array}$", "en": "$\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Categories} & 1979 & 1980 & 1981 & 1982 & 1983\\\\ \\hline\\text{Counts} & 6 &  & 7 & 3 & \\\\ \\hline\\text{Frequencies (in \\%)} &  &  & 23 &  & \\\\ \\hline\\end{array}$" },
+    { "type": "text", "text": "2. Representer les frequences en fonction des annees par un diagramme a batons (1 cm pour 10%, 1 cm par annee, origine 1978). 1 pt", "en": "2. Represent frequencies versus years with a bar chart (1 cm for 10%, 1 cm per year, origin at 1978). 1 pt" },
+
+    { "type": "section", "title": "B- ACTIVITES GEOMETRIQUES", "pts": "6,5 points", "en": "B – GEOMETRIC ACTIVITIES" },
+    { "type": "text", "text": "Trois exercices independants I, II et III.", "en": "Three independent exercises I, II and III." },
+
+    { "type": "exercise", "title": "I", "pts": "1 pt", "en": "I" },
+    { "type": "text", "text": "Dans un repere orthonorme, on donne $A(1;0)$ et $B(-1;2)$. Une seule des equations suivantes est celle de $(AB)$: a) $x-y=0$ ; b) $y=-x+1$ ; c) $y+x+1=0$ ; d) $2x+y-2=0$. Ecrire la bonne equation. 1 pt", "en": "In an orthonormal frame, given $A(1;0)$ and $B(-1;2)$. Only one equation is that of line $(AB)$: a) $x-y=0$ ; b) $y=-x+1$ ; c) $y+x+1=0$ ; d) $2x+y-2=0$. Write the correct equation. 1 pt" },
+
+    { "type": "exercise", "title": "II", "pts": "2,5 pts", "en": "II" },
+    { "type": "text", "text": "$ABCD$ est un losange, $E$ est sur $(AB)$ hors segment $[AB]$ tel que $ADE$ soit isocele de sommet principal $A$. a) Realiser la figure et la completer par symetrie par rapport a $(BD)$. 1 pt", "en": "$ABCD$ is a rhombus, $E$ is on line $(AB)$ outside segment $[AB]$ such that $ADE$ is isosceles with main vertex at $A$. a) Draw and complete the figure by symmetry about $(BD)$. 1 pt" },
+    { "type": "text", "text": "b) Demontrer que le triangle $EDB$ est rectangle en $D$. 1,5 pt", "en": "b) Prove that triangle $EDB$ is right-angled at $D$. 1.5 pt" },
+
+    { "type": "exercise", "title": "III", "pts": "3 pts", "en": "III" },
+    { "type": "text", "text": "Le triangle $SOC$ est rectangle en $O$, avec $\\widehat{OSC}=30^\\circ$ et $OC=5$ cm.", "en": "Triangle $SOC$ is right-angled at $O$, with $\\widehat{OSC}=30^\\circ$ and $OC=5$ cm." },
+    { "type": "text", "text": "a) Calculer $SC$. 1 pt", "en": "a) Compute $SC$. 1 pt" },
+    { "type": "text", "text": "b) Demontrer que $OS=5\\sqrt{3}$ cm. 1 pt", "en": "b) Prove that $OS=5\\sqrt{3}$ cm. 1 pt" },
+    { "type": "text", "text": "c) En faisant tourner le triangle $SOC$ autour de $(OS)$, quel solide de revolution obtient-on ? 1 pt", "en": "c) Rotating triangle $SOC$ around $(OS)$, which solid of revolution is obtained? 1 pt" },
+    { "type": "text", "text": "N.B. $\\sin 30^\\circ=\\cos 60^\\circ=0,5$ ; $\\cos 30^\\circ=\\sin 60^\\circ=\\frac{\\sqrt{3}}{2}$.", "en": "N.B. $\\sin 30^\\circ=\\cos 60^\\circ=0.5$ ; $\\cos 30^\\circ=\\sin 60^\\circ=\\frac{\\sqrt{3}}{2}$." },
+
+    { "type": "section", "title": "C- PROBLEME", "pts": "7 points", "en": "C – PROBLEM" },
+    { "type": "text", "text": "La figure est constituee d'un triangle isocele $ABC$ et d'un rectangle $CDEF$; $x>0$ (en metres). Donnees: $AB=BC=CD=EF=x$, $CF=DE=3x$, $AC=4$.", "en": "The figure is made of an isosceles triangle $ABC$ and a rectangle $CDEF$; $x>0$ (in meters). Given: $AB=BC=CD=EF=x$, $CF=DE=3x$, $AC=4$." },
+    { "type": "text", "text": "1) Calculer le perimetre $P$ en fonction de $x$. 2 pts", "en": "1) Compute perimeter $P$ as a function of $x$. 2 pts" },
+    { "type": "text", "text": "2) Pour quelle valeur de $x$ a-t-on $P=154$ ? 1,5 pt", "en": "2) For which value of $x$ does $P=154$? 1.5 pt" },
+    { "type": "text", "text": "On suppose ensuite $x=15$.", "en": "Then assume $x=15$." },
+    { "type": "text", "text": "3) $C'$ et $A'$ sont les milieux de $[AB]$ et $[BC]$ ; calculer $[A'C']$. 1,5 pt", "en": "3) $C'$ and $A'$ are the midpoints of $[AB]$ and $[BC]$; compute $[A'C']$. 1.5 pt" },
+    { "type": "text", "text": "4) La parcelle rectangulaire est vendue a 5000 F/m^2. Calculer le prix de vente (en lettres et en chiffres). 2 pts", "en": "4) The rectangular plot is sold at 5000 F/m^2. Compute the selling price (in words and numerals). 2 pts" }
+  ]
+}

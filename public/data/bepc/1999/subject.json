@@ -1,27 +1,50 @@
 {
-  "title": "BEPC 1999 - Sujet de mathematiques (demo)",
+  "title": "L'epreuve de mathematiques du BEPC 1999",
+  "titleEn": "The BEPC 1999 Mathematics Exam",
   "sections": [
-    {
-      "type": "section",
-      "title": "A - Activites numeriques",
-      "pts": "6,5 points"
-    },
-    {
-      "type": "text",
-      "text": "1) Simplifier l'expression $A = 3x - 2x + 5$."
-    },
-    {
-      "type": "text",
-      "text": "2) Resoudre dans $\\mathbb{R}$ : $2x + 5 = 13$."
-    },
-    {
-      "type": "section",
-      "title": "B - Activites geometriques",
-      "pts": "6,5 points"
-    },
-    {
-      "type": "text",
-      "text": "Dans un triangle rectangle, on donne les cotes de l'angle droit 3 cm et 4 cm. Calculer l'hypotenuse."
-    }
+    { "type": "main", "title": "L'epreuve de mathematiques du BEPC 1999", "en": "The BEPC 1999 Mathematics Exam" },
+    { "type": "text", "text": "L'epreuve comporte trois parties independantes A, B et C.", "en": "The exam consists of three independent parts A, B and C." },
+
+    { "type": "section", "title": "A- ACTIVITES NUMERIQUES", "pts": "6,5 points", "en": "A- NUMERICAL ACTIVITIES" },
+    { "type": "exercise", "title": "I - On donne l'expression", "en": "I - The following expression is given" },
+    { "type": "text", "text": "$P(x)=x^2-64-(2x-1)(x-8).$ Factoriser $P$. 1 pt", "en": "$P(x)=x^2-64-(2x-1)(x-8).$ Factorize $P$. 1 pt" },
+
+    { "type": "exercise", "title": "II - On donne l'expression", "en": "II - The following expression is given" },
+    { "type": "text", "text": "$A=3+\\left(\\dfrac{2}{5}\\right)^2-0.75.$ Calculer $A$ et donner le resultat :", "en": "$A=3+\\left(\\dfrac{2}{5}\\right)^2-0.75.$ Calculate $A$ and give the result:" },
+    { "type": "text", "text": "a) Sous forme de fraction irreductible 1 pt", "en": "a) In simplest fractional form 1 pt" },
+    { "type": "text", "text": "b) Sous forme decimale 0,5 pt", "en": "b) In decimal form 0.5 pt" },
+
+    { "type": "exercise", "title": "III", "en": "III" },
+    { "type": "text", "text": "45 % des habitants d'un arrondissement ont moins de 15 ans ; 40 % ont entre 15 et 21 ans ; 6300 habitants ont plus de 21 ans.", "en": "45% of the inhabitants of a district are under 15 years old; 40% are between 15 and 21 years old; 6,300 inhabitants are over 21 years old." },
+    { "type": "text", "text": "a) Combien y a-t-il d'habitants dans cet arrondissement ? 1 pt", "en": "a) How many inhabitants are there in this district? 1 pt" },
+    { "type": "text", "text": "b) Recopier et completer le tableau suivant : 1,5 pt", "en": "b) Copy and complete the following table: 1.5 pt" },
+    { "type": "table", "text": "$\\begin{array}{|l|c|c|}\\hline\\text{Tranches d'age} & \\text{Nombre d'habitants} & \\text{Frequences} \\\\ \\hline\\text{Moins de 15 ans} &  & 45\\% \\\\ \\hline\\text{Entre 15 et 21 ans} &  & 40\\% \\\\ \\hline\\text{Plus de 21 ans} & 6300 & 15\\% \\\\ \\hline\\text{Total} &  & 100\\% \\\\ \\hline\\end{array}$", "en": "$\\begin{array}{|l|c|c|}\\hline\\text{Age groups} & \\text{Number of inhabitants} & \\text{Frequencies} \\\\ \\hline\\text{Under 15 years old} &  & 45\\% \\\\ \\hline\\text{Between 15 and 21 years old} &  & 40\\% \\\\ \\hline\\text{Over 21 years old} & 6300 & 15\\% \\\\ \\hline\\text{Total} &  & 100\\% \\\\ \\hline\\end{array}$" },
+    { "type": "text", "text": "c) Representer par un diagramme circulaire la repartition de la population de cet arrondissement a partir du tableau ci-dessus. 1,5 pt", "en": "c) Draw a pie chart showing the distribution of the population of this district using the table above. 1.5 pt" },
+
+    { "type": "section", "title": "B- ACTIVITES GEOMETRIQUES", "pts": "6,5 points", "en": "B- GEOMETRIC ACTIVITIES" },
+    { "type": "text", "text": "Deux exercices independants I et II.", "en": "Two independent exercises I and II." },
+
+    { "type": "exercise", "title": "I", "en": "I" },
+    { "type": "text", "text": "On considere les droites $(D_1)$, $(D_2)$, $(D_3)$, $(D_4)$ et $(D_5)$ dont les equations dans un repere orthonorme $(O,\\vec{i},\\vec{j})$ du plan sont respectivement :", "en": "Consider the lines $(D_1)$, $(D_2)$, $(D_3)$, $(D_4)$ and $(D_5)$ whose equations in an orthonormal coordinate system $(O,\\vec{i},\\vec{j})$ are respectively:" },
+    { "type": "text", "text": "$y=2x+1\\ ;\\ y=-x-1\\ ;\\ y=4\\ ;\\ y=x+3\\ \\text{et}\\ y=2x+3$", "en": "$y=2x+1\\ ;\\ y=-x-1\\ ;\\ y=4\\ ;\\ y=x+3\\ \\text{and}\\ y=2x+3$" },
+    { "type": "text", "text": "1) Recopier et completer les phrases suivantes :", "en": "1) Copy and complete the following statements:" },
+    { "type": "text", "text": "a) Les droites ...... et ...... sont paralleles. 1 pt", "en": "a) The lines ...... and ...... are parallel. 1 pt" },
+    { "type": "text", "text": "b) Les droites ...... et ...... sont perpendiculaires. 1 pt", "en": "b) The lines ...... and ...... are perpendicular. 1 pt" },
+    { "type": "text", "text": "2) Tracer la droite $(D_3)$. 1 pt", "en": "2) Draw the line $(D_3)$. 1 pt" },
+
+    { "type": "exercise", "title": "II", "en": "II" },
+    { "type": "text", "text": "$A$ et $B$ sont deux points du plan; $(C)$ designe le cercle de diametre $[AB]$ et de centre $O$ ; $M$ est un point de $(C)$ different de $A$ et $B$. $(\\Delta)$ est la tangente a $(C)$ en $B$ et $K$ le point d'intersection de $(\\Delta)$ et de la droite $(AM)$.", "en": "$A$ and $B$ are two points in the plane; $(C)$ denotes the circle with diameter $[AB]$ and center $O$; $M$ is a point on $(C)$ different from $A$ and $B$. $(\\Delta)$ is the tangent to $(C)$ at $B$ and $K$ is the intersection point of $(\\Delta)$ and line $(AM)$." },
+    { "type": "text", "text": "1) Realiser cette figure notee $(F)$. 1,5 pt", "en": "1) Draw this figure and label it $(F)$. 1.5 pt" },
+    { "type": "text", "text": "2) $t$ designe la translation de vecteur $\\overrightarrow{OB}$. Construire l'image de $(F)$ par $t$.", "en": "2) $t$ denotes the translation with vector $\\overrightarrow{OB}$. Construct the image of $(F)$ under $t$." },
+    { "type": "text", "text": "On notera $(C')$, $M'$, $B'$, $(\\Delta')$ et $K'$ les images respectives de $(C)$, $M$, $B$, $(\\Delta)$ et $K$ par $t$. 2 pts", "en": "Let $(C')$, $M'$, $B'$, $(\\Delta')$ and $K'$ be the respective images of $(C)$, $M$, $B$, $(\\Delta)$ and $K$ under $t$. 2 pts" },
+
+    { "type": "section", "title": "C- PROBLEME", "pts": "7 points", "en": "C- PROBLEM" },
+    { "type": "text", "text": "On considere un triangle equilateral $ABC$ de cote $4\\ \\text{cm}$. $A'$ designe le milieu du segment $[BC]$ et $G$ le point de concours des medianes du triangle $ABC$. On rappelle que $AG=\\dfrac{2}{3}AA'$.", "en": "Consider an equilateral triangle $ABC$ with side length $4\\ \\text{cm}$. $A'$ denotes the midpoint of segment $[BC]$, and $G$ is the intersection point of the medians of triangle $ABC$. Recall that $AG=\\dfrac{2}{3}AA'$." },
+    { "type": "text", "text": "1) Demontrer que les droites $(AA')$ et $(BC)$ sont perpendiculaires. 1,5 pt", "en": "1) Prove that lines $(AA')$ and $(BC)$ are perpendicular. 1.5 pt" },
+    { "type": "text", "text": "2) a) Demontrer que la valeur exacte de $AA'$ est egale a $2\\sqrt{3}$. 1,5 pt", "en": "2) a) Prove that the exact value of $AA'$ is $2\\sqrt{3}$. 1.5 pt" },
+    { "type": "text", "text": "b) En deduire la valeur exacte de $AG$. 1 pt", "en": "b) Deduce the exact value of $AG$. 1 pt" },
+    { "type": "text", "text": "3) Sur la droite perpendiculaire au plan $(ABC)$ passant par $G$, on considere le point $S$ tel que $SA=SB=SC=4\\text{cm}$. Le solide $ABCS$ obtenu est alors une pyramide reguliere de base triangulaire $ABC$ (tetraedre regulier) et de hauteur $SG$. On admet que le triangle $SGA'$ est rectangle et que $SA'=AA'$. Le volume $V$ d'une pyramide de surface de base $b$ et de hauteur $h$ est donne par $V=\\dfrac{1}{3}bh$.", "en": "3) On the line perpendicular to plane $(ABC)$ through $G$, consider point $S$ such that $SA=SB=SC=4\\text{cm}$. The solid $ABCS$ is a regular pyramid with triangular base $ABC$ (regular tetrahedron) and height $SG$. Admit that triangle $SGA'$ is right-angled and that $SA'=AA'$. The volume $V$ of a pyramid with base area $b$ and height $h$ is given by $V=\\dfrac{1}{3}bh$." },
+    { "type": "text", "text": "a) Demontrer que $SG=\\dfrac{4\\sqrt{6}}{3}$. 1,5 pt", "en": "a) Prove that $SG=\\dfrac{4\\sqrt{6}}{3}$. 1.5 pt" },
+    { "type": "text", "text": "b) En deduire le volume de cette pyramide. 1,5 pt", "en": "b) Deduce the volume of this pyramid. 1.5 pt" }
   ]
 }
