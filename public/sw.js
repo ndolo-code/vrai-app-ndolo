@@ -1,7 +1,7 @@
 const CACHE_VERSION = 'ndolomath-v9'
 const STATIC_ASSETS = [
   '/',
-  '/offline/',
+  '/offline.html',
   '/manifest.json',
   '/icon-192.png',
   '/icon-512.png',
@@ -65,7 +65,7 @@ self.addEventListener('fetch', (event) => {
               if (response && response.ok) cache.put(event.request, response.clone())
               return response
             })
-            .catch(() => cached || caches.match('/offline/'))
+            .catch(() => cached || caches.match('/offline.html'))
           return cached || fetchPromise
         })
       )
