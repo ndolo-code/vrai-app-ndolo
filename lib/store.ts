@@ -116,7 +116,7 @@ const save = (key: string, value: unknown) => {
 }
 
 export const useAppStore = create<AppState>((set, get) => ({
-  isAuthenticated: true,
+  isAuthenticated: load("ndolo_auth", true),
   user: load("ndolo_user", {
     name: "Eleve 3e",
     email: "",
